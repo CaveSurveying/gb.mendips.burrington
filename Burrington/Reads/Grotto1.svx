@@ -1,0 +1,20 @@
+*BEGIN Grotto1
+
+;*DATE 1966.04.11
+;date commented out as Survex believes the world began in 1970
+;Cave Reads Cavern
+;Area Burrington Combe Somerset
+;Team Willie Stanton, Will Edwards, Rich
+;Source Willie Stanton's Survey Book 2 page 35/36
+;Typed in by Graham Mullan June 2008
+*CALIBRATE compass -8.50
+*UNITS tape feet
+*DATA NORMAL FROM TO COMPASS CLINO TAPE IGNOREALL
+
+28	116	264	-4.5	29.7
+116	117	122	14	45
+116	118	025	7	20
+116	119	322.5	-3	43.6
+116	120	309	6	75
+
+*END Grotto1

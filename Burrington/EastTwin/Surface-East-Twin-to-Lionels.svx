@@ -1,0 +1,79 @@
+*begin East-Twin-to-Lionels
+; Surface paths between Lionels Hole & East Twin Swallet
+;     Burrington Coombe, Somerset, UK
+; Grade 3 survey
+;	carried out by     David Cundy   16th May 2006;
+;	Chris Whale's 100 ft  tape                 accuracy = +/- 2"        uncalibrated
+;	Silva Ranger-16 mirror compass             accuracy = +/- 1 deg     uncalibrated
+; 	Laser inclinometer + spirit level          accuracy = +/- 1 deg     uncalibrated
+;#Units   Feet   Order=DAV   LRUD=F   DECL=-3.15
+; FROM	TO	DIST 	AZ	 INCL
+;
+*flags surface
+*data normal from to tape compass clino
+*units tape feet
+*units compass degrees
+*units clino degrees
+ET01A	ET001a	0	0	0
+TR301	LH01A	13.8	046	2
+R10	TR301	13.3	026	11.5
+R10	R20	21.0	205	1.5
+R20	R21	59.7	119	3.3
+R21	TR102	62.5	189	6
+TR102	TR103	68.5	232	8.2
+TR103	TR104	47.8	208	6.5
+;  note that the legs TR6-TR7 and TR7-ET001 were not measured.  Data is a copy of the GRADE 2 survey measurements
+TR104	TR105	64	182	7
+TR105	ET01A	25	125	-1
+; the next 7 legs are simple copies of the GRADE 2 survey measurements
+TR101	TR101A	11	190	0
+TR102	TR102A	13	175	0
+TR103	TR103A	9	125	0
+TR104	TR104A	14	090	0
+TR102	TR101	63.5	095	-6
+TR101	H1	17	040	-13
+TR101	R22	34	040	-1
+R22	R12	20	020	0
+;#NOTE LH01A LH entrance
+;#NOTE R10 road N
+;#NOTE R12 road N
+;#NOTE R20 road S
+;#NOTE R21 road S
+;#NOTE R22 road S
+;#NOTE H1 drainage pit
+;#NOTE TR101 sapling
+;#NOTE TR102 sapling
+;#NOTE TR103 big tree
+;#NOTE TR104 tree
+;#NOTE TR105 tree
+;  LH01A is the ledge at the top right of the entrance aperture to Lionel's Hole
+TR202	TR103	35.7	077	0.5
+TR202	TR104	38.8	155	7.5
+TR203	TR202	22.6	160	8.8
+TR204	TR203	54.7	179	9.6
+TR205	TR204	22.8	149	7.2
+TR206	TR205	54.5	140	7.8
+TR207	TR206	42.3	136	9.4
+TR208	TR207	86.6	129	8.8
+TR208	R18	19.9	028	-3.2
+;
+TR208	TR303	78.2	066	3.2
+TR303	TR207	87.8	180	6.5
+;
+TR205	CP001	51.8	059	1.7
+LH01A	CP001	78	225	1.2
+;  Note  The legs GH01A-TR303-TR302-TR301 were only measured in azimuth.
+;             Distance and elevation data are copies of the GRADE 2 survey measurements
+;             The legs have been renumbered.  They were GH001-LH001c-LH001b-LH001a
+TR303	GH01A	6.8	035	-7
+TR303	TR302	97.5	125	7.5
+TR302	TR301	79.5	113	8.5
+;#NOTE TR202 track
+;#NOTE TR204 track
+;#NOTE TR206 track
+;#NOTE TR207 track
+;#NOTE TR208 track
+;#NOTE CP001 concrete post
+;#NOTE R18 road S
+;#NOTE GH01A GH Entrance
+*end East-Twin-to-Lionels

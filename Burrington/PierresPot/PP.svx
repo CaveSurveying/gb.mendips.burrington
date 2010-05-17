@@ -1,0 +1,13 @@
+*BEGIN PP
+; assemby file for Pierres Pot
+
+*INCLUDE Pierres.svx
+*INCLUDE Twinkletoes.svx
+
+*EQUATE Pierrespot.70 Twink.14
+
+*DATA NOSURVEY FROM TO
+
+Pierrespot.99 Twink.23a
+
+*END PP

@@ -1,0 +1,238 @@
+*begin Lionels
+*FIX LH01A reference 47960 58230 141
+*Entrance LH01A
+; Adjusted for Survex by David Cundy March 2008
+; Additional tweaks by Graham Mullan April 2008
+; Lionel's Hole, Burrington Coombe, UK
+
+; Grade 3 survey
+;    all survey data taken by David Cundy, South Bristol Speleological Society
+;    100 ft fibre tape  (Chris Whale's)   read to the nearest inch
+;     SILVA   Ranger-16 compass          read to the nearest degree
+;     ROLSON    laser inclinometer        read to the nearest half degree
+; On 22 May 2006, the survey points were renumbered
+;
+;#Units   Feet   Order=DAV   LRUD=F
+;
+;  NUMBERING SYSTEM  =  CSnxm
+;     CS = two letters       code for this Cave System  (LH for Lionel's Hole, Burrington Coombe, UK)
+;      n   = 01-99                 main branch number
+;      x   = one letter          part of each branch
+;      m  = blank, or 1-9    (optional, may be left out)
+;
+;     branch  01    Lionel's entrance to the Traverse, via the Boulder Chamber
+;     branch  02    Narrow tunnel in entrance rift
+;     branch  03    Alternative route from entrance rift to the Letterbox
+;     branch  04    High rift in the boulder chamber
+;     branch  05    Side loop off the Boulder Chamber
+;     branch  06    Alternative bouldery route from the Boulder Chamber to the Traverse
+;     branch  07    low level crawling at the bottom of the Boulder Chamber
+;     branch  08    West Low Level, at the base of The Traverse
+;     branch  09    From the far end of the Traverse down to the Junction Chamber and back towards the Boulder Chamber
+;     branch  10    From  the junction between the Traverse and the Junction Chamber, down to the far streamway and the (usually sumped) duck
+
+;     branch  01    Lionel's entrance to the Traverse, via the Boulder Chamber
+;
+; #DATE 2006-04-24
+*data normal from to tape compass clino
+*units tape feet
+*units compass degrees
+*units clino degrees
+; FROM	TO	DIST 	AZ	 INCL
+LH01B	LH01A	10	152	33
+LH01C	LH01B	5	152	33
+LH01D	LH01C	30.5	146	42
+LH01D	LH01E	4.5	281	1.5
+LH01E	LH01F	7.5	187	5
+LH01F	LH01F1	1.7	206	-10
+LH01J	LH01F1	16	021	22
+;LH01C	<5.5, 6, 2.5, 0, 335>
+;LH01D	<6, 4, 6, 4, 330>
+;LH01E	<1, 1, 5, 0, 190>
+;LH01F	<1.5, 1, 1.5, 0, 190>
+;LH01F1	<1.5, 1, 1.5, 0, 190>
+;LH01J	<3.5, 3.5, 1.3, 0, 025>
+;LH01J1	<3.5, 3.5, 1.3, 0, 025>
+;
+;#DATE 2006-04-26
+LH01K	LH01J	15.5	027	35
+LH01N	LH01M	27.5	105	28
+LH01P	LH01N	17.5	140	30
+;LH01K	<5, 5, 3, 2, 280>
+;LH01M	<2.5, 5, 2.5, 1.5, 150>
+;LH01N	<4, 5, 4.5, 0, 105>
+;
+;#DATE 2006-05-03
+LH01Q	LH01P	10.1	088	36
+LH01Q	LH01R	38	278	16.2
+;LH01Q	<3, 2.5, 2, 1, 278>
+;
+;#DATE 2006-05-21
+LH01L	LH01K	26.5	148	29
+LH01M	LH01L	1.9	215	16
+LH01N	LH01N1	0.5	195	0
+;
+;#DATE 2006-05-27
+LH01F2	LH01F	3.8	028	22
+LH01F2	LH01F1	2.4	040	28.5
+;
+;#NOTE LH01H  Entrance
+;#NOTE LH01J  Letterbox
+;#NOTE LH01Q  Traverse
+;#NOTE LH01R  Traverse
+;LH01A	<2, 0, 0, 2, 000>
+;LH01B	<1, 3, 2.5, 0, 340>
+;LH01N1	<2, 2, 2, 0, 215>
+;LH01P	<3, 3, 3, 1.5, 140>
+;LH01R	<1, 1, 3, 1, 290>
+;
+;     branch  02    narrow tunnel in entrance rift
+;#DATE 2006-4-26
+LH01D	LH02A	9.5	060	-29
+LH02A	LH02B	20	330	-23
+;LH02A	<1, 1, 2, 0.5, 330>
+;LH02B	<1, 1, 2, 0.5, 330>
+;
+;     branch  03    alternative route from entrance rift to the Letterbox
+;#DATE 2006-05-03
+LH03A	LH01D	12	128	23.5
+LH03B	LH03A	9.5	020	14.3
+;
+;#DATE 2006-05-27
+LH03B	LH01F2	10.7	152	36
+;LH03A	<0, 1, 4, 4, 315>
+;LH03B	<0.7, 0.7, 2.5, 0, 200>
+;
+;     branch  04    high rift in the boulder chamber
+;#DATE 2006-05-03
+LH04A	LH01J	11	358	14
+LH04A	LH04B	17	130	58
+;
+;     branch  05    side loop off the Boulder Chamber
+;#DATE 2006-05-06
+LH01J	LH05A	5.7	013	12.5
+LH05B	LH05A	34.8	138	42
+LH05C	LH05B	7.2	031	23
+LH05C	LH01M	8.7	165	17
+;LH05A	<4, 1, 1, 3.5, 317>
+;LH05B	<1.5, 4, 2, 0, 137>
+;LH05C	<2.8, 1.5, 4, 0, 168>
+;
+;     branch  06    alternative bouldery route from the Boulder Chamber to the Traverse
+;#DATE 2006-5-6
+;LH06J	<1, 1, 1.5, 0, 035>
+;LH06K	<1.5, 1.5, 5, 0, 125>
+;
+;#DATE  2006-05-21
+LH06A	LH01K	25.9	091	37.7
+LH06A	LH06B	5.4	048	-10
+LH06B	LH06C	9.1	0	-90
+LH06D	LH06C	3.1	069	21.5
+LH06E	LH06D	15.9	131	35.5
+LH06F	LH06E	3.9	121	17.5
+LH06F	LH06G	8.5	222	48.5
+LH06H	LH06G	3.8	106	14.5
+LH06J	LH06H	6.3	154	21
+;#DATE 2006-05-06
+LH06J	LH01N1	14.5	035	29.5
+;
+;#DATE 2006-11-13
+LH06J	LH06K	3.5	190	4.5
+;  legs 6F-6F1  is imaginary data (dead-end)
+;
+;#DATE  2006-11-13
+LH06F	LH06F1	5	220	-45
+LH06L	LH06K	8.8	136	11
+LH06L	LH06M	0.8	028	40
+LH06M	LH06N	7.8	0	-90
+LH06N	LH06P	0.5	300	0
+LH06P	LH06Q	7.2	0	-90
+LH06R	LH06Q	2.2	059	7.5
+LH06S	LH06R	7	085	16.5
+LH06T	LH06S	12.6	059	61
+LH06V	LH06T	9.2	214	42
+LH06W1	LH06V	10.9	325	23.5
+LH06W	LH06W1	2.5	0	55
+;#NOTE LH06W streamway
+;
+;
+;    branch 07   low level crawling at the bottom of the Boulder Chamber
+;#DATE 2006-05-27
+LH07A	LH06A	6.1	333	12.8
+LH07B	LH07A	15.8	352	45
+LH07C	LH07B	7.8	034	59
+LH07C	LH07D	11.8	314	29.5
+LH07A	LH07A1	20.8	107	42
+LH07A1	LH01K	9.2	007	10.5
+;
+;     branch  08    West Low Level, at the base of The Traverse
+;#DATE 2006-05-03
+LH08B	LH01R	19	235	45
+LH08C	LH08B	14	115	10
+;LH08B	<1, 1, 5, 0, 115>
+;LH08C	<0, 3.5, 5, 1, 115>
+;
+;     branch  09    Traverse down to the Water Chamber and back towards the Boulder Chamber
+;#DATE 2006-11-29
+LH09A	LH01R	9	092	11
+LH09B	LH09A	7.5	014	4.5
+LH09C	LH09B	9.2	042	71.5
+LH09C	LH09D	1.7	007	0
+LH09E	LH09C	4.8	293	53
+LH09F	LH09E	15.6	006	29.5
+LH09G	LH09F1	15	280	1
+LH09F1	LH09F	2	280	1
+LH09J	LH09H	3.2	0	-90
+LH09J	LH09K	19.3	008	50
+LH09L	LH09K	7.3	250	37.5
+LH09M	LH09L	16.2	289	2.5
+LH09M	LH09N	3.4	0	90
+LH09N	LH06L	2.8	116	0
+;LH09F	<0, 5, 0, 7.8, 280>
+;LH09G	<4, 0, 1, 2.5, 280>
+;LH09H	<2, 2, 2, 1, 123>
+;LH09K	<7, 0, 1.5, 5, 225>
+;LH09L	<1, 3, 1.5, 0, 250>
+;#DATE 2008-03-2
+LH09G	LH09H	11.6	126	10
+;
+;  not sure when these cross-sections were taken
+;LH09E	<2, 2, 1.5, 0, 006>
+;LH09J	<1, 0, 4, 7, 008>
+;LH09F1	<0, 2, 0, 3, 280>
+;
+;     branch  10    From near the Water Chamber down to the far streamway and the (usually sumped) duck
+;#DATE 2008-03-02
+LH102	LH101	7	192	-19
+LH102	LH103	10.2	118	15
+LH102	LH104	4	104	8
+LH102	LH102A	7	358	42
+LH102	LH102B	4.5	192	-19
+LH102	LH102C	4	300	10
+LH103	LH103A	10	118	15
+LH104	LH105	13.2	180	42
+LH105	LH106	15	242	45
+LH107	LH106	7.7	274	13
+LH107	LH108	4.2	108	7
+LH108	LH108A	3	338	11
+LH108	LH108B	15	108	0
+LH108A	LH109	16.2	206	40
+LH109	LH110	2	155	0
+LH110	LH111	3.5	0	90
+LH111	LH112	1.1	140	0
+LH112	LH09D	0	0	0
+;LH101	<1.7, 1.3, 1.2, 0.2, 192>
+;LH102	<2.0, 1.0, 2.7, 0.0, 300>
+;LH102A	<2.0, 2.0, 1.0, 0.0, 358>
+;LH102B	<1.2, 1.2, 2.0, 0.0, 192>
+;LH102C	<0.0, 0.0, 2.0, 0.0, 300>
+;LH103	<1.0, 0.0, 2.5, 3.0, 118>
+;LH104	<0.7, 0.7, 2.5, 0.5, 180>
+;LH105	<1.0, 1.0, 0.8, 0.7, 242>
+;LH106	<3.0, 2.0, 3.0, 2.5, 274>
+;LH107	<3.0, 1.8, 2.0, 0.0, 274>
+;LH108	<3.0, 3.0, 3.0, 0.0, 274>
+;LH108A	<1.5, 0.0, 0.0, 2.0, 206>
+;LH109	<3.0, 0.0, 2.0, 0.0, 206>
+;#NOTE LH101 puddle
+*end Lionels

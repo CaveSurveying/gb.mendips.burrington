@@ -1,0 +1,9 @@
+*Begin easttwinsparpot
+; compilation file of David Cundy's two surveys
+; Compiled by Graham Mullan April 2008
+
+*INCLUDE East-Twin.svx
+*INCLUDE Spar-Pot.svx
+*EQUATE East-Twin.SP01A Spar-Pot.SP01A
+
+*END easttwinsparpot

@@ -1,0 +1,12 @@
+*units tape feet
+*units compass degrees
+*units clino degrees
+*begin Burrington-East
+*include East-Twin
+*solve
+*include Spar-Pot
+*solve
+*include Surface-East-Twin-to-Lionels
+*solve
+*include Lionels
+*end Burrington-East

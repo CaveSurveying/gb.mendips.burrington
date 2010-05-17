@@ -1,0 +1,14 @@
+encoding  utf-8
+source A.th
+
+layout sidcot
+transparency on
+debug off
+symbol-hide line survey
+endlayout
+
+#export model -fmt survex -o A.3d
+#export map -proj plan -layout benarat -o A.pdf
+export map -proj plan -layout sidcot -o A.pdf
+#export map -proj plan -layout overview -o A.pdf
+export map -proj plan -layout overview -o AWalls.3d

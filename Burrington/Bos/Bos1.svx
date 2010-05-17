@@ -1,0 +1,38 @@
+*BEGIN bos1
+
+;Cave Bos Swallet
+;Burrington Combe, Somerset.
+*DATE 2008.07.03
+*TEAM "Chris Binding" instruments
+*TEAM "Christian Chourot" recording
+*COPYRIGHT 2008 UBSS
+;Typed in by Graham Mullan
+
+*CALIBRATE Compass -10
+
+*DATA NORMAL FROM TO TAPE COMPASS CLINO IGNOREALL
+;LRUD at FROM station
+;station 1 is the bolt hole at the top of the first pitch
+2	1	0.66	113	8	0.5	0.5	1	0.8
+3	2	2.08	303	-40	0.09	0.09	0.1	0.9
+4	3	1.73	324	-51	0.06	0.06	0.25	0.6
+5	4	4.94	335	-52	0.5	0.5	1.2	2
+6	5	2.6	315	-60	0.6	0.3	0.45	1.1
+6	7	3.9	304	-14	0.2	0.05	0.1	0.4
+8	6	3.60	293	-16	0.4	0.05	0.1	0.4
+9	8	3.16	328	-46	0.6	0.3	0.25	0.4
+10	9	1.92	060	-42	0.5	0.7	0.3	1.30
+11	10	2.5	346	-52	0.45	0.25	0.2	0.25
+12	11	5.5	25	-53	0.5	0.4	0.45	0.6
+13	12	1.2	000	-90
+
+*ENTRANCE 13
+*FLAGS surface
+
+14	13	2.56	110	-53
+
+*FIX 14 REFERENCE 47090 58370 178
+; nose on rock above & west of entrance photo CJB
+; GJM thinks this is within 1 m horiz and vert of Crickmay's benchmark
+
+*END bos1	

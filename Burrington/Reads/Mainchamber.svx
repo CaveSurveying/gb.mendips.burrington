@@ -1,0 +1,50 @@
+*BEGIN Mainchamber
+
+;*DATE 1966.03.13
+;date commented out as Survex cannot otherwise cope
+;Cave Reads Cavern
+;Area Burrington Combe Somerset
+;Team Willie Stanton, Jim Hanwell, Mike York, Geoff Moore, John Phillips
+;Source Willie Stanton's Survey Book 2 page 35-38
+;Typed in by Graham Mullan June 2008
+*CALIBRATE compass -8.25
+*UNITS tape feet
+*DATA NORMAL FROM TO COMPASS CLINO TAPE IGNOREALL
+;28 is T-shaped smoke mark on spur on cliff above entrance
+;3.0ft higher than Crickmay's BM
+*FLAGS surface
+
+28	29	215.83	-2.66	12.3
+
+*begin
+*UNITS tape metres
+*FIX 28 REFERENCE 46820 58440 161.5
+;x y from CSCC z from WIS levelling
+*end
+
+29	29a	035.66	-44.33	13.8
+
+;leg split in 2 to denote entrance
+*Entrance 29a
+*Flags not surface
+*UNITS tape feet
+
+29a	30	035.66	-44.33	8
+30	31	310.66	-16.33	16.1
+31	32	095	-43.33	24.1
+32	33	017.33	47.66	22.5
+33	34	032.5	-18.5	21.8
+33	35	298	4.17	39.4
+35	36	288.25	10.83	44.8
+36	37	035.33	-22.66	14.1
+36	38	212.5	16.33	13.9
+36	39	265.16	7.33	29.8
+39	40	252	-21.16	14.8
+40	psp	163.16	4	8.9
+39	41	352.3	-22.42	31.1
+41	42	272.66	-23.33	21.1
+42	43	017.5	-29.25	7.1
+43	44	303.33	10.33	5.7
+
+
+*END Mainchamber

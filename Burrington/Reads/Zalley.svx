@@ -1,0 +1,51 @@
+*BEGIN Zalley
+
+;*DATE 1966.04.10
+;date commented out as Survex believes the world began in 1970
+;Cave Reads Cavern
+;Area Burrington Combe Somerset
+;Team Willie Stanton, Howard Kenney, Ian Standing
+;Source Willie Stanton's Survey Book 2 page 43-46
+;Typed in by Graham Mullan June 2008
+*CALIBRATE compass -8.50
+*UNITS tape feet
+*DATA NORMAL FROM TO COMPASS CLINO TAPE IGNOREALL
+
+34	83	191.66	-1	15.1
+83	84	071	-43	15.5
+84	85	000	-90	2.1
+85	86	106.1	-21	8
+86	87	197.66	2	25.4
+87	88	049	-21	3.6
+88	89	252	-38.5	6.7
+89	90	000	-90	3.3
+90	91	332	-22	7.9
+91	92	193	-43	21.2
+92	93	000	-90	1.8
+93	94	139	-24	7
+94	95	078	-13.5	13.2
+95	96	000	-90	11.3
+96	97	011	0	1.4
+97	98	000	-90	9.8
+98	99	223	-15	3.5
+99	100	117	35.5	12
+100	101	000	-90	3
+101	102	140	-19	6.8
+102	end	050	0	12
+end	end2	000	-90	8
+
+98	103	299	12	12.6
+103	104	034.5	-32.5	11.5
+104	105	000	-90	3
+105	106	322	-13	9
+106	107	281.5	-13	9
+107	108	000	-90	13
+108	109	029.5	-19.5	9.1
+109	110	000	-90	4.8
+110	111	039.5	-20	5.6
+111	112	117	-13	10.9
+112	113	000	-90	6.2
+113	114	001	-17	4.0
+114	115	003	-26	10
+
+*END Zalley

@@ -1,0 +1,32 @@
+*BEGIN Avelines
+;Cave:Aveline's Hole
+;Survey Name: Survey 3
+;Description: Grade 6 check survey
+;
+;Location: Burrington Combe, Mendip
+;Country:England
+;People: Brian Britton
+;Date: 30 08 1968
+;Instrument Set: BEC Survey Unit
+;Calibration: data has already been corrected for mag var and comp error
+;Typed in by: Graham Mullan April 2008
+;Source: Roger Stenner. Copy now held in UBSS Library 
+;
+;
+*DATA Normal From to Length Bearing Gradient ignoreall
+*UNITS tape feet
+* ENTRANCE Ent
+* FIX Ent reference 47610 58670 99
+
+Ent	1	38.5	96.75	-20.33
+1	2	21.6	85.75	-30.33
+2	3	15.65	91.5	-16.33
+3	os	12.15	346.25	-20.16
+3	B	10.3	338.25	-17.16
+3	4	26.9	121.25	26.85
+4	5	29.3	90.75	-18.33
+5	6	25.45	74.75	-39.66
+6	7	4.2	0	-90
+
+
+*END Avelines

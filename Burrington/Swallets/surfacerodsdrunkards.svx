@@ -1,0 +1,30 @@
+*begin surfacerodsdrunkards
+
+;surveyors: Andy S   Rachel P
+;date 110508
+
+
+*DATA NORMAL FROM TO TAPE COMPASS CLINO
+*FLAGS surface
+400 0 6.57 013 -06
+302 400 4.9 322 -32
+
+
+302 303 13.05 188 17
+303 304 27.4 235 07
+304 305 15.73 293 0
+305 306 16 295 -01
+306 307 11.8 288 -10
+307 100 8.63 305 -33
+
+
+
+
+
+*end surfacerodsdrunkards
+
+
+
+
+
+

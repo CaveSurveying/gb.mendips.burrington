@@ -1,0 +1,51 @@
+*BEGIN TWINK
+;Cave:Pierre's 
+;Survey Name: second
+;Description: Twinkletoes aven Sump bypass and beyond
+;
+;Location: Burrington Combe, Mendip
+;Country:England
+;People: Steve Cottle, Andrew Atkinson, Clive Owen, John Cordingley beyond sumps  
+;Date: 
+;Instrument Set:
+;Calibration: data has already been corrected for mag var and comp error
+;Typed in by: Graham Mullan March 2008
+;Source: data held by UBSS 
+;
+;
+*DATA Normal From to Length Bearing Gradient ignoreall
+*UNITS tape metres
+;*CALIBRATE COMPASS -2
+
+1	2	4.57	020	16
+2	3	4.21	152	42
+2	4	2.64	191.5	-58
+4	5	3.31	109	-47
+5	6	2.65	000	-90
+6	7	1.72	214	-5
+7	8	0.96	000	-90
+8	9	1.93	246.5	-32
+9	10	3.09	291.5	-2
+10	11	4.30	004	-57
+11	12	2.92	207	-56
+12	13	4.70	328	-39
+13	14	3.38	037	-25
+14	15	10.00	111	0	along rift to sump one
+12	16	1.40	130	0
+16	17	2.38	138	0
+17	18	2.70	140	0
+18	19	4.20	118	0
+19	20	17.89	109	0
+20	21	4.00	026	0
+21	22	1.00	000	0
+22	23	2.00	030	0
+23	23a	5.00	000	-90
+;leg added by GJM to drop back to sump level
+23a	24	3.00	125	0
+24	25	7.00	115	0
+25	26	7.00	150	0
+26	27	5.00	160	0
+27	28	7.00	100	0
+28	29	7.00	030	0
+
+*END TWINK

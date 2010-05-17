@@ -1,0 +1,100 @@
+*begin Spar-Pot
+; Spar Pot, Burrington Coombe, UK
+; Surveyed by David Cundy & Christian Saxtoft
+; Grade 3 survey - measured with a silva compass, 30m tape measure and a laser clinometer
+; Grade 2 survey - measured with a silva compass & 30m tape. Inclinations guessed
+; Grade 1 survey - measure azimuth but guessed distances, inclinations & sections
+;
+
+*data normal from to tape compass clino
+*units tape feet
+*units compass degrees
+*units clino degrees
+; Grade 2/3 Survey
+;#DATE 2006-4-5
+SP01A	SP01B	11.7	020	28
+SP01B	SP01C	4.7	350	60
+SP01C	SP01D	3	000	28
+SP01E	SP04A	14	152	40
+SP04A	SP04B	7	152	40
+;
+; Grade 2 Survey
+;#DATE 2006-4-1
+SP01D	SP01E	10	350	-27
+SP01E	SP01E1	5	010	-41
+SP01E1	SP01F	28	010	-41
+SP01F	SP01F1	6	010	-89
+SP01F1	SP01F2	2	275	0
+;
+;
+; Grade 3 Survey
+;#DATE 2006-4-11
+SP01F2	SP01G	5	275	0
+SP01G	SP01H	6.25	275	0
+SP01H	SP01J	5	315	-12
+SP01J	SP01K	16	280	+24
+SP01J	SP02A	4	010	-60
+SP02A	SP02B	11.8	010	-60
+SP02B	SP02C	2.2	040	0
+SP02C	SP02D	7	105	0
+SP02D	SP02E	6.5	015	0
+SP02E	SP02F1	16.5	300	-16
+SP02F1	SP02F2	10	230	-10
+;
+;SP01A	<1.3,  1,  1.7,  0,  045>
+;SP01B	<0,  5.5,  4,  3, 040>
+;SP01C	<1, 1, 1, 1, 350>
+;SP01D	<1, 1, 1, 0, 010>
+;SP01E	<5, 5, 6, 2, 010>
+;SP01E1	<1.5, 0, 4, 5, 010>
+;SP01F	<1.5, 0, 6, 6, 010>
+;SP01F1	<1.5, 0, 12, 0, 010>
+;SP01F2	<0.7, 0.7, 2, 0, 270>
+;SP01G	<0.7, 0.7, 2, 0, 270>
+;SP01H	<3, 2, 4, 4, 275>
+;SP01J	<0, 1, 2, 3, 280>
+;SP01J1	<0.8, 0.7, 4, 10, 025>
+;SP01K	<3, 0.5, 2, 0, 280>
+;SP02A	<0.8, 0.7, 2, 0, 010>
+;SP02B	<0.8, 0.7, 1, 1, 040>
+;SP02B	<0.8, 0.7, 1, 1, 105>
+;SP02C	<0.8, 0.7, 1, 1, 105>
+;SP02D	<1, 1, 2, 1, 015>
+;SP02E	<0.8, 0.7, 2, 1, 300>
+;SP02F1	<0.6, 0.6, 1.5, 1.5, 230>
+;SP02F2	<0.5, .5, 5, 4, 230>
+;SP04A	<0.5, 0.5, 7, 4 270>
+;SP04B	<0.5, 0.5, 8, 0, 150>
+;
+; Grade 1 survey
+;#DATE 2006-4-21
+SP01G	SP01G1	5	183	35
+SP01G1	SP01G2	27	183	35
+SP02F1	SP02F	2	140	20
+SP02F	SP02G	5	250	20
+SP02G	SP02H	10	270	0
+SP02H	SP02J	6	210	-30
+SP02J	SP02K	20	210	10
+SP02J	SP03A	12	290	10
+SP03A	SP03B	8	340	0
+SP03B	SP03C	15	295	0
+;
+;SP01G1	<2, 2, 3, 1, 183>
+;SP01G2	<1, 1, 4, 4, 183>
+;SP02F	<2, 0, 2, 1.5, 270>
+;SP02G	<0.7, 0.7, 1.5, 0, 270>
+;SP02H	<0.5, 0.5, 1, 2, 270>
+;SP02J	<1.5, 1.5, 4, 0, 210>
+;SP02K	<0.7, 0.7, 7, 2, 210>
+;SP03A	<1.5, 1.5, 3, 0, 290>
+;SP03B	<0.7, 0.7, 1.5, 0, 340>
+;SP03C	<0.7, 0.7, 1.5, 1, 295>
+;
+;  SP01D is at the apex of the rock in the letter box entry squeeze
+;  SP01E is at the start of the main rift (on the knee high step on the R)
+;#NOTE SP01E1 rift
+;#NOTE SP02H squeeze
+;#NOTE SP02K rift
+;#NOTE SP03B long crawl
+*end Spar-Pot
+;

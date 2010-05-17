@@ -1,0 +1,17 @@
+*BEGIN WestTwin
+;Compilation file for caves of West Twin Brook
+;Graham Mullan July 4 2008
+
+*INCLUDE GoatchurchfromCompass.svx
+
+*INCLUDE PP.svx
+
+*INCLUDE Sidcot/Sidcot.svx
+
+*INCLUDE surface1.svx
+
+*EQUATE sidcot.0 surface1.SE
+
+*EQUATE Goatchurch.PSP surface1.GE
+
+*END WestTwin

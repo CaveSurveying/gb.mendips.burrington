@@ -1,0 +1,166 @@
+*begin East-Twin
+; East Twin Swallet, Burrington Coombe, UK
+; Grade 2 survey  (GRADE 3 only where indicated)
+;    all survey data taken by David Cundy, South Bristol Speleological Society
+;    100 ft fibre tape  (Chris Whale's)   read to the nearest 6 inches  (1 inch for grade 3)
+;     SILVA   compass                     read to the nearest 5 degrees  (1 deg for grade 3)
+;     ROLSON    laser inclinometer        read to the nearest 2 degrees  (0.5 deg for grade 3)
+; On 5 June 2006, the survey points in this file were completely renumbered
+;
+;
+;  NUMBERING SYSTEM  =  CSnxm
+;     CS = two letters       code for this cave system  (ET for East Twin Swallet, Burrington Coombe, UK)
+;      n   = 01-99                 main branch number
+;      x   = A-Z                     part of each branch
+;      m  = blank, or 1-9    (optional, may be left out)
+;
+;     branch  01    East Twin entrance to the end of the Second Chamber
+;     branch  02    From the squeeze, down to Better than Sex, and the dig face
+;
+; *********************************************************************************************************************
+;     branch  01    East Twin entrance to the end of the Second Chamber
+;                              ET01A = W02:45:00 N51:19:00  140m  based on the 1:50000 OS map and "Mendip Undeground"
+;                              ET01C2 to ET01E1 not measued - data fiddled just to show passage on map
+;
+;  GRADE 2 data
+;  DATE 2006-03-20
+*FIX ET01A reference 47960 58150 150
+*entrance ET01A
+*units tape feet
+*units compass degrees
+*units clino degrees
+*data normal from to tape compass clino
+ET01A	ET01B	6.6	070	-51
+ET01B	ET01C	9.5	100	-32
+ET01C	ET01C1	1.5	180	-8
+ET01C1	ET01C2	2	180	-8
+ET01C	ET01D	13.5	100	-2
+ET01D	ET01E	7.5	155	-46
+ET01E	ET01E1	4	230	0
+ET01C2	ET01E1	15	117	-21
+ET01E	ET01E3	4.5	090	0
+ET01E	ET01E2	12.5	135	5
+ET01E	ET01F	15.1	350	-22
+ET01F	ET01F1	1	015	-20
+ET01F1	ET01G	8.5	015	-20
+ET01G	ET01G1	7	070	-46
+ET01G1	ET01G2	3	080	-10
+;
+;#DATE 2006-4-05
+ET01G	ET01H	12.7	015	-23
+ET01H	ET01J	10.7	350	-15
+ET01J	ET01K	25.6	330	-20
+ET01K	ET01L	17.2	005	-20
+;
+ET01K 	ET01K2	35	230	60
+ET01L	ET01M	8	285	-60
+;
+;  GRADE 3 data
+ET01J	ET01J1	5.0	277	3
+ET01J1	ET01H	13.3	163	10.3
+ET01K1	ET01J	26.8	169	14.5
+ET01K	ET01K1	9	054	14.5
+ET01M	ET01K1	20.5	142	46
+;
+;ET01A	<5, 4, 0, 5, 100>
+;ET01B	<3,  3,  7,  0,  100 >
+;ET01C	<3.5, 1.5, 2.5, 0.5, 100 >
+;ET01C1	<1, 1, 1, 0.5, 180 >
+;ET01C2	<1, 1, 1, 0.5, 100 >
+;ET01D	<1, 2, 3, 0.5, 100 >
+;ET01E	<3,  3,  6,  4,  280 >
+;ET01E1	<3, 2.5, 3.5, 0, 280 >
+;ET01E2	<3, 3, 5, 4, 160>
+;ET01E3	<4.5,  5,  9,  4,  350 >
+;ET01F	<4.5,  4.5,  10,  1,  350 >
+;ET01F1	<4.5,  4.5,  9,  4,  350 >
+;ET01G	<3,  3,  3,  3,  025 >
+;ET01G1	<1.5, 1.5, 1.5, 1.5, 090>
+;ET01G2	<0.5, 0.5, 1, -10, 080>
+;ET01H	<4.5,  0,  7,  1,  350>
+;ET01J	<6,  0.5,  12,  2,  350>
+;ET01K	<0,  13,  8,  3,  005>
+;ET01K	<3, 3, 8, 3, 230>
+;ET01K2	<2, 2, 2, 2, 230>
+;ET01L	<4,  1,  1,  4.5,  005>
+;
+;#NOTE ET01A ET entrance
+;#NOTE ET01C1 bypass
+;#NOTE ET006a dam
+;#NOTE ET01E ledge
+;#NOTE ET01F boulder
+;#NOTE ET01G2 sink
+;#NOTE ET01H dam
+;#NOTE ET01J dam
+;#NOTE ET01K2 high rift
+;#NOTE ET01L dig sign
+;
+; ET01F is the top of the boulder reached just before the stream sinks in the rift
+; ET01K1 is the top of the high rift on the left, just before the squeeze
+;
+; *********************************************************************************************************************
+;     branch  02    From the squeeze, down to Better than Sex, and the dig face
+;
+; Grade 3 Survey
+;#DATE 2006-04-05
+ET01M	ET02A	8.6	021	0
+ET02A	ET02B	8.5	315	-3
+ET02B	ET02B1	3	150	35
+ET02B1	ET02B2	17	150	35
+ET02B	ET02C	13.2	312	-38
+ET02C	ET02D	10.7	320	-42
+ET02D	ET02E	6.5	325	-41
+ET02E	ET02E1	7	055	8
+ET02E1	SP01A	2.5	055	8
+ET02E	ET02F	12.3	340	-48
+ET02F	ET02G	12	340	-48
+;
+; Grade 1 Survey- all data imagined, currently too blocked to survey
+;#DATE 2006-04-05
+ET02G	ET02G1	2	280	0
+ET02G1	ET02G2	18	280	0
+ET02G	ET02H	16	340	-48
+ET02H	ET02J	6	340	-48
+ET02H	ET02H1	3	090	0
+ET02H1	ET02H2	6	090	0
+ET02H2	ET02H3	6	100	0
+;
+;ET01M	<1,  1,  0.5,  1,  020 >
+;ET02A	<2,  0,  3,  2,  020 >
+;ET02B	<2,  4,  3.5,  3.5,  315 >
+;ET02B1	<2, 2, 2, 1, 150>
+;ET02B2	<2, 2, 1.5, 1.5, 150>
+;ET02C	<1,  4, 2.5, 0,  315 >
+;ET02D	<1,  6,  3,  7,  315 >
+;ET02E	<0.3,  7,  2.5,  6.4,  313 >
+;ET02E1	<1.2,  1,  1.7,  0,  045 >
+;SP01A	<1.2,  1,  1.7,  0,  045 >
+;ET02F	<2,  4,  2,  5, 315>
+;ET02G	<2,  4,  2,  2, 315>
+;ET02G1	<0.5, 0.5, 1, 1, 280>
+;ET02G2	<0.5, 0.5, 1, 1, 280>
+;ET02H	<2,  4,  2,  2, 315>
+;ET02J	<2, 2, 1, 1, 315>
+;ET02H1	<1, 1, 1.5, 0.5, 050>
+;ET02H2	<1, 1, 1.5, 0.5, 060>
+;ET02H3	<1, 2,  3, 0.5, 060>
+;
+;#NOTE ET01M squeeze
+;#NOTE ET02B winch
+;#NOTE ET02C  dam 1
+;#NOTE ET02D  dam 3
+;#NOTE ET02E  dam 4
+;#NOTE SP01A  Spar Pot
+;#NOTE ET02F dam 5
+;#NOTE ET02G2 Burt's Inlet
+;#NOTE ET02J dig face
+;#NOTE ET02H3 Better Than Sex
+;
+; ET02B  is the right hand end of the winch axle  (not the end of the handle)
+; ET02B2 is the back of the calcite ramp behind the winch
+; ET02C - ET02E are on the top edge of each dam, underneath the monorail
+; SP01A is the RHS of the Spar Pot dam (near bottom RH corner of Spar Pot entrance tunnel)
+; ET02H1 is the centroid of the entrance to Better Than Sex
+;
+*end East-Twin
+;

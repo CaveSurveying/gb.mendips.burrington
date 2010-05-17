@@ -1,0 +1,26 @@
+;Assembly file for all Burrington caves
+*BEGIN BURRINGTON
+
+*INCLUDE Swallets\Swallets.svx
+
+*INCLUDE WestTwin\WestTwin.svx
+
+*INCLUDE Lionels\Lionels.svx
+
+*INCLUDE EastTwin\EastTwinSparPot.svx
+
+*INCLUDE Avelines\Avelines.svx
+
+*INCLUDE Reads\Reads.svx
+
+*INCLUDE Bos\Bos1.svx
+
+*FIX Rickford reference 48780 59160 61
+
+*FIX Langford reference 46620 59300 40
+
+*FIX Squires reference 49280 59080 70
+
+*END Burrington
+
+

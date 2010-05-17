@@ -1,0 +1,22 @@
+*BEGIN Sidcot
+;Compilation File for all of Sidcot Swallet
+;Burrington Combe Somerset
+;File compiled by Graham Mullan
+*DATE 2008.06.25
+
+*FIX 0 reference 47558 58292 136
+;GPS 2D data 2008.06.20
+*BEGIN
+*FLAGS surface
+*DATA Normal From to Bearing Gradient Length ignoreall
+0	1	305	+1	3.95
+2	1	138	+19	3.75
+*END
+
+*INCLUDE A/A.svx
+*INCLUDE B/B.svx
+
+*EQUATE A.26 B.0
+*EQUATE 2 A.2
+
+*END Sidcot

@@ -1,0 +1,40 @@
+*BEGIN Reads
+;compilation file for all of Read's Cavern
+;compiled by Graham Mullan June 2008
+*Copyright 2008 UBSS and Willie Stanton
+
+*INCLUDE Brownstewart.svx
+
+*INCLUDE Mainchamber.svx
+
+*INCLUDE Brownstewart2.svx
+
+*INCLUDE Boulderchamber.svx
+
+*INCLUDE Zalley.svx
+
+*INCLUDE Grotto1.svx
+
+*INCLUDE Grotto2.svx
+
+*INCLUDE Wetentrance.svx
+
+*EQUATE Brownstewart.psp Mainchamber.psp
+
+*EQUATE Brownstewart.27 Brownstewart2.27
+
+*EQUATE Brownstewart.14 Boulderchamber.14
+
+*Equate Mainchamber.44 Boulderchamber.44
+
+*EQUATE Mainchamber.34 Zalley.34
+
+*EQUATE Mainchamber.28 Grotto1.28
+
+*EQUATE Mainchamber.34 Grotto2.34
+
+;*EQUATE Brownstewart.psp Wetentrance.psp
+
+*EQUATE Mainchamber.28 Wetentrance.10
+
+*END Reads

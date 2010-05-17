@@ -1,0 +1,15 @@
+*BEGIN Swallets
+;Compilation file
+;Compiled by Graham Mullan June 2008
+
+*INCLUDE Drunkards.svx
+
+*INCLUDE RODSBATH.svx
+
+*INCLUDE surfacerodsdrunkards.svx
+
+*EQUATE Drunkards.0 surfacerodsdrunkards.100
+
+*EQUATE surfacerodsdrunkards.0 RODSBATH.A15
+
+*END Swallets

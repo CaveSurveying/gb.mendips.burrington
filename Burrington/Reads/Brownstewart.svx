@@ -1,0 +1,44 @@
+*BEGIN Brownstewart
+
+;*DATE 1966.02.26
+;Date commented out as Survex is too stupid to understand it otherwise
+;Cave Reads Cavern
+;Area Burrington Combe Somerset
+;Team Willie Stanton, Howard Kenney, Jim Hanwell
+;Source Willie Stanton's Survey Book 2 page 35/36
+;Typed in by Graham Mullan June 2008
+*CALIBRATE compass -8.25
+*UNITS tape feet
+*DATA NORMAL FROM TO COMPASS CLINO TAPE IGNOREALL
+;psp is centre of "8" in "18" painted on wall in Water Chamber
+
+psp	1	316	-18	4.3
+1	2	137	-44	10.2
+2	3	000	-90	5.2
+3	4	193	-16	2.7
+4	5	117	-32	7
+5	6	000	-90	13.7
+6	7	355	-10	5
+7	8	305	3.5	8.7
+8	9	003	-36	6.8
+9	10	000	-90	9.4
+10	11	206	-33	3.9
+11	12	314	-1.5	10.5
+12	13	001	-24.5	8.4
+13	14	105	-41	7.9
+14	15	000	-90	1.7
+15	16	024	-37.5	9.3
+16	17	079	-11.5	9.7
+17	18	079	-39.5	4.6
+18	19	134	-26.5	10.1
+19	20	096	-3	3.5
+20	21	251	-24.5	9.7
+21	22	130	5	1.5
+22	23	351	-40.5	8
+23	24	327	-44.5	11.5	24 fixed point on rock point marked by smoke arrow
+24	25	018	-47	9.3
+25	26	113	-3.5	17.4
+26	27	000	-90	8.2
+
+
+*END Brownstewart

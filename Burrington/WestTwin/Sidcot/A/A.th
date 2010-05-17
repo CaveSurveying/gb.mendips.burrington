@@ -1,0 +1,23 @@
+encoding  utf-8
+survey A
+
+import A.3d -surveys use 
+input A.th2
+
+map A -title "SidcotA"
+  1_ent_1
+endmap
+
+map 2  
+      1_ent1_2
+      A_P2
+endmap
+
+map 3
+      A_P3
+endmap
+
+#join  -smooth on
+
+endsurvey
+

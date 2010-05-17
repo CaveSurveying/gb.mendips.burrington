@@ -1,0 +1,24 @@
+*begin surface1
+;Surface survey between Goatchurch and Sidcot
+
+;surveyors: Andy S Rachel P
+*DATE 2008.07.02
+
+;Adjusted for computing Graham Mullan
+
+*DATA NORMAL FROM TO TAPE COMPASS CLINO
+*CALIBRATE compass -2.92
+*FLAGS surface
+
+SE	1	3.4	170	36	
+1	2	2.13	92	-22
+2	3	10.5	162	-11	
+3	4	10.66	148	24	
+4	5	8.5	187	21
+5	6	16.36	168	20	
+6	7	9.95	117	22	
+7	8	8.8	146	16
+8	9	2.93	79	22
+9	GE	3.62	108	-27	
+
+*end surface1
