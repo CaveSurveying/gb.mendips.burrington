@@ -15,11 +15,11 @@
 
 *INCLUDE Bos\Bos1.svx
 
-*FIX Rickford reference 48780 59160 61
+*FIX Rickford reference 348780 159160 61
 
-*FIX Langford reference 46620 59300 40
+*FIX Langford reference 346620 159300 40
 
-*FIX Squires reference 49280 59080 70
+*FIX Squires reference 349280 159080 70
 
 *END Burrington
 

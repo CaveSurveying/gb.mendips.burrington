@@ -16,7 +16,7 @@
 *DATA Normal From to Length Bearing Gradient ignoreall
 *UNITS tape feet
 * ENTRANCE Ent
-* FIX Ent reference 47610 58670 99
+* FIX Ent reference 347610 158670 99
 
 Ent	1	38.5	96.75	-20.33
 1	2	21.6	85.75	-30.33

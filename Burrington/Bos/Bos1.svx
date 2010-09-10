@@ -31,7 +31,7 @@
 
 14	13	2.56	110	-53
 
-*FIX 14 REFERENCE 47090 58370 178
+*FIX 14 REFERENCE 347090 158370 178
 ; nose on rock above & west of entrance photo CJB
 ; GJM thinks this is within 1 m horiz and vert of Crickmay's benchmark
 

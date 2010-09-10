@@ -16,7 +16,7 @@
 *DATA Normal From to Length Bearing Gradient ignoreall
 *UNITS tape metres
 * ENTRANCE 1
-* FIX 1 reference 47630 58370 129
+* FIX 1 reference 347630 158370 129
 
 1	2	3.15	353	-90
 2	3	5.65	193	-25
