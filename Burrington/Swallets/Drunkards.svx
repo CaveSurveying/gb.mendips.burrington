@@ -1,7 +1,7 @@
 *begin Drunkards
 
 ;surveyors: Carm Pete
-;date 071219
+*DATE 2007.12.19
 *calibrate declination 2.98
 * FIX 0 reference 347140 158390 175
 * ENTRANCE 0

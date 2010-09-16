@@ -1,7 +1,7 @@
 *BEGIN RodsBath
 
 ;surveyors: ChCC
-;date 080430
+*DATE 2008.04.30
 
 
 *DATA NORMAL FROM TO TAPE COMPASS CLINO
