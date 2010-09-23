@@ -8,6 +8,9 @@ cs OSGB:ST
 #fix  #ST 
 #station  "" entrance
 
+fix BoulderShaft 48340 58150 204
+station BoulderShaft "" entrance
+
 fix CombeLodgeRisings 49700 59100 91
 station CombeLodgeRisings "rising" entrance
 
@@ -17,17 +20,32 @@ station EastTwinMiddleSink "" entrance
 fix EastTwinTopSink 47920 57960 183
 station EastTwinTopSink "" entrance
 
+fix ElephantsRift 48420 58140 182
+station ElephantsRift "" entrance 
+
 fix EllickFarmSwallet 49270 57800 216
 station EllickFarmSwallet "" entrance
 
 fix FlangeSwallet 47580 58320 134
 station FlangeSwallet "" entrance
 
+fix FrogsHole 48370 58200 187
+station FrogsHole "" entrance
+
+fix GaugeHouseRising 48680 59310 61
+station GaugeHouseRising "rising" entrance
+
+fix GoonsHole 47910 58250 126
+station GoonsHole "" entrance
+
 fix LangfordRising 46620 59300 40
 station LangfordRising "rising" entrance
 
 fix LaybyDig 48000 58200 137
 station LaybyDig "" entrance
+
+fix MilliarsQuarryCave 47690 58980 113
+station MilliarsQuarryCave "" entrance
 
 fix NamelessCave 47510 58660 151
 station NamelessCave "" entrance
@@ -44,6 +62,9 @@ station SquiresWell "rising" entrance
 fix SupraAvelines 47690 58600 119
 station SupraAvelines "" entrance
 
+fix RickfordFarmCave 48470 59360 67
+station RickfordFarmCave "" entrance
+
 fix RickfordRising 48780 59160 61
 station RickfordRising "rising" entrance
 
@@ -52,6 +73,9 @@ station RowberrowCavern "" entrance
 
 fix RowberrowSwallet 45530 58090 128
 station RowberrowSwallet "" entrance
+
+fix ToadsHole 48350 58220 191
+station ToadsHole "" entrance
 
 fix TratsCrack 48200 58200 192
 station TratsCrack "" entrance
