@@ -1,0 +1,71 @@
+encoding  utf-8
+survey Other_Sites -namespace off
+centreline
+cs OSGB:ST
+
+#Information taken from MCRA, unless otherwise stated.
+
+#fix  #ST 
+#station  "" entrance
+
+fix CombeLodgeRisings 49700 59100 91
+station CombeLodgeRisings "rising" entrance
+
+fix EastTwinMiddleSink 47940 58040 170
+station EastTwinMiddleSink "" entrance
+
+fix EastTwinTopSink 47920 57960 183
+station EastTwinTopSink "" entrance
+
+fix EllickFarmSwallet 49270 57800 216
+station EllickFarmSwallet "" entrance
+
+fix FlangeSwallet 47580 58320 134
+station FlangeSwallet "" entrance
+
+fix LangfordRising 46620 59300 40
+station LangfordRising "rising" entrance
+
+fix LaybyDig 48000 58200 137
+station LaybyDig "" entrance
+
+fix NamelessCave 47510 58660 151
+station NamelessCave "" entrance
+
+fix PlumleysHole 47660 58750 100
+station PlumleysHole "" entrance
+
+fix SayesLaneRising 45710 59540 43
+station SayesLaneRising "rising" entrance
+
+fix SquiresWell 49280 59080 70
+station SquiresWell "rising" entrance
+
+fix SupraAvelines 47690 58600 119
+station SupraAvelines "" entrance
+
+fix RickfordRising 48780 59160 61
+station RickfordRising "rising" entrance
+
+fix RowberrowCavern 45960 58020 175
+station RowberrowCavern "" entrance
+
+fix RowberrowSwallet 45530 58090 128
+station RowberrowSwallet "" entrance
+
+fix TratsCrack 48200 58200 192
+station TratsCrack "" entrance
+
+fix TweenTwins 47740 58270 137
+station TweenTwins "" entrance
+
+fix WhitcombesHole 47630 58270 166
+station WhitcombesHole "" entrance
+
+fix YewTreeSwallet 47580 58280 142
+station YewTreeSwallet "" entrance
+
+
+endcentreline
+endsurvey
+

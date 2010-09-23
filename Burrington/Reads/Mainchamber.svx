@@ -18,7 +18,7 @@
 
 *begin
 *UNITS tape metres
-*FIX 28 REFERENCE 346820 158440 161.5
+*FIX 28 REFERENCE 46820 58440 161.5
 ;x y from CSCC z from WIS levelling
 *end
 

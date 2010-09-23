@@ -24,7 +24,7 @@
 ;
 ;  GRADE 2 data
 ;  DATE 2006-03-20
-*FIX ET01A reference 347960 158150 150
+*FIX ET01A reference 47960 58150 150
 *entrance ET01A
 *units tape feet
 *units compass degrees

@@ -1,0 +1,12 @@
+set xth(ctrl,cp,datlist) {}
+xth_cp_data_tree_insert 1 {} 0   "" "" "length: 3840.18m (surface 252.17m, duplicated 0.00m)\nvertical range: 91.04m (from burrington.bos1.13@Burrington at 175.96m to burrington.avelines.7@Burrington at 84.92m)\nnorth-south range: 527.23m (from burrington.avelines.os@Burrington at 58672.38m to burrington.easttwinsparpot.east-twin.et01e2@Burrington at 58145.15m)\neast-west range: 1197.28m (from burrington.easttwinsparpot.east-twin.et01e2@Burrington at 47971.02m to burrington.reads.boulderchamber.70@Burrington at 46773.74m)\nnumber of shots: 1224\nnumber of stations: 1208"
+xth_cp_data_tree_insert 8 1 1 Burrington Burrington "Caves of Burrington Combe" "Caves of Burrington Combe" "length: 3840.18m (surface 252.17m, duplicated 0.00m)\nvertical range: 91.04m (from burrington.bos1.13@Burrington at 175.96m to burrington.avelines.7@Burrington at 84.92m)\nnorth-south range: 527.23m (from burrington.avelines.os@Burrington at 58672.38m to burrington.easttwinsparpot.east-twin.et01e2@Burrington at 58145.15m)\neast-west range: 1197.28m (from burrington.easttwinsparpot.east-twin.et01e2@Burrington at 47971.02m to burrington.reads.boulderchamber.70@Burrington at 46773.74m)\nnumber of shots: 1224\nnumber of stations: 1208"
+xth_cp_data_tree_insert 12 8 2 Other_Sites Other_Sites.Burrington "" "" "length: 0.00m (surface 0.00m, duplicated 0.00m)"
+xth_cp_data_tree_create
+set xth(ctrl,cp,maplist) {}
+xth_cp_map_tree_insert projection 0 p1 {} 0 plan {} {} {}
+xth_cp_map_tree_create
+xth_cp_comp_stat 3840 0
+set xth(th_exit_state) 2
+set xth(th_exit_number) 1285256184
+

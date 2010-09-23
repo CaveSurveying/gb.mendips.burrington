@@ -3,7 +3,7 @@
 ;surveyors: Carm Pete
 *DATE 2007.12.19
 *calibrate declination 2.98
-* FIX 0 reference 347140 158390 175
+* FIX 0 reference 47140 58390 175
 * ENTRANCE 0
 
 0	1	2.27	279	-69	

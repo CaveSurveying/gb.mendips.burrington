@@ -4,7 +4,7 @@
 ;File compiled by Graham Mullan
 *DATE 2008.06.25
 
-*FIX 0 reference 347558 158292 136
+*FIX 0 reference 47558 58292 136
 ;GPS 2D data 2008.06.20
 *BEGIN
 *FLAGS surface

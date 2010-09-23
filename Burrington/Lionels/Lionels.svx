@@ -1,5 +1,5 @@
 *begin Lionels
-*FIX LH01A reference 347960 158230 141
+*FIX LH01A reference 47960 58230 141
 *Entrance LH01A
 ; Adjusted for Survex by David Cundy March 2008
 ; Additional tweaks by Graham Mullan April 2008

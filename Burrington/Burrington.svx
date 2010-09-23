@@ -15,11 +15,13 @@
 
 *INCLUDE Bos\Bos1.svx
 
-*FIX Rickford reference 348780 159160 61
+;*FIX Rickford reference 348780 159160 61
 
-*FIX Langford reference 346620 159300 40
+;*FIX Langford reference 346620 159300 40
 
-*FIX Squires reference 349280 159080 70
+;*FIX Squires reference 349280 159080 70
+
+;removed as wrong grid replace with th file
 
 *END Burrington
 
