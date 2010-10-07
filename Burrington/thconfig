@@ -5,10 +5,10 @@ source Burrington.th
 
 #export map -proj plan -fmt kml -layout mendip -o Burrington.kml
 
-export model -o Burrington.lox
+#export model -o Burrington.lox
 #3d therion model to be viewed in the therion viewer
 
-#export model -fmt survex -o Burringtonth.3d
+export model -fmt survex -o Burringtonth.3d
 #Survex file showing centre line only
 
 layout mendip

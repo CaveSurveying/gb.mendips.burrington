@@ -10,13 +10,13 @@ encoding  utf-8
 #
 
 
-#survey Burrington_Surface -namespace off
+survey Burrington_Surface -namespace off
 
 #Needed for surface in cavern use unselect when generating lox files
 
-#import Burrington_Surface.3d -surveys use -cs EPSG:27700 
+import Burrington_Surface.3d -surveys use -cs EPSG:27700 
 
-#endsurvey
+endsurvey
 
 surface
 cs OSGB:ST
