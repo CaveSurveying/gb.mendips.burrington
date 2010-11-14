@@ -4,7 +4,8 @@
 
 *INCLUDE GoatchurchfromCompass.svx
 
-*INCLUDE PP.svx
+;*INCLUDE PP.svx
+;replaced
 
 *INCLUDE Sidcot/Sidcot.svx
 
