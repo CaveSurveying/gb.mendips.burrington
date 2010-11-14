@@ -1,0 +1,36 @@
+*BEGIN Upstream
+
+;Cave: Pierre's
+;Survey Name: Upstream
+;Description: upstream of Sump One
+
+;Location: Burrington Combe, Mendip
+;Country:England
+;Source Kev Hilton's Spreadsheet
+
+*DATE 2010.09.04
+*TEAM Kev Hilton
+*TEAM Claire Cohen
+
+;instruments Suunto Tandem and Wessex CC survey tape
+
+*DATA NORMAL From to Length Bearing Gradient ignoreall
+
+PP1	PP2 	5.99	125.0	15.0
+PP2	PP3	1.66	121.0	8.0
+PP3	PP4	7.93	156.0	-7.0
+PP4	PP5	0.30	332.0	-61.0
+PP5	PP6	8.90	204.0	-1.0
+PP6	PP7	3.69	102.0	-4.0
+PP7	PP8	1.52	019.0	-5.0
+	
+PP4	PP9	0.62	-	up
+PP9	PP10	5.90	118.0	4.0
+PP10	PP11	0.83	321.0	21.0
+PP11	PP12	4.33	039.0	5.0
+PP12	PP13	1.70	017.0	8.0
+
+
+
+*END Upstream
+

@@ -4,10 +4,15 @@
 *INCLUDE Pierres.svx
 *INCLUDE Twinkletoes.svx
 
+
 *EQUATE Pierrespot.70 Twink.14
 
 *DATA NOSURVEY FROM TO
 
 Pierrespot.99 Twink.23a
+
+*INCLUDE Upstream.svx
+
+*EQUATE Twink.24 Upstream.PP1
 
 *END PP

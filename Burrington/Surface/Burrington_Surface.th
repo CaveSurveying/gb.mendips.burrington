@@ -14,14 +14,14 @@ survey Burrington_Surface -namespace off
 
 #Needed for surface in cavern use unselect when generating lox files
 
-import Burrington_Surface.3d -surveys use -cs EPSG:27700 
+#import Burrington_Surface.3d -surveys use -cs EPSG:27700 
 
 endsurvey
 
 surface
 cs OSGB:ST
-#bitmap Bur25k.jpg [0 0 45000 57000 2000 1200 50000 60000]
-bitmap New25k.jpg [0 0 45000 57000 2000 1201 50000 60000]
+bitmap Bur25k.jpg [0 0 45000 57000 2000 1200 50000 60000]
+#bitmap New25k.jpg [0 0 45000 57000 2000 1201 50000 60000]
 
 cs OSGB:ST
 grid-units meter
