@@ -1,0 +1,30 @@
+encoding  utf-8
+source Pierres2.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+#export map -proj plan -layout local -o Pierres2.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o Pierres2Ee.pdf
+
+#export model -fmt survex -o Pierres2th.3d
+#Survex file showing centre line only
+
+#export model -o Pierres2.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o Pierres2_Walls.3d
+#Survex file showing walls only
+
+#export map -o Pierres2.xvi -format xvi
+#map for importing into th2 file
+
+layout local
+copy common
+debug off
+map-header 0 0 off
+endlayout

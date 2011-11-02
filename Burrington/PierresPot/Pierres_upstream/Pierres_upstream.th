@@ -1,0 +1,43 @@
+encoding  utf-8
+survey Pierres_upstream
+
+centreline
+
+date 2010.09.04
+
+team "Kevin Hilton"
+team "Claire Cohen"
+
+#data normal  station left right up down newline direction tape compass clino
+data normal  station left right up down newline direction tape compass clino
+PP1  2.5  0.5  0.6  0   
+b  5.99  305.0  -15.0
+PP2  1.6  0  2  0.4  
+F  1.66  121.0  8.0
+PP3  1  0.5  0  0.3  
+F  7.93  156.0  -7.0
+PP4  0  1.5  0.9  0.6  
+b  0.30  152.0  61.0
+PP5  0  1.5  0.9  0.6  
+f  8.90  204.0  -1.0
+PP6  0.15  0  0.7  0.6  
+f  3.69  102.0  -4.0
+PP7  -  1.02  0.52  0.71  
+f  1.52  19.0  -5.0
+PP8  0  0.8  0.4  1.57  
+data normal  station left right up down newline direction tape compass clino      
+PP4  0  1.5  0.9  0.6  
+f  0.62  0.0  90.0
+PP9  0  0.3  2.3  1.8  
+f  5.90  118.0  4.0
+PP10  -  0  2  1.47  
+b  0.83  141.0  -21.0
+PP11  -  0.4  0  0.84  
+f  4.33  39.0  5.0
+PP12  0  0.3  2.5  1  
+f  1.70  17.0  8.0
+PP13  0  0.2  2.5  0.35
+
+endcentreline
+endsurvey
+

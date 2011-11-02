@@ -3,6 +3,8 @@ survey Burrington -title "Caves of Burrington Combe"
 
 import Burrington.3d -surveys use -cs OSGB:ST
 
+input PierresPot/PierresPot.th
+
 input Surface/Burrington_Surface.th
 
 input Other_Sites/Other_Sites.th

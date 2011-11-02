@@ -15,7 +15,8 @@
 
 *INCLUDE Bos\Bos1.svx
 
-*INCLUDE PierresPot\PP.svx
+;*INCLUDE PierresPot\PP.svx
+;replaced by Therion version
 
 ;*FIX Rickford reference 348780 159160 61
 

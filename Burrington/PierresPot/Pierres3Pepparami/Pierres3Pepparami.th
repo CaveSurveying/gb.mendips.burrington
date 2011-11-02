@@ -1,0 +1,57 @@
+encoding  utf-8
+survey Pierres3Pepparami
+
+centreline
+
+date 2011.07.23
+
+team "Kevin Hilton"
+team "Claire Cohen"
+
+data normal from to tape compass direction clino
+
+P3D30	P4D2	6.46	349.0	F	-22.0
+P4D2	P4D3	4.41	212.0	B	-30.0
+P4D3	P4D4	1.7	158.0	B	6.0
+P4D4	P4D5	4.01	72.0	F	-33.0
+P4D5	P4D6	3.36	14.0	F	-18.0
+P4D6	P4D7	2.97	128.0	F	2.0
+P4D7	P4D8	3.38	326.0	B	53.0
+P4D8	P4D9	2.83	289.0	B	14.0
+P4D9	P4D10	0.8	92.0	F	-47.0
+P4D10	P4D11	5.606	37.0	F	-8.0
+P4D10	P4D12	22.1	111.0	F	2.0
+P4D12	P4D13	1.92	12.0	F	9.0
+P4D13	P4D14	4.22	111.0	F	-8.0
+P4D4	P4D15	1.5	25.0	F	4.0
+P4D15	P4D16	12.25	287.0	F	8.0
+P4D4	P4D17	4.34	354.0	F	-19.0
+P4D17	P4D18	3.84	15.0	F	9.0
+P4D18	P4D19	10.32	38.0	F	24.0
+
+data dimensions station left right up down
+
+P3D30	3.022	1.378	1.338	0.779	#Wall dividing passage
+P4D2	0.32	0.356	0.529	0	#Small protrusion floor in squeeze
+P4D3	1.046	0.318	0	1.434	#Roof pendant
+P4D4	0	1.54	2.527	1.278	#Left Wall
+P4D5	0.747	1.431	0.275	0.588	#Down to right
+P4D6	0.629	0.913	0.842	0.429	#Out-crop left wall
+P4D7	0.59	0	0	-	#Curtain end of tube above drop
+P4D8	0.2	0.35	0.7	0.1	#Floor of tube
+P4D9	1.02	1.13	1.5	1.26	#Right hand side of passage above stream
+P4D10	1.02	1.13	1.5	1.26	#Rock in passage way (made by stacking rocks)
+P4D12	0.5	0	0.3	0.92	#Upstream right wall (note readings tight to wall - passage width 70cm)
+P4D13	0	0.53	1.1	0.85	#Flowstone left-hand wall
+P4D14	-	-	-	-	#Edge of sump pool just to the left of continuation
+P4D4	0	1.54	2.527	1.278	#Left Wall
+P4D15	-	1.434	3.515	1.276	#Right is passage width.  Right wall.
+P4D16	0.884	0.151	0	0.827	#Ceiling at end of passage
+P4D4	0	1.54	2.527	1.278	#Left Wall
+P4D17	1.76	2.23	0.4	0	#Small stal knob on rock on floor
+P4D18	2.257	5.476	1.861	0.5	#Edge of block middle of chamber
+P4D19	5.126	2.741	0	2.841	#Back wall far side of chamber
+
+endcentreline
+endsurvey
+

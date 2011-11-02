@@ -1,0 +1,30 @@
+encoding  utf-8
+source Pierres3downstream.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+#export map -proj plan -layout local -o Pierres3downstream.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o Pierres3downstreamEe.pdf
+
+export model -fmt survex -o Pierres3downstreamth.3d
+#Survex file showing centre line only
+
+export model -o Pierres3downstream.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o Pierres3downstream_Walls.3d
+#Survex file showing walls only
+
+export map -o Pierres3downstream.xvi -format xvi
+#map for importing into th2 file
+
+layout local
+copy common
+debug off
+map-header 0 0 off
+endlayout

@@ -1,0 +1,28 @@
+encoding  utf-8
+survey PierresPot
+#assembly file for Pierres Pot
+
+input Pierres1/Pierres1.th
+input Twinkletoes/Twinkletoes.th
+input Pierres_upstream/Pierres_upstream.th
+input Pierres2/Pierres2.th
+input Pierres3downstream/Pierres3downstream.th
+input Pierres3door/Pierres3door.th
+input Pierres3Pepparami/Pierres3Pepparami.th
+input Pierres3downstreamtosump/Pierres3downstreamtosump.th
+
+equate 70@Pierres1 14@Twinkletoes
+equate 24@Twinkletoes PP1@Pierres_upstream
+equate 63@Pierres1 P1sump@Pierres2
+equate P2D12@Pierres2 P2D12@Pierres3downstream
+equate P3D30@Pierres3downstream P3D30@Pierres3door
+equate P3D30@Pierres3downstream P3D30@Pierres3Pepparami
+equate P4D19@Pierres3Pepparami P4D19@Pierres3downstreamtosump
+
+
+#*DATA NOSURVEY FROM TO
+
+#Pierrespot.99 Twink.23a
+
+endsurvey
+

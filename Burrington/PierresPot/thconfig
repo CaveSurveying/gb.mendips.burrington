@@ -1,0 +1,30 @@
+encoding  utf-8
+source PierresPot.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+#export map -proj plan -layout local -o PierresPot.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o PierresPotEe.pdf
+
+export model -fmt survex -o PierresPotth.3d
+#Survex file showing centre line only
+
+export model -o PierresPot.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o PierresPot_Walls.3d
+#Survex file showing walls only
+
+#export map -o PierresPot.xvi -format xvi
+#map for importing into th2 file
+
+layout local
+copy common
+debug off
+map-header 0 0 off
+endlayout

@@ -1,0 +1,70 @@
+encoding  utf-8
+survey Pierres3downstreamtosump
+
+centreline
+
+date 2011.10.01
+
+team "Kevin Hilton"
+team "Claire Cohen"
+
+data normal station left right up down newline direction tape compass clino
+P4D19  5.126  2.741  0  2.841  #Back wall far side of chamber  
+F  7.947  87.0  -45.0
+P5D2  -  -  -  -  #Shot down rift that closes down
+data normal station left right up down newline direction tape compass clino        
+P4D19  5.126  2.741  0  2.841  #Back wall far side of chamber  
+F  1.2  306.0  -9.0
+P5D3 - - 1.5  0  #Top of boulder on down route  
+F  5.72  45.0  -40.0
+P5D4  - - - - #Just through window  
+F  6.64  64.0  -52.0
+P5D5  1.949  2.035  0.89  0  #Down dip  
+F  5.332  34.0  -22.0
+P5D6  4.813  0.816  1.444  1.01  #Far side of chamber  
+F  4.82  96.0  -42.0
+P5D7  0.6  0.2  0.55  0  #Rock in middle of stream  
+F  6.1  111.0  2.0
+P5D8  0.1  0.1  0.6  0.5  #Wall - end of pasage (and end of rift)
+data normal station left right up down newline direction tape compass clino        
+P5D7  0.6  0.2  0.55  0  #Rock in middle of stream  
+F  3.02  96.0  -2.0
+P5D9  - - - - #Left hand side of passage  
+F  2.24  52.0  -10.0
+P5D10  -  0  2.5  0.62  #Right hand wall of stream  
+F  1.2  344.0  -18.0
+P5D11 - - - - #Rock in left of stream  
+B  2.12  196.0  -30.0
+P5D12  4.24  0  0.5  0.9  #Right hand wall of chamber  
+F  3.37  322.0  1.0
+P5D13  1.1  0.7  1.55  0  #Up out of stream - middle of passage  
+f  4.98  26.0  4.0
+P5D14 - - - - #Right hand wall  
+F  6.32  263.0  22.0
+P5D15  -  -  0.9  0.8  #Up to far side of chamber  
+F  5.5  191.0  13.0
+P5D16  -  1.5  0.6  0.7  #Needs work from this point
+data normal station left right up down newline direction tape compass clino        
+P5D14 - - - - #Right hand wall  
+f  5.92  9.0  -15.0
+P5D17  3  0.6  0.3  -  #Far wall of chamber  
+f  3.13  28.0  -73.0
+P5D18  0.6  1  0.9  0  #Drop down to streamway  
+f  2.92  342.0  -34.0
+P5D19  0.2  0.8  0.6  0.5  #Down to streamway  
+f  5.66  24.0  4.0
+P5D20  0.1  0.2  1.1  0.5  #Left hand side of streamway  
+f  2.92  59.0  -18.0
+P5D21  0.15  0.7  0.2  0.1  #Rock out-crop above puddle  
+b  2.92  207.0  -18.0
+P5D22  1  0  0  0.6  #Right hand wall up into dry connection  
+f  4.51  273.0  -10.0
+P5D23  0.5  0.4  0.6  0.4  #Small piece stal above water  
+f  2.76  291.0  5.0
+P5D24  0.9  1.2  1.5  0.6  #Small stal left water  
+f  4.32  287.0  -7.0
+P5D25 - - - - #Pendant from ceiling        
+
+endcentreline
+endsurvey
+

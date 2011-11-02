@@ -1,0 +1,32 @@
+encoding  utf-8
+source Pierres1.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+#export map -proj plan -layout mendip -o Pierres1.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj plan -fmt kml -layout mendip -o Pierres1.kml
+
+export model -fmt survex -o Pierres1th.3d
+#Survex file showing centre line only
+
+export model -o Pierres1.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o Pierres1_Walls.3d
+#Survex file showing walls only
+
+#export map -o Pierres1.xvi -format xvi
+#map for importing into th2 file
+
+layout mendip
+
+colour map-bg 90
+#colour map-fg scrap
+#debug on
+#debug scrap-names
+endlayout

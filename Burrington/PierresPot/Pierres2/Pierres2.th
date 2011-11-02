@@ -1,0 +1,41 @@
+encoding  utf-8
+survey Pierres2
+centreline
+
+date 2010.03.05
+team "Kevin Hilton"
+team "Claire Cohen"
+
+data normal from to tape compass clino
+#leg added by GJM to estimate sump 1
+P1sump  P2D1 18 045 0 
+
+data normal station left right up down newline direction tape compass clino
+calibrate tape 0.02
+P2D1  1  0.4  0  0.37 #Top of sump pool
+b  3.88  122.0  -3.0
+P2D2  0.2  1  0.2  0.4  #"Left side passage just above bolt"  
+F  5.64  289.0  -3.0
+P2D3  0.7  0.6  0  0.43  #Roof pendant  
+f  4.97  330.0  0.0
+P2D4  0.93  0.33  0  0.34  #Roof pendant  
+f  2.54  16.0  -1.0
+P2D5  0.92  0.4  0  0.3  #Roof Pendant  
+f  4.22  312.0  10.0
+P2D6  1.57  0  0  0.53  #Right hand wall  
+f  0.26  312.0  -90.0
+P2D7  -  -  0  -  #Drop to floor  
+b  1.41  82.0  -10.0
+P2D8  1.3  0.5  0  0.5  #Roof pendant  
+f  2.42  341.0  7.0
+P2D9  1.02  1.08  0  0.53  #Left wall  
+f  5.80  58.0  -4.0
+P2D10  2.1  0.86  0  0.5  #Right hand wall  
+f  3.45  295.0  3.0
+P2D11  0.91  -  0  0.74  #Pendant  
+f  4.10  30.0  -5.0
+P2D12  0.4  0  0  -  #Right wall just above sump      
+
+endcentreline
+endsurvey
+
