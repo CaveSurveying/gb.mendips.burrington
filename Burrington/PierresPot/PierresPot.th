@@ -19,10 +19,11 @@ equate P3D30@Pierres3downstream P3D30@Pierres3door
 equate P3D30@Pierres3downstream P3D30@Pierres3Pepparami
 equate P4D19@Pierres3Pepparami P4D19@Pierres3downstreamtosump
 
+centreline
+data nosurvey from to
 
-#*DATA NOSURVEY FROM TO
+99@Pierres1 23a@Twinkletoes
 
-#Pierrespot.99 Twink.23a
-
+endcentreline
 endsurvey
 
