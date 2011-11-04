@@ -9,46 +9,48 @@ team "Kevin Hilton"
 team "Claire Cohen"
 
 data normal from to tape compass direction clino
-
-P3D30	P3D32	5.78	289.0	B	16.0
-P3D32	P3D33	5.82	215.0	F	9.0
-P3D33	P3D34	5.65	182.0	F	6.0
-P3D34	P3D35	3.49	178.0	f	-24.0
-P3D35	P3D36	4.04	239.0	F	6.0
-P3D36	P3D37	2.53	267.0	f	47.0
-P3D37	P3D38	10.55	292.0	f	2.0
-P3D38	P3D39	7.75	281.0	f	9.0
-P3D39	P3D40	5.56	284.0	f	0.0
-P3D36	P3D41	3.46	129.0	f	-9.0
-P3D41	P3D42	2.86	194.0	f	-6.0
-P3D42	P3D43	9.32	275.0	f	28.0
-P3D43	P3D44	4.14	359.0	f	21.0
-P3D42	P3D45	4.84	276.0	f	20.0
-P3D45	P3D46	5.23	179.0	f	-4.0
-P3D46	P3D47	4.638	118.0	f	-24.0
+flags duplicate
+P3D30  P3D32  5.78  289.0  B  16.0
+flags not duplicate
+P3D32  P3D33  5.82  215.0  F  9.0
+P3D33  P3D34  5.65  182.0  F  6.0
+P3D34  P3D35  3.49  178.0  f  -24.0
+P3D35  P3D36  4.04  239.0  F  6.0
+P3D36  P3D37  2.53  267.0  f  47.0
+P3D37  P3D38  10.55  292.0  f  2.0
+P3D38  P3D39  7.75  281.0  f  9.0
+P3D39  P3D40  5.56  284.0  f  0.0
+P3D36  P3D41  3.46  129.0  f  -9.0
+P3D41  P3D42  2.86  194.0  f  -6.0
+P3D42  P3D43  9.32  275.0  f  28.0
+P3D43  P3D44  4.14  359.0  f  21.0
+P3D42  P3D45  4.84  276.0  f  20.0
+P3D45  P3D46  5.23  179.0  f  -4.0
+P3D46  P3D47  4.638  118.0  f  -24.0
 
 data dimensions station left right up down
 
-P3D30	3.022	1.378	1.338	0.779	#Wall dividing passage	
-P3D32	-	-	-	-	#Top of 3 tallest three small stals by pillar	
-P3D33	0.72	0	3.586	1.236	#Right-hand wall into 'door'	
-P3D34	2.024	0	1.808	0.15	#Right wall high	
-P3D35	0	1.948	0.814	1.48	#Left hand wall directly above the centre of the sump	
-P3D36	0.314	0.733	2.592	0.578	#Floor start of passage	
-P3D37	0	0.15	0.4	0.891	#Left hand wall	
-P3D38	0.503	0	3.105	1.647	#Right hand wall of rift. Note - rift angled at +67 this way \	
-P3D39	0.977	0	0.445	1.601	#Right hand wall along rift	
-P3D40	0	0.6	0.6	1.737	#Lefthand wall at end of rift.	
-P3D36	0.314	0.733	2.592	0.578	#Floor start of passage	
-P3D41	0.06	0.95	0	0.4	#Left hand wall ceiling in tube	
-P3D42	0.06	0.648	1.68	0	#Floor of tube	
-P3D43	-	-	-	-	#Up tube	
-P3D44	1.07	0	0	0.35	#End of tube opening out into rify passage below	
-P3D42	0.06	0.648	1.68	0	#Floor of tube	
-P3D45	-	-	-	-	#Left of junction right wall	
-P3D46	1.743	-	0.25	1.14	#Right hand wall of tube	
-P3D47	-	-	-	-	#Tube closes right down	
+P3D30  3.022  1.378  1.338  0.779  #Wall dividing passage  
+P3D32  -  -  -  -  #Top of 3 tallest three small stals by pillar  
+P3D33  0.72  0  3.586  1.236  #Right-hand wall into 'door'  
+P3D34  2.024  0  1.808  0.15  #Right wall high  
+P3D35  0  1.948  0.814  1.48  #Left hand wall directly above the centre of the sump  
+P3D36  0.314  0.733  2.592  0.578  #Floor start of passage  
+P3D37  0  0.15  0.4  0.891  #Left hand wall  
+P3D38  0.503  0  3.105  1.647  #Right hand wall of rift. Note - rift angled at +67 this way \  
+P3D39  0.977  0  0.445  1.601  #Right hand wall along rift  
+P3D40  0  0.6  0.6  1.737  #Lefthand wall at end of rift.  
+P3D36  0.314  0.733  2.592  0.578  #Floor start of passage  
+P3D41  0.06  0.95  0  0.4  #Left hand wall ceiling in tube  
+P3D42  0.06  0.648  1.68  0  #Floor of tube  
+P3D43  -  -  -  -  #Up tube  
+P3D44  1.07  0  0  0.35  #End of tube opening out into rify passage below  
+P3D42  0.06  0.648  1.68  0  #Floor of tube  
+P3D45  -  -  -  -  #Left of junction right wall  
+P3D46  1.743  -  0.25  1.14  #Right hand wall of tube  
+P3D47  -  -  -  -  #Tube closes right down  
 
 
 endcentreline
 endsurvey
+
