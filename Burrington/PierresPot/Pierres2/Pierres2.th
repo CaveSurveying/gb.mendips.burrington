@@ -6,11 +6,12 @@ date 2010.03.05
 team "Kevin Hilton"
 team "Claire Cohen"
 
-data normal from to tape compass clino
+#data normal from to tape compass clino
 #leg added by GJM to estimate sump 1
-P1sump  P2D1 18 045 0
-data dimensions station left right up down
-P1sump 0.5  0.5 0 0.6
+#P1sump  P2D1 18 045 0
+#data dimensions station left right up down
+#P1sump 0.5  0.5 0 0.6
+#removed no longer needed
 
 data normal station left right up down newline direction tape compass clino
 calibrate tape 0.02

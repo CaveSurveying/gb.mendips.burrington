@@ -13,7 +13,7 @@ input Pierres3downstreamtosump/Pierres3downstreamtosump.th
 
 equate 70@Pierres1 14@Twinkletoes
 equate 24@Twinkletoes PP1@Pierres_upstream
-equate 63@Pierres1 P1sump@Pierres2
+#equate 63@Pierres1 P1sump@Pierres2
 equate P2D12@Pierres2 P2D12@Pierres3downstream
 equate P3D30@Pierres3downstream P3D30@Pierres3door
 equate P3D30@Pierres3downstream P3D30@Pierres3Pepparami
@@ -23,13 +23,24 @@ centreline
 
 cs OSGB:ST
 
-fix PP1 47652 58424 100
+#fix PP1 47652 58424 100
+#incorporated into survey
 
-fix PP2 47530 58449 100
+#fix PP2 47530 58449 100
+#commented out as not useful
 
 data nosurvey from to
 
 99@Pierres1 23a@Twinkletoes
+
+
+63@Pierres1 P2D1@Pierres2
+
+data dimensions station left right up down
+
+63@Pierres1 0.5 0.5 0 0.6
+
+#use until sump 1 data available
 
 endcentreline
 endsurvey
