@@ -1,0 +1,21 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -1447.95 -762.44 8687.72 4574.65
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {7651.92913386 1 1.0} {4091.85088718 1.0} PocketTopo/BathEnt_e.xvi 0 {}
+
+
+scrap BathEntSEe1 -projection extended -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BathEntSEe2 -projection extended -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BathEntSEe3 -projection extended -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

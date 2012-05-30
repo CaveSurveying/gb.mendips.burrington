@@ -1,0 +1,30 @@
+encoding  utf-8
+source BathEnt.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+export map -proj plan -layout local -o BathEnt.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o BathEntEe.pdf
+
+export model -fmt survex -o BathEntth.3d
+#Survex file showing centre line only
+
+export model -o BathEnt.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o BathEnt_Walls.3d
+#Survex file showing walls only
+
+layout local
+copy common
+debug off
+map-header 0 0 off
+#symbol-hide group cave-centreline
+endlayout
+
+input ../../common_layout.th
