@@ -17,6 +17,8 @@ equate 1.14 1.17
 
 centreline
 
+cs OSGB:ST
+
 ### TRIP COMMENT FROM POCKETTOPO ###
 #Notes: Andrew Atkinson
 #Instrument: John Cooper
@@ -33,6 +35,11 @@ data normal from to tape compass clino ignoreall
 #calibration check at AAs
 #1.0  -  3.49  90.14  18.58  
 #1.0  -  3.484  90.12  19.01  
+
+station 1.0 "Bath Swallet" entrance
+fix 1.0 47252.68 58435.10 171.68
+#added by GJM from old data need re-checking
+
 1.0  -  0.435  305.81  4.5  drilled insert
 1.0  -  0.829  223.39  6.99  
 1.0  -  0.836  196.69  2.64  
