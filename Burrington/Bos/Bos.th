@@ -1,0 +1,55 @@
+encoding  utf-8
+survey Bos
+
+
+centreline
+cs OSGB:ST
+date 2008.07.03
+
+team "Christian Chourot"
+team "Chris Binding"
+
+data normal from to tape compass clino ignoreall
+
+declination 0 degree
+calibrate compass -10
+
+station 13 "Bos Swallet" entrance
+
+fix 14 47090 58370 178
+#nose on rock above & west of entrance photo CJB
+#GJM thinks this is within 1 m horiz and vert of Crickmay's benchmark
+
+#station 1 is the bolt hole at the top of the first pitch
+2	1	0.66	113	8
+3	2	2.08	303	-40
+4	3	1.73	324	-51
+5	4	4.94	335	-52
+6	5	2.6	315	-60
+6	7	3.9	304	-14
+8	6	3.60	293	-16
+9	8	3.16	328	-46
+10	9	1.92	060	-42
+11	10	2.5	346	-52
+12	11	5.5	25	-53
+13	12	1.2	000	-90
+flags surface
+14	13	2.56	110	-53
+flags not surface
+
+data dimensions station left right up down
+
+2	0.5	0.5	1	0.8
+3	0.09	0.09	0.1	0.9
+4	0.06	0.06	0.25	0.6
+5	0.5	0.5	1.2	2
+6	0.6	0.3	0.45	1.1
+7	0.2	0.05	0.1	0.4
+8	0.4	0.05	0.1	0.4
+9	0.6	0.3	0.25	0.4
+10	0.5	0.7	0.3	1.30
+11	0.45	0.25	0.2	0.25
+12	0.5	0.4	0.45	0.6
+
+endcentreline
+endsurvey

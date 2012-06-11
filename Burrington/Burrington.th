@@ -5,6 +5,8 @@ import Burrington.3d -surveys use -cs OSGB:ST
 
 input Bath-Rods/BathEnt/BathEnt.th
 
+input Bos/Bos.th
+
 input PierresPot/PierresPot.th
 
 input Surface/Burrington_Surface.th

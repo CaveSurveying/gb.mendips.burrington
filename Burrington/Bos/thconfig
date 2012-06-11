@@ -1,0 +1,34 @@
+encoding  utf-8
+source Bos.th
+# Change name to the main therion file
+
+
+#Surveys to output
+#-----------------
+
+#export map -proj plan -layout local -o Bos.pdf
+#Produces plan of cave, on a single sheet
+
+#export map -proj extended -layout local -o BosEe.pdf
+
+export model -fmt survex -o Bosth.3d
+#Survex file showing centre line only
+
+export model -o Bos.lox
+#3d therion model to be viewed in the therion viewer
+
+#export map -proj plan -o Bos_Walls.3d
+#Survex file showing walls only
+
+export map -o Bos.xvi -format xvi
+#map for importing into th2 file
+
+export map -proj extended -o BosEe.xvi
+#elevation for importing into th2 file
+
+layout local
+#copy common
+debug off
+map-header 0 0 off
+
+endlayout
