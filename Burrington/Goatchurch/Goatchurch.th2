@@ -4,3 +4,285 @@ encoding  utf-8
 ##XTHERION## xth_me_image_insert {0 1 1.0} {0 {}} Original_Data/GoatchurchA3drawing.jpg 0 {}
 
 
+
+scrap GoatchurcSP1 -projection p -scale [-128 -1296 1780 -1296 0.0 0.0 48.4632 0.0 m]
+
+point 933.25 -817.25 station -name 34
+
+point 1076.25 -847.25 station -name 33
+
+point 1058.75 -846.75 station -name 32
+
+point 1015.25 -844.5 station -name 31
+
+point 958.5 -805.25 station -name 37
+
+point 973.25 -905.25 station -name 36
+
+point 906.5 -861.5 station -name 28
+
+point 958.75 -865.5 station -name 21
+
+point 915.5 -1037.25 station -name 27
+
+point 912.75 -998.25 station -name 26
+
+point 908.75 -903.0 station -name 25
+
+point 910.75 -892.75 station -name 24
+
+point 905.25 -907.0 station -name 22
+
+point 872.75 -890.75 station -name 23
+
+point 823.0 -791.0 station -name 20
+
+point 786.0 -826.25 station -name 19
+
+point 830.5 -808.0 station -name 18
+
+point 860.5 -806.5 station -name 17
+
+point 845.5 -891.25 station -name 15
+
+point 675.0 -848.0 station -name 8
+
+point 704.75 -852.75 station -name 7
+
+point 726.0 -865.0 station -name 6
+
+point 784.75 -944.5 station -name 5
+
+point 729.25 -930.0 station -name 4
+
+point 793.0 -904.0 station -name 3
+
+point 678.25 -918.25 station -name 2
+
+point 543.0 -901.5 station -name 1
+
+endscrap
+
+
+
+scrap GoatchurcSP2 -projection p -scale [-128 -1296 1780 -1296 0.0 0.0 48.4632 0.0 m]
+
+point 395.5 -641.0 station -name c13
+
+point 423.75 -644.75 station -name c1
+
+point 326.0 -679.75 station -name c15
+
+point 315.25 -688.25 station -name c14
+
+point 354.5 -678.25 station -name c16
+
+point 390.25 -664.25 station -name c18
+
+point 408.25 -663.0 station -name 66
+
+point 502.25 -733.75 station -name m41
+
+point 507.75 -743.0 station -name m39
+
+point 597.75 -818.5 station -name m26
+
+point 589.25 -858.0 station -name m25
+
+point 565.75 -836.5 station -name m24
+
+point 532.75 -841.5 station -name m23
+
+point 503.75 -854.25 station -name m22
+
+point 511.75 -837.0 station -name m21
+
+point 474.25 -834.25 station -name m20
+
+point 687.0 -731.75 station -name m30
+
+point 664.75 -745.75 station -name m29
+
+point 649.0 -804.0 station -name m28
+
+point 624.25 -798.25 station -name m27
+
+point 560.5 -800.25 station -name m32
+
+point 598.0 -773.75 station -name m31
+
+point 581.5 -738.0 station -name m33
+
+point 509.5 -769.75 station -name m34
+
+point 526.5 -796.25 station -name m35
+
+point 472.25 -819.5 station -name m16
+
+point 452.75 -791.25 station -name m11
+
+point 429.75 -770.25 station -name m8
+
+point 458.0 -758.5 station -name m7
+
+point 449.5 -721.5 station -name m6
+
+point 485.5 -683.25 station -name m5
+
+point 485.25 -663.5 station -name 64
+
+point 312.75 -729.5 station -name 71
+
+point 340.25 -752.75 station -name 70
+
+point 371.25 -721.0 station -name 69
+
+point 403.75 -704.0 station -name 68
+
+point 440.5 -664.75 station -name 67
+
+point 496.0 -661.0 station -name 63
+
+point 546.5 -657.0 station -name 62
+
+point 477.5 -722.0 station -name m3
+
+point 559.5 -715.0 station -name m2
+
+point 571.0 -699.25 station -name m1
+
+point 575.5 -703.5 station -name 60
+
+point 612.75 -674.25 station -name 59
+
+point 732.75 -653.5 station -name 57
+
+point 750.5 -665.5 station -name 56
+
+point 764.5 -668.0 station -name 55
+
+point 775.25 -652.25 station -name 54
+
+point 763.0 -700.25 station -name 53
+
+point 764.25 -680.0 station -name 52
+
+point 809.5 -666.0 station -name 51
+
+point 824.0 -711.0 station -name 49
+
+point 863.5 -641.0 station -name 47
+
+point 850.25 -672.25 station -name 46
+
+point 901.75 -688.0 station -name 45
+
+point 938.25 -676.75 station -name 44
+
+point 966.25 -680.5 station -name 43
+
+point 959.0 -730.75 station -name 42
+
+point 1008.25 -746.25 station -name 41
+
+point 972.5 -755.25 station -name 40
+
+point 984.0 -848.75 station -name op20
+
+point 991.0 -836.75 station -name op19
+
+point 996.5 -840.25 station -name op18
+
+point 1020.5 -825.75 station -name op17
+
+point 976.5 -826.75 station -name op16
+
+point 1026.5 -792.0 station -name op15
+
+point 1033.75 -797.0 station -name op14
+
+point 1068.5 -797.75 station -name op13
+
+point 1112.75 -790.75 station -name op12
+
+point 1079.25 -790.0 station -name op11
+
+point 1091.5 -773.5 station -name op9
+
+point 1077.5 -762.0 station -name op8
+
+point 1110.0 -775.0 station -name op7
+
+point 1102.0 -749.25 station -name op5
+
+point 1078.0 -742.5 station -name op4
+
+point 1069.75 -725.25 station -name op3
+
+point 1063.0 -740.25 station -name op2
+
+point 1066.75 -713.0 station -name op1
+
+point 978.75 -777.75 station -name op22
+
+point 963.75 -767.25 station -name 39
+
+point 966.25 -746.75 station -name 38
+
+endscrap
+
+
+
+scrap GoatchurcSP3 -projection p -scale [-128 -1296 1780 -1296 0.0 0.0 48.4632 0.0 m]
+
+point 339.5 -650.5 station -name c11
+
+point 381.25 -640.25 station -name c10
+
+point 407.0 -634.25 station -name c9
+
+point 415.75 -600.0 station -name c8
+
+point 413.5 -626.0 station -name c7
+
+endscrap
+
+
+
+scrap GoatchurcSP4 -projection p -scale [-128 -1296 1780 -1296 0.0 0.0 48.4632 0.0 m]
+
+point 452.25 -591.75 station -name c5
+
+point 429.75 -593.5 station -name c4
+
+point 420.25 -593.25 station -name c3
+
+point 426.5 -617.75 station -name c2
+
+endscrap
+
+
+
+scrap GoatchurcSP5 -projection p -scale [-128 -1296 1780 -1296 0.0 0.0 48.4632 0.0 m]
+
+point 388.0 -820.0 station -name m14
+
+point 397.5 -765.25 station -name m13
+
+point 407.75 -786.0 station -name m12
+
+endscrap
+
+
+
+scrap GoatchurcSP6 -projection p -scale [-128 -1296 1780 -1296 0.0 0.0 48.4632 0.0 m]
+
+endscrap
+
+
+
+scrap GoatchurcSP7 -projection p -scale [-128 -1296 1780 -1296 0.0 0.0 48.4632 0.0 m]
+
+endscrap
+
+
