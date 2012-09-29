@@ -1,0 +1,26 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -774.65 -488.98 4647.87 2933.86
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {3702.12598425 1 1.0} {665.669291339 1.6} PocketTopo/MainChamber_p.xvi 0 {}
+
+
+scrap MainChamberSPl1 -projection plan -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap MainChamberSPl2 -projection plan -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap MainChamberSPl3 -projection plan -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap MainChamberSX2.3 -projection none -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

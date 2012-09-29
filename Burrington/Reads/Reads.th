@@ -1,0 +1,15 @@
+encoding  utf-8
+survey Reads
+
+input DryEnt/DryEnt.th
+input MainChamber/MainChamber.th
+
+equate 1.6@DryEnt 2.0@MainChamber
+
+map ReadsM
+  DryEntM@DryEnt
+  MainChamberM@MainChamber
+endmap
+
+endsurvey
+

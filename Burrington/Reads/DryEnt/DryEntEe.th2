@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -178.66 -185.29 1071.97 1111.72
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {305.866141732 1 1.0} {908.837011854 1.0} PocketTopo/DryEnt_e.xvi 0 {}
+
+
+scrap DryEntSEe1 -projection extended -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
