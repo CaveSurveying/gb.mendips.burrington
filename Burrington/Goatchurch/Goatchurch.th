@@ -1,6 +1,23 @@
 encoding  utf-8
 survey Goatchurch                      
 centreline
+
+63	MS1	4.59	26	2
+MS1	MS2	11.29	4	-36
+MS2	MS3	10.89	246	1.5
+MS3	MS4	6.17	206	24
+MS3	MS5	3.28	268	28
+MS2	MS6	4.23	352	-40
+MS7	MS6	3.74	321	22
+MS8	MS7	3.44	310	34
+MS8	MS9	6.27	236	34
+MS10	MS8	12.8	257	30
+MS10	MS11	8.04	89	-26
+MS11	MS12	4.99	112	0
+MS12	MS13	12.73	208	-26
+MS12	b2	14.14	89	-16
+
+
 #SURVEY  NAME:  First                  
 #SURVEY  DATE:  11  15  2006  COMMENT:            
 #SURVEY  TEAM:                    

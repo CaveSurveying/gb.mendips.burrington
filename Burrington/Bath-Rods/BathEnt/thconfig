@@ -23,8 +23,8 @@ export model -o BathEnt.lox
 layout local
 copy common
 debug off
-map-header 0 0 off
-#symbol-hide group cave-centreline
+map-header 100 100 off
+symbol-hide group cave-centreline
 endlayout
 
 input ../../common_layout.th

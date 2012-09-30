@@ -6,6 +6,7 @@ input BathEntEe.th2
 
 map BathEntM
   BathEntSPl1
+ break
   BathEntSPl2
   BathEntSPl3
   BathEntSPl4

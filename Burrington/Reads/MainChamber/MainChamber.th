@@ -6,8 +6,6 @@ input MainChamberEe.th2
 
 map MainChamberM
   MainChamberSPl1
-  MainChamberSPl2
-  MainChamberSPl3
 endmap
 
 centreline
@@ -152,11 +150,12 @@ data normal from to tape compass clino ignoreall
 2.9  -  1.568  353.36  -65.37  
 2.9  -  4.669  281.27  -11.21  
 2.9  -  5.913  286.67  -16.14  
-2.5  -  0.0  0.0  0.0  
+flags splay 
 #2.10  2.5  6.833  38.15  -14.65  
 #2.10  2.5  6.804  37.88  -14.47  
 #2.10  2.5  6.821  38.11  -14.53  
 2.10  2.5  6.819  38.04  -14.55  Calculated leg from 3 above
+flags not splay
 2.10  -  3.922  92.95  8.92  
 2.10  -  1.455  87.83  -25.86  
 2.10  -  1.493  91.22  24.81  

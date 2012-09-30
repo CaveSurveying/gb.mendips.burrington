@@ -23,7 +23,7 @@ export model -fmt survex -o MainChamberth.3d
 layout local
 copy common
 debug off
-map-header 0 0 off
+map-header 0 0 nw
 #symbol-hide group cave-centreline
 endlayout
 
