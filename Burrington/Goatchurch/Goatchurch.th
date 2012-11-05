@@ -1,0 +1,18 @@
+encoding  utf-8
+survey Goatchurch
+
+input GoatchurchMainEntrance1/GoatchurchMainEntrance1.th
+input GoatchurchSecondJunction1/GoatchurchSecondJunction1.th
+
+
+equate 1.12@GoatchurchMainEntrance1 2.0@GoatchurchSecondJunction1
+
+map GoatchurchM
+  GoatchurchMainEntrance1M@GoatchurchMainEntrance1
+  GoatchurchSecondJunction1M@GoatchurchSecondJunction1
+endmap
+
+join GCMainEntSP1@GoatchurchMainEntrance1 GCSndJncSP1@GoatchurchSecondJunction1 -smooth on
+
+endsurvey
+

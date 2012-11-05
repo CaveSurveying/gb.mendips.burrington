@@ -1,0 +1,20 @@
+encoding  utf-8
+source Goatchurch.th
+
+layout water-blue
+  code metapost
+  def a_water (expr p) =
+    T:=identity;
+    thfill p withcolor (0.0, 0.4, 0.8);
+  enddef;
+endlayout
+
+
+export model -fmt survex -o Goatchurchth.3d
+
+export model -o Goatchurch.lox
+
+export map -projection plan -o Goatchurch.pdf \
+   -layout water-blue
+
+export map -projection elevation -o GoatchurchEe.pdf
