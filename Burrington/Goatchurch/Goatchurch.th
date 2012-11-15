@@ -1,5 +1,5 @@
 encoding  utf-8
-survey Goatchurch
+survey Goatchurch -title "Goatchurch Cavern<br>Burrington Combe"
 
 input GoatchurchMainEntrance1/GoatchurchMainEntrance1.th
 input GoatchurchSecondJunction1/GoatchurchSecondJunction1.th
