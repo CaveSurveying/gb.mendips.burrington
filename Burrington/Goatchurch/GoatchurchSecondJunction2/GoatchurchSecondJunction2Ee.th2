@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -577.68 -131.51 3466.05 789.07
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {288.837811668 1 1.0} {150.682449427 3.0} PocketTopo/GoatchurchSecondJunction2_e.xvi 0 {}
+
+
+scrap GoatchurchSecondJunction2SE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

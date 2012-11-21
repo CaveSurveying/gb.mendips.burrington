@@ -3,13 +3,16 @@ survey Goatchurch -title "Goatchurch Cavern<br>Burrington Combe"
 
 input GoatchurchMainEntrance1/GoatchurchMainEntrance1.th
 input GoatchurchSecondJunction1/GoatchurchSecondJunction1.th
+input GoatchurchSecondJunction2/GoatchurchSecondJunction2.th
 
 
 equate 1.12@GoatchurchMainEntrance1 2.0@GoatchurchSecondJunction1
+equate 2.8@GoatchurchSecondJunction1 3.0@GoatchurchSecondJunction2
 
 map GoatchurchM
   GoatchurchMainEntrance1M@GoatchurchMainEntrance1
   GoatchurchSecondJunction1M@GoatchurchSecondJunction1
+  GoatchurchSecondJunction2M@GoatchurchSecondJunction2
 endmap
 
 join GCMainEntSP1@GoatchurchMainEntrance1 GCSndJncSP1@GoatchurchSecondJunction1 -smooth on

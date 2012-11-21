@@ -1,0 +1,10 @@
+encoding  utf-8
+source GoatchurchSecondJunction1.th
+
+#export model -fmt survex -o GoatchurchSecondJunction1th.3d
+
+#export model -o GoatchurchSecondJunction1.lox
+
+export map -projection plan -o GoatchurchSecondJunction1.pdf 
+
+#export map -projection elevation -o GoatchurchSecondJunction1Ee.pdf

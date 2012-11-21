@@ -1,0 +1,10 @@
+encoding  utf-8
+source GoatchurchMainEntrance1.th
+
+#export model -fmt survex -o GoatchurchMainEntranceth.3d
+
+#export model -o GoatchurchMainEntrance.lox
+
+export map -projection plan -o GoatchurchMainEntrance.pdf   
+
+#export map -projection elevation -o GoatchurchMainEntranceEe.pdf
