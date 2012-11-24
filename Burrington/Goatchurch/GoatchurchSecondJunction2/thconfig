@@ -6,12 +6,12 @@ source GoatchurchSecondJunction2.th
 #Surveys to output
 #-----------------
 
-#export map -proj plan -layout local -o GoatchurchSecondJunction2.pdf
+export map -proj plan -layout local -o GoatchurchSecondJunction2.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o GoatchurchSecondJunction2Ee.pdf
 
-export model -fmt survex -o GoatchurchSecondJunction2th.3d
+#export model -fmt survex -o GoatchurchSecondJunction2th.3d
 #Survex file showing centre line only
 
 #export model -o GoatchurchSecondJunction2.lox

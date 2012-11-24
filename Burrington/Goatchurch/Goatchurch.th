@@ -16,6 +16,7 @@ map GoatchurchM
 endmap
 
 join GCMainEntSP1@GoatchurchMainEntrance1 GCSndJncSP1@GoatchurchSecondJunction1 -smooth on
+join GCSndJncSP1@GoatchurchSecondJunction1 GoatchurchSecondJunction2SP1@GoatchurchSecondJunction2 -smooth on
 
 endsurvey
 
