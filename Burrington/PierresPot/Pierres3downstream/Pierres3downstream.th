@@ -91,7 +91,8 @@ flags duplicate
 P3D18 P3D31 1.0 255 0.0
 flags not duplicate
 
-fix P3D31 47652 58424 107.56
+#fix P3D31 47652 58424 107.56
+#not sure this helps much
 
 endcentreline
 endsurvey

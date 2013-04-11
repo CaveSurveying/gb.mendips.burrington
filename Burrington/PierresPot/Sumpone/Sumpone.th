@@ -1,0 +1,26 @@
+encoding  utf-8
+survey Sumpone
+centreline
+
+date 2013.01.26
+team "Kevin Hilton"
+team "Claire Cohen"
+
+data normal to from tape compass clino
+P1M23	P1M24	1.2	195.0	0.0
+P1M24	P1M25	0.2	180.0	0.0
+P1M25	P1M26	1.2	165.0	0.0
+P1M26	P1M27	1.1	135.0	0.0
+P1M27	P1M28	0.9	120.0	0.0
+P1M28	P1M29	1.2	125.0	0.0
+P1M29	P1M30	0.8	120.0	0.0
+P1M30	P1M31	1.9	140.0	0.0
+P1M31	P1M32	3.1	115.0	0.0
+P1M32	P1M33	1.9	110.0	0.0
+P1M33	P1M34	3.9	105.0	0.0
+P1M34	P1M35	1.6	120.0	0.0
+
+endcentreline
+endsurvey
+
+

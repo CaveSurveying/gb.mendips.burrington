@@ -5,6 +5,7 @@ survey PierresPot
 input Pierres1/Pierres1.th
 input Twinkletoes/Twinkletoes.th
 input Pierres_upstream/Pierres_upstream.th
+input Sumpone/Sumpone.th
 input Pierres2/Pierres2.th
 input Pierres3downstream/Pierres3downstream.th
 input Pierres3door/Pierres3door.th
@@ -13,7 +14,8 @@ input Pierres3downstreamtosump/Pierres3downstreamtosump.th
 
 equate 70@Pierres1 14@Twinkletoes
 equate 24@Twinkletoes PP1@Pierres_upstream
-#equate 63@Pierres1 P1sump@Pierres2
+equate 63@Pierres1 P1M23@Sumpone
+equate P1M35@Sumpone P2D1@Pierres2
 equate P2D12@Pierres2 P2D12@Pierres3downstream
 equate P3D30@Pierres3downstream P3D30@Pierres3door
 equate P3D30@Pierres3downstream P3D30@Pierres3Pepparami
@@ -32,15 +34,6 @@ cs OSGB:ST
 data nosurvey from to
 
 99@Pierres1 23a@Twinkletoes
-
-
-63@Pierres1 P2D1@Pierres2
-
-data dimensions station left right up down
-
-63@Pierres1 0.5 0.5 0 0.6
-
-#use until sump 1 data available
 
 endcentreline
 endsurvey

@@ -24,7 +24,7 @@ export model -o Sumpone.lox
 #map for importing into th2 file
 
 layout local
-copy common
+#copy common
 debug off
 map-header 0 0 off
 endlayout
