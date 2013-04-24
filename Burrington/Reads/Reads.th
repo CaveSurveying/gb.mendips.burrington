@@ -3,12 +3,15 @@ survey Reads
 
 input DryEnt/DryEnt.th
 input MainChamber/MainChamber.th
+input Water/Water.th
 
 equate 1.6@DryEnt 2.0@MainChamber
+equate  3.0@Water 2.7@MainChamber
 
 map ReadsM
   DryEntM@DryEnt
   MainChamberM@MainChamber
+  WaterM@Water
 endmap
 
 endsurvey

@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -205.28 -126.77 1231.66 760.63
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {934.214080143 1 1.0} {496.614173228 2.7} PocketTopo/Water_e.xvi 0 {}
+
+
+scrap WaterSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
