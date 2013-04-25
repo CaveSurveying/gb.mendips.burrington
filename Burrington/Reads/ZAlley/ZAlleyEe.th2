@@ -1,0 +1,16 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -283.15 -251.02 1698.9 1506.14
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {658.346456693 1 1.0} {1359.13385827 4.23} PocketTopo/ZAlley_e.xvi 0 {}
+
+
+scrap ZAlleySE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap ZAlleySE2 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

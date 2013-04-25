@@ -3,10 +3,15 @@ survey Reads
 
 input DryEnt/DryEnt.th
 input MainChamber/MainChamber.th
+input Pipe/Pipe.th
 input Water/Water.th
+input ZAlley/ZAlley.th
+
 
 equate 1.6@DryEnt 2.0@MainChamber
-equate  3.0@Water 2.7@MainChamber
+equate 2.1@MainChamber 4.0@Pipe
+equate   2.7@MainChamber 3.0@Water
+equate 4.23@Pipe 5.0@ZAlley
 
 map ReadsM
   DryEntM@DryEnt

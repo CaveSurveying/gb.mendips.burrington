@@ -1,7 +1,7 @@
 encoding  utf-8
 source Reads.th
 
-export map -proj plan -layout mendip -o Reads.pdf
+#export map -proj plan -layout mendip -o Reads.pdf
 
 #export map -proj plan -fmt kml -layout mendip -o Reads.kml
 

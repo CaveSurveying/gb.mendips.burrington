@@ -1,0 +1,48 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -106.3385826773 -87.05511810999997 1252.0236220469 1428.7874015748
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {895.261574803 1 1.0} {687.4905511799999 4.11} PocketTopo/Pipe_p.xvi 0 {}
+
+
+
+scrap PipeSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap PipeSP2 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap PipeSP3 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap PipeSP4 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap PipeSP5 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap PipeSP6 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap PipeSPX4.8 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+

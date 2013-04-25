@@ -1,0 +1,26 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -220.5 -240.08 1322.98 1440.49
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {110.248379865 1 1.0} {1213.13080259 2.1} PocketTopo/Pipe_E15.xvi 0 {}
+
+
+scrap PipeSE15_1 -projection [elevation 15] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap PipeSE15_2 -projection [elevation 15] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap PipeSE15_3 -projection [elevation 15] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap PipeSE15_4 -projection [elevation 15] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
