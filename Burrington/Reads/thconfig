@@ -1,7 +1,7 @@
 encoding  utf-8
 source Reads.th
 
-#export map -proj plan -layout mendip -o Reads.pdf
+export map -proj plan -layout mendip -o Reads.pdf
 
 #export map -proj plan -fmt kml -layout mendip -o Reads.kml
 
@@ -12,6 +12,85 @@ export model -fmt survex -o Readsth.3d
 #Survex file showing centre line only
 
 layout mendip
+copy common
+scale 1 500
+debug off
+map-header 0 0 off
+#symbol-hide group cave-centreline
 
-map-header 0 0 nw
+code metapost
+def l_wall_blocks_CHED (expr P) = 
+
+  T:=identity;
+  pickup PenC;
+  laenge := arclength P;
+
+  path block;
+  path old_block;
+  
+  cur := 0;
+  
+  
+  #draw first block
+  old_block := ( (.35u,-.15u)--(.42u,0.01u)--(.2u,.15u)--(.05u,.13u)--(-.0u,-.0u) );
+  block_width := (xpart urcorner old_block - xpart ulcorner old_block);
+  t:= arctime (cur+block_width/2) of P;
+  old_block:=old_block rotated angle( direction t of P) shifted point t of P;
+  thclean (old_block--cycle);
+  thdraw old_block;
+  
+  
+  cur := cur + block_width;
+  t:= arctime cur of P;
+  forever:
+    # generate random block
+    block := punked ( ( (.4u,-.15u)--(.43u,0.01u)--(.3u,.14u)--(.05u,.11u)--(-.0u,-.13u) )
+          randomized (0.1u) )
+           scaled (uniformdeviate(0.3)+.65)
+          rotated (uniformdeviate(30)-15);
+    # check width of block
+    block_width := (xpart urcorner block - xpart ulcorner block);
+    
+    exitif cur > (laenge- 3*block_width/2);
+    # find next position where the block fits in without intersecting the previous one
+    forever:    
+      exitif xpart ( ((block--cycle) rotated angle(direction t of P) shifted point t of P) intersectiontimes old_block) < 0;
+      cur:=cur+0.01u;
+      t:= arctime cur of P;
+      exitif cur > (laenge- 3*block_width/2);
+    endfor;
+    exitif cur > (laenge- 3*block_width/2);
+    
+    old_block:= block rotated angle(direction t of P) shifted point t of P;
+    thclean (old_block--cycle);
+    thdraw old_block;
+ 
+    cur := cur + block_width;
+    t:= arctime cur of P;
+  endfor;
+  
+    # generate last block
+    
+    block := (( (-.07u,-.15u)--(.0u,.0u)--(-.22u,.15u)--(-.37u,.13u)--(-.42u,-.0u)) );
+    block_width := (xpart urcorner block - xpart ulcorner block);
+    t:= arctime (laenge+cur)/2 of P;
+    # scale last block to fit in the remaining gap
+    scale_factor:=(laenge-cur)/block_width;
+    forever:
+	  exitif scale_factor < 0;
+      exitif xpart ( ( (block) rotated angle (direction t of P) scaled scale_factor shifted (point t of P) ) intersectiontimes old_block) < 0;
+      scale_factor:=scale_factor-0.001;
+    endfor;
+    if scale_factor > 0:
+      thclean (block--cycle) rotated angle (direction t of P) scaled scale_factor shifted (point t of P);
+      thdraw (block) rotated angle (direction t of P) scaled scale_factor shifted (point t of P);
+    fi;
+enddef;
+
+    initsymbol ("l_wall_blocks_CHED");
+
+endcode
+    symbol-assign line wall:blocks CHED
 endlayout
+
+input ../common_layout.th

@@ -6,11 +6,8 @@ input PipeE15.th2
 
 map PipeM
   PipeSP1
+ break
   PipeSP2
-  PipeSP3
-  PipeSP4
-  PipeSP5
-  PipeSP6
 endmap
 
 map PipeME15 -proj [elevation 15]

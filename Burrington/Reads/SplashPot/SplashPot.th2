@@ -1,0 +1,84 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust 91.94567628000004 43.07816081100003 3418.8118180117 2897.5033576609
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {1173.0281959699998 1 1.0} {1569.233830102 6.40} PocketTopo/SplashPot_p.xvi 0 {}
+
+
+
+scrap SplashPotSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap SplashPotSP2 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap SplashPotSP3 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap SplashPotSP4 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap SplashPotSPX6.36 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap SplashPotSPX6.29 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap SplashPotSPX6.27 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap SplashPotSPX6.18 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap SplashPotSPX6.15 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap SplashPotSPX6.12 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap SplashPotSPX6.11 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap SplashPotSPX6.9 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap SplashPotSPX6.7 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+

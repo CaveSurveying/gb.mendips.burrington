@@ -1,6 +1,8 @@
 encoding  utf-8
 layout symbols
 
+#Put symbol assign after code to avoid confusion/overwrites
+
 code metapost
 
 
@@ -137,14 +139,42 @@ initsymbol ("l_overhang_CHED");
     initsymbol ("a_sand_CHED");
     initsymbol ("a_debris_CHED");
     
+
+#derived from def l_pit_UIS (expr P) =     
+    def l_floorstep_CHED (expr P) = 
+  T:=identity;
+  cas := 0;
+  dlzka := arclength P;
+ # Step leangth changed from 0.25
+  mojkrok:=adjust_step(dlzka, 0.12u);
+  pickup PenD;  
+  forever:
+    t := arctime cas of P;
+ #length of tck shorted pit was 0.2
+    mark_ (P,t,0.1u);
+    cas := cas + mojkrok;
+    exitif cas > dlzka + (mojkrok / 3); % for rounding errors
+  endfor;
+  pickup PenC;  
+  thdraw P;
+enddef;
+
+    initsymbol ("l_floorstep_CHED");
+     
+    
 endcode
 
+    symbol-assign area blocks AUT
     symbol-assign area debris CHED
     symbol-assign area sand CHED
     
     symbol-assign line flowstone CHED
     symbol-assign line overhang CHED
     symbol-assign line pit CHED
+    #symbol-assign line wall:blocks CHED
+    symbol-assign line floor-step CHED
+    symbol-assign line wall:debris AUT
+    #symbol-assign line wall:blocks AUT
 
 
 

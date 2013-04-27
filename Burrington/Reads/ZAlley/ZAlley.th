@@ -6,11 +6,10 @@ input ZAlleyE15.th2
 
 map ZAlleyM
   ZAlleySP1
+ break
   ZAlleySP2
+ break
   ZAlleySP3
-  ZAlleySP4
-  ZAlleySP5
-  ZAlleySP6
 endmap
 
 map ZAlleyME15 -proj [elevation 15]
