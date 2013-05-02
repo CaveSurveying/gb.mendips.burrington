@@ -1,14 +1,19 @@
 encoding  utf-8
 survey Reads
 
+input BrownStuart/BrownStuart.th
 input DryEnt/DryEnt.th
+input LLAproach/LLAproach.th
 input MainChamber/MainChamber.th
 input Pipe/Pipe.th
 input SplashPot/SplashPot.th
 input Water/Water.th
 input ZAlley/ZAlley.th
 
-
+equate 7.9@BrownStuart 8.22@LLAproach
+equate 7.12@BrownStuart 8.19@LLAproach
+equate 7.22@BrownStuart 8.0@LLAproach
+equate 7.0@BrownStuart 6.23@SplashPot 
 equate 1.6@DryEnt 2.0@MainChamber
 equate 2.1@MainChamber 4.0@Pipe
 equate   2.7@MainChamber 3.0@Water

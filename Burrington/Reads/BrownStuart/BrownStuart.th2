@@ -1,0 +1,41 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -509.72 -296.61 3058.34 1779.69
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {2569.27148347 1 1.0} {1173.50393701 6.41} PocketTopo/BrownStuart_p.xvi 0 {}
+
+
+scrap BrownStuartSP1 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BrownStuartSP2 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BrownStuartSP3 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BrownStuartSPX7.17 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BrownStuartSPX7.15 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BrownStuartSPX7.14 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BrownStuartSPX7.8 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

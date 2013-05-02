@@ -1,0 +1,26 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -540.34 -265.68 3242.03 1594.07
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {2604.05860094 1 1.0} {186.425153997 6.41} PocketTopo/BrownStuart_E15.xvi 0 {}
+
+
+scrap BrownStuartSE15_1 -projection [elevation 15] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BrownStuartSE15_2 -projection [elevation 15] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BrownStuartSE15_3 -projection [elevation 15] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BrownStuartSE15_4 -projection [elevation 15] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

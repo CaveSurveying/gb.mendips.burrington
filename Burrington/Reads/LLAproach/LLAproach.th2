@@ -1,0 +1,41 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -412.79 -206.47 2476.71 1238.83
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {1659.37645675 1 1.0} {517.173228346 7.22} PocketTopo/LLAproach_p.xvi 0 {}
+
+
+scrap LLAproachSP1 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap LLAproachSP2 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap LLAproachSP3 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap LLAproachSPX8.13 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap LLAproachSPX8.8 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap LLAproachSPX8.6 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap LLAproachSPX8.2 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
