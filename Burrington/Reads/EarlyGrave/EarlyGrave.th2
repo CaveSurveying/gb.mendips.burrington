@@ -1,0 +1,31 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -757.98 -258.06 4547.91 1548.38
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {4132.92913386 1 1.0} {337.692913386 9.46} PocketTopo/EarlyGrave_p.xvi 0 {}
+
+
+scrap EarlyGraveSP1 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap EarlyGraveSPX9.56 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap EarlyGraveSPX9.55 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap EarlyGraveSPX9.51 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap EarlyGraveSPX9.47 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

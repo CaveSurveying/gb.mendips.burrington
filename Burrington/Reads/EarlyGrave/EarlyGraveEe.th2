@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -342.0 -181.7 2052.0 1090.18
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {1705.50845489 1 1.0} {932.58039714 9.46} PocketTopo/EarlyGrave_e.xvi 0 {}
+
+
+scrap EarlyGraveSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

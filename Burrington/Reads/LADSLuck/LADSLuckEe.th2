@@ -1,0 +1,16 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -738.27 -485.98 4429.61 2915.91
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {3572.28346457 1 1.0} {2272.91338583 8.12} PocketTopo/LADSLuck_e.xvi 0 {}
+
+
+scrap LADSLuckSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap LADSLuckSE2 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

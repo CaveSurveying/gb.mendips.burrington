@@ -3,6 +3,8 @@ survey Reads
 
 input BrownStuart/BrownStuart.th
 input DryEnt/DryEnt.th
+input EarlyGrave/EarlyGrave.th
+input LADSLuck/LADSLuck.th
 input LLAproach/LLAproach.th
 input MainChamber/MainChamber.th
 input Pipe/Pipe.th
@@ -15,6 +17,8 @@ equate 7.12@BrownStuart 8.19@LLAproach
 equate 7.22@BrownStuart 8.0@LLAproach
 equate 7.0@BrownStuart 6.23@SplashPot 
 equate 1.6@DryEnt 2.0@MainChamber
+equate 9.46@EarlyGrave 9.46@LADSLuck
+equate 8.12@LLAproach 9.0@LADSLuck
 equate 2.1@MainChamber 4.0@Pipe
 equate   2.7@MainChamber 3.0@Water
 equate 4.23@Pipe 5.0@ZAlley
