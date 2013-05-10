@@ -3,6 +3,8 @@ source Reads.th
 
 export map -proj plan -layout mendip -o Reads.pdf
 
+export map -proj [elevation 15] -layout mendip -o ReadsE15.pdf
+
 #export map -proj plan -fmt kml -layout mendip -o Reads.kml
 
 #export model -o Reads.lox

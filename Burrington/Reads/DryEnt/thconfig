@@ -9,7 +9,7 @@ source DryEnt.th
 export map -proj plan -layout local -o DryEnt.pdf
 #Produces plan of cave, on a single sheet
 
-#export map -proj extended -layout local -o DryEntEe.pdf
+export map -proj [elevation 15] -layout local -o DryEntE15.pdf
 
 export model -fmt survex -o DryEntth.3d
 #Survex file showing centre line only

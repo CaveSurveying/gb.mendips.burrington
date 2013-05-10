@@ -3,11 +3,16 @@ survey DryEnt
 
 input DryEnt.th2
 input DryEntEe.th2
+input DryEntE15.th2
 
 map DryEntM
   DryEntSPl1
   DryEntSPl2
   DryEntSPl3
+endmap
+
+map DryEntME15 -proj [elevation 15]
+  DryEntSE15_1
 endmap
 
 centreline

@@ -9,7 +9,7 @@ source MainChamber.th
 #export map -proj plan -layout local -o MainChamber.pdf
 #Produces plan of cave, on a single sheet
 
-#export map -proj extended -layout local -o MainChamberEe.pdf
+export map -proj [elevation 15] -layout local -o MainChamberE15.pdf
 
 export model -fmt survex -o MainChamberth.3d
 #Survex file showing centre line only

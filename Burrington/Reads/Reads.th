@@ -30,5 +30,22 @@ map ReadsM
   WaterM@Water
 endmap
 
+map ReadsME15 -proj [elevation 15]
+  DryEntME15@DryEnt
+  MainChamberME15@MainChamber
+  #WaterM@Water
+endmap
+
+##############################################################
+#PLAN Joins
+
+
+
+
+##############################################################
+#Projected Elevation Joins
+
+join DryEntSE15_1@DryEnt MainChamberSE15_1@MainChamber -smooth on
+
 endsurvey
 
