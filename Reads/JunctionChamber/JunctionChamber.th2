@@ -1,0 +1,21 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -206.96 -99.8 1241.76 598.77
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {386.157480315 1 1.0} {116.118110236 1} PocketTopo/JunctionChamber_p.xvi 0 {}
+
+
+scrap JunctionChamberSP1 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap JunctionChamberSP2 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap JunctionChamberSP3 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

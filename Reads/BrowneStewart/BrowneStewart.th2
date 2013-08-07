@@ -1,0 +1,21 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -44.18 -54.74 265.07 328.44
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {148.495695392 1 1.0} {27.369799636 14} PocketTopo/BrowneStewart_p.xvi 0 {}
+
+
+scrap BrowneStewartSP1 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BrowneStewartSP2 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BrowneStewartSP3 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

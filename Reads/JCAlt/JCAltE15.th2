@@ -1,0 +1,21 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -127.01 -113.52 762.07 681.13
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {533.552642005 1 1.0} {56.7605722165 7} PocketTopo/JCAlt_E15.xvi 0 {}
+
+
+scrap JCAltSE15_1 -projection [elevation 15] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap JCAltSE15_2 -projection [elevation 15] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap JCAltSE15_3 -projection [elevation 15] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

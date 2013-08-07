@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -360.74 -121.99 2164.44 731.91
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {1096.90551181 1 1.0} {624.541688137 1} PocketTopo/JunctionChamber_e.xvi 0 {}
+
+
+scrap JunctionChamberSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

@@ -1,0 +1,100 @@
+encoding  utf-8
+survey BrowneStewart
+
+input BrowneStewart.th2
+input BrowneStewartE15.th2
+
+map BrowneStewartM
+  BrowneStewartSP1
+  BrowneStewartSP2
+  BrowneStewartSP3
+endmap
+
+map BrowneStewartME15 -proj [elevation 15]
+  BrowneStewartSE15_1
+  BrowneStewartSE15_2
+  BrowneStewartSE15_3
+endmap
+centreline
+
+copyright 2013 "CC BY SA NC"
+
+### TRIP COMMENT FROM POCKETTOPO ###
+#DistoX-ubss1 0.33
+#Notes:Andrew Atkinson
+#DistoX: Alison Moody 
+#Dog: 
+
+  date 2013.08.06
+
+  team "Andrew Atkinson" notes
+  team "Alison Moody" instruments
+
+  instrument  instruments "UBSS DistoX1"
+
+data normal from to tape compass clino ignoreall
+  extend right
+ #Calabration check in JunctionChamber
+14  -  0.0  0.0  0.0  
+#15  14  1.942  175.8  45.49  
+#15  14  1.942  175.98  45.4  
+#15  14  1.945  175.96  45.54  
+15  14  1.943  175.89  45.48  Calculated leg from 3 above
+15  -  0.732  297.31  -84.29  
+15  -  0.634  124.37  -44.81  
+15  -  0.789  126.4  -19.32  
+15  -  0.715  275.41  87.78  
+15  -  0.558  211.01  15.03  
+#16  15  0.769  258.28  40.8  
+#16  15  0.769  258.21  41.16  
+#16  15  0.768  258.01  40.79  
+16  15  0.769  258.24  40.91  Calculated leg from 3 above
+16  -  0.31  3.57  -0.48  nv 
+16  -  0.603  280.51  56.72  
+16  -  0.66  295.21  5.89  
+16  -  0.707  177.89  25.49  
+#17  16  1.201  170.51  26.97  
+#17  16  1.201  170.52  27.08  
+#17  16  1.201  170.33  27.04  
+17  16  1.201  170.52  27.03  Calculated leg from 3 above
+17  -  0.393  194.13  -54.92  
+17  -  0.693  225.41  5.75  
+17  -  0.519  230.62  54.01  
+17  -  0.731  99.05  19.34  
+#18  17  1.154  93.85  -2.52  
+#18  17  1.153  93.52  -2.47  
+#18  17  1.152  93.75  -2.14  
+18  17  1.153  93.69  -2.37  Calculated leg from 3 above
+18  -  0.882  187.36  -75.47  
+18  -  0.965  114.57  -57.87  
+18  -  0.943  31.47  -26.92  
+#19  18  2.054  139.07  55.99  
+#19  18  2.051  139.32  55.91  
+#19  18  2.05  139.62  55.96  
+19  18  2.052  139.2  55.96  Calculated leg from 3 above
+19  -  0.0  0.0  0.0  stn 4 ladluck
+18  -  0.0  0.0  0.0  
+  extend left
+#20  18  1.608  308.46  77.04  
+#20  18  1.605  308.64  76.94  
+#20  18  1.608  311.47  77.05  
+20  18  1.607  308.55  77.01  Calculated leg from 3 above
+20  -  0.537  202.19  -86.49  
+20  -  0.58  10.35  -30.44  
+20  -  0.648  79.46  76.42  
+20  -  0.888  179.95  6.09  
+20  -  1.46  161.17  -0.53  
+#20  21  1.6  60.0  -42.05  
+#20  21  1.603  59.56  -42.05  
+#20  21  1.599  60.4  -42.38  
+20  21  1.601  59.78  -42.16  Calculated leg from 3 above
+21  -  0.488  61.9  -79.5  
+21  -  0.764  137.79  -7.25  
+#21  22  1.028  129.18  -34.62  
+#21  22  1.028  129.23  -34.66  
+#21  22  1.028  129.02  -34.62  
+21  22  1.028  129.2  -34.63  Calculated leg from 3 above
+22  -  0.0  0.0  0.0  nv stn on previous survey
+endcentreline
+endsurvey
+
