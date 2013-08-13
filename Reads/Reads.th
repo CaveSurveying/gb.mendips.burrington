@@ -10,6 +10,8 @@ input JunctionChamber/JunctionChamber.th
 input LADSLuck/LADSLuck.th
 input LLAproach/LLAproach.th
 input MainChamber/MainChamber.th
+input OffShoot/OffShoot.th
+input OffShoot2/OffShoot2.th
 input Pipe/Pipe.th
 input SplashPot/SplashPot.th
 input Water/Water.th
@@ -29,6 +31,8 @@ equate 26@JCAlt 1@JunctionChamber
 equate 8.12@LLAproach 9.0@LADSLuck
 equate 2.1@MainChamber 4.0@Pipe
 equate   2.7@MainChamber 3.0@Water
+equate 10@OffShoot 10@OffShoot2
+equate 0@OffShoot 3.2@Water
 equate 4.23@Pipe 5.0@ZAlley
 equate 6.0@SplashPot 5.15@ZAlley
 

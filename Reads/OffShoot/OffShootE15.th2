@@ -1,0 +1,21 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -141.83 -98.69 851.0 592.16
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {177.919702728 1 1.0} {418.20754942 3.2} PocketTopo/OffShoot_E15.xvi 0 {}
+
+
+scrap OffShootSE15_1 -projection [elevation 15] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap OffShootSE15_2 -projection [elevation 15] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap OffShootSE15_3 -projection [elevation 15] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
