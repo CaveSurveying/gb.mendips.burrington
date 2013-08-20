@@ -33,6 +33,12 @@ copyright 2013 "CC BY SA NC"
   team "John Cooper" dog
 
 data normal from to tape compass clino ignoreall
+
+#False leg to represent amount dug
+flags duplicate
+8.16 false  4  108.92  6.77 
+flags not duplicate
+
   extend right
 7.22  8.0  0.0  0.0  0.0  
   extend left

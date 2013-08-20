@@ -1,0 +1,36 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -291.65 -247.56 1749.92 1485.35
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {1585.59055118 1 1.0} {700.94488189 54} PocketTopo/BoulderChamber_p.xvi 0 {}
+
+
+scrap BoulderChamberSP1 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BoulderChamberSP2 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BoulderChamberSP3 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BoulderChamberSPX65 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BoulderChamberSPX63 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BoulderChamberSPX57 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

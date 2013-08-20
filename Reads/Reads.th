@@ -1,6 +1,7 @@
 encoding  utf-8
 survey Reads
 
+input BoulderChamber/BoulderChamber.th
 input BrowneStewart/BrowneStewart.th
 input BrownStuart/BrownStuart.th
 input DryEnt/DryEnt.th
@@ -12,11 +13,13 @@ input LLAproach/LLAproach.th
 input MainChamber/MainChamber.th
 input OffShoot/OffShoot.th
 input OffShoot2/OffShoot2.th
+input OffShoot3/OffShoot3.th
 input Pipe/Pipe.th
 input SplashPot/SplashPot.th
 input Water/Water.th
 input ZAlley/ZAlley.th
 
+equate 54@BoulderChamber 3.2@Water
 equate 22@BrowneStewart 7.23@BrownStuart
 equate 19@BrowneStewart 8.4@LLAproach
 equate 14@BrowneStewart 14@JunctionChamber
@@ -26,12 +29,14 @@ equate 7.22@BrownStuart 8.0@LLAproach
 equate 7.0@BrownStuart 6.23@SplashPot 
 equate 1.6@DryEnt 2.0@MainChamber
 equate 9.46@EarlyGrave 9.46@LADSLuck
+equate 1@JunctionChamber 53@OffShoot3
 equate 7@JCAlt 7@JunctionChamber
 equate 26@JCAlt 1@JunctionChamber
 equate 8.12@LLAproach 9.0@LADSLuck
 equate 2.1@MainChamber 4.0@Pipe
 equate   2.7@MainChamber 3.0@Water
 equate 10@OffShoot 10@OffShoot2
+equate 16@OffShoot2 25@OffShoot3
 equate 0@OffShoot 3.2@Water
 equate 4.23@Pipe 5.0@ZAlley
 equate 6.0@SplashPot 5.15@ZAlley

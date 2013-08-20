@@ -35,6 +35,12 @@ copyright 2013 "CC BY SA NC"
 equate 9.15 9.16
 
 data normal from to tape compass clino ignoreall
+
+#False leg to represent amount dug
+flags duplicate
+9.9 false  8  311.15  -19.38 
+flags not duplicate
+
   extend right
 #8.12  9.0  0.0  0.0  0.0  
 #Clibration check at AAs
