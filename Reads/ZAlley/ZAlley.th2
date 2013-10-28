@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -123.55664003099997 -115.33070866100002 1077.3252497326 1164.2913385829
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {295.781942646 1 1.0} {481.724409449 5.0} PocketTopo/ZAlley_p.xvi 0 {}
 
 
@@ -12,6 +12,7 @@ line wall -reverse on -subtype blocks
   211.0 359.0 225.0 371.0 240.0 389.0
   255.0 407.0 276.0 460.0 279.0 477.0
   282.0 494.0 285.0 499.0 283.0 516.0
+  smooth off
 endline
 
 line wall -reverse on -subtype blocks
@@ -23,17 +24,20 @@ line wall -reverse on -subtype blocks
   323.0 255.0 296.0 299.0 282.0 307.0
   268.0 315.0 251.0 326.0 239.0 330.0
   227.0 334.0 219.0 340.0 199.0 336.0
+  smooth off
 endline
 
 line floor-step
   282.0 307.0
   275.0 325.0 262.0 347.0 239.0 330.0
+  smooth off
 endline
 
 line wall -reverse on
   357.0 486.0
   345.0 467.0 330.0 433.0 330.0 414.0
   330.0 395.0 331.0 381.0 349.0 364.0
+  smooth off
 endline
 
 point 295.781942646 481.724409449 station -name 5.0
@@ -83,6 +87,7 @@ line wall
   350.0 256.0 357.0 283.0 343.0 286.0
   329.0 289.0 312.0 284.0 304.0 288.0
   296.0 292.0 285.0 292.0 282.0 307.0
+  smooth off
 endline
 
 point 665.721942646 295.804409449 station -name 5.6
@@ -245,12 +250,14 @@ endline
 line floor-step -reverse on
   462.0 368.0
   446.0 375.0 433.0 373.0 424.0 379.0
+  smooth off
 endline
 
 line wall -subtype blocks
   701.0 208.0
   724.0 207.0 734.0 202.0 765.0 194.0
   796.0 186.0 888.0 153.0 907.0 143.0
+  smooth off
 endline
 
 line wall
@@ -260,6 +267,7 @@ line wall
   526.0 230.0 555.0 219.0 580.0 218.0
   605.0 217.0 629.0 217.0 646.0 217.0
   663.0 217.0 689.0 212.0 701.0 208.0
+  smooth off
 endline
 
 line rock-edge
@@ -283,6 +291,7 @@ line wall -subtype blocks
   424.0 379.0
   412.0 378.0 385.0 390.0 372.0 379.0
   359.0 368.0 345.91 309.52 348.0 298.0
+  smooth off
 endline
 
 line wall -subtype blocks
@@ -290,6 +299,7 @@ line wall -subtype blocks
   427.0 532.0 402.0 477.0 394.0 466.0
   386.0 455.0 375.0 439.0 383.0 431.0
   391.0 423.0 416.0 385.0 424.0 379.0
+  smooth off
 endline
 
 line rock-border -close on
@@ -369,6 +379,7 @@ line wall
   450.0 666.0 504.0 653.0 494.0 645.0
   484.0 637.0 485.0 644.0 476.0 633.0
   467.0 622.0 449.0 569.0 442.0 556.0
+  smooth off
 endline
 
 line wall
@@ -391,6 +402,7 @@ line wall
   166.0 870.0 201.0 847.0 219.0 836.0
   237.0 825.0 245.0 810.0 240.0 790.0
   235.0 770.0 225.0 728.0 213.0 708.0
+  smooth off
 endline
 
 line wall -subtype blocks
@@ -404,6 +416,7 @@ line wall -subtype blocks
   607.0 435.0 555.0 434.0 547.0 446.0
   539.0 458.0 558.0 493.0 549.0 502.0
   540.0 511.0 489.0 510.0 482.0 518.0
+  smooth off
 endline
 
 point 366.0 846.0 station -name 5.15

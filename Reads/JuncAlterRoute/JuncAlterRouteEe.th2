@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -143.31 -124.75 859.84 748.53
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {71.6535433071 1 1.0} {120.645051411 1} PocketTopo/JuncAlterRoute_e.xvi 0 {}
+
+
+scrap JuncAlterRouteSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
