@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -92.14 -34.17 552.85 205.05
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {506.77621912 1 1.0} {187.96132089 81} PocketTopo/AltJunctTinyBit_E15.xvi 0 {}
+
+
+scrap AltJunctTinyBitSE15_1 -projection [elevation 15] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

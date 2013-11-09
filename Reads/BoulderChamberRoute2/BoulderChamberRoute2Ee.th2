@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -314.01 -120.47 1884.08 722.83
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {1272.54408269 1 1.0} {649.606299213 9} PocketTopo/BoulderChamberRoute2_e.xvi 0 {}
+
+
+scrap BoulderChamberRoute2SE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

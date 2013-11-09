@@ -1,0 +1,30 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -194.65 -164.72 1167.87 988.35
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {1055.1518897639999 1 1.0} {670.05992126 60} PocketTopo/WCR2_p.xvi 0 {}
+
+
+
+scrap WCR2SP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap WCR2SP2 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap WCR2SP3 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap WCR2SP4 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+

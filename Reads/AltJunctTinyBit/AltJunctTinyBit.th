@@ -1,0 +1,70 @@
+encoding  utf-8
+survey AltJunctTinyBit
+
+input AltJunctTinyBit.th2
+input AltJunctTinyBitE15.th2
+
+map AltJunctTinyBitM
+  AltJunctTinyBitSP1
+endmap
+
+map AltJunctTinyBitME15 -proj [elevation 15]
+  AltJunctTinyBitSE15_1
+endmap
+
+centreline
+
+copyright 2013 "CC BY SA NC"
+
+### TRIP COMMENT FROM POCKETTOPO ###
+#distoxchris; 0.38
+#notes: Andrew Atkinson
+#inst: Alison Moody
+
+  date 2013.11.09
+
+  team "Andrew Atkinson" notes
+  team "Alison Moody" instruments
+
+  instrument  instruments "UBSS-ChrisP"
+
+  explo-date 2013.11.09
+
+data normal from to tape compass clino ignoreall
+  extend right
+#81  30  0.0  0.0  0.0  0  
+#Calabration check in WCR2.th
+81  -  0.0  0.0  0.0  0  stn 30 on juncAltRoute
+#82  81  2.741  122.74  18.86  334  
+#82  81  2.742  122.92  18.83  334  
+#82  81  2.749  123.6  18.44  189  
+82  81  2.744  122.83  18.71  Calculated leg from 3 above
+82  -  0.304  335.45  14.29  108  nv
+82  -  0.683  36.39  5.3  4  
+82  -  0.228  276.83  62.12  172  
+82  -  0.748  216.59  26.97  254  
+82  -  1.062  217.04  9.12  274  
+82  -  0.976  223.48  -6.02  286  
+82  -  0.374  271.36  -74.32  7  
+#83  82  2.298  135.94  14.09  5  
+#83  82  2.294  135.83  14.02  4  
+#83  82  2.292  136.05  13.8  4  
+83  82  2.295  135.88  13.97  Calculated leg from 3 above
+83  -  0.658  203.88  -60.44  88  nv
+83  -  0.813  36.13  -64.85  279  
+83  -  0.488  67.66  42.4  233  
+83  -  0.366  70.33  69.48  227  
+83  -  0.471  42.79  0.28  292  
+#84  83  0.743  135.76  31.36  348  
+#84  83  0.744  135.93  31.74  348  
+#84  83  0.743  135.84  31.56  348  
+84  83  0.743  135.85  31.55  Calculated leg from 3 above
+84  -  1.176  45.46  29.45  2  nv
+84  -  1.031  338.77  27.11  64  
+84  -  0.977  302.56  8.2  91  
+84  -  0.791  224.9  19.81  358  
+84  -  0.532  79.93  76.53  5  
+84  -  0.432  149.84  -49.86  5  
+endcentreline
+endsurvey
+
