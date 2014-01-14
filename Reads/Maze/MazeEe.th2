@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -203.46 -135.67 1220.79 814.02
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {138.346456693 1 1.0} {126.88976378 0} PocketTopo/Maze_e.xvi 0 {}
+
+
+scrap MazeSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

@@ -14,12 +14,16 @@ input JuncAlterRoute2/JuncAlterRoute2.th
 input JunctionChamber/JunctionChamber.th
 input LADSLuck/LADSLuck.th
 input LLAproach/LLAproach.th
+input LowerMaze/LowerMaze.th
 input MainChamber/MainChamber.th
+input Maze/Maze.th
 input OffShoot/OffShoot.th
 input OffShoot2/OffShoot2.th
 input OffShoot3/OffShoot3.th
 input Pipe/Pipe.th
 input SplashPot/SplashPot.th
+input UpperWaterfall/UpperWaterfall.th
+input UpperWaterfall2/UpperWaterfall2.th
 input Water/Water.th
 input WaterfallChamber/WaterfallChamber.th
 input WCR2/WCR2.th
@@ -45,14 +49,18 @@ equate 14@JuncAlterRoute 14@JuncAlterRoute2
 equate 42@JuncAlterRoute2 2.9@MainChamber
 equate 1@JunctionChamber 53@OffShoot3
 equate 8.12@LLAproach 9.0@LADSLuck
+equate 0@LowerMaze 5.11@ZAlley
 equate 2.1@MainChamber 4.0@Pipe
 equate 2.7@MainChamber 3.0@Water
 equate 2.9@MainChamber 42@WCR2
+equate 0@Maze 5.9@ZAlley
 equate 10@OffShoot 10@OffShoot2
 equate 16@OffShoot2 25@OffShoot3
 equate 0@OffShoot 3.2@Water
+equate 4.22@Pipe 0@UpperWaterfall
 equate 4.23@Pipe 5.0@ZAlley
 equate 6.0@SplashPot 5.15@ZAlley
+equate 13@UpperWaterfall 14@UpperWaterfall2
 equate 1@WaterfallChamber 5.10@ZAlley
 
 map ReadsM

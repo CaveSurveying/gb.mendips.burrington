@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -281.17 -123.83 1687.03 743.0
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {256.684576359 1 1.0} {552.397200444 0} PocketTopo/UpperWaterfall_e.xvi 0 {}
+
+
+scrap UpperWaterfallSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

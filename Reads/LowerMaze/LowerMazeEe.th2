@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -238.79 -154.41 1432.74 926.48
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {170.513563712 1 1.0} {266.104335644 0} PocketTopo/LowerMaze_e.xvi 0 {}
+
+
+scrap LowerMazeSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
