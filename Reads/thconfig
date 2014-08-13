@@ -13,7 +13,7 @@ export model -o Reads.lox
 export model -fmt survex -o Readsth.3d
 #Survex file showing centreline and slays
 
-export model -fmt survex -disable splay-shots -o Reads_NoSplaysth.3d
+#export model -fmt survex -disable splay-shots -o Reads_NoSplaysth.3d
 #Survex file showing centre line only
 
 layout mendip

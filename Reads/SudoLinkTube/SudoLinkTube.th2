@@ -1,0 +1,16 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -143.78 -73.49 862.68 440.95
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {89.2125984252 1 1.0} {375.722160411 8.15} PocketTopo/SudoLinkTube_p.xvi 0 {}
+
+
+scrap SudoLinkTubeSP1 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap SudoLinkTubeSPX8.31 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

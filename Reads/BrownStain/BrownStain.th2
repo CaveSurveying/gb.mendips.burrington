@@ -1,0 +1,16 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -137.1 -99.28 822.59 595.65
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {587.52582812 1 1.0} {427.826771654 8.20} PocketTopo/BrownStain_p.xvi 0 {}
+
+
+scrap BrownStainSP1 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BrownStainSP2 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

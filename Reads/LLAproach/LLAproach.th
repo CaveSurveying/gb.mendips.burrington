@@ -34,11 +34,6 @@ copyright 2013 "CC BY SA NC"
 
 data normal from to tape compass clino ignoreall
 
-#False leg to represent amount dug
-flags duplicate
-8.16 false  4  108.92  6.77 
-flags not duplicate
-
   extend right
 7.22  8.0  0.0  0.0  0.0  
   extend left
@@ -181,7 +176,8 @@ flags not duplicate
 #8.15  8.16  3.962  108.06  5.84  
 #8.15  8.16  3.964  108.22  5.89  
 #8.15  8.16  3.78  110.48  8.59  
-8.15  8.16  3.902  108.92  6.77  Calculated leg from 3 above
+#8.15  8.16  3.902  108.92  6.77  Calculated leg from 3 above
+#Removed 15 to 16 as now covered by SudoLink tube [AA 2014.08.14]
 #8.14  8.17  1.859  213.79  -29.3  
 #8.14  8.17  1.865  214.1  -29.46  
 #8.14  8.17  1.862  214.14  -29.24  

@@ -1,0 +1,79 @@
+encoding  utf-8
+survey SudoLinkTube
+
+input SudoLinkTube.th2
+
+map SudoLinkTubeM
+  SudoLinkTubeSP1
+endmap
+
+centreline
+
+copyright 2014 "CC BY SA NC"
+
+### TRIP COMMENT FROM POCKETTOPO ###
+#Notes: Andrew Atkinson
+#Instruments: Ali Moody
+#Dog:
+#Distox2-ubss1 0.41
+
+  date 2014.08.14
+
+  team "Andrew Atkinson" notes
+  team "Alison Moody" instruments
+
+  instrument  instruments "Distox2-ubss1"
+
+data normal from to tape compass clino ignoreall
+  extend right
+  #Calabration check in LlExtension
+#8.15  8.30  0.0  0.0  0.0  0  
+8.30  -  0.595  141.76  -81.3  99  point just above drill hole from previous survey
+8.30  -  0.223  205.74  76.17  7  
+8.30  -  0.491  55.38  60.29  168  
+8.30  -  0.505  36.97  26.29  161  
+8.30  -  0.659  47.2  -36.17  118  
+#8.31  8.30  3.042  291.83  -11.06  344  
+#8.31  8.30  3.041  291.8  -10.95  343  
+#8.31  8.30  3.042  291.8  -11.09  343  
+8.31  8.30  3.042  291.81  -11.04  Calculated leg from 3 above
+8.31  -  0.64  300.77  -72.13  260  rv upper rhs 
+8.31  -  0.711  347.52  -45.98  237  
+8.31  -  0.567  2.12  -18.51  237  
+8.31  -  0.405  2.41  -1.34  232  
+8.31  -  0.689  294.78  10.1  315  
+8.31  -  2.169  274.85  15.49  351  
+#8.32  8.31  2.205  280.77  4.05  46  
+#8.32  8.31  2.204  280.78  3.99  46  
+#8.32  8.31  2.168  280.77  4.02  45  
+8.32  8.31  2.192  280.77  4.02  Calculated leg from 3 above
+8.32  -  0.192  230.61  -71.03  22  nv lhs
+8.32  -  0.533  197.16  -25.93  320  
+8.32  -  0.27  282.04  61.18  91  
+8.32  -  0.504  223.53  32.16  130  
+#8.33  8.32  2.552  305.57  -6.77  8  
+#8.33  8.32  2.557  305.66  -6.88  8  
+#8.33  8.32  2.567  305.4  -6.76  14  
+8.33  8.32  2.559  305.62  -6.8  Calculated leg from 3 above
+8.33  -  0.467  269.54  -71.15  203  nv
+8.33  -  0.466  97.51  60.55  167  
+8.33  -  0.36  13.77  7.4  239  
+8.33  -  0.557  28.49  -22.65  77  
+#8.33  8.34  1.208  113.23  -11.82  81  
+#8.33  8.34  1.207  113.26  -11.77  81  
+#8.33  8.34  1.208  113.14  -11.69  81  
+8.33  8.34  1.208  113.24  -11.76  Calculated leg from 3 above
+8.34  -  0.345  337.31  -16.64  29  
+8.34  -  0.847  198.9  80.17  265  
+#8.34  8.35  0.951  228.42  15.63  279  
+#8.34  8.35  0.952  228.21  15.54  279  
+#8.34  8.35  0.953  228.32  15.61  279  
+8.34  8.35  0.952  228.32  15.59  Calculated leg from 3 above
+8.34  -  0.0  0.0  0.0  0  
+#8.34  8.36  1.603  28.46  25.72  39  
+#8.34  8.36  1.611  28.2  25.5  37  
+#8.34  8.36  1.605  28.39  25.72  37  
+8.34  8.36  1.606  28.46  25.65  Calculated leg from 3 above
+endcentreline
+endsurvey
+

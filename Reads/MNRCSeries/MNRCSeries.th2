@@ -1,0 +1,31 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -228.05 -205.14 1368.28 1230.87
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {251.74015748 1 1.0} {965.564457428 6.22} PocketTopo/MNRCSeries_p.xvi 0 {}
+
+
+scrap MNRCSeriesSP1 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap MNRCSeriesSP2 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap MNRCSeriesSP3 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap MNRCSeriesSPX6.51 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap MNRCSeriesSPX6.43 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

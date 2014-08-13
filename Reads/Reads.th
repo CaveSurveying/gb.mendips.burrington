@@ -4,6 +4,7 @@ survey Reads
 input AltJunctTinyBit/AltJunctTinyBit.th
 input BoulderChamber/BoulderChamber.th
 input BoulderChamberRoute2/BoulderChamberRoute2.th
+input BrownStain/BrownStain.th
 input BrowneStewart/BrowneStewart.th
 input BrownStuart/BrownStuart.th
 input DryEnt/DryEnt.th
@@ -14,14 +15,17 @@ input JuncAlterRoute2/JuncAlterRoute2.th
 input JunctionChamber/JunctionChamber.th
 input LADSLuck/LADSLuck.th
 input LLAproach/LLAproach.th
+input LlExtension/LlExtension.th
 input LowerMaze/LowerMaze.th
 input MainChamber/MainChamber.th
 input Maze/Maze.th
+input MNRCSeries/MNRCSeries.th
 input OffShoot/OffShoot.th
 input OffShoot2/OffShoot2.th
 input OffShoot3/OffShoot3.th
 input Pipe/Pipe.th
 input SplashPot/SplashPot.th
+input SudoLinkTube/SudoLinkTube.th
 input UpperWaterfall/UpperWaterfall.th
 input UpperWaterfall2/UpperWaterfall2.th
 input Water/Water.th
@@ -33,6 +37,7 @@ equate 81@AltJunctTinyBit 30@JuncAlterRoute2
 equate 54@BoulderChamber 3.2@Water
 equate 61@BoulderChamber 70@BoulderChamberRoute2
 equate 20@BoulderChamberRoute2 9@OffShoot
+equate 8.37@BrownStain 8.20@LLAproach
 equate 22@BrowneStewart 7.23@BrownStuart
 equate 19@BrowneStewart 8.4@LLAproach
 equate 14@BrowneStewart 14@JunctionChamber
@@ -49,11 +54,14 @@ equate 14@JuncAlterRoute 14@JuncAlterRoute2
 equate 42@JuncAlterRoute2 2.9@MainChamber
 equate 1@JunctionChamber 53@OffShoot3
 equate 8.12@LLAproach 9.0@LADSLuck
+equate 8.12@LLAproach 8.23@LlExtension
+equate 8.15@LLAproach 8.30@SudoLinkTube
 equate 0@LowerMaze 5.11@ZAlley
 equate 2.1@MainChamber 4.0@Pipe
 equate 2.7@MainChamber 3.0@Water
 equate 2.9@MainChamber 42@WCR2
 equate 0@Maze 5.9@ZAlley
+equate 6.42@MNRCSeries 6.22@SplashPot
 equate 10@OffShoot 10@OffShoot2
 equate 16@OffShoot2 25@OffShoot3
 equate 0@OffShoot 3.2@Water
