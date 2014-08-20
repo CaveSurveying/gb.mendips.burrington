@@ -1,0 +1,26 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -316.85 -605.86 1901.1 3635.15
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {942.677165354 1 1.0} {1988.12598425 84} PocketTopo/Grotto_p.xvi 0 {}
+
+
+scrap GrottoSP1 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap GrottoSP2 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap GrottoSP3 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap GrottoSP4 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
