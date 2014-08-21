@@ -1,0 +1,67 @@
+encoding  utf-8
+survey LastSurveyingChamber
+
+input LastSurveyingChamber.th2
+
+map LastSurveyingChamberM
+  LastSurveyingChamberSP1
+  LastSurveyingChamberSP2
+  LastSurveyingChamberSP3
+endmap
+
+centreline
+
+copyright 2014 "CC BY SA NC"
+
+### TRIP COMMENT FROM POCKETTOPO ###
+#Notes: Andrew Atkinson
+#Instruments: Ali Moody
+#Dog:
+#Distox2-ubss1 0.41
+
+  date 2014.08.19
+
+  team "Andrew Atkinson" notes
+  team "Alison Moody" instruments
+
+  instrument  instruments "Distox2-ubss1"
+
+data normal from to tape compass clino ignoreall
+  extend right
+#Calabration check in Grotto.th  
+#19  15  1.633  350.85  -48.81  19  
+#19  15  1.633  350.75  -48.91  19  
+#19  15  1.634  350.76  -49.04  19  
+19  15  1.633  350.8  -48.92  Calculated leg from 3 above
+19  -  0.748  270.83  -4.32  9  nv
+19  -  0.429  56.35  4.2  2  
+19  -  0.898  26.1  67.18  345  
+19  -  1.143  307.48  53.51  59  
+#20  19  2.591  354.46  -10.02  358  
+#20  19  2.581  354.57  -10.09  0  
+#20  19  2.588  354.52  -10.08  0  
+20  19  2.587  354.51  -10.06  Calculated leg from 3 above
+20  -  3.302  347.17  1.86  358  nv
+20  -  2.605  318.64  9.85  355  
+20  -  2.826  252.45  22.25  320  
+20  -  2.378  203.77  -3.41  352  
+20  -  2.275  140.9  22.09  2  
+20  -  3.647  97.78  29.46  15  
+20  -  1.254  78.22  21.8  25  
+20  -  1.18  212.5  89.16  277  
+20  -  1.01  355.59  -84.22  88  
+#21  20  2.77  277.16  -35.83  300  
+#21  20  2.768  277.44  -35.87  300  
+#21  20  2.77  277.53  -35.76  299  
+21  20  2.769  277.3  -35.82  Calculated leg from 3 above
+21  -  0.702  192.53  -80.35  111  
+21  -  1.797  4.33  39.5  262  
+21  -  1.218  128.91  -47.99  37  
+21  -  0.945  101.39  18.86  61  
+21  -  1.406  308.64  -38.52  334  
+21  -  0.914  18.19  -11.76  309  
+21  -  2.644  7.99  34.84  261  
+21  -  2.706  54.99  -3.78  5  
+endcentreline
+endsurvey
+

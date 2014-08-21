@@ -9,10 +9,12 @@ input BrowneStewart/BrowneStewart.th
 input BrownStuart/BrownStuart.th
 input DryEnt/DryEnt.th
 input EarlyGrave/EarlyGrave.th
+input Grotto/Grotto.th
 input JCAlt/JCAlt.th
 input JuncAlterRoute/JuncAlterRoute.th
 input JuncAlterRoute2/JuncAlterRoute2.th
 input JunctionChamber/JunctionChamber.th
+input LastSurveyingChamber/LastSurveyingChamber.th
 input LADSLuck/LADSLuck.th
 input LLAproach/LLAproach.th
 input LlExtension/LlExtension.th
@@ -26,6 +28,7 @@ input OffShoot3/OffShoot3.th
 input Pipe/Pipe.th
 input SplashPot/SplashPot.th
 input SudoLinkTube/SudoLinkTube.th
+input TheSweetEnd/TheSweetEnd.th
 input UpperWaterfall/UpperWaterfall.th
 input UpperWaterfall2/UpperWaterfall2.th
 input Water/Water.th
@@ -47,16 +50,19 @@ equate 7.22@BrownStuart 8.0@LLAproach
 equate 7.0@BrownStuart 6.23@SplashPot 
 equate 1.6@DryEnt 2.0@MainChamber
 equate 9.46@EarlyGrave 9.46@LADSLuck
+equate 85@Grotto 2.1@MainChamber
 equate 7@JCAlt 7@JunctionChamber
 equate 26@JCAlt 1@JunctionChamber
 equate 28@JCAlt 1@JuncAlterRoute
 equate 14@JuncAlterRoute 14@JuncAlterRoute2
 equate 42@JuncAlterRoute2 2.9@MainChamber
 equate 1@JunctionChamber 53@OffShoot3
+equate 15@LastSurveyingChamber 15@LowerMaze
 equate 8.12@LLAproach 9.0@LADSLuck
 equate 8.12@LLAproach 8.23@LlExtension
 equate 8.15@LLAproach 8.30@SudoLinkTube
 equate 0@LowerMaze 5.11@ZAlley
+equate 18@LowerMaze 18@TheSweetEnd
 equate 2.1@MainChamber 4.0@Pipe
 equate 2.7@MainChamber 3.0@Water
 equate 2.9@MainChamber 42@WCR2

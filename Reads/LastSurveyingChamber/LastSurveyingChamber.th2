@@ -1,0 +1,21 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -116.6 -101.81 699.6 610.87
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {259.087083789 1 1.0} {538.700787402 15} PocketTopo/LastSurveyingChamber_p.xvi 0 {}
+
+
+scrap LastSurveyingChamberSP1 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap LastSurveyingChamberSP2 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap LastSurveyingChamberSP3 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

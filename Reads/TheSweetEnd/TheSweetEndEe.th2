@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -239.46 -147.06 1436.78 882.34
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {119.73185662 1 1.0} {639.560980597 18} PocketTopo/TheSweetEnd_e.xvi 0 {}
+
+
+scrap TheSweetEndSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
