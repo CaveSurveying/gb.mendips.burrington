@@ -1,10 +1,28 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -92.14 -34.17 552.85 205.05
-##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {506.77621912 1 1.0} {187.96132089 81} PocketTopo/AltJunctTinyBit_E15.xvi 0 {}
+##XTHERION## xth_me_area_adjust -92.14 -34.17 552.85 221.82999999999998
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {311.95621912 1 1.0} {118.66132089000001 82} PocketTopo/AltJunctTinyBit_E15.xvi 0 {}
 
 
-scrap AltJunctTinyBitSE15_1 -projection [elevation 15] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap AltJunctTinyBitSE15_1 -projection [elevation 15] -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall
+  299.5 146.5
+  281.0 144.5 195.0 110.5 179.0 106.0
+  163.0 101.5 145.5 95.0 130.5 89.5
+  115.5 84.0 83.5 90.5 75.5 82.0
+  67.5 73.5 45.0 61.0 47.0 52.5
+  49.0 44.0 119.0 19.0 130.0 18.0
+  141.0 17.0 150.5 9.5 167.0 16.0
+  183.5 22.5 287.5 80.5 306.0 90.5
+endline
+
+point 118.66621912 44.401320889999994 station -name 84
+
+point 161.48621912 75.03132088999999 station -name 83
+
+point 311.95621912 118.66132089 station -name 82
 
 endscrap
 

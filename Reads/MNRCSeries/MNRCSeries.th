@@ -4,9 +4,10 @@ survey MNRCSeries
 input MNRCSeries.th2
 
 map MNRCSeriesM
-  MNRCSeriesSP1
-  MNRCSeriesSP2
   MNRCSeriesSP3
+  MNRCSeriesSP2
+ break
+  MNRCSeriesSP1
 endmap
 
 centreline

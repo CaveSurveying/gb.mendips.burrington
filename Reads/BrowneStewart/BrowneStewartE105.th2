@@ -1,0 +1,26 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -48.86 -88.37 293.17 530.2
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {268.743613704 1 1.0} {486.014282414 14} PocketTopo/BrowneStewart_E105.xvi 0 {}
+
+
+scrap BrowneStewartSE105_1 -projection [elevation 105] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BrowneStewartSE105_2 -projection [elevation 105] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BrowneStewartSE105_3 -projection [elevation 105] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap BrowneStewartSE105_4 -projection [elevation 105] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

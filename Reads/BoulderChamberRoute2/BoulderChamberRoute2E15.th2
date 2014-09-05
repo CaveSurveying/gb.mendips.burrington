@@ -1,15 +1,17 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -99.42 -119.5 596.5 717.01
-##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {275.215574466 1 1.0} {648.144442872 9} PocketTopo/BoulderChamberRoute2_E15.xvi 0 {}
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {313.94557446600004 1 1.0} {599.014442872 24} PocketTopo/BoulderChamberRoute2_E15.xvi 0 {}
 
 
-scrap BoulderChamberRoute2SE15_1 -projection [elevation 15] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap BoulderChamberRoute2SE15_1 -projection [elevation 15] -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
 
 
-scrap BoulderChamberRoute2SE15_2 -projection [elevation 15] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap BoulderChamberRoute2SE15_2 -projection [elevation 15] -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
 

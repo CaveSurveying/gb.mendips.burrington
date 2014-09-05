@@ -1,9 +1,12 @@
 encoding  utf-8
 source Reads.th
 
+select ReadsM@Reads -map-level 0
+
+
 export map -proj plan -layout mendip -o Reads.pdf
 
-export map -proj [elevation 15] -layout mendip -o ReadsE15.pdf
+#export map -proj [elevation 15] -layout mendip -o ReadsE15.pdf
 
 #export map -proj plan -fmt kml -layout mendip -o Reads.kml
 
@@ -18,10 +21,11 @@ export model -fmt survex -o Readsth.3d
 
 layout mendip
 copy common
-scale 1 500
+scale 1 200
 debug off
 map-header 0 0 off
-#symbol-hide group cave-centreline
+symbol-hide group cave-centreline
+colour map-fg map
 
 code metapost
 def l_wall_blocks_CHED (expr P) = 

@@ -5,6 +5,7 @@ input Grotto.th2
 
 map GrottoM
   GrottoSP1
+ break
   GrottoSP2
   GrottoSP3
   GrottoSP4

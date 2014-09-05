@@ -1,0 +1,26 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -315.1 -194.77 1890.61 1168.6
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {247.127909295 1 1.0} {433.345933755 84} PocketTopo/Grotto_E105.xvi 0 {}
+
+
+scrap GrottoSE105_1 -projection [elevation 105] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap GrottoSE105_2 -projection [elevation 105] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap GrottoSE105_3 -projection [elevation 105] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap GrottoSE105_4 -projection [elevation 105] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

@@ -78,12 +78,37 @@ equate 13@UpperWaterfall 14@UpperWaterfall2
 equate 1@WaterfallChamber 5.10@ZAlley
 
 map ReadsM
+  Level1M [0 -20 m] above
+  Level2M [0 -40 m] below
+  Level3M [0 -60 m] below
+  Level4M [0 -80 m] below
+endmap
+
+map Level1M
   DryEntM@DryEnt
   MainChamberM@MainChamber
   JuncAlterRoute2M@JuncAlterRoute2
   JuncAlterRouteM@JuncAlterRoute
   WaterM@Water
   WaterfallChamberM@WaterfallChamber
+endmap
+
+map Level2M
+  BoulderChamberM@BoulderChamber
+endmap
+
+map Level3M
+ EarlyGraveM@EarlyGrave
+ LADSLuckM@LADSLuck
+ LLAproachM@LLAproach
+ BrownStainM@BrownStain
+ SudoLinkTubeM@SudoLinkTube
+endmap
+
+map Level4M
+  SplashPotM@SplashPot
+  BrownStuartM@BrownStuart
+  MNRCSeriesM@MNRCSeries
 endmap
 
 map ReadsME15 -proj [elevation 15]

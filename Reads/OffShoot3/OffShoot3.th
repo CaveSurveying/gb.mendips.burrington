@@ -8,6 +8,8 @@ map OffShoot3M
   OffShoot3SP1
   OffShoot3SP2
   OffShoot3SP3
+  OffShoot3SP4
+  OffShoot3SP5
 endmap
 
 map OffShoot3ME15 -proj [elevation 15]

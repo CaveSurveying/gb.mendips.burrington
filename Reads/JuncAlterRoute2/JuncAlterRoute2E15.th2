@@ -1,0 +1,26 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -123.29 -167.36 739.72 1004.13
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {115.229033029 1 1.0} {177.164606879 14} PocketTopo/JuncAlterRoute2_E15.xvi 0 {}
+
+
+scrap JuncAlterRoute2SE15_1 -projection [elevation 15] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap JuncAlterRoute2SE15_2 -projection [elevation 15] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap JuncAlterRoute2SE15_3 -projection [elevation 15] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap JuncAlterRoute2SE15_4 -projection [elevation 15] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

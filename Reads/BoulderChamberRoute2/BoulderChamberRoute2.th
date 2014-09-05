@@ -8,6 +8,7 @@ map BoulderChamberRoute2M
   BoulderChamberRoute2SP1
   BoulderChamberRoute2SP2
   BoulderChamberRoute2SP3
+  BoulderChamberRoute2SP3
 endmap
 
 map BoulderChamberRoute2ME15 -proj [elevation 15]

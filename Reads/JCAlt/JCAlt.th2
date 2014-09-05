@@ -1,20 +1,59 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -144.93 -110.25 869.57 661.51
 ##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {641.204724409 1 1.0} {474.653543307 7} PocketTopo/JCAlt_p.xvi 0 {}
+##XTHERION## xth_me_image_insert {632.9447244090001 1 1.0} {564.323543307 24} PocketTopo/JCAlt_p.xvi 0 {}
 
 
-scrap JCAltSP1 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap JCAltSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -close on -subtype blocks
+  784.0 360.0
+  782.0 410.0 776.0 428.0 758.0 466.0
+  740.0 504.0 659.89 548.65 632.9447244090001 564.323543307
+  606.0 580.0 584.0 600.0 538.0 568.0
+  492.0 536.0 474.0 530.0 438.0 494.0
+  402.0 458.0 402.0 394.0 362.0 372.0
+  322.0 350.0 332.0 308.0 304.0 312.0
+  276.0 316.0 270.0 342.0 220.0 344.0
+  170.0 346.0 170.0 350.0 138.0 320.0
+  106.0 290.0 78.0 240.0 110.0 200.0
+  142.0 160.0 166.0 88.0 214.0 94.0
+  262.0 100.0 264.0 116.0 308.0 136.0
+  352.0 156.0 378.0 156.0 404.0 134.0
+  430.0 112.0 456.0 82.0 494.0 74.0
+  532.0 66.0 548.0 66.0 588.0 102.0
+  628.0 138.0 642.0 144.0 638.0 204.0
+  634.0 264.0 600.0 272.0 604.0 298.0
+  608.0 324.0 628.0 396.0 644.0 404.0
+  660.0 412.0 724.0 360.0 724.0 360.0
+  smooth off
+  724.0 360.0 786.0 310.0 784.0 360.0
+endline
+
+point 236.02472440900004 218.843543307 station -name 28
+
+point 507.43472440900007 210.603543307 station -name 27
+
+point 421.744724409 248.243543307 station -name 26
+
+point 480.50472440900006 375.05354330700004 station -name 25
+
+point 632.9447244090001 564.323543307 station -name 24
+
+point 698.0547244090001 475.913543307 station -name 23
 
 endscrap
 
 
-scrap JCAltSP2 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap JCAltSP2 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
 
 
-scrap JCAltSP3 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap JCAltSP3 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
 

@@ -1,15 +1,17 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -131.05 -77.01 786.33 462.05
-##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {503.637662833 1 1.0} {138.188976378 8.23} PocketTopo/LlExtension_p.xvi 0 {}
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {597.567662833 1 1.0} {141.268976378 8.24} PocketTopo/LlExtension_p.xvi 0 {}
 
 
-scrap LlExtensionSP1 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap LlExtensionSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
 
 
-scrap LlExtensionSPX8.26 -projection [none] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap LlExtensionSPX8.26 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
 

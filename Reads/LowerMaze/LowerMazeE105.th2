@@ -1,0 +1,26 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -171.09 -153.61 1026.55 921.67
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {243.761748639 1 1.0} {261.69909378 0} PocketTopo/LowerMaze_E105.xvi 0 {}
+
+
+scrap LowerMazeSE105_1 -projection [elevation 105] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap LowerMazeSE105_2 -projection [elevation 105] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap LowerMazeSE105_3 -projection [elevation 105] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap LowerMazeSE105_4 -projection [elevation 105] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

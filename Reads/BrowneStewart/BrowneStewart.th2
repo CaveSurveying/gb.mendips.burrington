@@ -1,20 +1,74 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -44.18 -54.74 265.07 328.44
-##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {148.495695392 1 1.0} {27.369799636 14} PocketTopo/BrowneStewart_p.xvi 0 {}
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {140.805695392 1 1.0} {134.36979963599998 15} PocketTopo/BrowneStewart_p.xvi 0 {}
 
 
-scrap BrowneStewartSP1 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap BrowneStewartSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -subtype blocks
+  170.0 61.5
+  171.5 76.5 185.0 90.5 187.5 99.5
+  190.0 108.5 194.0 155.0 192.0 164.5
+  190.0 174.0 198.5 184.0 205.0 193.5
+  211.5 203.0 231.0 213.0 226.5 217.5
+  222.0 222.0 184.5 229.0 174.5 230.0
+  164.5 231.0 110.0 246.0 109.5 253.0
+  109.0 260.0 112.5 265.5 114.0 273.0
+  115.5 280.5 120.5 281.5 114.5 289.5
+  108.5 297.5 97.5 300.0 93.5 306.5
+endline
+
+line wall -subtype blocks
+  49.5 252.0
+  59.5 237.5 79.0 225.0 80.5 216.0
+  82.0 207.0 126.5 191.5 132.0 190.0
+  137.5 188.5 150.5 197.0 153.5 191.0
+  156.5 185.0 150.5 179.0 145.0 170.0
+  139.5 161.0 157.0 157.0 156.0 151.5
+  155.0 146.0 146.0 144.0 140.0 138.0
+  134.0 132.0 121.0 110.5 120.5 101.0
+  120.0 91.5 124.0 75.5 124.5 63.5
+endline
+
+point 22.08569539199999 301.06979963599997 station -name 19
+
+point 81.18569539199999 232.609799636 station -name 18
+
+point 171.715695392 226.779799636 station -name 17
+
+point 185.585695392 143.68979963599998 station -name 16
+
+point 140.805695392 134.36979963599998 station -name 15
 
 endscrap
 
 
-scrap BrowneStewartSP2 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap BrowneStewartSP2 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -subtype blocks
+  80.5 216.0
+  84.0 202.0 93.0 144.5 101.5 146.0
+  110.0 147.5 230.53 216.62 235.765695392 219.80979963599998
+  241.0 223.0 249.0 225.5 241.0 238.5
+  233.0 251.5 204.5 270.5 192.5 265.5
+  180.5 260.5 116.0 248.0 113.0 252.5
+  110.0 257.0 113.5 267.0 114.0 273.0
+endline
+
+point 235.765695392 219.80979963599998 station -name 22
+
+point 184.16569539199998 261.909799636 station -name 21
+
+point 103.425695392 214.87979963599997 station -name 20
 
 endscrap
 
 
-scrap BrowneStewartSP3 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap BrowneStewartSP3 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
 

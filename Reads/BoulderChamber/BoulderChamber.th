@@ -8,6 +8,7 @@ map BoulderChamberM
   BoulderChamberSP1
   BoulderChamberSP2
   BoulderChamberSP3
+  BoulderChamberSP4
 endmap
 
 map BoulderChamberME15 -proj [elevation 15]
