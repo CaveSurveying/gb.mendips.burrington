@@ -14,6 +14,7 @@ endmap
 map BoulderChamberRoute2ME15 -proj [elevation 15]
   BoulderChamberRoute2SE15_1
   BoulderChamberRoute2SE15_2
+  BoulderChamberRoute2SE15_3
 endmap
 
 equate 21 74 

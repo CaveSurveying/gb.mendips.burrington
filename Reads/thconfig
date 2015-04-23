@@ -1,7 +1,12 @@
 encoding  utf-8
 source Reads.th
 
-select ReadsM@Reads -map-level 0
+#select ReadsM@Reads -map-level 1
+select Level1M@Reads
+select Level2M@Reads
+select Level3M@Reads
+select Level4M@Reads
+
 
 
 export map -proj plan -layout mendip -o Reads.pdf
@@ -23,9 +28,11 @@ layout mendip
 copy common
 scale 1 200
 debug off
+rotate -15
 map-header 0 0 off
 symbol-hide group cave-centreline
 colour map-fg map
+
 
 code metapost
 def l_wall_blocks_CHED (expr P) = 

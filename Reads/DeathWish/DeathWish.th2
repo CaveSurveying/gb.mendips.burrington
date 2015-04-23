@@ -1,0 +1,21 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -173.86 -175.75 1043.15 1054.49
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {893.228346457 1 1.0} {335.118110236 0} PocketTopo/DeathWish_p.xvi 0 {}
+
+
+scrap DeathWishSP1 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap DeathWishSP2 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+
+scrap DeathWishSP3 -projection [plan] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

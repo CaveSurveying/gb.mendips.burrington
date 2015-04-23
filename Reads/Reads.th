@@ -8,6 +8,7 @@ input BrownStain/BrownStain.th
 input BrowneStewart/BrowneStewart.th
 input BrownStuart/BrownStuart.th
 input DryEnt/DryEnt.th
+input DeathWish/DeathWish.th
 input EarlyGrave/EarlyGrave.th
 input Grotto/Grotto.th
 input JCAlt/JCAlt.th
@@ -28,7 +29,7 @@ input OffShoot3/OffShoot3.th
 input Pipe/Pipe.th
 input SplashPot/SplashPot.th
 input SudoLinkTube/SudoLinkTube.th
-input TheSweetEnd/TheSweetEnd.th
+#input TheSweetEnd/TheSweetEnd.th #This has been resurveyed as DeathWish
 input UpperWaterfall/UpperWaterfall.th
 input UpperWaterfall2/UpperWaterfall2.th
 input Water/Water.th
@@ -62,7 +63,7 @@ equate 8.12@LLAproach 9.0@LADSLuck
 equate 8.12@LLAproach 8.23@LlExtension
 equate 8.15@LLAproach 8.30@SudoLinkTube
 equate 0@LowerMaze 5.11@ZAlley
-equate 18@LowerMaze 18@TheSweetEnd
+equate 18@LowerMaze 0@DeathWish
 equate 2.1@MainChamber 4.0@Pipe
 equate 2.7@MainChamber 3.0@Water
 equate 2.9@MainChamber 42@WCR2
@@ -77,38 +78,58 @@ equate 6.0@SplashPot 5.15@ZAlley
 equate 13@UpperWaterfall 14@UpperWaterfall2
 equate 1@WaterfallChamber 5.10@ZAlley
 
+
 map ReadsM
-  Level1M [0 -20 m] above
-  Level2M [0 -40 m] below
-  Level3M [0 -60 m] below
-  Level4M [0 -80 m] below
+  Level1M
+  Level2M
+  Level3M
+  Level4M
 endmap
 
+
 map Level1M
-  DryEntM@DryEnt
-  MainChamberM@MainChamber
-  JuncAlterRoute2M@JuncAlterRoute2
-  JuncAlterRouteM@JuncAlterRoute
-  WaterM@Water
-  WaterfallChamberM@WaterfallChamber
+  DryEntM@DryEnt [0 -25 m] above
+  GrottoM@Grotto [0 -25 m] above
+  MainChamberM@MainChamber [0 -25 m] above
+  JuncAlterRouteM@JuncAlterRoute [0 -25 m] above
+  OffShootM@OffShoot [0 -25 m] above  
+  WaterM@Water [0 -25 m] above
+  WaterfallChamberM@WaterfallChamber [0 -25 m] above
 endmap
 
 map Level2M
-  BoulderChamberM@BoulderChamber
+  AltJunctTinyBitM@AltJunctTinyBit [0 -50 m] above
+  BoulderChamberM@BoulderChamber [0 -50 m] above
+  BoulderChamberRoute2M@BoulderChamberRoute2 [0 -50 m] above
+  JCAltM@JCAlt [0 -50 m] above
+  JuncAlterRoute2M@JuncAlterRoute2 [0 -50 m] above
+  OffShoot2M@OffShoot2 [0 -50 m] above 
+  OffShoot3M@OffShoot3 [0 -50 m] above 
+  PipeM@Pipe [0 -50 m] above
+  UpperWaterfallM@UpperWaterfall [0 -50 m] above
+  UpperWaterfall2M@UpperWaterfall2 [0 -50 m] above
+  WCR2M@WCR2 [0 -50 m] above #probably needs splitting into level1M
+  ZAlleyM@ZAlley  [0 -50 m] above #probably needs splitting into level4M
 endmap
 
 map Level3M
- EarlyGraveM@EarlyGrave
- LADSLuckM@LADSLuck
- LLAproachM@LLAproach
- BrownStainM@BrownStain
- SudoLinkTubeM@SudoLinkTube
+  BrowneStewartM@BrowneStewart [0 -75 m] above
+  EarlyGraveM@EarlyGrave [0 -75 m] above
+  LADSLuckM@LADSLuck [0 -75 m] above
+  LLAproachM@LLAproach [0 -75 m] above
+  LlExtensionM@LlExtension [0 -75 m] above
+  SudoLinkTubeM@SudoLinkTube [0 -75 m] above
 endmap
 
 map Level4M
-  SplashPotM@SplashPot
-  BrownStuartM@BrownStuart
-  MNRCSeriesM@MNRCSeries
+  BrownStainM@BrownStain [0 -100 m] above
+  BrownStuartM@BrownStuart [0 -100 m] above
+  LastSurveyingChamberM@LastSurveyingChamber [0 -100 m] above
+  LowerMazeM@LowerMaze [0 -100 m] above
+  MazeM@Maze [0 -100 m] above
+  MNRCSeriesM@MNRCSeries [0 -100 m] above
+  SplashPotM@SplashPot [0 -100 m] above
+  #TheSweetEndM@TheSweetEnd [0 -100 m] above
 endmap
 
 map ReadsME15 -proj [elevation 15]
@@ -116,6 +137,55 @@ map ReadsME15 -proj [elevation 15]
   MainChamberME15@MainChamber
   #WaterM@Water
 endmap
+
+##############################################################
+#Elevation facing  15 maps
+
+map Level1ME15 -proj [elevation 15]
+  DryEntME15@DryEnt [0 -25 m] above
+  #GrottoME15@Grotto [0 -25 m] above
+  #MainChamberME15@MainChamber [0 -25 m] above
+  #JuncAlterRouteME15@JuncAlterRoute [0 -25 m] above
+  #OffShootME15@OffShoot [0 -25 m] above  
+  #WaterME15@Water [0 -25 m] above
+ # WaterfallChamberME15@WaterfallChamber [0 -25 m] above
+endmap
+
+#map Level2ME15 -proj [elevation 15]
+  #AltJunctTinyBitME15@AltJunctTinyBit [0 -50 m] above
+  #BoulderChamberME15@BoulderChamber [0 -50 m] above
+  #BoulderChamberRoute2ME15@BoulderChamberRoute2 [0 -50 m] above
+  #JCAltME15@JCAlt [0 -50 m] above
+  #JuncAlterRoute2ME15@JuncAlterRoute2 [0 -50 m] above
+  #OffShoot2ME15@OffShoot2 [0 -50 m] above 
+  #OffShoot3ME15@OffShoot3 [0 -50 m] above 
+  #PipeME15@Pipe [0 -50 m] above
+  #UpperWaterfallME15@UpperWaterfall [0 -50 m] above
+  #UpperWaterfall2ME15@UpperWaterfall2 [0 -50 m] above
+ # WCR2ME15@WCR2 [0 -50 m] above #probably needs splitting into level1M
+  #ZAlleyME15@ZAlley  [0 -50 m] above #probably needs splitting into level4M
+#endmap
+
+#map Level3ME15  -proj [elevation 15]
+  #BrowneStewartME15@BrowneStewart [0 -75 m] above
+  #EarlyGraveME15@EarlyGrave [0 -75 m] above
+  #LADSLuckME15@LADSLuck [0 -75 m] above
+  #LLAproachME15@LLAproach [0 -75 m] above
+  #LlExtensionME15@LlExtension [0 -75 m] above
+  #SudoLinkTubeME15@SudoLinkTube [0 -75 m] above
+#endmap
+
+#map Level4ME15  -proj [elevation 15]
+  #BrownStainME15@BrownStain [0 -100 m] above
+  #BrownStuartME15@BrownStuart [0 -100 m] above
+  #LastSurveyingChamberME15@LastSurveyingChamber [0 -100 m] above
+  #LowerMazeME15@LowerMaze [0 -100 m] above
+  #MazeME15@Maze [0 -100 m] above
+  #MNRCSeriesME15@MNRCSeries [0 -100 m] above
+  #SplashPotME15@SplashPot [0 -100 m] above
+  #TheSweetEndME15@TheSweetEnd [0 -100 m] above
+#endmap
+
 
 ##############################################################
 #PLAN Joins
