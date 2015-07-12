@@ -1,0 +1,11 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust -469.88 -258.03 2819.26 1548.19
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {270.541851367 1 1.0} {475.472440945 84} ../../PocketTopo/Grotto_e.xvi 0 {}
+
+
+scrap GrottoSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+endscrap
+
+

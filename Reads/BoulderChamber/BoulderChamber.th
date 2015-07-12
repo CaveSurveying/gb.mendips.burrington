@@ -3,6 +3,7 @@ survey BoulderChamber
 
 input BoulderChamber.th2
 input BoulderChamberE15.th2
+input BoulderChamberE105.th2
 
 map BoulderChamberM
   BoulderChamberSP1
@@ -13,8 +14,18 @@ endmap
 
 map BoulderChamberME15 -proj [elevation 15]
   BoulderChamberSE15_1
+ break
   BoulderChamberSE15_2
+ break
   BoulderChamberSE15_3
+endmap
+
+map BoulderChamberME105 -proj [elevation 105]
+  BoulderChamberSE105_1
+ break
+  BoulderChamberSE105_2
+ break
+  BoulderChamberSE105_3
 endmap
 
 centreline

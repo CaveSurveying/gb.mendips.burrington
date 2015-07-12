@@ -2,8 +2,9 @@ encoding  utf-8
 survey DryEnt
 
 input DryEnt.th2
-input DryEntEe.th2
+#input DryEntEe.th2
 input DryEntE15.th2
+input DryEntE105.th2
 
 map DryEntM
   DryEntSPl1
@@ -13,6 +14,10 @@ endmap
 
 map DryEntME15 -proj [elevation 15]
   DryEntSE15_1
+endmap
+
+map DryEntME105 -proj [elevation 105]
+  DryEntSE105_1
 endmap
 
 centreline

@@ -2,10 +2,20 @@ encoding  utf-8
 survey BrownStain
 
 input BrownStain.th2
+input BrownStainE15.th2
+input BrownStainE105.th2
 
 map BrownStainM
   BrownStainSP1
   BrownStainSP2
+endmap
+
+map BrownStainME15 -proj [elevation 15]
+  BrownStainSE15_1
+endmap
+
+map BrownStainME105 -proj [elevation 105]
+  BrownStainSE105_1
 endmap
 
 centreline

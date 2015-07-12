@@ -3,6 +3,7 @@ survey BrowneStewart
 
 input BrowneStewart.th2
 input BrowneStewartE15.th2
+input BrowneStewartE105.th2
 
 map BrowneStewartM
   BrowneStewartSP1
@@ -12,9 +13,19 @@ endmap
 
 map BrowneStewartME15 -proj [elevation 15]
   BrowneStewartSE15_1
+ break
   BrowneStewartSE15_2
-  BrowneStewartSE15_3
 endmap
+
+map BrowneStewartME105 -proj [elevation 105]
+  BrowneStewartSE105_1
+ break
+  BrowneStewartSE105_2
+ break
+  BrowneStewartSE105_3
+endmap
+
+
 centreline
 
 copyright 2013 "CC BY SA NC"

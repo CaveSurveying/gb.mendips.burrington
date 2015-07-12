@@ -1,20 +1,98 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -45.49 -88.37 272.92 530.2
-##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {215.680497415 1 1.0} {486.014282414 14} PocketTopo/BrowneStewart_E15.xvi 0 {}
+##XTHERION## xth_me_area_adjust -183.996976921 -162.55704089700004 386.9636530002 644.6240614650999
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {180.560497415 1 1.0} {376.934282414 15} PocketTopo/BrowneStewart_E15.xvi 0 {}
 
 
-scrap BrowneStewartSE15_1 -projection [elevation 15] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap BrowneStewartSE15_1 -projection [elevation 15] -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line rock-border -close on -outline in
+  151.0 196.0
+  180.0 205.0
+  198.0 193.0
+  192.0 173.0
+  163.0 178.0
+  143.0 182.0
+  151.0 196.0
+endline
+
+line wall -subtype blocks
+  248.0 75.0
+  230.0 87.0 170.0 162.0 180.0 162.0
+  190.0 162.0 216.0 162.0 208.0 173.0
+  200.0 184.0 226.0 196.0 217.0 204.0
+  208.0 212.0 201.0 225.0 186.0 228.0
+  171.0 231.0 149.0 220.0 145.0 224.0
+  141.0 228.0 138.0 228.0 136.0 238.0
+  134.0 248.0 112.0 271.0 118.0 273.0
+  124.0 275.0 171.0 264.0 185.0 266.0
+  199.0 268.0 212.0 269.0 223.0 277.0
+  234.0 285.0 242.0 319.0 246.0 327.0
+  smooth off
+endline
+
+line wall -subtype debris
+  45.0 154.0
+  54.0 173.0 85.0 228.0 94.0 230.0
+  103.0 232.0 99.0 184.0 105.0 173.0
+  111.0 162.0 121.0 138.0 129.0 128.0
+  137.0 118.0 185.0 64.0 192.0 56.0
+  199.0 48.0 218.0 30.0 235.0 21.0
+  smooth off
+endline
+
+line wall -subtype blocks
+  199.0 329.0
+  199.0 329.0 205.0 320.0 192.0 324.0
+  179.0 328.0 191.0 342.0 170.0 333.0
+  149.0 324.0 115.0 316.0 99.0 306.0
+  83.0 296.0 29.0 222.0 6.0 197.0
+  smooth off
+endline
+
+point 186.490497415 294.324282414 station -name 17
+
+point 250.170497415 44.184282413999995 station -name 22
+
+point 189.430497415 90.184282414 station -name 21
+
+point 123.62049741499999 174.78428241399996 station -name 20
+
+point 97.550497415 298.084282414 station -name 18
+
+point 22.740497414999993 164.22428241399996 station -name 19
 
 endscrap
 
 
-scrap BrowneStewartSE15_2 -projection [elevation 15] -scale [0 0 787.4 787.4  0 0 10 10 m]
 
-endscrap
+scrap BrowneStewartSE15_2 -projection [elevation 15] -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+line wall -subtype blocks
+  246.0 327.0
+  245.0 342.0 254.0 351.0 239.0 361.0
+  224.0 371.0 208.0 365.0 202.0 374.0
+  196.0 383.0 200.0 417.0 208.0 428.0
+  216.0 439.0 212.0 441.0 221.0 452.0
+  smooth off
+endline
 
-scrap BrowneStewartSE15_3 -projection [elevation 15] -scale [0 0 787.4 787.4  0 0 10 10 m]
+line wall -subtype blocks
+  189.0 464.0
+  181.0 445.0 186.0 446.0 177.0 433.0
+  168.0 420.0 172.0 401.0 169.0 392.0
+  166.0 383.0 169.0 374.0 169.0 364.0
+  169.0 354.0 161.0 336.0 170.0 333.0
+  179.0 330.0 198.38 333.97 199.0 329.0
+  smooth off
+endline
+
+point 215.680497415 486.014282414 station -name 14
+
+point 180.560497415 376.934282414 station -name 15
+
+point 221.400497415 337.294282414 station -name 16
 
 endscrap
 

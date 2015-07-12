@@ -3,6 +3,7 @@ survey JCAlt
 
 input JCAlt.th2
 input JCAltE15.th2
+input JCAltE105.th2
 
 map JCAltM
   JCAltSP1
@@ -12,9 +13,12 @@ endmap
 
 map JCAltME15 -proj [elevation 15]
   JCAltSE15_1
-  JCAltSE15_2
-  JCAltSE15_3
 endmap
+
+map JCAltME105 -proj [elevation 105]
+  JCAltSE105_1
+endmap
+
 centreline
 
 copyright 2013 "CC BY SA NC"

@@ -1,28 +1,32 @@
 encoding  utf-8
 source Reads.th
 
-#select ReadsM@Reads -map-level 1
-select Level1M@Reads
-select Level2M@Reads
-select Level3M@Reads
-select Level4M@Reads
+select LevelsM@Reads -map-level 1
+#select ReadsM@Reads #-map-level 1
+select LevelsME15@Reads -map-level 1
+select LevelsME105@Reads -map-level 1
 
 
+#export map -proj plan -layout mendip -o Reads.pdf
 
-export map -proj plan -layout mendip -o Reads.pdf
+export map -proj [elevation 15] -layout mendip -o ReadsE15.pdf
 
-#export map -proj [elevation 15] -layout mendip -o ReadsE15.pdf
+export map -proj [elevation 105] -layout mendip -o ReadsE105.pdf
 
 #export map -proj plan -fmt kml -layout mendip -o Reads.kml
 
 #export model -o Reads.lox
 #3d therion model to be viewed in the therion viewer
 
-export model -fmt survex -o Readsth.3d
+#export model -fmt survex -o Readsth.3d
 #Survex file showing centreline and slays
 
 #export model -fmt survex -disable splay-shots -o Reads_NoSplaysth.3d
 #Survex file showing centre line only
+
+layout local_elevation
+copy mendip
+endlayout
 
 layout mendip
 copy common
@@ -30,7 +34,9 @@ scale 1 200
 debug off
 rotate -15
 map-header 0 0 off
+#symbol-hide group all
 symbol-hide group cave-centreline
+grid off
 colour map-fg map
 
 

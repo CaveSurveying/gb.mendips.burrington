@@ -3,6 +3,7 @@ survey AltJunctTinyBit
 
 input AltJunctTinyBit.th2
 input AltJunctTinyBitE15.th2
+input AltJunctTinyBitE105.th2
 
 map AltJunctTinyBitM
   AltJunctTinyBitSP1
@@ -10,6 +11,10 @@ endmap
 
 map AltJunctTinyBitME15 -proj [elevation 15]
   AltJunctTinyBitSE15_1
+endmap
+
+map AltJunctTinyBitME105 -proj [elevation 105]
+  AltJunctTinyBitSE105_1
 endmap
 
 centreline

@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -509.72 -296.61 3058.34 1779.69
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -136.0 -136.0 2952.0 1772.3700787460002
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {1911.5914834700002 1 1.0} {1121.83393701 7.14} PocketTopo/BrownStuart_p.xvi 0 {}
 
 
@@ -15,6 +15,7 @@ line wall
   1666.0 1089.0 1667.0 1079.0 1639.0 1073.0
   1611.0 1067.0 1594.0 1056.0 1581.0 1046.0
   1568.0 1036.0 1535.0 995.0 1513.0 985.0
+  smooth off
 endline
 
 line wall -subtype blocks
@@ -63,6 +64,7 @@ line wall
   1301.0 1236.0 1341.0 1216.0 1367.0 1211.0
   1393.0 1206.0 1435.0 1193.0 1435.0 1176.0
   1435.0 1159.0 1437.0 1156.0 1421.0 1144.0
+  smooth off
 endline
 
 line wall
@@ -77,12 +79,14 @@ line wall
   1451.0 1276.0 1400.0 1286.0 1380.0 1290.0
   1360.0 1294.0 1292.0 1302.0 1289.0 1310.0
   1286.0 1318.0 1296.0 1333.0 1284.0 1344.0
+  smooth off
 endline
 
 line wall
   2009.0 1107.0
   1994.0 1116.0 1969.0 1111.0 1963.0 1123.0
   1957.0 1135.0 1945.0 1146.0 1941.0 1167.0
+  smooth off
 endline
 
 line wall -close on -subtype blocks -outline in
@@ -96,12 +100,39 @@ line wall -close on -subtype blocks -outline in
   1941.0 1039.0 1952.0 1034.0 1964.0 1025.0
 endline
 
+line rock-edge
+  2134.0 820.0
+  2120.0 852.0
+  2138.0 916.0
+  2142.0 950.0
+endline
+
+line rock-edge
+  2048.0 814.0
+  2054.0 844.0
+  2072.0 884.0
+endline
+
+line rock-border -close on
+  2142.0 950.0
+  2072.0 884.0
+  2036.0 842.0
+  2018.0 814.0
+  2048.0 814.0
+  2084.0 794.0
+  2134.0 820.0
+  2168.0 868.0
+  2188.0 924.0
+  2142.0 950.0
+endline
+
 line wall -subtype blocks
   2183.0 944.0
   2169.0 942.0 2160.0 935.0 2142.0 950.0
   2124.0 965.0 2127.0 973.0 2106.0 994.0
   2085.0 1015.0 2070.0 1051.0 2059.0 1066.0
   2048.0 1081.0 2023.0 1098.0 2009.0 1107.0
+  smooth off
 endline
 
 line wall
@@ -121,6 +152,7 @@ line wall
   2244.0 908.0
   2244.0 908.0 2233.0 918.0 2221.0 927.0
   2209.0 936.0 2197.0 943.0 2183.0 944.0
+  smooth off
 endline
 
 line wall
@@ -133,12 +165,14 @@ line wall
   2476.0 602.0 2518.0 590.0 2518.0 590.0
   smooth off
   2518.0 590.0 2552.0 588.0 2568.0 570.0
+  smooth off
 endline
 
 line wall -subtype blocks
   1972.0 724.0
   1972.0 724.0 1974.0 736.0 2010.0 726.0
   2046.0 716.0 2066.0 678.0 2098.0 664.0
+  smooth off
 endline
 
 line wall
@@ -156,6 +190,7 @@ line wall
   1930.0 862.0 1912.0 826.0 1906.0 796.0
   1900.0 766.0 1894.0 762.0 1926.0 744.0
   1958.0 726.0 1956.0 726.0 1972.0 724.0
+  smooth off
 endline
 
 point 257.27148347 1562.4539370100001 station -name 7.21
@@ -214,6 +249,7 @@ line wall -subtype blocks
   2772.0 752.0 2726.0 768.0 2716.0 800.0
   2706.0 832.0 2718.0 886.0 2720.0 926.0
   2722.0 966.0 2730.0 998.0 2726.0 1020.0
+  smooth off
 endline
 
 line wall
@@ -230,6 +266,7 @@ line wall
   2446.0 682.0 2454.0 658.0 2442.0 638.0
   2430.0 618.0 2432.0 582.0 2414.0 568.0
   2396.0 554.0 2378.0 560.0 2346.0 532.0
+  smooth off
 endline
 
 point 2611.62148347 1045.4039370100002 station -name 7.1
@@ -243,12 +280,6 @@ point 2628.19148347 737.90393701 station -name 7.4
 point 2491.69148347 531.67393701 station -name 7.5
 
 point 2485.36148347 508.27393701000005 station -name 7.6
-
-endscrap
-
-
-
-scrap BrownStuartSP3 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
 

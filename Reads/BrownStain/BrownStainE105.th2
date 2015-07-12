@@ -1,25 +1,68 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -79.76 -187.04 478.54 1122.22
+##XTHERION## xth_me_area_adjust -166.8621885537 -136.0 616.0 1180.0
 ##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {87.2816264293 1 1.0} {543.91530168 8.20} PocketTopo/BrownStain_E105.xvi 0 {}
+##XTHERION## xth_me_image_insert {284.4016264293 1 1.0} {733.42530168 8.46} PocketTopo/BrownStain_E105.xvi 0 {}
 
 
-scrap BrownStainSE105_1 -projection [elevation 105] -scale [0 0 787.4 787.4  0 0 10 10 m]
 
-endscrap
+scrap BrownStainSE105_1 -projection [elevation 105] -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+point 39.88162642929999 93.51530168 station -name 8.41
 
-scrap BrownStainSE105_2 -projection [elevation 105] -scale [0 0 787.4 787.4  0 0 10 10 m]
+line wall -subtype blocks
+  8.0 76.0
+  158.0 22.0 132.0 138.0 160.0 182.0
+  188.0 226.0 210.0 274.0 222.0 296.0
+  234.0 318.0 216.0 320.0 192.0 350.0
+  168.0 380.0 106.0 416.0 98.0 430.0
+  90.0 444.0 66.0 450.0 74.0 472.0
+  82.0 494.0 96.0 514.0 112.0 522.0
+  128.0 530.0 268.0 578.0 282.0 610.0
+  296.0 642.0 298.0 708.0 304.0 736.0
+  310.0 764.0 314.0 816.0 332.0 838.0
+  350.0 860.0 430.0 900.0 448.0 918.0
+  466.0 936.0 496.0 972.0 468.0 974.0
+  440.0 976.0 418.0 978.0 376.0 954.0
+  334.0 930.0 304.0 900.0 276.0 948.0
+  248.0 996.0 210.0 1032.0 204.0 1042.0
+  198.0 1052.0 146.0 1026.0 146.0 1022.0
+  smooth off
+endline
 
-endscrap
+line wall -subtype blocks
+  146.0 1022.0
+  154.0 994.0 206.0 888.0 210.0 858.0
+  214.0 828.0 260.0 760.0 254.0 738.0
+  248.0 716.0 250.0 640.0 238.0 636.0
+  226.0 632.0 216.0 626.0 194.0 616.0
+  172.0 606.0 85.71 587.81 70.0 608.0
+endline
 
+line wall -subtype blocks
+  38.0 544.0
+  58.93 529.23 22.0 508.0 20.0 484.0
+  18.0 460.0 32.0 382.0 46.0 364.0
+  60.0 346.0 98.0 338.0 102.0 326.0
+  106.0 314.0 114.0 294.0 102.0 272.0
+  90.0 250.0 -26.0 122.0 8.0 76.0
+  smooth off
+endline
 
-scrap BrownStainSE105_3 -projection [elevation 105] -scale [0 0 787.4 787.4  0 0 10 10 m]
+point 185.1316264293 1028.70530168 station -name 8.48
 
-endscrap
+point 438.6616264293 938.38530168 station -name 8.49
 
+point 158.0 310.0 station -name 8.40
 
-scrap BrownStainSE105_4 -projection [elevation 105] -scale [0 0 787.4 787.4  0 0 10 10 m]
+point 57.73162642930001 400.15530168 station -name 8.39
+
+point 40.131626429300006 459.96530168 station -name 8.38
+
+point 268.6816264293 618.48530168 station -name 8.45
+
+point 284.4016264293 733.42530168 station -name 8.46
+
+point 249.6516264293 815.02530168 station -name 8.47
 
 endscrap
 

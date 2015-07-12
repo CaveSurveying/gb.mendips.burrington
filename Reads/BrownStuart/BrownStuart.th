@@ -3,19 +3,28 @@ survey BrownStuart
 
 input BrownStuart.th2
 input BrownStuartE15.th2
+input BrownStuartE105.th2
 
 map BrownStuartM
   BrownStuartSP1
+ break
   BrownStuartSP2
-  BrownStuartSP3
 endmap
 
 map BrownStuartME15 -proj [elevation 15]
   BrownStuartSE15_1
+ break
   BrownStuartSE15_2
-  BrownStuartSE15_3
-  BrownStuartSE15_4
 endmap
+
+map BrownStuartME105 -proj [elevation 105]
+  BrownStuartSE105_1
+ break
+  BrownStuartSE105_2
+  BrownStuartSE105_3
+endmap
+
+
 centreline
 
 copyright 2013 "CC BY SA NC"

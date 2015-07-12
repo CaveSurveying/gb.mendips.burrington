@@ -1,5 +1,5 @@
 encoding  utf-8
-survey MainChamber
+survey MainChamber 
 
 input MainChamber.th2
 input MainChamberEe.th2
@@ -14,8 +14,10 @@ map MainChamberME15 -proj [elevation 15]
 endmap
 
 centreline
+cs OSGB:ST
 
 station 2.12 "Reads Cavern (Wet)" entrance
+fix 2.12 46820 58440 151 # ST 4682 5844 151 MCRA database July 2015
 
 ### TRIP COMMENT FROM POCKETTOPO ###
 #DistoX-ubss1 0.22

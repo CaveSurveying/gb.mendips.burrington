@@ -3,6 +3,7 @@ survey EarlyGrave
 
 input EarlyGrave.th2
 input EarlyGraveE15.th2
+input EarlyGraveE105.th2
 
 map EarlyGraveM
   EarlyGraveSP1
@@ -11,6 +12,11 @@ endmap
 map EarlyGraveME15 -proj [elevation 15]
   EarlyGraveSE15_1
 endmap
+
+map EarlyGraveME105 -proj [elevation 105]
+  EarlyGraveSE105_1
+endmap
+
 centreline
 
 copyright 2013 "CC BY SA NC"

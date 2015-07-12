@@ -11,7 +11,8 @@ source BrowneStewart.th
 
 #export map -proj extended -layout local -o BrowneStewartEe.pdf
 
-#export map -proj [elevation 15] -layout local -o BrowneStewartE90.pdf
+export map -proj [elevation 15] -layout local -o BrowneStewartE15.pdf
+export map -proj [elevation 105] -layout local -o BrowneStewartE105.pdf
 
 export model -fmt survex -o BrowneStewartth.3d
 #Survex file showing centre line only

@@ -2,12 +2,26 @@ encoding  utf-8
 survey JuncAlterRoute
 
 input JuncAlterRoute.th2
+input JuncAlterRouteE15.th2
+input JuncAlterRouteE105.th2
 
 map JuncAlterRouteM
   JuncAlterRouteSP2
  break
   JuncAlterRouteSP1
   JuncAlterRouteSP3
+endmap
+
+map JuncAlterRouteME15 -proj [elevation 15]
+  JuncAlterRouteSE15_1
+ break
+  JuncAlterRouteSE15_2
+endmap
+
+map JuncAlterRouteME105 -proj [elevation 105]
+  JuncAlterRouteSE105_1
+ break
+  JuncAlterRouteSE105_2
 endmap
 
 centreline

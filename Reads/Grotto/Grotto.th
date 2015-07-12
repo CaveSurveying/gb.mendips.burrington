@@ -2,6 +2,8 @@ encoding  utf-8
 survey Grotto
 
 input Grotto.th2
+input GrottoE15.th2
+input GrottoE105.th2
 
 map GrottoM
   GrottoSP1
@@ -9,6 +11,14 @@ map GrottoM
   GrottoSP2
   GrottoSP3
   GrottoSP4
+endmap
+
+map GrottoME15 -proj [elevation 15]
+  GrottoSE15_1
+endmap
+
+map GrottoME105 -proj [elevation 105]
+  GrottoSE105_1
 endmap
 
 centreline
