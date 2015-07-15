@@ -3,6 +3,7 @@ survey LADSLuck
 
 input LADSLuck.th2
 input LADSLuckE15.th2
+input LADSLuckE105.th2
 
 map LADSLuckM
   LADSLuckSP1
@@ -12,10 +13,17 @@ endmap
 
 map LADSLuckME15 -proj [elevation 15]
   LADSLuckSE15_1
+ break
   LADSLuckSE15_2
   LADSLuckSE15_3
-  LADSLuckSE15_4
 endmap
+
+map LADSLuckME105 -proj [elevation 105]
+  LADSLuckSE105_1
+ break
+  LADSLuckSE105_2
+endmap
+
 centreline
 
 copyright 2013 "CC BY SA NC"

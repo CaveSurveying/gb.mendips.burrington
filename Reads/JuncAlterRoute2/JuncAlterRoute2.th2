@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -149.38488491380002 -122.17322834699999 748.5 1078.7086614166
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {199.70705334719997 1 1.0} {588.522047244 42} PocketTopo/JuncAlterRoute2_p.xvi 0 {}
 
 
@@ -127,6 +127,7 @@ endline
 line floor-step
   449.5 409.0
   433.5 411.5 414.5 415.0 406.5 418.0
+  smooth off
 endline
 
 line wall -subtype blocks

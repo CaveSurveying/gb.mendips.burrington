@@ -3,6 +3,7 @@ survey JunctionChamber
 
 input JunctionChamber.th2
 input JunctionChamberE15.th2
+input JunctionChamberE105.th2
 
 map JunctionChamberM
   JunctionChamberSP1
@@ -11,9 +12,15 @@ map JunctionChamberM
 endmap
 
 map JunctionChamberME15 -proj [elevation 15]
-  JunctionChamberSE15_1
   JunctionChamberSE15_2
-  JunctionChamberSE15_3
+ break
+  JunctionChamberSE15_1
+endmap
+
+map JunctionChamberME105 -proj [elevation 105]
+  JunctionChamberSE105_1
+  JunctionChamberSE105_2
+  JunctionChamberSE105_3
 endmap
 
 centreline

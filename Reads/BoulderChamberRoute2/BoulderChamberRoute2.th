@@ -14,7 +14,9 @@ endmap
 
 map BoulderChamberRoute2ME15 -proj [elevation 15]
   BoulderChamberRoute2SE15_1
+ break
   BoulderChamberRoute2SE15_2
+ break
   BoulderChamberRoute2SE15_3
 endmap
 

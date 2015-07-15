@@ -137,6 +137,7 @@ map Level2M
   BoulderChamberRoute2M@BoulderChamberRoute2 [-1682 -6279 cm] below
   JCAltM@JCAlt [-1682 -6279 cm] below
   JuncAlterRoute2M@JuncAlterRoute2 [-1682 -6279 cm] below
+  JunctionChamberM@JunctionChamber [-1682 -6279 cm] below
   OffShoot2M@OffShoot2 [-1682 -6279 cm] below 
   OffShoot3M@OffShoot3 [-1682 -6279 cm] below 
   PipeM@Pipe [-1682 -6279 cm] below
@@ -179,8 +180,8 @@ endmap
 map Level1ME15 -proj [elevation 15]
   DryEntME15@DryEnt [0 -40 m] below
   GrottoME15@Grotto [0 -40 m] below
-  #MainChamberME15@MainChamber [0 -40 m] below
   JuncAlterRouteME15@JuncAlterRoute [0 -40 m] below
+  #MainChamberME15@MainChamber [0 -40 m] below
   #OffShootME15@OffShoot [0 -40 m] below  
   #WaterME15@Water [0 -40 m] below
  # WaterfallChamberME15@WaterfallChamber [0 -40 m] below
@@ -191,7 +192,8 @@ map Level2ME15 -proj [elevation 15]
   BoulderChamberME15@BoulderChamber [0 -65 m] below
   BoulderChamberRoute2ME15@BoulderChamberRoute2 [0 -65 m] below
   JCAltME15@JCAlt [0 -65 m] below
-  #JuncAlterRoute2ME15@JuncAlterRoute2 [0 -65 m] below
+  JuncAlterRoute2ME15@JuncAlterRoute2 [0 -65 m] below
+  JunctionChamberME15@JunctionChamber [0 -65 m] below
   #OffShoot2ME15@OffShoot2 [0 -65 m] below 
   #OffShoot3ME15@OffShoot3 [0 -65 m] below 
   #PipeME15@Pipe [0 -65 m] below
@@ -204,7 +206,7 @@ endmap
 map Level3ME15  -proj [elevation 15]
   BrowneStewartME15@BrowneStewart [0 -90 m] below
   EarlyGraveME15@EarlyGrave [0 -90 m] below
-  #LADSLuckME15@LADSLuck [0 -90 m] below
+  LADSLuckME15@LADSLuck [0 -90 m] below
   #LLAproachME15@LLAproach [0 -90 m] below
   #LlExtensionME15@LlExtension [0 -90 m] below
   #SudoLinkTubeME15@SudoLinkTube [0 -90 m] below
@@ -234,8 +236,8 @@ endmap
 map Level1ME105 -proj [elevation 105]
   DryEntME105@DryEnt [0 -40 m] below
   GrottoME105@Grotto [0 -40 m] below
-  #MainChamberME105@MainChamber [0 -40 m] below
   JuncAlterRouteME105@JuncAlterRoute [0 -40 m] below
+  #MainChamberME105@MainChamber [0 -40 m] below
   #OffShootME105@OffShoot [0 -40 m] below  
   #WaterME105@Water [0 -40 m] below
  # WaterfallChamberME105@WaterfallChamber [0 -40 m] below
@@ -246,7 +248,8 @@ map Level2ME105 -proj [elevation 105]
   BoulderChamberME105@BoulderChamber [0 -65 m] below
   BoulderChamberRoute2ME105@BoulderChamberRoute2 [0 -65 m] below
   JCAltME105@JCAlt [0 -65 m] below
-  #JuncAlterRoute2ME105@JuncAlterRoute2 [0 -65 m] below
+  JuncAlterRoute2ME105@JuncAlterRoute2 [0 -65 m] below
+  JunctionChamberME105@JunctionChamber [0 -65 m] below
   #OffShoot2ME105@OffShoot2 [0 -65 m] below 
   #OffShoot3ME105@OffShoot3 [0 -65 m] below 
   #PipeME105@Pipe [0 -65 m] below
@@ -259,7 +262,7 @@ endmap
 map Level3ME105  -proj [elevation 105]
   BrowneStewartME105@BrowneStewart [0 -90 m] below
   EarlyGraveME105@EarlyGrave [0 -90 m] below
-  #LADSLuckME105@LADSLuck [0 -90 m] below
+  LADSLuckME105@LADSLuck [0 -90 m] below
   #LLAproachME105@LLAproach [0 -90 m] below
   #LlExtensionME105@LlExtension [0 -90 m] below
   #SudoLinkTubeME105@SudoLinkTube [0 -90 m] below
