@@ -183,7 +183,7 @@ map Level1ME15 -proj [elevation 15]
   JuncAlterRouteME15@JuncAlterRoute [0 -40 m] below
   MainChamberME15@MainChamber [0 -40 m] below
   OffShootME15@OffShoot [0 -40 m] below  
-  #WaterME15@Water [0 -40 m] below
+  WaterME15@Water [0 -40 m] below
  # WaterfallChamberME15@WaterfallChamber [0 -40 m] below
 endmap
 
@@ -197,8 +197,8 @@ map Level2ME15 -proj [elevation 15]
   OffShoot2ME15@OffShoot2 [0 -65 m] below 
   OffShoot3ME15@OffShoot3 [0 -65 m] below 
   PipeME15@Pipe [0 -65 m] below
-  #UpperWaterfallME15@UpperWaterfall [0 -65 m] below
-  #UpperWaterfall2ME15@UpperWaterfall2 [0 -65 m] below
+  UpperWaterfallME15@UpperWaterfall [0 -65 m] below
+  UpperWaterfall2ME15@UpperWaterfall2 [0 -65 m] below
  # WCR2ME15@WCR2 [0 -65 m] below #probably needs splitting into level1M
   #ZAlleyME15@ZAlley  [0 -65 m] below #probably needs splitting into level4M
 endmap
@@ -209,7 +209,7 @@ map Level3ME15  -proj [elevation 15]
   LADSLuckME15@LADSLuck [0 -90 m] below
   LLAproachME15@LLAproach [0 -90 m] below
   LlExtensionME15@LlExtension [0 -90 m] below
-  #SudoLinkTubeME15@SudoLinkTube [0 -90 m] below
+  SudoLinkTubeME15@SudoLinkTube [0 -90 m] below
 endmap
 
 map Level4ME15  -proj [elevation 15]
@@ -219,7 +219,7 @@ map Level4ME15  -proj [elevation 15]
   LowerMazeME15@LowerMaze [0 -115 m] below
   MazeME15@Maze [0 -115 m] below
   MNRCSeriesME15@MNRCSeries [0 -115 m] below
-  #SplashPotME15@SplashPot [0 -115 m] below
+  SplashPotME15@SplashPot [0 -115 m] below
   #TheSweetEndME15@TheSweetEnd [0 -115 m] below
 endmap
 
@@ -239,7 +239,7 @@ map Level1ME105 -proj [elevation 105]
   JuncAlterRouteME105@JuncAlterRoute [0 -40 m] below
   MainChamberME105@MainChamber [0 -40 m] below
   OffShootME105@OffShoot [0 -40 m] below  
-  #WaterME105@Water [0 -40 m] below
+  WaterME105@Water [0 -40 m] below
  # WaterfallChamberME105@WaterfallChamber [0 -40 m] below
 endmap
 
@@ -253,8 +253,8 @@ map Level2ME105 -proj [elevation 105]
   OffShoot2ME105@OffShoot2 [0 -65 m] below 
   OffShoot3ME105@OffShoot3 [0 -65 m] below 
   PipeME105@Pipe [0 -65 m] below
-  #UpperWaterfallME105@UpperWaterfall [0 -65 m] below
-  #UpperWaterfall2ME105@UpperWaterfall2 [0 -65 m] below
+  UpperWaterfallME105@UpperWaterfall [0 -65 m] below
+  UpperWaterfall2ME105@UpperWaterfall2 [0 -65 m] below
  # WCR2ME105@WCR2 [0 -65 m] below #probably needs splitting into level1M
   #ZAlleyME105@ZAlley  [0 -65 m] below #probably needs splitting into level4M
 endmap
@@ -265,7 +265,7 @@ map Level3ME105  -proj [elevation 105]
   LADSLuckME105@LADSLuck [0 -90 m] below
   LLAproachME105@LLAproach [0 -90 m] below
   LlExtensionME105@LlExtension [0 -90 m] below
-  #SudoLinkTubeME105@SudoLinkTube [0 -90 m] below
+  SudoLinkTubeME105@SudoLinkTube [0 -90 m] below
 endmap
 
 map Level4ME105  -proj [elevation 105]
@@ -275,7 +275,7 @@ map Level4ME105  -proj [elevation 105]
   LowerMazeME105@LowerMaze [0 -115 m] below
   MazeME105@Maze [0 -115 m] below
   MNRCSeriesME105@MNRCSeries [0 -115 m] below
-  #SplashPotME105@SplashPot [0 -115 m] below
+  SplashPotME105@SplashPot [0 -115 m] below
   #TheSweetEndME105@TheSweetEnd [0 -115 m] below
 endmap
 

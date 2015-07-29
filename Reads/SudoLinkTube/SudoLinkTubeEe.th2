@@ -1,10 +1,70 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -174.86 -44.1 1049.14 264.58
 ##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {147.270617162 1 1.0} {138.583408612 8.15} PocketTopo/SudoLinkTube_e.xvi 0 {}
+##XTHERION## xth_me_image_insert {961.7106171620001 1 1.0} {231.563408612 8.36} PocketTopo/SudoLinkTube_e.xvi 0 {}
 
 
-scrap SudoLinkTubeSE1 -projection [extended] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap SudoLinkTubeSE1 -projection extended -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall
+  226.0 210.0
+  250.0 212.0 370.0 192.0 370.0 192.0
+  smooth off
+  370.0 192.0 286.0 184.0 246.0 180.0
+  206.0 176.0 136.0 170.0 102.0 160.0
+endline
+
+line wall
+  378.0 204.0
+  354.0 206.0 262.0 226.0 240.0 230.0
+endline
+
+line wall
+  862.0 238.0
+  832.0 234.0 788.0 228.0 746.0 228.0
+  704.0 228.0 588.0 194.0 558.0 194.0
+  528.0 194.0 430.0 220.0 414.0 222.0
+  398.0 224.0 394.0 204.0 378.0 204.0
+endline
+
+line wall -subtype blocks
+  908.0 260.0
+  896.0 246.0 884.0 244.0 862.0 238.0
+endline
+
+line wall -subtype blocks
+  938.0 142.0
+  938.0 172.0 924.0 180.0 942.0 202.0
+  960.0 224.0 978.0 226.0 978.0 244.0
+endline
+
+line wall -subtype blocks
+  828.0 166.0
+  852.0 166.0 870.0 184.0 886.0 148.0
+endline
+
+line wall -subtype sand
+  100.0 38.0
+  124.0 76.0 122.0 74.0 156.0 88.0
+  190.0 102.0 246.0 106.0 294.0 120.0
+  342.0 134.0 374.0 142.0 394.0 140.0
+  414.0 138.0 470.0 146.0 518.0 154.0
+  566.0 162.0 738.0 162.0 760.0 162.0
+  782.0 162.0 798.0 166.0 828.0 166.0
+endline
+
+point 961.7106171620001 231.563408612 station -name 8.36
+
+point 919.890617162 196.963408612 station -name 8.35
+
+point 847.690617162 176.813408612 station -name 8.34
+
+point 754.5906171620001 196.19340861199998 station -name 8.33
+
+point 554.540617162 172.323408612 station -name 8.32
+
+point 382.340617162 184.433408612 station -name 8.31
 
 endscrap
 

@@ -3,20 +3,29 @@ survey SplashPot
 
 input SplashPot.th2
 input SplashPotE15.th2
+input SplashPotE105.th2
 
 map SplashPotM
   SplashPotSP1
+ break
   SplashPotSP2
+ break
   SplashPotSP3
+ break
   SplashPotSP4
 endmap
 
 map SplashPotME15 -proj [elevation 15]
   SplashPotSE15_1
-  SplashPotSE15_2
-  SplashPotSE15_3
-  SplashPotSE15_4
 endmap
+
+map SplashPotME105 -proj [elevation 105]
+  SplashPotSE105_1
+ break
+  SplashPotSE105_2
+  SplashPotSE105_3
+endmap
+
 centreline
 
 copyright 2013 "CC BY SA NC"

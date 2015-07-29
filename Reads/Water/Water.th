@@ -2,10 +2,21 @@ encoding  utf-8
 survey Water
 
 input Water.th2
+input WaterE15.th2
+input WaterE105.th2
 
 map WaterM
   WaterSP1
 endmap
+
+map WaterME15 -proj [elevation 15]
+  WaterSE15_1
+endmap
+
+map WaterME105 -proj [elevation 105]
+  WaterSE105_1
+endmap
+
 centreline
 
 copyright 2013 "CC BY SA NC"

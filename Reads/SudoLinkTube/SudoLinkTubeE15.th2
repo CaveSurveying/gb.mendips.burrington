@@ -1,25 +1,61 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -142.37 -30.05 854.2 180.31
+##XTHERION## xth_me_area_adjust -142.37 -30.05 854.2 225.95
 ##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {71.9657904483 1 1.0} {61.3374805601 8.15} PocketTopo/SudoLinkTube_E15.xvi 0 {}
+##XTHERION## xth_me_image_insert {783.0257904483 1 1.0} {154.3174805601 8.36} PocketTopo/SudoLinkTube_E15.xvi 0 {}
 
 
-scrap SudoLinkTubeSE15_1 -projection [elevation 15] -scale [0 0 787.4 787.4  0 0 10 10 m]
 
-endscrap
+scrap SudoLinkTubeSE15_1 -projection [elevation 15] -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+line wall -subtype blocks
+  778.0 38.0
+  784.0 78.0 790.0 154.0 796.0 182.0
+endline
 
-scrap SudoLinkTubeSE15_2 -projection [elevation 15] -scale [0 0 787.4 787.4  0 0 10 10 m]
+line wall -subtype blocks
+  734.0 96.0
+  742.0 68.0 752.0 48.0 752.0 30.0
+endline
 
-endscrap
+line wall -subtype sand
+  76.0 14.0
+  96.0 36.0 248.0 56.0 286.0 66.0
+  324.0 76.0 440.0 82.0 472.0 84.0
+  504.0 86.0 618.0 82.0 642.0 84.0
+  666.0 86.0 726.0 108.0 734.0 96.0
+endline
 
+point 756.4857904483 99.5674805601 station -name 8.34
 
-scrap SudoLinkTubeSE15_3 -projection [elevation 15] -scale [0 0 787.4 787.4  0 0 10 10 m]
+line wall
+  146.0 144.0
+  160.0 142.0 254.0 116.0 254.0 116.0
+  smooth off
+  254.0 116.0 142.0 88.0 86.0 88.0
+endline
 
-endscrap
+line wall
+  716.8257904483 119.7174805601
+  706.0 124.0 720.0 146.0 686.0 144.0
+  652.0 142.0 500.0 116.0 472.0 116.0
+  444.0 116.0 336.0 120.0 312.0 120.0
+  288.0 120.0 180.0 158.0 156.0 164.0
+endline
 
+line wall -subtype blocks
+  744.0 190.0
+  740.0 166.0 735.65 115.43 716.8257904483 119.7174805601
+endline
 
-scrap SudoLinkTubeSE15_4 -projection [elevation 15] -scale [0 0 787.4 787.4  0 0 10 10 m]
+point 783.0257904483 154.3174805601 station -name 8.36
+
+point 716.8257904483 119.7174805601 station -name 8.35
+
+point 664.3457904483 118.94748056009999 station -name 8.33
+
+point 477.1057904483 95.0774805601 station -name 8.32
+
+point 305.3757904483 107.1874805601 station -name 8.31
 
 endscrap
 

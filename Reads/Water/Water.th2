@@ -51,6 +51,8 @@ line wall
   smooth off
 endline
 
+point 885.53590551 1203.81574803 station -name 3.4
+
 point 1102.9159055100001 1127.18574803 station -name 3.2
 
 point 1321.08590551 943.7957480299999 station -name 3.1

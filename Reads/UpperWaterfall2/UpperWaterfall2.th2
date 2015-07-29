@@ -17,6 +17,7 @@ line wall -subtype blocks
   153.0 334.0 173.0 281.0 192.0 279.0
   211.0 277.0 253.0 267.0 273.0 260.0
   293.0 253.0 333.0 234.0 337.0 231.0
+  smooth off
 endline
 
 line wall -subtype blocks
@@ -24,6 +25,7 @@ line wall -subtype blocks
   428.0 239.0 464.0 260.0 471.0 269.0
   478.0 278.0 527.0 304.0 536.0 313.0
   545.0 322.0 589.0 355.0 594.0 363.0
+  smooth off
 endline
 
 line wall -subtype blocks
@@ -59,12 +61,6 @@ point 600.332598425 333.020708661 station -name 17
 
 point 408.05259842500004 185.840708661 station -name 16
 
-endscrap
-
-
-
-scrap UpperWaterfall2SP3 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
-
 point 157.0 357.0 water-flow -orientation 103.5 -scale xs
 
 point 78.0 340.0 water-flow -orientation 106.1 -scale xs
@@ -84,6 +80,7 @@ line wall -subtype blocks
   237.0 146.0 261.0 135.0 280.0 133.0
   299.0 131.0 312.0 126.0 326.0 131.0
   340.0 136.0 354.0 159.0 360.0 155.0
+  smooth off
 endline
 
 point 231.64259842500002 226.57070866100003 station -name 18

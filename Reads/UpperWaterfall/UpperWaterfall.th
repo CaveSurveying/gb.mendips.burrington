@@ -2,11 +2,21 @@ encoding  utf-8
 survey UpperWaterfall
 
 input UpperWaterfall.th2
+input UpperWaterfallE15.th2
+input UpperWaterfallE105.th2
 
 map UpperWaterfallM
   UpperWaterfallSP1
+ break
   UpperWaterfallSP2
-  #UpperWaterfallSP3
+endmap
+
+map UpperWaterfallME15 -proj [elevation 15]
+  UpperWaterfallSE15_1
+endmap
+
+map UpperWaterfallME105 -proj [elevation 105]
+  UpperWaterfallSE105_1
 endmap
 
 centreline

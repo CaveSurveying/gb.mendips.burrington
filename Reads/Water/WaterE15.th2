@@ -1,25 +1,43 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -133.04 -81.11 798.22 486.66
-##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {731.700929082 1 1.0} {446.104257784 2.7} PocketTopo/Water_E15.xvi 0 {}
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {133.81092908200003 1 1.0} {94.14425778400005 3.4} PocketTopo/Water_E15.xvi 0 {}
 
 
-scrap WaterSE15_1 -projection [elevation 15] -scale [0 0 787.4 787.4  0 0 10 10 m]
 
-endscrap
+scrap WaterSE15_1 -projection [elevation 15] -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+line wall
+  114.0 39.0
+  160.0 51.0 250.36 74.83 261.68092908200003 76.91425778400003
+  273.0 79.0 331.0 97.0 349.0 105.0
+  367.0 113.0 493.0 147.0 505.0 155.0
+  517.0 163.0 636.0 181.0 643.0 202.0
+  650.0 223.0 694.0 346.0 703.0 359.0
+  712.0 372.0 724.0 327.0 732.0 300.0
+  740.0 273.0 751.0 245.0 754.0 238.0
+  757.0 231.0 774.0 228.0 776.0 234.0
+  778.0 240.0 757.0 314.0 754.0 337.0
+  751.0 360.0 745.0 422.0 746.0 437.0
+  smooth off
+endline
 
-scrap WaterSE15_2 -projection [elevation 15] -scale [0 0 787.4 787.4  0 0 10 10 m]
+line wall
+  715.0 461.0
+  714.0 453.0 646.0 393.0 622.0 385.0
+  598.0 377.0 389.0 323.0 359.0 310.0
+  329.0 297.0 239.0 273.0 227.0 261.0
+  215.0 249.0 202.0 198.0 188.0 183.0
+  174.0 168.0 143.0 121.0 126.0 114.0
+  109.0 107.0 105.0 106.0 93.0 106.0
+  smooth off
+endline
 
-endscrap
+point 133.81092908200003 94.14425778400005 station -name 3.4
 
+point 363.580929082 202.94425778400003 station -name 3.2
 
-scrap WaterSE15_3 -projection [elevation 15] -scale [0 0 787.4 787.4  0 0 10 10 m]
-
-endscrap
-
-
-scrap WaterSE15_4 -projection [elevation 15] -scale [0 0 787.4 787.4  0 0 10 10 m]
+point 621.800929082 271.34425778400004 station -name 3.1
 
 endscrap
 

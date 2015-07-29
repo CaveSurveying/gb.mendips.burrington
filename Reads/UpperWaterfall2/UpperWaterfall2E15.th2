@@ -4,22 +4,43 @@ encoding  utf-8
 ##XTHERION## xth_me_image_insert {409.296458384 1 1.0} {69.807730234 13} PocketTopo/UpperWaterfall2_E15.xvi 0 {}
 
 
-scrap UpperWaterfall2SE15_1 -projection [elevation 15] -scale [0 0 787.4 787.4  0 0 10 10 m]
 
-endscrap
+scrap UpperWaterfall2SE15_1 -projection [elevation 15] -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+line wall -subtype blocks
+  144.0 106.0
+  170.0 106.0 382.0 38.0 416.0 50.0
+  450.0 62.0 538.0 64.0 514.0 80.0
+  490.0 96.0 444.0 134.0 436.0 158.0
+  428.0 182.0 498.0 288.0 502.0 320.0
+  506.0 352.0 582.0 540.0 568.0 554.0
+  554.0 568.0 542.0 592.0 520.0 570.0
+  498.0 548.0 422.0 272.0 388.0 280.0
+  354.0 288.0 266.0 336.0 240.0 366.0
+  214.0 396.0 206.0 464.0 166.0 462.0
+  126.0 460.0 44.0 468.0 36.0 446.0
+  28.0 424.0 114.0 350.0 132.0 348.0
+  150.0 346.0 238.0 270.0 218.0 262.0
+  198.0 254.0 158.0 262.0 170.0 246.0
+  182.0 230.0 340.0 234.0 350.0 222.0
+  360.0 210.0 396.0 142.0 376.0 132.0
+  356.0 122.0 196.0 150.0 170.0 162.0
+  smooth off
+endline
 
-scrap UpperWaterfall2SE15_2 -projection [elevation 15] -scale [0 0 787.4 787.4  0 0 10 10 m]
+point 48.866458384 428.757730234 station -name 20
 
-endscrap
+point 163.34645838400002 374.887730234 station -name 19
 
+point 208.90645838400002 317.317730234 station -name 18
 
-scrap UpperWaterfall2SE15_3 -projection [elevation 15] -scale [0 0 787.4 787.4  0 0 10 10 m]
+point 537.496458384 539.797730234 station -name 17
 
-endscrap
+point 389.846458384 243.10773023400003 station -name 16
 
+point 409.296458384 69.807730234 station -name 14
 
-scrap UpperWaterfall2SE15_4 -projection [elevation 15] -scale [0 0 787.4 787.4  0 0 10 10 m]
+point 153.886458384 143.67773023400002 station -name 15
 
 endscrap
 
