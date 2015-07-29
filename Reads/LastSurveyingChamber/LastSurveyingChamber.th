@@ -2,11 +2,19 @@ encoding  utf-8
 survey LastSurveyingChamber
 
 input LastSurveyingChamber.th2
+input LastSurveyingChamberE15.th2
+input LastSurveyingChamberE105.th2
 
 map LastSurveyingChamberM
   LastSurveyingChamberSP1
-  LastSurveyingChamberSP2
-  LastSurveyingChamberSP3
+endmap
+
+map LastSurveyingChamberME15 -proj [elevation 15]
+  LastSurveyingChamberSE15_1
+endmap
+
+map LastSurveyingChamberME105 -proj [elevation 105]
+  LastSurveyingChamberSE105_1
 endmap
 
 centreline

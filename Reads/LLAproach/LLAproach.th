@@ -3,19 +3,28 @@ survey LLAproach
 
 input LLAproach.th2
 input LLAproachE15.th2
+input LLAproachE105.th2
 
 map LLAproachM
   LLAproachSP1
-  LLAproachSP2
-  LLAproachSP3
 endmap
 
 map LLAproachME15 -proj [elevation 15]
   LLAproachSE15_1
+ break
   LLAproachSE15_2
+ break
   LLAproachSE15_3
+ break
   LLAproachSE15_4
 endmap
+
+map LLAproachME105 -proj [elevation 105]
+  LLAproachSE105_1
+ break
+  LLAproachSE105_2
+endmap
+
 centreline
 
 copyright 2013 "CC BY SA NC"

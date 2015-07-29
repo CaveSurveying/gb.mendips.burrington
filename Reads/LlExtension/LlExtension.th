@@ -2,10 +2,21 @@ encoding  utf-8
 survey LlExtension
 
 input LlExtension.th2
+input LlExtensionE15.th2
+input LlExtensionE105.th2
 
 map LlExtensionM
   LlExtensionSP1
 endmap
+
+map LlExtensionME15 -proj [elevation 15]
+  LlExtensionSE15_1
+endmap
+
+map LlExtensionME105 -proj [elevation 105]
+  LlExtensionSE105_1
+endmap
+
 
 centreline
 

@@ -1,25 +1,66 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -89.93 -75.82 539.6 454.9
-##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {44.966925554 1 1.0} {37.9084137974 15} PocketTopo/LastSurveyingChamber_E105.xvi 0 {}
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {122.056925554 1 1.0} {134.84841379739999 19} PocketTopo/LastSurveyingChamber_E105.xvi 0 {}
 
 
-scrap LastSurveyingChamberSE105_1 -projection [elevation 105] -scale [0 0 787.4 787.4  0 0 10 10 m]
 
-endscrap
+scrap LastSurveyingChamberSE105_1 -projection [elevation 105] -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+point 286.226925554 298.0484137974 station -name 21
 
-scrap LastSurveyingChamberSE105_2 -projection [elevation 105] -scale [0 0 787.4 787.4  0 0 10 10 m]
+point 309.906925554 170.43841379740002 station -name 20
 
-endscrap
+point 122.056925554 134.84841379739999 station -name 19
 
+line rock-edge
+  312.0 116.0
+  321.0 132.0
+endline
 
-scrap LastSurveyingChamberSE105_3 -projection [elevation 105] -scale [0 0 787.4 787.4  0 0 10 10 m]
+line rock-edge
+  324.0 97.0
+  312.0 116.0
+  296.0 129.0
+endline
 
-endscrap
+line rock-edge
+  267.0 139.0
+  296.0 129.0
+  321.0 132.0
+  337.0 142.0
+endline
 
+line rock-border -close on
+  337.0 142.0
+  309.906925554 170.43841379740002
+  267.0 139.0
+  265.0 102.0
+  324.0 97.0
+  352.0 106.0
+  337.0 142.0
+endline
 
-scrap LastSurveyingChamberSE105_4 -projection [elevation 105] -scale [0 0 787.4 787.4  0 0 10 10 m]
+line wall -subtype blocks
+  80.0 44.0
+  98.0 67.0 121.0 117.0 134.0 120.0
+  147.0 123.0 272.0 94.0 296.0 93.0
+  320.0 92.0 423.0 99.0 447.0 108.0
+  471.0 117.0 517.0 136.0 496.0 160.0
+  475.0 184.0 439.0 244.0 422.0 249.0
+  405.0 254.0 332.0 265.0 321.0 269.0
+  310.0 273.0 294.0 308.0 284.0 317.0
+  274.0 326.0 206.0 378.0 189.0 387.0
+  172.0 396.0 128.0 432.0 118.0 420.0
+  108.0 408.0 111.0 302.0 120.0 288.0
+  129.0 274.0 205.0 285.0 212.0 280.0
+  219.0 275.0 248.0 235.0 252.0 232.0
+  256.0 229.0 279.0 214.0 270.0 208.0
+  261.0 202.0 217.0 203.0 201.0 207.0
+  185.0 211.0 116.0 214.0 103.0 207.0
+  90.0 200.0 83.0 185.0 78.0 178.0
+  73.0 171.0 39.0 93.0 30.0 85.0
+endline
 
 endscrap
 

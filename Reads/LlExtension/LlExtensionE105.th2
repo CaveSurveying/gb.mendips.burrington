@@ -1,25 +1,56 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -36.06 -39.72 216.33 238.33
-##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {107.675978951 1 1.0} {86.381578369 8.23} PocketTopo/LlExtension_E105.xvi 0 {}
+##XTHERION## xth_me_area_adjust -36.06 -39.72 219.94 238.33
+##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_image_insert {80.385978951 1 1.0} {99.03157836899999 8.24} PocketTopo/LlExtension_E105.xvi 0 {}
 
 
-scrap LlExtensionSE105_1 -projection [elevation 105] -scale [0 0 787.4 787.4  0 0 10 10 m]
 
-endscrap
+scrap LlExtensionSE105_1 -projection [elevation 105] -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+line wall
+  149.5 89.5
+  139.5 89.5 93.0 94.5 88.5 103.0
+  84.0 111.5 80.5 134.0 80.5 137.5
+  80.5 141.0 82.0 146.5 85.0 147.0
+  88.0 147.5 95.5 149.0 101.0 150.0
+  106.5 151.0 147.5 147.5 152.0 148.0
+  156.5 148.5 186.5 145.0 182.0 151.0
+  177.5 157.0 122.5 182.0 116.0 185.0
+  109.5 188.0 86.5 188.5 86.5 192.5
+  86.5 196.5 94.5 222.5 89.5 221.0
+  84.5 219.5 61.0 192.0 57.0 188.5
+  53.0 185.0 45.0 172.5 43.0 169.5
+  41.0 166.5 37.5 157.0 37.5 154.5
+  37.5 152.0 37.37 146.08 40.93597895100001 146.29157836899998
+  44.5 146.5 35.5 137.5 35.5 134.0
+  35.5 130.5 59.0 121.5 55.0 120.5
+  51.0 119.5 31.5 124.0 28.5 120.5
+  25.5 117.0 80.0 89.0 78.0 83.5
+  76.0 78.0 72.5 73.5 70.0 70.5
+endline
 
-scrap LlExtensionSE105_2 -projection [elevation 105] -scale [0 0 787.4 787.4  0 0 10 10 m]
+line wall
+  80.5 29.0
+  85.5 30.0 88.5 29.0 98.0 29.0
+  107.5 29.0 128.0 26.0 138.0 26.0
+  148.0 26.0 164.5 23.5 173.0 23.5
+  181.5 23.5 198.0 20.0 198.0 20.0
+  smooth off
+  198.0 20.0 153.5 56.0 153.0 61.0
+  152.5 66.0 151.5 73.0 155.5 73.0
+endline
 
-endscrap
+point 111.455978951 183.73157836899998 station -name 8.27
 
+point 63.37597895100001 181.91157836899998 station -name 8.26
 
-scrap LlExtensionSE105_3 -projection [elevation 105] -scale [0 0 787.4 787.4  0 0 10 10 m]
+point 70.645978951 163.881578369 station -name 8.28
 
-endscrap
+point 64.065978951 134.281578369 station -name 8.25
 
+point 40.93597895100001 146.29157836899998 station -name 8.29
 
-scrap LlExtensionSE105_4 -projection [elevation 105] -scale [0 0 787.4 787.4  0 0 10 10 m]
+point 80.385978951 99.031578369 station -name 8.24
 
 endscrap
 

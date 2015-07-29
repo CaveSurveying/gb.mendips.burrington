@@ -2,11 +2,22 @@ encoding  utf-8
 survey LowerMaze
 
 input LowerMaze.th2
+input LowerMazeE15.th2
+input LowerMazeE105.th2
 
 map LowerMazeM
   LowerMazeSP2
   LowerMazeSP1
-  #LowerMazeSP3
+endmap
+
+map LowerMazeME15 -proj [elevation 15]
+  LowerMazeSE15_1
+endmap
+
+map LowerMazeME105 -proj [elevation 105]
+  LowerMazeSE105_1
+ break
+  LowerMazeSE105_2
 endmap
 
 centreline

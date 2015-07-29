@@ -1,25 +1,66 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -133.46 -39.72 800.76 238.33
-##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {533.224858834 1 1.0} {86.381578369 8.23} PocketTopo/LlExtension_E15.xvi 0 {}
+##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_image_insert {623.1548588339999 1 1.0} {99.03157836899999 8.24} PocketTopo/LlExtension_E15.xvi 0 {}
 
 
-scrap LlExtensionSE15_1 -projection [elevation 15] -scale [0 0 787.4 787.4  0 0 10 10 m]
 
-endscrap
+scrap LlExtensionSE15_1 -projection [elevation 15] -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+point 66.73485883399997 146.29157836899998 station -name 8.29
 
-scrap LlExtensionSE15_2 -projection [elevation 15] -scale [0 0 787.4 787.4  0 0 10 10 m]
+line wall
+  564.0 22.0
+  565.0 34.0 556.0 58.0 566.0 63.0
+  576.0 68.0 611.0 66.0 626.0 67.0
+endline
 
-endscrap
+line rock-border -close on
+  528.0 98.0
+  551.0 97.0
+  566.0 117.0
+  547.0 125.0
+  535.0 117.0
+  528.0 98.0
+endline
 
+line wall -subtype debris
+  342.0 156.0
+  362.0 156.0 381.0 157.0 393.0 155.0
+  405.0 153.0 520.0 124.0 528.0 121.0
+  536.0 118.0 522.96 106.43 516.0 96.0
+  504.0 78.0 509.0 55.0 515.0 23.0
+endline
 
-scrap LlExtensionSE15_3 -projection [elevation 15] -scale [0 0 787.4 787.4  0 0 10 10 m]
+line wall
+  71.0 132.0
+  92.0 136.0 137.0 143.0 157.0 147.0
+  177.0 151.0 187.0 146.0 201.0 149.0
+  215.0 152.0 230.0 153.0 243.0 152.0
+  256.0 151.0 328.0 156.0 342.0 156.0
+endline
 
-endscrap
+line wall
+endline
 
+line wall
+  630.0 120.0
+  612.0 123.0 542.0 151.0 529.0 155.0
+  516.0 159.0 435.0 217.0 411.0 217.0
+  387.0 217.0 221.0 201.0 207.0 200.0
+  193.0 199.0 175.0 201.0 165.0 194.0
+  155.0 187.0 81.0 171.0 71.0 165.0
+endline
 
-scrap LlExtensionSE15_4 -projection [elevation 15] -scale [0 0 787.4 787.4  0 0 10 10 m]
+point 174.394858834 163.881578369 station -name 8.28
+
+point 196.30485883399996 183.73157836899998 station -name 8.27
+
+point 400.454858834 181.91157836899998 station -name 8.26
+
+point 526.954858834 134.281578369 station -name 8.25
+
+point 623.1548588339999 99.031578369 station -name 8.24
 
 endscrap
 

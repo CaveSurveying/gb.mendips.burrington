@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -116.6 -101.81 699.6 610.87
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {272.597083789 1 1.0} {455.27078740199994 19} PocketTopo/LastSurveyingChamber_p.xvi 0 {}
 
 
@@ -23,9 +23,8 @@ line wall -close on -subtype blocks
   496.0 392.0 462.0 388.0 462.0 388.0
   smooth off
   462.0 388.0 442.0 350.0 426.0 366.0
-  410.0 382.0 390.0 422.0 390.0 422.0
-  smooth off
-  390.0 422.0 376.0 388.0 380.0 354.0
+  410.0 382.0 411.89 427.71 390.0 422.0
+  356.87 413.36 376.0 388.0 380.0 354.0
   384.0 320.0 390.0 272.0 390.0 272.0
   smooth off
   390.0 272.0 356.0 290.0 344.0 330.0
@@ -40,18 +39,6 @@ point 272.597083789 455.27078740199994 station -name 19
 point 291.777083789 255.65078740199993 station -name 20
 
 point 467.157083789 233.17078740199997 station -name 21
-
-endscrap
-
-
-
-scrap LastSurveyingChamberSP2 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
-
-endscrap
-
-
-
-scrap LastSurveyingChamberSP3 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
 

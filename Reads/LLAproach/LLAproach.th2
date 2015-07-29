@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -412.79 -206.47 2476.71 1238.83
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {1994.32645675 1 1.0} {401.45322834599995 8.19} PocketTopo/LLAproach_p.xvi 0 {}
 
 
@@ -13,6 +13,7 @@ line wall
   1947.0 456.5 1947.5 463.5 1952.5 468.0
   1957.5 472.5 1972.5 475.5 1981.5 472.0
   1990.5 468.5 1995.0 473.0 2005.5 463.5
+  smooth off
 endline
 
 line wall -subtype blocks
@@ -20,23 +21,27 @@ line wall -subtype blocks
   2033.5 180.5 2027.0 189.0 2037.5 219.0
   2048.0 249.0 2050.5 262.5 2055.5 280.5
   2060.5 298.5 2060.0 339.5 2070.0 357.0
+  smooth off
 endline
 
 line wall -subtype blocks
   1951.0 159.0
   1965.5 189.5 1968.0 190.0 1967.5 177.5
   1967.0 165.0 1967.0 152.5 1965.5 139.0
+  smooth off
 endline
 
 line wall -subtype blocks
   1800.5 319.0
   1821.0 302.5 1853.5 264.0 1871.0 248.0
   1888.5 232.0 1916.5 233.0 1915.5 211.0
+  smooth off
 endline
 
 line wall -subtype blocks
   1882.5 412.5
   1876.0 406.5 1853.0 392.5 1834.0 393.5
+  smooth off
 endline
 
 line wall
@@ -48,6 +53,7 @@ line wall
   1828.0 472.0 1812.5 456.5 1825.5 449.5
   1838.5 442.5 1861.0 434.0 1872.0 433.0
   1883.0 432.0 1889.5 422.0 1882.5 412.5
+  smooth off
 endline
 
 line wall
@@ -60,6 +66,7 @@ line wall
   1450.5 600.0 1524.0 587.0 1532.0 574.5
   1540.0 562.0 1539.5 555.0 1536.5 546.5
   1533.5 538.0 1535.0 536.5 1524.5 522.5
+  smooth off
 endline
 
 line wall
@@ -87,6 +94,7 @@ line wall
   1239.5 611.0 1223.5 563.5 1223.5 563.5
   smooth off
   1223.5 563.5 1217.5 550.5 1212.5 542.0
+  smooth off
 endline
 
 line wall
@@ -123,6 +131,7 @@ line wall
   320.0 932.0 308.0 935.0 292.0 944.5
   276.0 954.0 265.0 971.5 251.0 973.5
   237.0 975.5 221.0 971.5 209.5 971.0
+  smooth off
 endline
 
 line wall
@@ -130,6 +139,7 @@ line wall
   2008.0 505.0 1995.0 487.0 1994.0 513.0
   1993.0 539.0 1980.0 545.0 1993.0 564.0
   2006.0 583.0 2010.0 579.0 2023.0 599.0
+  smooth off
 endline
 
 point 1968.17645675 239.04322834599998 station -name 8.20
@@ -165,18 +175,6 @@ point 416.41645674999995 890.683228346 station -name 8.10
 point 235.0164567500001 933.8532283459999 station -name 8.11
 
 point 210.2264567499999 945.783228346 station -name 8.12
-
-endscrap
-
-
-
-scrap LLAproachSP2 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
-
-endscrap
-
-
-
-scrap LLAproachSP3 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
 
