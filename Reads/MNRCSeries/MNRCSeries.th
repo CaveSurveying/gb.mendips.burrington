@@ -2,12 +2,28 @@ encoding  utf-8
 survey MNRCSeries
 
 input MNRCSeries.th2
+input MNRCSeriesE15.th2
+input MNRCSeriesE105.th2
 
 map MNRCSeriesM
   MNRCSeriesSP3
   MNRCSeriesSP2
  break
   MNRCSeriesSP1
+endmap
+
+map MNRCSeriesME15 -proj [elevation 15]
+  MNRCSeriesSE15_1
+ break
+  MNRCSeriesSE15_2
+ break
+  MNRCSeriesSE15_3
+endmap
+
+map MNRCSeriesME105 -proj [elevation 105]
+  MNRCSeriesSE105_1
+ break
+  MNRCSeriesSE105_2
 endmap
 
 centreline

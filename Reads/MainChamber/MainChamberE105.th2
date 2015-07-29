@@ -1,25 +1,145 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -243.6 -224.94 1461.61 1349.62
 ##XTHERION## xth_me_area_zoom_to 50
-##XTHERION## xth_me_image_insert {994.763420516 1 1.0} {506.710713618 1.6} PocketTopo/MainChamber_E105.xvi 0 {}
+##XTHERION## xth_me_image_insert {1029.213420516 1 1.0} {781.3907136180001 2.10} PocketTopo/MainChamber_E105.xvi 0 {}
 
 
-scrap MainChamberSE105_1 -projection [elevation 105] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap MainChamberSE105_1 -projection [elevation 105] -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -subtype blocks
+  980.0 714.0
+  998.0 730.0 1112.0 906.0 1136.0 940.0
+  1160.0 974.0 1182.0 1078.0 1204.0 1096.0
+  1226.0 1114.0 1266.0 1126.0 1296.0 1154.0
+endline
+
+line wall
+  1346.0 548.0
+  1346.0 606.0 1320.0 788.0 1276.0 784.0
+  1232.0 780.0 1208.0 764.0 1182.0 750.0
+  1156.0 736.0 986.0 672.0 976.0 672.0
+  966.0 672.0 960.0 686.0 980.0 714.0
+endline
+
+line wall -subtype blocks
+  994.763420516 506.710713618
+  970.0 508.0 842.0 480.0 852.0 500.0
+  862.0 520.0 930.0 532.0 952.0 544.0
+  974.0 556.0 1230.0 526.0 1262.0 520.0
+endline
+
+line wall
+  1128.0 354.0
+  1112.0 384.0 1116.0 420.0 1098.0 420.0
+  1080.0 420.0 838.0 382.0 842.0 398.0
+  846.0 414.0 1034.0 448.0 1054.0 466.0
+endline
+
+line rock-edge
+  878.0 218.0
+  906.0 276.0
+endline
+
+line rock-edge
+  864.0 318.0
+  906.0 276.0
+  1020.0 300.0
+endline
+
+line rock-border -close on -reverse on
+  828.0 226.0
+  828.0 226.0 854.0 314.0 864.0 318.0
+  874.0 322.0 938.0 328.0 938.0 328.0
+  smooth off
+  1020.0 300.0
+  1006.0 232.0
+  878.0 218.0
+  828.0 226.0
+endline
+
+line rock-edge
+  332.0 158.0
+  420.0 172.0
+endline
+
+line rock-edge
+  308.0 196.0
+  332.0 158.0
+  308.0 102.0
+endline
+
+line rock-border -close on
+  260.0 124.0
+  308.0 196.0
+  386.0 228.0
+  420.0 172.0
+  476.0 142.0
+  484.0 112.0
+  484.0 112.0 428.0 102.0 418.0 100.0
+  408.0 98.0 308.0 102.0 308.0 102.0
+  smooth off
+  260.0 124.0
+endline
+
+line wall
+  1158.0 1196.0
+  1146.0 1160.0 1074.0 1060.0 1050.0 1036.0
+  1026.0 1012.0 1037.35 938.66 1023.673420516 922.330713618
+  1010.0 906.0 1006.0 882.0 994.0 866.0
+  982.0 850.0 648.0 716.0 560.0 668.0
+  472.0 620.0 316.0 524.0 280.0 470.0
+  244.0 416.0 106.0 232.0 118.0 188.0
+  130.0 144.0 168.0 122.0 208.0 112.0
+  248.0 102.0 304.0 116.0 358.0 112.0
+  412.0 108.0 476.0 104.0 510.0 110.0
+  544.0 116.0 542.0 208.0 610.0 216.0
+  678.0 224.0 778.0 230.0 804.0 230.0
+  830.0 230.0 964.0 230.0 1006.0 232.0
+  1048.0 234.0 1080.0 260.0 1102.0 268.0
+endline
+
+point 550.8434205159999 646.480713618 station -name 2.5
+
+point 867.593420516 618.160713618 station -name 2.6
+
+point 906.663420516 625.610713618 station -name 2.8
+
+point 1316.323420516 624.040713618 station -name 2.9
+
+point 1072.173420516 309.910713618 station -name 2.2
+
+point 1261.3834205160001 1237.150713618 station -name 2.12
+
+point 1023.673420516 922.330713618 station -name 2.11
+
+point 1029.213420516 781.3907136180001 station -name 2.10
+
+point 282.55342051599996 452.260713618 station -name 2.7
+
+point 347.17342051599996 310.05071361800003 station -name 2.4
+
+point 609.153420516 361.470713618 station -name 2.3
+
+point 623.743420516 427.430713618 station -name 2.1
 
 endscrap
 
 
-scrap MainChamberSE105_2 -projection [elevation 105] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap MainChamberSE105_2 -projection [elevation 105] -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
 
 
-scrap MainChamberSE105_3 -projection [elevation 105] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap MainChamberSE105_3 -projection [elevation 105] -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
 
 
-scrap MainChamberSE105_4 -projection [elevation 105] -scale [0 0 787.4 787.4  0 0 10 10 m]
+
+scrap MainChamberSE105_4 -projection [elevation 105] -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
 

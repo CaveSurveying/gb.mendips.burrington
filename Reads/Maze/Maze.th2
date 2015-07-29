@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -140.12598425199997 -162.96062992100002 856.0 644.2204724410999
+##XTHERION## xth_me_area_adjust -140.12598425199997 -162.960629921 856.0 644.2204724411
 ##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {693.915511811 1 1.0} {259.21811023600003 11} PocketTopo/Maze_p.xvi 0 {}
 
@@ -11,6 +11,7 @@ line pit
   578.0 128.0
   585.0 138.0 591.0 145.0 591.0 156.0
   591.0 167.0 572.0 197.0 566.0 201.0
+  smooth off
 endline
 
 line wall -subtype blocks
@@ -19,6 +20,7 @@ line wall -subtype blocks
   610.0 232.0 626.65 225.72 617.825511811 223.35811023600002
   609.0 221.0 593.0 212.0 584.0 210.0
   575.0 208.0 577.0 202.0 566.0 201.0
+  smooth off
 endline
 
 line wall -subtype blocks
@@ -39,6 +41,7 @@ line wall -subtype blocks
   654.0 65.0 669.0 51.0 674.0 57.0
   679.0 63.0 687.0 72.0 691.0 68.0
   695.0 64.0 703.0 51.0 708.0 47.0
+  smooth off
 endline
 
 point 693.915511811 259.21811023600003 station -name 11
@@ -77,6 +80,7 @@ endline
 line pit
   439.0 277.0
   437.0 261.0 434.0 201.0 414.0 191.0
+  smooth off
 endline
 
 line wall -subtype blocks
@@ -128,6 +132,7 @@ line wall -subtype blocks
   670.0 190.0 693.0 189.0 697.0 200.0
   701.0 211.0 704.0 237.0 703.0 244.0
   702.0 251.0 694.0 277.0 695.0 289.0
+  smooth off
 endline
 
 point 92.66551181099999 307.458110236 station -name 9

@@ -3,6 +3,7 @@ survey Pipe
 
 input Pipe.th2
 input PipeE15.th2
+input PipeE105.th2
 
 map PipeM
   PipeSP1
@@ -11,10 +12,20 @@ map PipeM
 endmap
 
 map PipeME15 -proj [elevation 15]
-  PipeSE15_1
-  PipeSE15_2
-  PipeSE15_3
   PipeSE15_4
+ break
+  PipeSE15_3
+ break
+  PipeSE15_2
+ break
+  PipeSE15_1
+endmap
+
+map PipeME105 -proj [elevation 105]
+  PipeSE105_1
+ break
+  PipeSE105_2
+  PipeSE105_3
 endmap
 
 equate 4.16 4.21

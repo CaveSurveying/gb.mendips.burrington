@@ -3,19 +3,34 @@ survey OffShoot3
 
 input OffShoot3.th2
 input OffShoot3E15.th2
+input OffShoot3E105.th2
 
 map OffShoot3M
   OffShoot3SP1
+ break
   OffShoot3SP2
+ break
   OffShoot3SP3
+ break
   OffShoot3SP4
+ break
   OffShoot3SP5
 endmap
 
 map OffShoot3ME15 -proj [elevation 15]
   OffShoot3SE15_1
+ break
   OffShoot3SE15_2
-  OffShoot3SE15_3
+endmap
+
+map OffShoot3ME105 -proj [elevation 105]
+  OffShoot3SE105_1
+ break
+  OffShoot3SE105_2
+ break
+  OffShoot3SE105_3
+ break
+  OffShoot3SE105_4
 endmap
 
 centreline
@@ -34,8 +49,6 @@ copyright 2013 "CC BY SA NC"
   team "Alison Moody" instruments
 
   instrument  instruments "UBSS DistoX1"
-
-  explo-date 2013.08.19
 
 data normal from to tape compass clino ignoreall
   extend right

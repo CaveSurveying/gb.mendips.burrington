@@ -2,11 +2,25 @@ encoding  utf-8
 survey Maze
 
 input Maze.th2
+input MazeE15.th2
+input MazeE105.th2
 
 map MazeM
   MazeSP1
   MazeSP2
   MazeSP3
+endmap
+
+map MazeME15 -proj [elevation 15]
+  MazeSE15_1
+ break
+  MazeSE15_2
+endmap
+
+map MazeME105 -proj [elevation 105]
+  MazeSE105_1
+ break
+  MazeSE105_2
 endmap
 
 centreline
