@@ -3,6 +3,7 @@ survey WCR2
 
 input WCR2.th2
 input WCR2E15.th2
+input WCR2E105.th2
 
 map WCR2M
   WCR2SP1
@@ -13,9 +14,10 @@ endmap
 
 map WCR2ME15 -proj [elevation 15]
   WCR2SE15_1
-  WCR2SE15_2
-  WCR2SE15_3
-  WCR2SE15_4
+endmap
+
+map WCR2ME105 -proj [elevation 105]
+  WCR2SE105_1
 endmap
 
 equate 52 80

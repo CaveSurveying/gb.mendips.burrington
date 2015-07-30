@@ -3,10 +3,10 @@ source Reads.th
 
 select LevelsM@Reads -map-level 1
 #select ReadsM@Reads #-map-level 1
-select ReadsME15@Reads -map-level 1
-select ReadsME105@Reads -map-level 1
-#select LevelsME15@Reads -map-level 1
-#select LevelsME105@Reads -map-level 1
+#select ReadsME15@Reads -map-level 1
+#select ReadsME105@Reads -map-level 1
+select LevelsME15@Reads #-map-level 1
+select LevelsME105@Reads #-map-level 1
 
 
 #export map -proj plan -layout mendip -o Reads.pdf
