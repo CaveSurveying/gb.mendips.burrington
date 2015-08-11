@@ -3,6 +3,7 @@ survey ZAlley
 
 input ZAlley.th2
 input ZAlleyE15.th2
+input ZAlleyE105.th2
 
 map ZAlleyM
   ZAlleySP1
@@ -14,10 +15,18 @@ endmap
 
 map ZAlleyME15 -proj [elevation 15]
   ZAlleySE15_1
+ break
   ZAlleySE15_2
+ break
   ZAlleySE15_3
-  ZAlleySE15_4
 endmap
+
+map ZAlleyME105 -projection [elevation 105]
+  ZAlleySE105_1
+ break
+  ZAlleySE105_2
+endmap
+
 centreline
 
 copyright 2013 "CC BY SA NC"

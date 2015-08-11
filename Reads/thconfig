@@ -1,19 +1,20 @@
 encoding  utf-8
 source Reads.th
 
-select LevelsM@Reads -map-level 1
-#select ReadsM@Reads #-map-level 1
-#select ReadsME15@Reads -map-level 1
-#select ReadsME105@Reads -map-level 1
-select LevelsME15@Reads #-map-level 1
-select LevelsME105@Reads #-map-level 1
+select LevelsM@Reads -map-level 1 #No displacement with colours
+select ReadsM@Reads -map-level 1 #Displaces cave
+select ReadsME15@Reads -map-level 1
+select ReadsME105@Reads -map-level 1
+select LevelsME15@Reads -map-level 1
+select LevelsME105@Reads -map-level 1
 
 
-#export map -proj plan -layout mendip -o Reads.pdf
 
-export map -proj [elevation 15] -layout mendip -o ReadsE15.pdf
+export map -proj [elevation 15] -layout local_elevation15 -o ReadsE15.pdf
 
-export map -proj [elevation 105] -layout mendip -o ReadsE105.pdf
+export map -proj [elevation 105] -layout local_elevation105 -o ReadsE105.pdf
+
+export map -proj plan -layout local_Plan -o Reads.pdf 
 
 #export map -proj plan -fmt kml -layout mendip -o Reads.kml
 
@@ -26,8 +27,25 @@ export map -proj [elevation 105] -layout mendip -o ReadsE105.pdf
 #export model -fmt survex -disable splay-shots -o Reads_NoSplaysth.3d
 #Survex file showing centre line only
 
+layout local_Plan
+  copy mendip
+  map-image -1 65 nw ReadsE15.pdf
+  map-image -1 65 ne ReadsE105.pdf
+endlayout
+
+layout local_elevation15
+  copy local_elevation
+  colour map-bg [60 70 60]
+endlayout
+
+layout local_elevation105
+  copy local_elevation
+  colour map-bg [70 70 80]
+endlayout
+
 layout local_elevation
-copy mendip
+  copy mendip
+  grid off
 endlayout
 
 layout mendip
@@ -38,7 +56,6 @@ rotate -15
 map-header 0 0 off
 #symbol-hide group all
 symbol-hide group cave-centreline
-grid off
 colour map-fg map
 
 
