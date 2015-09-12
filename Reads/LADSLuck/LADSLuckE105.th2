@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -268.29 -428.21 1609.77 2569.25
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {1003.1342346899999 1 1.0} {1075.5934376999999 9.30} PocketTopo/LADSLuck_E105.xvi 0 {}
 
 
@@ -43,9 +43,9 @@ endscrap
 scrap LADSLuckSE105_2 -projection [elevation 105] -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 line wall -reverse on
-  782.0 1032.0
-  792.0 1034.0 806.0 1020.0 816.0 1024.0
-  826.0 1028.0 850.0 1012.0 868.0 1018.0
+  769.0 1030.0
+  777.0 1051.0 822.0 1041.0 833.0 1029.0
+  840.27 1021.07 850.0 1012.0 868.0 1018.0
   886.0 1024.0 936.0 1044.0 936.0 1044.0
   smooth off
   936.0 1044.0 990.0 1056.0 980.0 1078.0
@@ -92,9 +92,7 @@ line wall -reverse on
   560.0 800.0 690.0 804.0 702.0 818.0
   714.0 832.0 740.0 852.0 748.0 870.0
   756.0 888.0 800.0 936.0 804.0 948.0
-  808.0 960.0 806.0 974.0 790.0 978.0
-  774.0 982.0 774.0 994.0 760.0 996.0
-  smooth off
+  808.0 960.0 816.0 1009.0 793.0 995.0
 endline
 
 line wall -close on -reverse on -outline in -subtype blocks

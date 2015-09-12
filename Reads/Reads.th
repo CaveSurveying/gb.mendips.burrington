@@ -64,18 +64,71 @@ join BrownStainSE15_1@BrownStain LLAproachSE15_1@LLAproach -smooth on
 join BrownStainSE15_2@BrownStain LLAproachSE15_1@LLAproach -smooth on
 
 equate 22@BrowneStewart 7.23@BrownStuart
+join BrowneStewartSP2@BrowneStewart BrownStuartSP1@BrownStuart  -smooth on
+join BrowneStewartSE15_1@BrowneStewart BrownStuartSE15_2@BrownStuart  -smooth on
+join BrowneStewartSE105_3@BrowneStewart BrownStuartSE105_3@BrownStuart  -smooth on
+
 equate 19@BrowneStewart 8.4@LLAproach
+join BrowneStewartSP1@BrowneStewart LLAproachSP1@LLAproach -smooth on
+join BrowneStewartSE15_1@BrowneStewart LLAproachSE15_2@LLAproach -smooth on
+join BrowneStewartSE105_2@BrowneStewart LLAproachSE105_2@LLAproach -smooth on
+
 equate 14@BrowneStewart 14@JunctionChamber
+join BrowneStewartSP1@BrowneStewart JunctionChamberSP1@JunctionChamber -smooth on
+join BrowneStewartSE15_2@BrowneStewart JunctionChamberSE15_2@JunctionChamber -smooth on
+join BrowneStewartSE105_1@BrowneStewart JunctionChamberSE105_2@JunctionChamber -smooth on
+
 equate 7.9@BrownStuart 8.22@LLAproach
+#Plan: Not needed
+#15: would be better if linked to a line
+join BrownStuartSE105_3@BrownStuart LLAproachSE105_2@LLAproach -smooth on
+
 equate 7.12@BrownStuart 8.19@LLAproach
+#Plan: Not needed
+#15: would be better if linked to a line
+#105: too hard
+
 equate 7.22@BrownStuart 8.0@LLAproach
-equate 7.0@BrownStuart 6.23@SplashPot 
+#Plan: would be better with a join to a point on line
+#15: would be better if linked to a line
+#105: too hard
+
+equate 7.0@BrownStuart 6.23@SplashPot
+join BrownStuartSP2@BrownStuart SplashPotSP3@SplashPot
+join BrownStuartSE15_1@BrownStuart SplashPotSE15_1@SplashPot
+join BrownStuartSE105_1@BrownStuart SplashPotSE105_1@SplashPot
+
 equate 1.6@DryEnt 2.0@MainChamber
+#Plan: not needed
+join DryEntSE15_1@DryEnt MainChamberSE15_1@MainChamber -smooth on
+#105: not needed
+
 equate 9.46@EarlyGrave 9.46@LADSLuck
+join EarlyGraveSP1@EarlyGrave LADSLuckSP3@LADSLuck  -smooth on
+join EarlyGraveSE15_1@EarlyGrave LADSLuckSE15_1@LADSLuck  -smooth on
+join EarlyGraveSE105_1@EarlyGrave LADSLuckSE105_2@LADSLuck -smooth on 
+
 equate 85@Grotto 2.1@MainChamber
+join GrottoSP1@Grotto  MainChamberSPl1@MainChamber -smooth on
+join GrottoSE15_1@Grotto  MainChamberSE15_1@MainChamber -smooth on
+join GrottoSE105_1@Grotto  MainChamberSE105_1@MainChamber -smooth on
+
 equate 7@JCAlt 7@JunctionChamber
+#Plan: not needed
+join JCAltSE15_1@JCAlt JunctionChamberSE15_1@JunctionChamber -smooth on -count 2
+join JCAltSE105_1@JCAlt JunctionChamberSE105_2@JunctionChamber -smooth on -count 2
+
 equate 26@JCAlt 1@JunctionChamber
+#Plan: needs transparancy sorting, very small so not that noticable
+#15 In join command above
+#105 In join command above
+
 equate 28@JCAlt 1@JuncAlterRoute
+join JCAltSP1@JCAlt JuncAlterRouteSP1@JuncAlterRoute -smooth on
+join JCAltSE15_1@JCAlt JuncAlterRouteSE15_1@JuncAlterRoute -smooth on
+join JCAltSE105_1@JCAlt JuncAlterRouteSE105_1@JuncAlterRoute -smooth on
+
+
 equate 14@JuncAlterRoute 14@JuncAlterRoute2
 equate 42@JuncAlterRoute2 2.9@MainChamber
 equate 1@JunctionChamber 53@OffShoot3
@@ -377,19 +430,6 @@ map Level4ME105  -proj [elevation 105]
   SudoLinkTubeME105@SudoLinkTube #[0 -90 m] below
 endmap
 
-
-
-
-##############################################################
-#PLAN Joins
-
-
-
-
-##############################################################
-#Projected Elevation Joins
-
-join DryEntSE15_1@DryEnt MainChamberSE15_1@MainChamber -smooth on
 
 endsurvey
 

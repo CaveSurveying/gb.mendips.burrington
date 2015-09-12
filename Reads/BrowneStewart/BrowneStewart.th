@@ -7,8 +7,8 @@ input BrowneStewartE105.th2
 
 map BrowneStewartM
   BrowneStewartSP1
+break
   BrowneStewartSP2
-  BrowneStewartSP3
 endmap
 
 map BrowneStewartME15 -proj [elevation 15]

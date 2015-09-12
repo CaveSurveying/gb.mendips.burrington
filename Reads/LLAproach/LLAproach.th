@@ -23,6 +23,10 @@ map LLAproachME105 -proj [elevation 105]
   LLAproachSE105_1
  break
   LLAproachSE105_2
+ break
+  LLAproachSE105_3
+ break
+  LLAproachSE105_4
 endmap
 
 centreline

@@ -1,21 +1,21 @@
 encoding  utf-8
 source Reads.th
 
-#select LevelsM@Reads -map-level 1 #No displacement with colours
-#select ReadsM@Reads -map-level 3 #Displaces cave
-#select ReadsME15@Reads -map-level 3
-#select ReadsME105@Reads -map-level 3
+#select LevelsM@Reads -map-level 1 #No displacement with level colour if map level is 1 
+#select ReadsM@Reads -map-level 1 #Displaces cave with level colour if map level 1
+#select ReadsME15@Reads -map-level 1
+#select ReadsME105@Reads -map-level 1
 #select LevelsME15@Reads -map-level 1
 #select LevelsME105@Reads -map-level 1
 
-select BrownStainME15@BrownStain.Reads
-select LLAproachME15@LLAproach.Reads
+select JCAltME15@JCAlt.Reads
+select JuncAlterRouteME15@JuncAlterRoute.Reads
 
-select BrownStainME105@BrownStain.Reads
-select LLAproachME105@LLAproach.Reads
+select JCAltME105@JCAlt.Reads
+select JuncAlterRouteME105@JuncAlterRoute.Reads
 
-select BrownStainM@BrownStain.Reads
-select LLAproachM@LLAproach.Reads
+select JCAltM@JCAlt.Reads
+select JuncAlterRouteM@JuncAlterRoute.Reads
 
 
 export map -proj [elevation 15] -layout local_elevation15 -o ReadsE15.pdf
@@ -37,8 +37,8 @@ export map -proj plan -layout local_Plan -o Reads.pdf
 
 layout local_Plan
   copy mendip
- # map-image -1 65 nw ReadsE15.pdf
- # map-image -1 65 ne ReadsE105.pdf
+  #map-image -1 65 nw ReadsE15.pdf
+  #map-image -1 65 ne ReadsE105.pdf
 endlayout
 
 layout local_elevation15
@@ -58,8 +58,8 @@ endlayout
 
 layout mendip
 copy common
-scale 1 200
 debug off
+scale 1 200
 rotate -15
 map-header 0 0 off
 #symbol-hide group all
