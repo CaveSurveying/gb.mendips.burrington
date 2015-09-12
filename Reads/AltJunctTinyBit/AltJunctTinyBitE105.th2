@@ -7,7 +7,7 @@ encoding  utf-8
 
 scrap AltJunctTinyBitSE105_1 -projection [elevation 105] -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-line wall
+line wall -subtype blocks
   236.5 161.0
   229.5 153.0 226.0 143.0 214.0 138.0
   202.0 133.0 197.5 127.0 192.0 126.0

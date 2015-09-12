@@ -38,10 +38,31 @@ input WCR2/WCR2.th
 input ZAlley/ZAlley.th
 
 equate 81@AltJunctTinyBit 30@JuncAlterRoute2
+#No joins needed
+
 equate 54@BoulderChamber 3.2@Water
+#Plan -not needed
+join BoulderChamberSE15_1@BoulderChamber WaterSE15_1@Water -smooth on
+join BoulderChamberSE105_1@BoulderChamber WaterSE105_1@Water -smooth on
+
+
 equate 61@BoulderChamber 70@BoulderChamberRoute2
+join BoulderChamberSP3@BoulderChamber BoulderChamberRoute2SP1@BoulderChamberRoute2 -smooth on
+join BoulderChamberSP3@BoulderChamber BoulderChamberRoute2SP2@BoulderChamberRoute2 -smooth on
+join BoulderChamberSE15_1@BoulderChamber BoulderChamberRoute2SE15_3@BoulderChamberRoute2 -smooth on
+#105: not needed
+
 equate 20@BoulderChamberRoute2 9@OffShoot
+join BoulderChamberRoute2SP1@BoulderChamberRoute2 OffShootSP3@OffShoot -smooth on
+#15 not needed
+#105 not needed
+
 equate 8.37@BrownStain 8.20@LLAproach
+join BrownStainSP1@BrownStain LLAproachSP1@LLAproach -smooth on
+join BrownStainSP2@BrownStain LLAproachSP1@LLAproach -smooth on
+join BrownStainSE15_1@BrownStain LLAproachSE15_1@LLAproach -smooth on
+join BrownStainSE15_2@BrownStain LLAproachSE15_1@LLAproach -smooth on
+
 equate 22@BrowneStewart 7.23@BrownStuart
 equate 19@BrowneStewart 8.4@LLAproach
 equate 14@BrowneStewart 14@JunctionChamber
@@ -124,8 +145,7 @@ endmap
 map Level1M
   DryEntM@DryEnt #[-1035 -3864 cm] below
   GrottoM@Grotto #[-1035 -3864 cm] below
-  MainChamberM@MainChamber #[-1035 -3864 cm] below
-  
+  MainChamberM@MainChamber #[-1035 -3864 cm] below 
   OffShootM@OffShoot #[-1035 -3864 cm] below 
   WaterM@Water #[-1035 -3864 cm] below
 endmap

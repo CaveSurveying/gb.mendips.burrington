@@ -6,6 +6,7 @@ input OffShootE15.th2
 input OffShootE105.th2
 
 map OffShootM
+  OffShootSP3
   OffShootSP2
  break
   OffShootSP1

@@ -6,9 +6,12 @@ input BoulderChamberE15.th2
 input BoulderChamberE105.th2
 
 map BoulderChamberM
-  BoulderChamberSP1
+#  BoulderChamberSP1 #Drawn in Water.th2
+# break
   BoulderChamberSP2
+ break
   BoulderChamberSP3
+ break
   BoulderChamberSP4
 endmap
 

@@ -8,10 +8,13 @@ input BrownStainE105.th2
 map BrownStainM
   BrownStainSP1
   BrownStainSP2
+ break
+  BrownStainSP3
 endmap
 
 map BrownStainME15 -proj [elevation 15]
   BrownStainSE15_1
+  BrownStainSE15_2
 endmap
 
 map BrownStainME105 -proj [elevation 105]
