@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -149.38488491380002 -122.17322834699999 748.5 1078.7086614166
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {199.70705334719997 1 1.0} {588.522047244 42} PocketTopo/JuncAlterRoute2_p.xvi 0 {}
 
 
@@ -234,6 +234,21 @@ point 363.8170533472 484.922047244 station -name 17
 point 284.1170533472 498.212047244 station -name 16
 
 point 176.89705334719997 637.192047244 station -name 15
+
+line wall -subtype blocks
+  85.5 709.5
+  92.0 702.0 90.0 683.5 88.0 675.5
+  86.0 667.5 59.0 657.5 56.5 646.5
+  54.0 635.5 72.0 618.5 82.0 619.5
+  92.0 620.5 97.0 626.5 101.5 628.5
+  106.0 630.5 154.5 633.0 167.0 625.0
+endline
+
+line wall -subtype blocks
+  182.5 651.5
+  170.5 657.0 131.5 647.5 124.0 653.0
+  116.5 658.5 128.0 702.0 124.0 713.0
+endline
 
 point 98.46705334719998 633.622047244 station -name 14
 

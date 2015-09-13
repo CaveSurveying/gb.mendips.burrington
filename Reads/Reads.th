@@ -128,10 +128,22 @@ join JCAltSP1@JCAlt JuncAlterRouteSP1@JuncAlterRoute -smooth on
 join JCAltSE15_1@JCAlt JuncAlterRouteSE15_1@JuncAlterRoute -smooth on
 join JCAltSE105_1@JCAlt JuncAlterRouteSE105_1@JuncAlterRoute -smooth on
 
-
 equate 14@JuncAlterRoute 14@JuncAlterRoute2
+#Plan: Transparancy needs improving
+join JuncAlterRouteSE15_2@JuncAlterRoute JuncAlterRoute2SE15_2@JuncAlterRoute2 -smooth on
+join JuncAlterRouteSE105_2@JuncAlterRoute JuncAlterRoute2SE105_1@JuncAlterRoute2 -smooth on
+
 equate 42@JuncAlterRoute2 2.9@MainChamber
+#Plan: join to points on line would be better
+#15: not needed
+join JuncAlterRoute2SE105_1@JuncAlterRoute2 MainChamberSE105_1@MainChamber -smooth on
+
 equate 1@JunctionChamber 53@OffShoot3
+join JunctionChamberSP1@JunctionChamber OffShoot3SP1@OffShoot3 -smooth on
+join JunctionChamberSE15_1@JunctionChamber OffShoot3SE15_2@OffShoot3 -smooth on ####not working????
+join JunctionChamberSE105_2@JunctionChamber OffShoot3SE105_1@OffShoot3 -smooth on ####not working????
+
+
 equate 15@LastSurveyingChamber 15@LowerMaze
 equate 8.12@LLAproach 9.0@LADSLuck
 equate 8.12@LLAproach 8.23@LlExtension

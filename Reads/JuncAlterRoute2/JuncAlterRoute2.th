@@ -11,6 +11,8 @@ map JuncAlterRoute2M
   JuncAlterRoute2SP2
  break
   JuncAlterRoute2SP3
+ break
+  JuncAlterRoute2SP4
 endmap
 
 map JuncAlterRoute2ME15 -proj [elevation 15]
