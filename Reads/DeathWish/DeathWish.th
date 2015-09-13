@@ -2,11 +2,29 @@ encoding  utf-8
 survey DeathWish
 
 input DeathWish.th2
+input DeathWishE15.th2
+input DeathWishE105.th2
 
 map DeathWishM
   DeathWishSP1
   DeathWishSP2
   DeathWishSP3
+endmap
+
+map DeathWishME15 -projection [elevation 15]
+  DeathWishSE15_1
+ break
+  DeathWishSE15_2
+endmap
+
+map DeathWishME105 -projection [elevation 105]
+  DeathWishSE105_1
+ break
+  DeathWishSE105_2
+ break
+  DeathWishSE105_3
+ break
+  DeathWishSE105_4
 endmap
 
 centreline

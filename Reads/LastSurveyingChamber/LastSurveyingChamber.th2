@@ -7,6 +7,11 @@ encoding  utf-8
 
 scrap LastSurveyingChamberSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+line pit
+  238.0 520.0
+  253.0 506.0 277.0 474.0 291.0 497.0
+endline
+
 line wall -close on -subtype blocks
   238.0 520.0
   216.03 490.39 198.0 470.0 170.0 428.0
@@ -28,8 +33,8 @@ line wall -close on -subtype blocks
   384.0 320.0 390.0 272.0 390.0 272.0
   smooth off
   390.0 272.0 356.0 290.0 344.0 330.0
-  332.0 370.0 314.0 408.0 304.0 442.0
-  291.82 483.42 284.0 582.0 238.0 520.0
+  332.0 370.0 301.09 463.05 291.0 497.0
+  280.0 534.0 271.93 565.73 238.0 520.0
 endline
 
 point 259.087083789 538.700787402 station -name 15

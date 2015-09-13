@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -73.41 -121.99 440.49 731.91
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {150.72773033200002 1 1.0} {203.71168813700007 11} PocketTopo/JunctionChamber_E105.xvi 0 {}
 
 
@@ -36,6 +36,7 @@ line wall -subtype blocks
   324.47 528.72 258.0 416.0 218.0 420.0
   178.0 424.0 155.57 465.7 148.0 478.0
   140.0 491.0 112.0 482.0 107.5 493.5
+  smooth off
 endline
 
 line wall -subtype blocks
@@ -79,6 +80,7 @@ line wall -subtype blocks
   328.0 428.0 319.7 449.3 339.84773033199997 457.65168813700006
   352.11 462.73 358.0 475.0 370.5 488.5
   378.01 496.61 370.5 502.5 372.5 514.5
+  smooth off
 endline
 
 point 263.577730332 60.9916881370001 station -name 14

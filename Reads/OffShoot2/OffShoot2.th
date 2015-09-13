@@ -7,7 +7,6 @@ input OffShoot2E105.th2
 
 map OffShoot2M
   OffShoot2SP1
-  OffShoot2SP2
 endmap
 
 map OffShoot2ME15 -proj [elevation 15]

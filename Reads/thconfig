@@ -1,21 +1,12 @@
 encoding  utf-8
 source Reads.th
 
-#select LevelsM@Reads -map-level 1 #No displacement with level colour if map level is 1 
-#select ReadsM@Reads -map-level 1 #Displaces cave with level colour if map level 1
-#select ReadsME15@Reads -map-level 1
-#select ReadsME105@Reads -map-level 1
-#select LevelsME15@Reads -map-level 1
-#select LevelsME105@Reads -map-level 1
-
-select OffShoot3ME15@OffShoot3.Reads
-select JunctionChamberME15@JunctionChamber.Reads
-
-select OffShoot3ME105@OffShoot3.Reads
-select JunctionChamberME105@JunctionChamber.Reads
-
-select OffShoot3M@OffShoot3.Reads
-select JunctionChamberM@JunctionChamber.Reads
+select LevelsM@Reads -map-level 1 #No displacement with level colour if map level is 1 
+select ReadsM@Reads -map-level 1 #Displaces cave with level colour if map level 1
+select ReadsME15@Reads -map-level 1
+select ReadsME105@Reads -map-level 1
+select LevelsME15@Reads -map-level 1
+select LevelsME105@Reads -map-level 1
 
 export map -proj [elevation 15] -layout local_elevation15 -o ReadsE15.pdf
 
@@ -36,18 +27,25 @@ export map -proj plan -layout local_Plan -o Reads.pdf
 
 layout local_Plan
   copy mendip
-  #map-image -1 65 nw ReadsE15.pdf
-  #map-image -1 65 ne ReadsE105.pdf
+  map-header 0 100 ne
+  map-header 100 100 sw
+  map-image -1 65 nw ReadsE15.pdf
+  map-image -1 65 ne ReadsE105.pdf
+#code tex-map
+ # \def\maplayout{
+#\legendbox{0}{100}{NW}{\northarrow}
+#}
+endcode
 endlayout
 
 layout local_elevation15
   copy local_elevation
-  colour map-bg [80 80 73]
+  colour map-bg [100 100 90]
 endlayout
 
 layout local_elevation105
   copy local_elevation
-  colour map-bg [80 80 90]
+  colour map-bg [90 100 100]
 endlayout
 
 layout local_elevation
@@ -61,6 +59,7 @@ debug off
 scale 1 200
 rotate -15
 map-header 0 0 off
+scale-bar 50 m
 #symbol-hide group all
 symbol-hide group cave-centreline
 colour map-fg map

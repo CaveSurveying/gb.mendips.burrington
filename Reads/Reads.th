@@ -98,6 +98,11 @@ join BrownStuartSP2@BrownStuart SplashPotSP3@SplashPot
 join BrownStuartSE15_1@BrownStuart SplashPotSE15_1@SplashPot
 join BrownStuartSE105_1@BrownStuart SplashPotSE105_1@SplashPot
 
+equate  0@DeathWish 18@LowerMaze
+join DeathWishSP1@DeathWish LowerMazeSP1@LowerMaze -smooth on
+join DeathWishSE15_1@DeathWish LowerMazeSE15_1@LowerMaze -smooth on
+join DeathWishSE105_4@DeathWish LowerMazeSE105_1@LowerMaze -smooth on
+
 equate 1.6@DryEnt 2.0@MainChamber
 #Plan: not needed
 join DryEntSE15_1@DryEnt MainChamberSE15_1@MainChamber -smooth on
@@ -143,26 +148,98 @@ join JunctionChamberSP1@JunctionChamber OffShoot3SP1@OffShoot3 -smooth on
 join JunctionChamberSE15_1@JunctionChamber OffShoot3SE15_2@OffShoot3 -smooth on ####not working????
 join JunctionChamberSE105_2@JunctionChamber OffShoot3SE105_1@OffShoot3 -smooth on ####not working????
 
-
 equate 15@LastSurveyingChamber 15@LowerMaze
+#Plan: not needed
+#15: could be inproved by point joining
+#105: could be inproved by point joining
+
 equate 8.12@LLAproach 9.0@LADSLuck
+#equate is to LLAproach but stn is in LLExtensionM
+join LADSLuckSP2@LADSLuck LlExtensionSP1@LlExtension -smooth on 
+#Plan: LADSLuckSP2 would be better with point join to LlExtension
+join LADSLuckSE15_3@LADSLuck LlExtensionSE15_1@LlExtension -smooth on
+join LADSLuckSE15_1@LADSLuck LlExtensionSE15_1@LlExtension -smooth on
+#105: too hard, probably not useful
+
 equate 8.12@LLAproach 8.23@LlExtension
+join LLAproachSP1@LLAproach LlExtensionSP1@LlExtension -smooth on
+join LLAproachSE15_2@LLAproach LlExtensionSE15_1@LlExtension -smooth on
+#105: too hard, probably not useful
+
 equate 8.15@LLAproach 8.30@SudoLinkTube
+join LLAproachSP1@LLAproach SudoLinkTubeSP1@SudoLinkTube -smooth on
+join LLAproachSE15_2@LLAproach SudoLinkTubeSE15_1@SudoLinkTube -smooth on
+join LLAproachSE105_1@LLAproach SudoLinkTubeSE105_1@SudoLinkTube -smooth on
+
 equate 0@LowerMaze 5.11@ZAlley
-equate 18@LowerMaze 0@DeathWish
+join LowerMazeSP1@LowerMaze ZAlleySP3@ZAlley -smooth on
+join LowerMazeSE15_1@LowerMaze ZAlleySE15_2@ZAlley -smooth on
+join LowerMazeSE105_2@LowerMaze ZAlleySE105_2@ZAlley -smooth on
+
 equate 2.1@MainChamber 4.0@Pipe
+#Plan: not needed
+join MainChamberSE15_1@MainChamber PipeSE15_1@Pipe -smooth on
+join MainChamberSE105_1@MainChamber PipeSE105_1@Pipe -smooth on
+
 equate 2.7@MainChamber 3.0@Water
+join MainChamberSPl1@MainChamber WaterSP1@Water -smooth on
+#15: Might be better with a point join
+#105: No idea
+
 equate 2.9@MainChamber 42@WCR2
+#Plan: 3 way join, sigh, probably better if it had point joins
+#15: not needed
+join MainChamberSE105_1@MainChamber WCR2SE105_1@WCR2 -smooth on
+
 equate 0@Maze 5.9@ZAlley
+join MazeSP2@Maze ZAlleySP3@ZAlley -smooth on
+join MazeSE15_2@Maze ZAlleySE15_1@ZAlley -smooth on
+join MazeSE105_2@Maze ZAlleySE105_1@ZAlley -smooth on
+
 equate 6.42@MNRCSeries 6.22@SplashPot
+join MNRCSeriesSP1@MNRCSeries SplashPotSP3@SplashPot -smooth on
+join MNRCSeriesSE15_2@MNRCSeries SplashPotSE15_1@SplashPot -smooth on
+join MNRCSeriesSE105_2@MNRCSeries SplashPotSE105_1@SplashPot -smooth on
+
 equate 10@OffShoot 10@OffShoot2
+join OffShootSP3@OffShoot OffShoot2SP1@OffShoot2 -smooth on
+join OffShootSE15_1@OffShoot OffShoot2SE15_1@OffShoot2 -smooth on
+#105: too hard, probably not meaning full!
+
 equate 16@OffShoot2 25@OffShoot3
+join OffShoot2SP1@OffShoot2 OffShoot3SP1@OffShoot3 -smooth on
+join OffShoot2SE15_1@OffShoot2 OffShoot3SE15_2@OffShoot3 -smooth on
+join OffShoot2SE105_2@OffShoot2 OffShoot3SE105_2@OffShoot3 -smooth on
+
 equate 0@OffShoot 3.2@Water
+#Plan: would be better with a point join
+join OffShootSE15_1@OffShoot WaterSE15_1@Water -smooth on
+join OffShootSE105_1@OffShoot WaterSE105_1@Water -smooth on
+
 equate 4.22@Pipe 0@UpperWaterfall
+join PipeSP2@Pipe UpperWaterfallSP1@UpperWaterfall -smooth on
+join PipeSE15_4@Pipe UpperWaterfallSE15_1@UpperWaterfall -smooth on
+join PipeSE105_1@Pipe UpperWaterfallSE105_1@UpperWaterfall -smooth on
+
 equate 4.23@Pipe 5.0@ZAlley
+join PipeSP2@Pipe ZAlleySP1@ZAlley -smooth on
+join PipeSE15_4@Pipe ZAlleySE15_1@ZAlley -smooth on
+join PipeSE105_1@Pipe ZAlleySE105_1@ZAlley -smooth on
+
 equate 6.0@SplashPot 5.15@ZAlley
+#Plan: Not needed
+join SplashPotSE15_1@SplashPot ZAlleySE15_3@ZAlley -smooth on
+join SplashPotSE105_3@SplashPot ZAlleySE105_2@ZAlley -smooth on
+
 equate 13@UpperWaterfall 14@UpperWaterfall2
+join UpperWaterfallSP1@UpperWaterfall UpperWaterfall2SP1@UpperWaterfall2 -smooth on
+join UpperWaterfallSE15_1@UpperWaterfall UpperWaterfall2SE15_1@UpperWaterfall2 -smooth on
+join UpperWaterfallSE105_1@UpperWaterfall UpperWaterfall2SE105_1@UpperWaterfall2 -smooth on
+
 equate 1@WaterfallChamber 5.10@ZAlley
+#Plan: no real idea
+join WaterfallChamberSE15_1@WaterfallChamber ZAlleySE15_2@ZAlley -smooth on
+join WaterfallChamberSE105_2@WaterfallChamber ZAlleySE105_2@ZAlley -smooth on
 
 
 map ReadsM
