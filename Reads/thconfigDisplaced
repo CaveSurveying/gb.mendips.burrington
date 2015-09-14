@@ -1,64 +1,58 @@
 encoding  utf-8
 source Reads.th
 
-select LevelsM@Reads -map-level 1 #No displacement with level colour if map level is 1 
+#This file has to be run first to produce the exploded elevations used in thconfig_noDisplaced
+
 select ReadsM@Reads -map-level 1 #Displaces cave with level colour if map level 1
 select ReadsME15@Reads -map-level 1
 select ReadsME105@Reads -map-level 1
-select LevelsME15@Reads -map-level 1
-select LevelsME105@Reads -map-level 1
 
-export map -proj [elevation 15] -layout local_elevation15 -o ReadsE15.pdf
 
-export map -proj [elevation 105] -layout local_elevation105 -o ReadsE105.pdf
+export map -proj [elevation 15] -layout local_elevation15 -o ReadsE15_Exploded.pdf
 
-export map -proj plan -layout local_Plan -o Reads.pdf 
+export map -proj [elevation 105] -layout local_elevation105 -o ReadsE105_Exploded.pdf
 
-#export map -proj plan -fmt kml -layout mendip -o Reads.kml
+export map -proj plan -layout local_Plan -o Reads_Exploded.pdf 
 
-#export model -o Reads.lox
-#3d therion model to be viewed in the therion viewer
 
-#export model -fmt survex -o Readsth.3d
-#Survex file showing centreline and slays
-
-#export model -fmt survex -disable splay-shots -o Reads_NoSplaysth.3d
-#Survex file showing centre line only
 
 layout local_Plan
   copy mendip
-  map-header 0 100 ne
-  map-header 100 100 sw
-  map-image -1 65 nw ReadsE15.pdf
-  map-image -1 65 ne ReadsE105.pdf
-#code tex-map
- # \def\maplayout{
-#\legendbox{0}{100}{NW}{\northarrow}
-#}
 endcode
 endlayout
 
 layout local_elevation15
   copy local_elevation
-  colour map-bg [100 100 90]
+  colour map-bg [100 100 92]
+code tex-map 
+  \def\maplayout{
+      \legendbox{0}{100}{SW}{
+      \comment{Exploded view below}
+      \size[40]\the\comment
+      }
+   }
+endcode
 endlayout
 
 layout local_elevation105
   copy local_elevation
-  colour map-bg [90 100 100]
+  colour map-bg [95 100 100]
 endlayout
 
 layout local_elevation
   copy mendip
-  grid off
+  
 endlayout
 
 layout mendip
 copy common
 debug off
+grid off
 scale 1 200
 rotate -15
 map-header 0 0 off
+map-header-bg off
+colour map-bg transparent
 scale-bar 50 m
 #symbol-hide group all
 symbol-hide group cave-centreline

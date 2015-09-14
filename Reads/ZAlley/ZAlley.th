@@ -6,23 +6,47 @@ input ZAlleyE15.th2
 input ZAlleyE105.th2
 
 map ZAlleyM
+  ZAlleyUpM
+  ZAlleyLowM
+endmap
+
+map ZAlleyUpM
   ZAlleySP1
  break
   ZAlleySP2
- break
+endmap
+
+map ZAlleyLowM
   ZAlleySP3
 endmap
 
 map ZAlleyME15 -proj [elevation 15]
+  ZAlleyUpME15
+  ZAlleyLowME15
+endmap
+
+map ZAlleyUpME15 -proj [elevation 15]
   ZAlleySE15_1
+endmap
+ 
+map ZAlleyLowME15 -proj [elevation 15]
+  ZAlleySE15_4
+  ZAlleySE15_3
  break
   ZAlleySE15_2
- break
-  ZAlleySE15_3
 endmap
 
 map ZAlleyME105 -projection [elevation 105]
+  ZAlleyUpME105
+  ZAlleyLowME105
+endmap
+
+map ZAlleyUpME105 -projection [elevation 105]
   ZAlleySE105_1
+endmap
+
+map ZAlleyLowME105 -projection [elevation 105]
+  ZAlleySE105_3
  break
   ZAlleySE105_2
 endmap

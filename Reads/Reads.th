@@ -1,5 +1,5 @@
 encoding  utf-8
-survey Reads
+survey Reads -title "Reads<br>Carvern"
 
 input AltJunctTinyBit/AltJunctTinyBit.th
 input BoulderChamber/BoulderChamber.th
@@ -193,8 +193,8 @@ join MainChamberSE105_1@MainChamber WCR2SE105_1@WCR2 -smooth on
 
 equate 0@Maze 5.9@ZAlley
 join MazeSP2@Maze ZAlleySP3@ZAlley -smooth on
-join MazeSE15_2@Maze ZAlleySE15_1@ZAlley -smooth on
-join MazeSE105_2@Maze ZAlleySE105_1@ZAlley -smooth on
+join MazeSE15_2@Maze ZAlleySE15_4@ZAlley -smooth on
+join MazeSE105_2@Maze ZAlleySE105_3@ZAlley -smooth on
 
 equate 6.42@MNRCSeries 6.22@SplashPot
 join MNRCSeriesSP1@MNRCSeries SplashPotSP3@SplashPot -smooth on
@@ -257,7 +257,7 @@ map LevelsM
 endmap
 
 map Reads1M
-  Level1M [100 -28 m] none
+  Level1M [10625	-2847 cm] none
   #preview below Level2M 
   #preview below Level3M 
   #preview below Level4M
@@ -265,7 +265,7 @@ endmap
 
 map Reads2M
   #preview below Level1M
-  Level2M [95 -50 m] none
+  Level2M [9849	-5745 cm] none
   #preview above Level3M
   #preview above Level4M
 endmap
@@ -273,7 +273,7 @@ endmap
 map Reads3M
   #preview below Level1M
   #preview below Level2M 
-  Level3M [90 -90 m] none
+  Level3M [8684	-10091 cm] none
   #preview above Level4M
 endmap
 
@@ -281,7 +281,7 @@ map Reads4M
   #preview below Level1M
   #preview below Level2M 
   #preview below Level3M
-  Level4M [80 -125 m] none
+  Level4M [7908	-12989 cm] none
 endmap
 
 map Level1M
@@ -306,7 +306,7 @@ map Level2M
   UpperWaterfallM@UpperWaterfall #[-1682 -6279 cm] below
   UpperWaterfall2M@UpperWaterfall2 #[-1682 -6279 cm] below
   WCR2M@WCR2 #[-1682 -6279 cm] below #probably needs splitting into level1M
-  ZAlleyM@ZAlley  #[-1682 -6279 cm] below #probably needs splitting into level4M
+  ZAlleyUpM@ZAlley  #[-1682 -6279 cm] below #probably needs splitting into level4M
 endmap
 
 map Level3M
@@ -320,6 +320,7 @@ map Level3M
   DeathWishM@DeathWish #[-2976 -11108 cm] below
   #TheSweetEndM@TheSweetEnd #[-2976 -11108 cm] below
   WaterfallChamberM@WaterfallChamber #[-1035 -3864 cm] below
+  ZAlleyLowM@ZAlley
 endmap
 
 map Level4M
@@ -403,7 +404,7 @@ map Level2ME15 -proj [elevation 15]
   UpperWaterfallME15@UpperWaterfall ##[0 -65 m] below
   UpperWaterfall2ME15@UpperWaterfall2 ##[0 -65 m] below
   WCR2ME15@WCR2 ##[0 -65 m] below #probably needs splitting into level1M
-  ZAlleyME15@ZAlley  ##[0 -65 m] below #probably needs splitting into level4M
+  ZAlleyUpME15@ZAlley  ##[0 -65 m] below #probably needs splitting into level4M
 endmap
 
 map Level3ME15  -proj [elevation 15]
@@ -416,6 +417,7 @@ map Level3ME15  -proj [elevation 15]
   SplashPotME15@SplashPot #[0 -115 m] below
   #TheSweetEndME15@TheSweetEnd #[0 -115 m] below
   WaterfallChamberME15@WaterfallChamber #[0 -40 m] below
+  ZAlleyLowME15@ZAlley
 endmap
 
 map Level4ME15  -proj [elevation 15]
@@ -495,7 +497,7 @@ map Level2ME105 -proj [elevation 105]
   UpperWaterfallME105@UpperWaterfall ##[0 -65 m] below
   UpperWaterfall2ME105@UpperWaterfall2 ##[0 -65 m] below
   WCR2ME105@WCR2 ##[0 -65 m] below #probably needs splitting into level1M
-  ZAlleyME105@ZAlley  ##[0 -65 m] below #probably needs splitting into level4M
+  ZAlleyUpME105@ZAlley  ##[0 -65 m] below #probably needs splitting into level4M
 endmap
 
 map Level3ME105  -proj [elevation 105]
@@ -508,6 +510,7 @@ map Level3ME105  -proj [elevation 105]
   SplashPotME105@SplashPot #[0 -115 m] below
   #TheSweetEndME105@TheSweetEnd #[0 -115 m] below
   WaterfallChamberME105@WaterfallChamber #[0 -40 m] below
+  ZAlleyLowME105@ZAlley
 endmap
 
 map Level4ME105  -proj [elevation 105]
