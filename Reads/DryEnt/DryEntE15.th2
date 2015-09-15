@@ -70,9 +70,11 @@ line wall
   smooth off
 endline
 
+point 184.0 926.0 entrance -orientation 102.3 -scale xl
+
 line wall
-  68.0 898.0
-  116.0 876.0 246.0 844.0 280.0 820.0
+  176.0 854.0
+  224.0 832.0 246.0 844.0 280.0 820.0
   314.0 796.0 348.0 798.0 352.0 786.0
   smooth off
   354.0 742.0

@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -127.05511811000002 -156.42519685 995.0866141733 701.5
+##XTHERION## xth_me_area_adjust -132.0 -156.42519685 995.0866141733 703.0
 ##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {470.312047244 1 1.0} {414.13535433100003 1.4} PocketTopo/DryEnt_p.xvi 0 {}
 
@@ -119,7 +119,7 @@ line pit -reverse on
   smooth off
 endline
 
-point 86.5 138.0 entrance -orientation 78.5
+point 86.5 138.0 entrance -orientation 78.5 -scale xl
 
 line border -reverse on -subtype invisible -outline out
   649.0 35.0

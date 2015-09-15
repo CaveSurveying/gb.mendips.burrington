@@ -257,7 +257,7 @@ map LevelsM
 endmap
 
 map Reads1M
-  Level1M [10625	-2847 cm] none
+  Level1M [10625  -2847 cm] none
   #preview below Level2M 
   #preview below Level3M 
   #preview below Level4M
@@ -265,7 +265,7 @@ endmap
 
 map Reads2M
   #preview below Level1M
-  Level2M [9849	-5745 cm] none
+  Level2M [9849  -5745 cm] none
   #preview above Level3M
   #preview above Level4M
 endmap
@@ -273,7 +273,7 @@ endmap
 map Reads3M
   #preview below Level1M
   #preview below Level2M 
-  Level3M [8684	-10091 cm] none
+  Level3M [8684  -10091 cm] none
   #preview above Level4M
 endmap
 
@@ -281,10 +281,10 @@ map Reads4M
   #preview below Level1M
   #preview below Level2M 
   #preview below Level3M
-  Level4M [7908	-12989 cm] none
+  Level4M [7908  -12989 cm] none
 endmap
 
-map Level1M
+map Level1M -title "Main Chamber Level"
   DryEntM@DryEnt #[-1035 -3864 cm] below
   GrottoM@Grotto #[-1035 -3864 cm] below
   MainChamberM@MainChamber #[-1035 -3864 cm] below 
@@ -292,7 +292,7 @@ map Level1M
   WaterM@Water #[-1035 -3864 cm] below
 endmap
 
-map Level2M
+map Level2M -title "Upper Maze Level"
   AltJunctTinyBitM@AltJunctTinyBit #[-1682 -6279 cm] below
   BoulderChamberM@BoulderChamber #[-1682 -6279 cm] below
   BoulderChamberRoute2M@BoulderChamberRoute2 #[-1682 -6279 cm] below
@@ -309,7 +309,7 @@ map Level2M
   ZAlleyUpM@ZAlley  #[-1682 -6279 cm] below #probably needs splitting into level4M
 endmap
 
-map Level3M
+map Level3M -title "Lower East Level"
   BrownStainM@BrownStain #[-2976 -11108 cm] below
   BrownStuartM@BrownStuart #[-2976 -11108 cm] below
   LastSurveyingChamberM@LastSurveyingChamber #[-2976 -11108 cm] below
@@ -323,7 +323,7 @@ map Level3M
   ZAlleyLowM@ZAlley
 endmap
 
-map Level4M
+map Level4M -title "Lower West Level"
   BrowneStewartM@BrowneStewart #[-2329 -8693 cm] below
   EarlyGraveM@EarlyGrave #[-2329 -8693 cm] below
   LADSLuckM@LADSLuck #[-2329 -8693 cm] below

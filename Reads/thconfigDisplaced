@@ -51,7 +51,7 @@ debug off
 grid off
 scale 1 300
 rotate -15
-map-header 0 0 off
+map-header 0 0 ne
 map-header-bg off
 colour map-bg transparent
 scale-bar 50 m

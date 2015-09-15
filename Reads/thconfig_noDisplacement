@@ -39,23 +39,46 @@ export map -proj plan -layout local_Plan -o Reads.pdf
 
 layout local_Plan
   copy mendip
+  legend on
+  colour-legend off
 code tex-map
   \def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
   \def\maplayout{
       \legendbox{12}{5}{SW}{\northarrow}
-      \legendbox{5}{85}{NE}{
+      \legendbox{7}{100}{NE}{
               \hsize=\legendwidth
               \size[60]\the\cavename
               \vskip.5cm
               \comment{Third angle projection}
-               \size[25]\the\comment
-              \vskip1cm
+              \size[20]\the\comment
+              \vskip.5cm
+              \size[14]\the\cavelengthtitle: \the\cavelength\qquad
+              \the\cavedepthtitle: \the\cavedepth
+              \vskip.5cm
               \scalebar
               \vskip.5cm
               \size[12]\the\topotitle\space
               \the\topoteam\space
               \the\topodate
+              \medskip
+              \comment={Drawn, using Therion, by Andrew Atkinson with help form Graham Mullan}
+              \size[12]\the\comment
+              \medskip
+              \comment={With thanks to all the other cavers past and present}
+              \size[12]\the\comment
+              \smallskip
+              \comment={that have helped and made information available.}
+              \size[12]\the\comment
+              \medskip
+              \comment={Grade UISv1 6-4-BEF}
+              \size[12]\the\comment
+              \medskip
+              \comment={Copyright 2010-2012 CC BY NC SA}
+              \size[12]\the\comment
               }
+      \legendbox{110}{-250}{SW}{\formattedlegend}
+
+      \legendbox{107}{-250}{NW}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/Legend.pdf}} 
       \legendbox{0}{100}{NW}{\size[25]Plan View}
       \legendbox{-2}{-5}{NW}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/ReadsE15.pdf}} 
       \legendbox{-1}{-5}{NE}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/ReadsE105.pdf}}
@@ -103,10 +126,10 @@ endlayout
 
 layout local_elevation
   copy mendip
-  grid off
 endlayout
 
 layout mendip
+grid off
 copy common
 debug off
 scale 1 300
