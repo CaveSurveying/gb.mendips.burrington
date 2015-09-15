@@ -48,12 +48,12 @@ code tex-map
       \legendbox{7}{100}{NE}{
               \hsize=\legendwidth
               \size[60]\the\cavename
+              \vskip2cm
+              \size[18]\the\cavelengthtitle: \the\cavelength\qquad
+              \the\cavedepthtitle: \the\cavedepth
               \vskip.5cm
               \comment{Third angle projection}
-              \size[20]\the\comment
-              \vskip.5cm
-              \size[14]\the\cavelengthtitle: \the\cavelength\qquad
-              \the\cavedepthtitle: \the\cavedepth
+              \size[18]\the\comment
               \vskip.5cm
               \scalebar
               \vskip.5cm
@@ -64,17 +64,23 @@ code tex-map
               \comment={Drawn, using Therion, by Andrew Atkinson with help form Graham Mullan}
               \size[12]\the\comment
               \medskip
-              \comment={With thanks to all the other cavers past and present}
+              \comment={With thanks to all the other cavers, past and present,}
               \size[12]\the\comment
               \smallskip
               \comment={that have helped and made information available.}
               \size[12]\the\comment
               \medskip
+              \comment={Scale 1:300}
+              \the\comment
+              \qquad
               \comment={Grade UISv1 6-4-BEF}
-              \size[12]\the\comment
+              \the\comment
               \medskip
-              \comment={Copyright 2010-2012 CC BY NC SA}
-              \size[12]\the\comment
+              \comment={Data available at http://cave-registry.org.uk/svn/Burrington}
+              \the\comment
+              \medskip
+              \comment={Copyright 2012-2015 CC BY NC SA}
+              \the\comment
               }
       \legendbox{110}{-250}{SW}{\formattedlegend}
 
