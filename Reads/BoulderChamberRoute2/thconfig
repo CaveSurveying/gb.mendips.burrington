@@ -6,7 +6,7 @@ source BoulderChamberRoute2.th
 #Surveys to output
 #-----------------
 
-#export map -proj plan -layout local -o BoulderChamberRoute2.pdf
+export map -proj plan -layout local -o BoulderChamberRoute2.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o BoulderChamberRoute2Ee.pdf
@@ -24,7 +24,8 @@ export model -fmt survex -o BoulderChamberRoute2th.3d
 
 layout local
 copy common
-debug off
+debug second
+debug first
 map-header 0 0 off
 #symbol-hide group cave-centreline
 endlayout

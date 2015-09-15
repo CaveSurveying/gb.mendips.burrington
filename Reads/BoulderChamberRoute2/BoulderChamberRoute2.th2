@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -100.42 -130.55 602.52 783.31
+##XTHERION## xth_me_area_adjust -156.53018824099996 -141.46456692900009 683.0 843.5
 ##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {327.391138021 1 1.0} {459.46685039399995 24} PocketTopo/BoulderChamberRoute2_p.xvi 0 {}
 
@@ -58,6 +58,7 @@ line pit
   205.5 171.0
   195.0 170.0 154.0 161.0 151.0 155.0
   148.0 149.0 149.0 145.5 151.0 141.0
+  smooth off
 endline
 
 line wall
@@ -89,6 +90,7 @@ line pit -reverse on
   370.0 481.0
   367.5 489.5 371.26 489.69 362.631138021 495.59685039399994
   354.0 501.5 338.5 512.5 316.0 508.0
+  smooth off
 endline
 
 line pit
@@ -97,6 +99,7 @@ line pit
   237.5 554.5 229.0 542.0 236.0 535.0
   241.66 529.34 259.0 538.0 269.0 541.0
   279.0 544.0 313.0 563.0 320.0 591.0
+  smooth off
 endline
 
 line wall
@@ -137,6 +140,7 @@ line wall
   408.0 508.0 392.0 500.0 381.0 520.0
   370.0 540.0 344.0 558.0 338.0 573.0
   332.0 588.0 320.4 586.78 320.0 591.0
+  smooth off
 endline
 
 point 174.841138021 145.606850394 station -name 77
@@ -194,12 +198,14 @@ line overhang
   380.0 136.0
   380.5 130.0 386.58 121.84 389.0 117.0
   391.5 112.0 398.5 101.5 402.0 98.0
+  smooth off
 endline
 
 line pit
   402.0 98.0
   404.0 102.0 402.0 117.5 398.0 123.5
   394.0 129.5 384.5 134.0 380.0 136.0
+  smooth off
 endline
 
 line wall

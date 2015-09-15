@@ -23,20 +23,13 @@ endlayout
 
 layout local_elevation15
   copy local_elevation
-  colour map-bg [100 100 92]
-code tex-map 
-  \def\maplayout{
-      \legendbox{0}{100}{SW}{
-      \comment{Exploded view below}
-      \size[40]\the\comment
-      }
-   }
-endcode
+  colour map-bg [90 90 85]
+
 endlayout
 
 layout local_elevation105
   copy local_elevation
-  colour map-bg [95 100 100]
+  colour map-bg [85 90 90]
 endlayout
 
 layout local_elevation
@@ -46,9 +39,17 @@ endlayout
 
 layout mendip
 copy common
+code tex-map 
+  \def\maplayout{
+      \legendbox{0}{100}{SW}{
+      \comment{Exploded view}
+      \size[25]\the\comment
+      }
+   }
+endcode
 debug off
 grid off
-scale 1 200
+scale 1 300
 rotate -15
 map-header 0 0 off
 map-header-bg off
