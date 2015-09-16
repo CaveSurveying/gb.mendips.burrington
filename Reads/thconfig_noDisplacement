@@ -107,7 +107,7 @@ code tex-map
       \legendbox{0}{100}{SW}{
       \comment={Projected Elevation}
       \size[22]\the\comment
-      \comment={Towards 015 (up on plan)}
+      \comment={Towards 015$^{^{^{^{\circ}}}}$ (up on plan)}
       \smallskip
       \size[18]\the\comment
       }
@@ -123,7 +123,7 @@ layout local_elevation105
       \legendbox{0}{100}{SW}{
       \comment={Projected Elevation}
       \size[22]\the\comment
-      \comment={Towards 105 (from left on plan)}
+      \comment={Towards 105$^{^{^{^{\circ}}}}$ (from left on plan)}
       \smallskip
       \size[18]\the\comment
       }
