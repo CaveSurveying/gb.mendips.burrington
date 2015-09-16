@@ -11,7 +11,8 @@ export map -proj plan -layout local -o JuncAlterRoute2.pdf
 
 #export map -proj extended -layout local -o JuncAlterRoute2Ee.pdf
 
-#export map -proj [elevation 15] -layout local -o JuncAlterRoute2E90.pdf
+#export map -proj [elevation 15] -layout local -o JuncAlterRoute2E15.pdf
+export map -proj [elevation 105] -layout local -o JuncAlterRoute2E105.pdf
 
 export model -fmt survex -o JuncAlterRoute2th.3d
 #Survex file showing centre line only
@@ -24,7 +25,7 @@ export model -fmt survex -o JuncAlterRoute2th.3d
 
 layout local
 copy common
-debug off
+debug first
 map-header 0 0 off
 #symbol-hide group cave-centreline
 endlayout

@@ -24,8 +24,8 @@ export model -fmt survex -o BoulderChamberRoute2th.3d
 
 layout local
 copy common
-debug second
-debug first
+scale 1 140
+debug on
 map-header 0 0 off
 #symbol-hide group cave-centreline
 endlayout

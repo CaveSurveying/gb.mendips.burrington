@@ -309,8 +309,7 @@ map Level2M -title "Upper Maze Level"
   ZAlleyUpM@ZAlley  #[-1682 -6279 cm] below #probably needs splitting into level4M
 endmap
 
-map Level3M -title "Lower East Level"
-  BrownStainM@BrownStain #[-2976 -11108 cm] below
+map Level3M -title "Lower East Level" 
   BrownStuartM@BrownStuart #[-2976 -11108 cm] below
   LastSurveyingChamberM@LastSurveyingChamber #[-2976 -11108 cm] below
   LowerMazeM@LowerMaze #[-2976 -11108 cm] below
@@ -324,6 +323,7 @@ map Level3M -title "Lower East Level"
 endmap
 
 map Level4M -title "Lower West Level"
+  BrownStainM@BrownStain
   BrowneStewartM@BrowneStewart #[-2329 -8693 cm] below
   EarlyGraveM@EarlyGrave #[-2329 -8693 cm] below
   LADSLuckM@LADSLuck #[-2329 -8693 cm] below
@@ -408,7 +408,6 @@ map Level2ME15 -proj [elevation 15]
 endmap
 
 map Level3ME15  -proj [elevation 15]
-  BrownStainME15@BrownStain #[0 -115 m] below
   BrownStuartME15@BrownStuart #[0 -115 m] below
   LastSurveyingChamberME15@LastSurveyingChamber #[0 -115 m] below
   LowerMazeME15@LowerMaze #[0 -115 m] below
@@ -421,6 +420,7 @@ map Level3ME15  -proj [elevation 15]
 endmap
 
 map Level4ME15  -proj [elevation 15]
+  BrownStainME15@BrownStain
   BrowneStewartME15@BrowneStewart #[0 -90 m] below
   EarlyGraveME15@EarlyGrave #[0 -90 m] below
   LADSLuckME15@LADSLuck #[0 -90 m] below
@@ -501,7 +501,6 @@ map Level2ME105 -proj [elevation 105]
 endmap
 
 map Level3ME105  -proj [elevation 105]
-  BrownStainME105@BrownStain #[0 -115 m] below
   BrownStuartME105@BrownStuart #[0 -115 m] below
   LastSurveyingChamberME105@LastSurveyingChamber #[0 -115 m] below
   LowerMazeME105@LowerMaze #[0 -115 m] below
@@ -514,6 +513,7 @@ map Level3ME105  -proj [elevation 105]
 endmap
 
 map Level4ME105  -proj [elevation 105]
+  BrownStainME105@BrownStain
   BrowneStewartME105@BrowneStewart #[0 -90 m] below
   EarlyGraveME105@EarlyGrave #[0 -90 m] below
   LADSLuckME105@LADSLuck #[0 -90 m] below

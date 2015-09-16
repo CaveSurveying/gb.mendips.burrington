@@ -6,12 +6,13 @@ source SudoLinkTube.th
 #Surveys to output
 #-----------------
 
-#export map -proj plan -layout local -o SudoLinkTube.pdf
+export map -proj plan -layout local -o SudoLinkTube.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o SudoLinkTubeEe.pdf
 
 #export map -proj [elevation 15] -layout local -o SudoLinkTubeE15.pdf
+#export map -proj [elevation 105] -layout local -o SudoLinkTubeE105.pdf
 
 export model -fmt survex -o SudoLinkTubeth.3d
 #Survex file showing centre line only
@@ -24,7 +25,8 @@ export model -fmt survex -o SudoLinkTubeth.3d
 
 layout local
 copy common
-debug off
+scale 1 150
+debug on
 map-header 0 0 off
 #symbol-hide group cave-centreline
 endlayout

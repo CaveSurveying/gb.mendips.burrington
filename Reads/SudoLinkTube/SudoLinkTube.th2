@@ -75,7 +75,7 @@ line wall -subtype blocks
   smooth off
 endline
 
-point 724.7825984252 102.94216041100003 station -name 8.36
+point 724.7825984252 102.94216041100003 station -name 8.34
 
 point 670.8625984252 54.92216041099999 station -name 8.35
 

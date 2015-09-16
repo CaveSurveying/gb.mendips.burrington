@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -154.45 -195.11 926.71 1170.65
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -132.0 -132.0 992.6273208803 1197.0
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {102.075274791 1 1.0} {164.23785093000004 60} PocketTopo/WCR2_E105.xvi 0 {}
 
 
@@ -97,6 +97,7 @@ line wall -subtype blocks
   216.0 940.0 218.0 962.0 200.0 980.0
   182.0 998.0 164.0 1062.0 150.0 1064.0
   136.0 1066.0 74.0 1068.0 56.0 1034.0
+  smooth off
 endline
 
 point 597.155274791 373.77785093 station -name 74
@@ -131,9 +132,9 @@ point 291.055274791 267.01785093 station -name 58
 
 point 355.965274791 428.51785093 station -name 57
 
-point 418.0 390.0 station -name 76
+point 418.925274791 392.30785093000003 station -name 70
 
-point 440.0 402.0 station -name 73
+point 437.525274791 404.70785093 station -name 69
 
 point 438.395274791 424.08785093 station -name 71
 

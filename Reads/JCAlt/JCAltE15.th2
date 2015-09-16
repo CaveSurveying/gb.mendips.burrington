@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -127.01 -113.52 762.07 681.13
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_adjust -143.23458336199997 -149.97958526380003 833.0 758.0
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {502.36264200500005 1 1.0} {217.10057221649998 24} PocketTopo/JCAlt_E15.xvi 0 {}
 
 
@@ -19,6 +19,7 @@ line wall -subtype blocks
   316.0 410.0 326.5 369.5 320.5 363.5
   297.68 340.68 274.45 412.56 270.0 418.0
   265.5 423.5 268.0 430.5 272.5 435.0
+  smooth off
 endline
 
 line wall -subtype blocks
@@ -31,20 +32,21 @@ line wall -subtype blocks
   210.0 304.0 264.0 306.0 278.0 294.0
   292.0 282.0 320.0 230.5 336.0 214.5
   343.75 206.75 339.53 177.33 340.5 155.0
+  smooth off
 endline
 
 line wall -subtype blocks
   372.5 136.5
   377.5 188.5 411.5 95.5 457.0 90.0
-  475.78 87.73 492.0 116.0 504.0 122.0
-  516.0 128.0 538.0 158.0 546.0 150.0
+  475.78 87.73 493.27 113.95 504.0 122.0
+  516.0 131.0 538.0 158.0 546.0 150.0
   554.0 142.0 553.0 129.0 551.0 111.0
   smooth off
 endline
 
 point 208.39264200500003 359.7905722165 station -name 28
 
-point 400.0 286.0 station -name 27
+point 404.11264200500005 296.8605722165 station -name 25
 
 point 380.17264200500006 268.43057221649997 station -name 26
 

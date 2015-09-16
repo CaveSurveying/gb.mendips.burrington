@@ -11,7 +11,7 @@ source SplashPot.th
 
 #export map -proj extended -layout local -o SplashPotEe.pdf
 
-#export map -proj [elevation 90] -layout local -o SplashPotE90.pdf
+export map -proj [elevation 105] -layout local -o SplashPotE105.pdf
 
 export model -fmt survex -o SplashPotth.3d
 #Survex file showing centre line only
@@ -24,7 +24,8 @@ export model -fmt survex -o SplashPotth.3d
 
 layout local
 copy common
-debug off
+debug on
+scale 1 150
 map-header 0 0 off
 #symbol-hide group cave-centreline
 endlayout

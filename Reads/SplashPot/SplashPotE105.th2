@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -352.82 -417.46 2116.93 2504.78
+##XTHERION## xth_me_area_adjust -132.0 -132.0 2075.0 2462.7159232684003
 ##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {1130.7961048 1 1.0} {827.9913854100002 6.40} PocketTopo/SplashPot_E105.xvi 0 {}
 
@@ -50,6 +50,7 @@ line wall
   1234.96 1033.91 1250.0 1040.0 1264.0 1052.0
   1278.0 1064.0 1384.0 1134.0 1408.0 1152.0
   1432.0 1170.0 1457.0 1178.0 1467.0 1188.0
+  smooth off
 endline
 
 line wall
@@ -94,7 +95,7 @@ point 176.4061048000001 407.9213854100001 station -name 6.32
 
 point 329.1061047999999 520.4813854100003 station -name 6.31
 
-point 424.0 538.0 station -name 6.30
+point 429.93610480000007 529.5013854100002 station -name 6.30
 
 point 456.69610480000006 545.1313854100001 station -name 6.29
 

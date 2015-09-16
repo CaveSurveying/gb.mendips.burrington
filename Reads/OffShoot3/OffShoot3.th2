@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -77.13662174699999 -131.11023622000005 1517.4460554181 991.0314960633
+##XTHERION## xth_me_area_adjust -132.0 -132.0 1559.0 991.0314960633
 ##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {1052.317475746 1 1.0} {524.641889764 42} PocketTopo/OffShoot3_p.xvi 0 {}
 
@@ -124,6 +124,12 @@ endscrap
 
 scrap OffShoot3SP2 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+line pit
+  1215.5 500.0
+  1226.0 477.0 1240.0 454.0 1245.0 455.0
+  1250.0 456.0 1248.0 495.0 1248.5 505.5
+endline
+
 line wall -subtype blocks
   1215.5 500.0
   1202.0 484.0 1194.5 464.0 1179.5 442.5
@@ -169,6 +175,11 @@ endscrap
 
 scrap OffShoot3SP3 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+line ceiling-step -reverse on
+  1248.5 505.5
+  1246.0 523.0 1226.0 578.0 1220.0 589.0
+endline
+
 line wall -subtype blocks
   1100.0 539.0
   1091.0 533.0 1092.5 522.0 1071.5 518.0
@@ -191,7 +202,7 @@ line wall -subtype blocks
   1221.5 399.5 1242.0 438.5 1253.0 446.5
   1264.0 454.5 1385.5 492.5 1385.5 502.5
   1385.5 512.5 1335.5 542.5 1317.0 545.5
-  1298.5 548.5 1225.5 589.0 1220.0 589.0
+  1298.5 548.5 1236.0 585.0 1220.0 589.0
   smooth off
 endline
 
@@ -233,7 +244,7 @@ endline
 
 point 1096.3774757459998 710.021889764 station -name 41
 
-point 1153.6074757459999 509.231889764 station -name 38
+point 1153.6074757459999 509.231889764 station -name 40
 
 endscrap
 

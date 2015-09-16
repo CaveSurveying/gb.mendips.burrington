@@ -6,7 +6,7 @@ source OffShoot3.th
 #Surveys to output
 #-----------------
 
-#export map -proj plan -layout local -o OffShoot3.pdf
+export map -proj plan -layout local -o OffShoot3.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o OffShoot3Ee.pdf
@@ -24,7 +24,8 @@ export model -fmt survex -o OffShoot3th.3d
 
 layout local
 copy common
-debug off
+scale 1 150
+debug first
 map-header 0 0 off
 #symbol-hide group cave-centreline
 endlayout

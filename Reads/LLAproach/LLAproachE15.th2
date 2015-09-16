@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -428.69 -117.65 2572.15 705.88
+##XTHERION## xth_me_area_adjust -130.0 -147.916857822 2468.3302544984 765.5
 ##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {2088.48260179 1 1.0} {58.82329086299998 8.19} PocketTopo/LLAproach_E15.xvi 0 {}
 
@@ -31,7 +31,7 @@ line rock-edge
   2096.0 238.0
 endline
 
-line rock-border -close off
+line rock-border -close off -reverse on
   2116.0 64.0
   2050.0 192.0
   2052.0 252.0
@@ -145,6 +145,7 @@ line wall
   641.32 456.41 603.54 448.41 558.0 456.0
   522.0 462.0 497.74 484.74 456.0 486.0
   405.46 487.53 350.99 478.54 325.0 480.5
+  smooth off
 endline
 
 line wall -subtype blocks

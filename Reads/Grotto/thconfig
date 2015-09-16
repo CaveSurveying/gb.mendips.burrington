@@ -9,6 +9,8 @@ source Grotto.th
 #export map -proj plan -layout local -o Grotto.pdf
 #Produces plan of cave, on a single sheet
 
+export map -proj [elevation 15] -layout local -o GrottoE15.pdf
+
 #export map -proj extended -layout local -o GrottoEe.pdf
 
 export model -fmt survex -o Grottoth.3d
@@ -21,7 +23,7 @@ export model -fmt survex -o Grottoth.3d
 #Survex file showing walls only
 
 layout local
-debug off
+debug on
 map-header 0 0 ne
 #symbol-hide group cave-centreline
 endlayout
