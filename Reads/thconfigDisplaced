@@ -18,6 +18,8 @@ export map -proj plan -layout local_Plan -o Reads_Exploded.pdf
 
 layout local_Plan
   copy mendip
+  overlap 0 mm
+  #colour map-bg [90 40 85]
 endcode
 endlayout
 
@@ -58,7 +60,7 @@ scale-bar 50 m
 #symbol-hide group all
 symbol-hide group cave-centreline
 colour map-fg map
-
+overlap 5 mm
 
 code metapost
 

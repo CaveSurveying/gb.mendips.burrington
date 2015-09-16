@@ -41,11 +41,12 @@ layout local_Plan
   copy mendip
   legend on
   colour-legend off
+  #legend-width 10 cm
 code tex-map
   \def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
   \def\maplayout{
       \legendbox{12}{5}{SW}{\northarrow}
-      \legendbox{7}{100}{NE}{
+      \legendbox{9}{100}{NE}{
               \hsize=\legendwidth
               \size[60]\the\cavename
               \vskip2cm
@@ -82,16 +83,19 @@ code tex-map
               \comment={Copyright 2012-2015 CC BY NC SA}
               \the\comment
               }
-      \legendbox{110}{-250}{SW}{\formattedlegend}
+      \legendbox{110}{-250}{SW}{
+            \hsize=\legendwidth
+            \formattedlegend
+            }
 
       \legendbox{107}{-250}{NW}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/Legend.pdf}} 
       \legendbox{0}{100}{NW}{\size[25]Plan View}
       \legendbox{-2}{-5}{NW}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/ReadsE15.pdf}} 
       \legendbox{-1}{-5}{NE}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/ReadsE105.pdf}}
-      \legendbox{-2}{-206}{NW}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/ReadsE15_Exploded.pdf}} 
-      \legendbox{-1}{-206}{NE}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/ReadsE105_Exploded.pdf}}
-      \legendbox{103}{105}{NW}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/Reads_Exploded.pdf}}
-      \legendbox{156}{-456}{N}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/LoxExport.png}}  
+      \legendbox{-2}{-200}{NW}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/ReadsE15_Exploded.pdf}} 
+      \legendbox{-1}{-200}{NE}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/ReadsE105_Exploded.pdf}}
+      \legendbox{102}{105}{NW}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/Reads_Exploded.pdf}}
+      \legendbox{150}{-446}{N}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/LoxExport.png}}  
    }
   
   #map-image -1 65 nw ReadsE15.pdf
@@ -148,6 +152,7 @@ scale-bar 50 m
 symbol-hide group cave-centreline
 symbol-hide point label
 symbol-hide line label
+overlap 5 mm
 
 colour map-fg map
 
