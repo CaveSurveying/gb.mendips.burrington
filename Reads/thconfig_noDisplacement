@@ -146,6 +146,9 @@ colour map-bg transparent
 scale-bar 50 m
 #symbol-hide group all
 symbol-hide group cave-centreline
+symbol-hide point label
+symbol-hide line label
+
 colour map-fg map
 
 

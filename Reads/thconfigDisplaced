@@ -61,6 +61,19 @@ colour map-fg map
 
 
 code metapost
+
+#####################################
+#Text sizes
+#xs: features such as sumps
+#s: point names such as rocks
+#m: normal names
+#l: major names
+#xl: Area/cave names
+#####################################
+
+ # for scale 1 300
+  fonts_setup(8,16,22,30,40)
+
 def l_wall_blocks_CHED (expr P) = 
 
   T:=identity;

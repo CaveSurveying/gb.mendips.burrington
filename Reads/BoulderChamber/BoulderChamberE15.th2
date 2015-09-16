@@ -27,6 +27,8 @@ line rock-border -close on
   smooth off
 endline
 
+point 963.0 31.0 label -align bottom-right -text [Boulder Chamber]
+
 line wall
   1392.0 636.0
   1363.0 625.0 1325.0 630.0 1287.0 621.0
@@ -78,6 +80,7 @@ line wall
   1328.0 541.0 1298.0 546.0 1307.0 557.0
   1316.0 568.0 1320.0 572.0 1339.0 574.0
   1358.0 576.0 1389.0 563.0 1407.0 568.0
+  smooth off
 endline
 
 point 158.16395733000013 208.60588371300003 station -name 68

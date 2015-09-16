@@ -7,6 +7,8 @@ encoding  utf-8
 
 scrap EarlyGraveSE15_1 -projection [elevation 15] -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+point 644.0 495.0 label -align bottom-right -text Early<br>Grave
+
 line wall
   1166.0 884.0
   1178.0 882.0 1196.0 880.0 1194.0 870.0

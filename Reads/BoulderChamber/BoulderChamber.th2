@@ -107,6 +107,8 @@ endscrap
 
 scrap BoulderChamberSP3 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+point 755.0 454.0 label -text [Boulder<br>Chamber] -align bottom-left
+
 line rock-border -close off
   1125.0 528.0
   1159.0 579.0
