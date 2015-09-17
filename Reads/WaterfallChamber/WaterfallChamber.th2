@@ -1,11 +1,30 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -144.82677165300004 -162.22834645700001 819.8346456697 644.9527559050999
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -144.82677165300004 -162.22834645700001 835.0 644.9527559050999
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {618.657322835 1 1.0} {314.337086614 10} PocketTopo/WaterfallChamber_p.xvi 0 {}
 
 
 
 scrap WaterfallChamberSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 704.5 64.5 label -text "e2" -align b -attr scrapman WaterfallChamberSPX8 -context line section -scale xs
+
+line section -direction both
+  553.5 167.5
+  575.0 153.5 633.63 114.55 667.0 92.5
+  smooth off
+endline
+
+line section
+endline
+
+point 393.0 21.0 label -text "e1" -align b -attr scrapman WaterfallChamberSPX6 -context line section -scale xs
+
+line section -direction both
+  522.0 233.5
+  505.5 204.5 446.5 104.0 425.0 69.0
+  smooth off
+endline
 
 line wall -subtype blocks
   497.0 195.0
@@ -153,11 +172,36 @@ endscrap
 
 scrap WaterfallChamberSPX8 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+line wall -close on
+  533.0 317.0
+  533.0 313.0 535.0 251.0 536.0 249.0
+  537.0 247.0 542.27 203.19 544.5 203.0
+  550.5 202.5 557.5 216.0 557.5 238.0
+  557.5 248.07 560.98 303.89 558.0 313.5
+  556.82 317.32 533.0 321.0 533.0 317.0
+endline
+
+point 553.487322835 259.477086614 station -name 8
+
 endscrap
 
 
 
 scrap WaterfallChamberSPX6 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -close on -reverse on
+  432.5 361.5
+  439.01 361.23 454.5 358.0 458.5 356.5
+  462.5 355.0 470.5 358.5 476.0 351.0
+  484.04 340.03 495.0 329.3 494.0 327.5
+  491.5 323.0 472.97 319.53 462.0 311.0
+  457.5 307.5 447.0 307.0 444.0 316.5
+  441.57 324.19 442.5 332.0 443.5 345.5
+  443.92 351.19 425.5 342.0 424.5 345.0
+  423.5 348.0 420.5 362.0 432.5 361.5
+endline
+
+point 448.76732283499996 346.087086614 station -name 6
 
 endscrap
 
