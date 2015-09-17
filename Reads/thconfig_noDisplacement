@@ -34,7 +34,7 @@ export map -proj plan -layout local_Plan -o Reads.pdf
 #The solution below is suggested, but does not work on AAs machine
 
 #The layouts use Tex, which stops map-image working,
-#to get the relitive files to work you need to set Tex to point to the root of the repository using
+#to get the relative files to work you need to set Tex to point to the root of the repository using
 # export TEXINPUTS=.:/absolute/path/to/folder//:
 
 layout local_Plan
@@ -62,7 +62,7 @@ code tex-map
               \the\topoteam\space
               \the\topodate
               \medskip
-              \comment={Drawn, using Therion, by Andrew Atkinson with help form Graham Mullan}
+              \comment={Drawn, using Therion, by Andrew Atkinson with help from Graham Mullan}
               \size[12]\the\comment
               \medskip
               \comment={With thanks to all the other cavers, past and present,}
