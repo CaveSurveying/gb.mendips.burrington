@@ -1,11 +1,19 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -143.78 -73.49 862.68 440.95
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -134.85039370080005 -169.99437502199999 917.5 558.4465698598
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {779.1225984252 1 1.0} {203.182160411 8.36} PocketTopo/SudoLinkTube_p.xvi 0 {}
 
 
 
 scrap SudoLinkTubeSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 244.0 158.5 label -text "f5" -align b -attr scrapname SudoLinkTubeSPX8.31 -context line section -scale xs
+
+line section -direction both
+  360.0 375.5
+  337.0 336.0 296.5 265.0 269.0 219.5
+  smooth off
+endline
 
 point 779.1225984252 203.182160411 station -name 8.36
 
@@ -92,6 +100,18 @@ endscrap
 
 
 scrap SudoLinkTubeSPX8.31 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -close on
+  108.0 191.5
+  98.5 190.5 78.75 185.25 76.75 182.25
+  74.75 179.25 69.0 161.75 75.25 154.5
+  79.43 149.65 73.06 144.39 106.5 142.0
+  113.5 141.5 125.0 144.5 128.5 154.5
+  132.0 164.5 131.75 180.25 120.5 190.5
+  114.89 195.61 117.5 192.5 108.0 191.5
+endline
+
+point 115.19259842519995 189.502160411 station -name 8.31
 
 endscrap
 
