@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -60.91338583000015 -82.96062992099996 1769.8897637759999 1511.6220472441
+##XTHERION## xth_me_area_adjust -132.0 -132.0 1769.8897637759999 1511.6220472441
 ##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {1346.1305511799999 1 1.0} {624.95488189 59} PocketTopo/BoulderChamber_p.xvi 0 {}
 
@@ -106,6 +106,14 @@ endscrap
 
 
 scrap BoulderChamberSP3 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 1079.0 1164.0 label -text "a2" -align b -attr scrapname BoulderChamberSPX63 -context line section -scale xs
+
+line section -direction both
+  786.0 671.0
+  827.0 749.0 956.0 999.0 997.0 1073.0
+  smooth off
+endline
 
 point 755.0 454.0 label -text [Boulder<br>Chamber] -align bottom-left
 
@@ -297,6 +305,14 @@ endscrap
 
 scrap BoulderChamberSP4 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+point 794.0 1330.0 label -text "a3" -align b -attr scrapname BoulderChamberSPX65 -context line section -scale xs
+
+line section -direction both
+  555.0 674.0
+  591.0 773.0 725.0 1136.0 760.0 1233.0
+  smooth off
+endline
+
 line wall
   381.0 974.0
   388.0 978.0 406.0 1001.0 410.0 991.0
@@ -372,11 +388,45 @@ endscrap
 
 scrap BoulderChamberSPX65 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+line wall -close on
+  913.5 1138.5
+  950.61 1165.24 971.29 1152.13 986.0 1160.0
+  1025.25 1181.0 1025.0 1172.5 1053.25 1157.0
+  1080.87 1141.85 1056.25 1213.75 1063.5 1233.25
+  1067.5 1244.02 1025.75 1187.0 1025.75 1187.0
+  smooth off
+  1025.75 1187.0 1006.0 1234.25 1001.5 1225.75
+  997.7 1218.57 942.11 1193.39 934.0 1192.75
+  918.25 1191.5 916.25 1224.25 892.25 1224.75
+  872.26 1225.17 751.75 1184.25 737.75 1147.75
+  731.82 1132.3 827.0 1139.25 827.0 1139.25
+  smooth off
+  827.0 1139.25 898.69 1127.83 913.5 1138.5
+endline
+
+point 934.80055118 1157.24488189 station -name 65
+
 endscrap
 
 
 
 scrap BoulderChamberSPX63 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -close on
+  740.75 509.75
+  757.25 505.25 773.31 497.48 776.75 501.75
+  786.0 513.25 785.67 524.11 781.0 529.25
+  773.7 537.28 766.5 529.25 743.25 533.75
+  729.59 536.39 718.0 530.75 718.5 540.75
+  718.75 545.73 713.0 548.0 714.5 542.0
+  717.36 530.56 708.75 528.0 703.75 526.5
+  687.39 521.59 648.06 510.94 643.25 506.25
+  633.5 496.75 630.32 485.64 657.75 492.5
+  667.75 495.0 679.0 503.75 707.5 507.5
+  714.52 508.42 731.36 512.31 740.75 509.75
+endline
+
+point 718.66055118 509.60488189 station -name 63
 
 endscrap
 
