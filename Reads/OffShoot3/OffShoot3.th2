@@ -7,6 +7,14 @@ encoding  utf-8
 
 scrap OffShoot3SP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+point 303.0 322.0 label -text "d3" -align b -attr scrapname Offshoot3SPX29 -context line section -scale xs
+
+line section -direction both
+  618.0 436.0
+  560.67 413.84 437.0 367.0 380.0 344.0
+  smooth off
+endline
+
 line wall -subtype blocks
   504.0 100.0
   523.5 109.5 535.5 112.0 552.5 119.0
@@ -128,6 +136,7 @@ line pit
   1215.5 500.0
   1226.0 477.0 1240.0 454.0 1245.0 455.0
   1250.0 456.0 1248.0 495.0 1248.5 505.5
+  smooth off
 endline
 
 line wall -subtype blocks
@@ -178,6 +187,7 @@ scrap OffShoot3SP3 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 line ceiling-step -reverse on
   1248.5 505.5
   1246.0 523.0 1226.0 578.0 1220.0 589.0
+  smooth off
 endline
 
 line wall -subtype blocks
@@ -285,6 +295,21 @@ endscrap
 
 
 scrap OffShoot3SPX29 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -close on
+  624.0 554.0
+  624.0 554.0 611.0 544.0 611.0 538.0
+  611.0 532.0 640.0 428.0 640.0 428.0
+  smooth off
+  642.0 410.0
+  642.0 410.0 668.0 402.0 672.0 405.0
+  676.0 408.0 658.0 441.0 657.0 445.0
+  656.0 449.0 646.0 499.0 646.0 499.0
+  smooth off
+  624.0 554.0
+endline
+
+point 644.8474757459999 434.451889764 station -name 29
 
 endscrap
 
