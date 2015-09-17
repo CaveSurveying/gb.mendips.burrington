@@ -10,15 +10,15 @@ select LevelsM@Reads -map-level 1 #No displacement with level colour if map leve
 select LevelsME15@Reads -map-level 1
 select LevelsME105@Reads -map-level 1
 
-export map -proj [elevation 15] -layout local_elevation15 -o ReadsE15.pdf
+#export map -proj [elevation 15] -layout local_elevation15 -o ReadsE15.pdf
 
-export map -proj [elevation 105] -layout local_elevation105 -o ReadsE105.pdf
+#export map -proj [elevation 105] -layout local_elevation105 -o ReadsE105.pdf
 
-export map -proj plan -layout local_Plan -o Reads.pdf 
+#export map -proj plan -layout local_Plan -o Reads.pdf 
 
 #export map -proj plan -fmt kml -layout mendip -o Reads.kml
 
-#export model -o Reads.lox
+export model -o Reads.lox
 #3d therion model to be viewed in the therion viewer
 
 #export model -fmt survex -o Readsth.3d

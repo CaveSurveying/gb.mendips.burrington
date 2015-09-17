@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -138.190707313 -157.10236220399997 924.0 698.0
+##XTHERION## xth_me_area_adjust -138.190707313 -157.10236220399997 921.0 703.0
 ##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {617.30582812 1 1.0} {215.76677165400002 8.46} PocketTopo/BrownStain_p.xvi 0 {}
 
@@ -76,6 +76,7 @@ line wall -subtype blocks
   130.0 376.0 208.0 370.0 252.0 376.0
   296.0 382.0 354.0 366.0 374.0 376.0
   394.0 386.0 436.0 459.0 442.0 491.0
+  smooth off
 endline
 
 point 369.78582812 516.766771654 station -name 8.39
@@ -100,7 +101,7 @@ endline
 
 line border -reverse on -subtype invisible -outline out
   228.0 416.0
-  241.0 421.0 240.0 427.0 239.0 435.0
+  231.0 425.0 240.0 427.0 239.0 435.0
   238.0 443.0 244.89 450.77 243.94582812000004 453.38677165400003
   243.0 456.0 254.0 457.0 245.0 466.0
   236.0 475.0 235.0 482.0 231.0 488.0
