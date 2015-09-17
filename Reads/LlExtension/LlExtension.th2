@@ -1,11 +1,19 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -131.05 -77.01 786.33 462.05
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -141.21273086800005 -168.236220472 827.5 561.0
+##XTHERION## xth_me_area_zoom_to 200
 ##XTHERION## xth_me_image_insert {597.567662833 1 1.0} {141.268976378 8.24} PocketTopo/LlExtension_p.xvi 0 {}
 
 
 
 scrap LlExtensionSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 459.5 430.5 label -text "f5" -align b -attr scrapname LIExtensionSPX8.26 -context line section -scale xs
+
+line section -direction both
+  329.0 58.5
+  360.5 139.5 405.0 258.5 434.0 338.5
+  smooth off
+endline
 
 line rock-border -id l20-604-54
   513.0 92.0
@@ -105,6 +113,24 @@ endscrap
 
 
 scrap LlExtensionSPX8.26 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -subtype blocks
+  547.0 351.5
+  544.0 347.0 534.0 323.0 534.5 317.0
+  535.0 311.0 535.0 292.0 538.5 289.5
+  542.0 287.0 565.0 283.0 571.5 283.0
+  578.0 283.0 601.0 285.5 601.0 285.5
+  smooth off
+endline
+
+line wall
+  601.0 285.5
+  600.0 293.5 567.0 340.0 567.0 340.0
+  smooth off
+  547.0 351.5
+endline
+
+point 571.907662833 313.698976378 station -name 8.26
 
 endscrap
 

@@ -1,11 +1,18 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -156.53018824099996 -141.46456692900009 683.0 843.5
-##XTHERION## xth_me_area_zoom_to 200
+##XTHERION## xth_me_area_adjust -162.0 -141.46456692900009 685.0 846.0
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {327.391138021 1 1.0} {459.46685039399995 24} PocketTopo/BoulderChamberRoute2_p.xvi 0 {}
 
 
 
 scrap BoulderChamberRoute2SP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point -29.0 401.0 label -text "a4" -align b -attr scrapname BoulderChamberRoute2SPX69 -context line section -scale xs
+
+line section -direction begin
+  51.0 482.0
+  122.0 542.0
+endline
 
 line rock-border -close on
   205.5 171.0
@@ -297,6 +304,21 @@ endscrap
 
 
 scrap BoulderChamberRoute2SPX69 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -close on
+  89.0 351.5
+  96.5 354.5 111.25 379.25 115.75 386.25
+  120.25 393.25 132.86 415.77 133.25 423.25
+  133.75 432.75 127.04 449.58 117.75 446.25
+  104.5 441.5 99.25 424.27 97.0 413.25
+  94.25 399.75 79.5 384.0 71.0 375.5
+  62.5 367.0 50.0 349.25 51.5 344.75
+  53.0 340.25 77.0 344.5 77.0 344.5
+  smooth off
+  77.0 344.5 81.5 348.5 89.0 351.5
+endline
+
+point 122.091138021 418.026850394 station -name 69
 
 endscrap
 

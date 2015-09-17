@@ -1,17 +1,26 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -136.0 -136.0 1344.3858267715 1254.1943786872
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -132.0 -132.0 1429.0 1254.1943786872
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {510.68015747999993 1 1.0} {616.004457428 6.44} PocketTopo/MNRCSeries_p.xvi 0 {}
 
 
 
 scrap MNRCSeriesSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+point 666.0 1080.0 label -text "m10" -align b -attr scrapname MNRCSeriesSPX6.43 -context line section -scale xs
+
+line section -direction both
+  559.0 1001.0
+  475.0 935.0 281.0 777.0 184.0 703.0
+  smooth off
+endline
+
 line wall
   480.0 614.0
   514.0 638.0 480.0 722.0 506.0 726.0
   532.0 730.0 540.0 720.0 542.0 692.0
   544.0 664.0 490.0 618.0 504.0 568.0
+  smooth off
 endline
 
 line wall -subtype blocks
@@ -20,6 +29,7 @@ line wall -subtype blocks
   264.0 876.0 270.0 872.0 314.0 818.0
   358.0 764.0 406.0 734.0 424.0 700.0
   442.0 666.0 462.0 656.0 480.0 614.0
+  smooth off
 endline
 
 line wall -subtype blocks
@@ -34,6 +44,7 @@ line wall -subtype blocks
   1008.0 264.0 1038.0 240.0 1046.0 276.0
   1054.0 312.0 1040.0 396.0 1054.0 400.0
   1068.0 404.0 1100.0 406.0 1100.0 444.0
+  smooth off
 endline
 
 line wall
@@ -83,12 +94,21 @@ endscrap
 
 scrap MNRCSeriesSP2 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+point 1295.5 666.5 label -text "m11" -align b -attr scrapname MNRCSeriesSPX6.51 -context line section -scale xs
+
+line section -direction both
+  1077.5 517.5
+  1104.0 535.0 1172.0 584.5 1209.0 613.0
+  smooth off
+endline
+
 line wall
   1176.0 332.0
   1182.0 352.0 1198.56 390.69 1191.28015748 409.34445742799994
   1184.0 428.0 1180.0 540.0 1164.0 568.0
   1148.0 596.0 1124.0 606.0 1104.0 614.0
   1084.0 622.0 1066.0 620.0 1062.0 648.0
+  smooth off
 endline
 
 line wall -subtype blocks
@@ -110,6 +130,7 @@ line wall
   1121.29 530.21 1112.0 562.0 1118.0 512.0
   1124.0 462.0 1132.0 454.0 1118.0 432.0
   1104.0 410.0 1080.0 424.0 1054.0 400.0
+  smooth off
 endline
 
 line wall -subtype blocks
@@ -127,6 +148,7 @@ line wall -subtype blocks
   smooth off
   1094.0 232.0 1108.0 308.0 1126.0 312.0
   1144.0 316.0 1166.0 308.0 1176.0 332.0
+  smooth off
 endline
 
 point 949.3001574799999 184.154457428 station -name 6.55
@@ -181,11 +203,45 @@ endscrap
 
 scrap MNRCSeriesSPX6.51 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+line wall
+  1172.5 770.5
+  1182.5 763.5 1216.3 740.72 1235.5 742.0
+  1243.0 742.5 1254.0 737.0 1254.0 737.0
+  smooth off
+endline
+
+line wall
+  1254.0 737.0
+  1254.0 741.0 1243.0 810.0 1239.0 812.5
+  1235.0 815.0 1184.5 814.0 1177.5 804.0
+  1168.78 791.55 1172.5 770.5 1172.5 770.5
+  smooth off
+endline
+
+point 1210.17015748 799.424457428 station -name 6.51
+
 endscrap
 
 
 
 scrap MNRCSeriesSPX6.43 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -subtype debris
+  271.0 1046.0
+  285.0 1036.0 350.0 1025.0 366.0 1031.0
+  382.0 1037.0 410.0 1055.0 410.0 1055.0
+  smooth off
+  413.0 1089.0
+endline
+
+line wall
+  413.0 1089.0
+  404.0 1089.0 354.32 1076.21 335.5 1087.5
+  330.5 1090.5 271.0 1097.5 267.5 1085.0
+  263.18 1069.58 267.42 1085.84 271.0 1046.0
+endline
+
+point 341.11015748 1065.404457428 station -name 6.43
 
 endscrap
 
