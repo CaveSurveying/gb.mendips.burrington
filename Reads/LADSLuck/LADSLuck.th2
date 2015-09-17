@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -446.85 -324.88 2681.1 1949.29
+##XTHERION## xth_me_area_adjust -132.0 -132.0 2583.0 1943.9842519686
 ##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {489.43385827 1 1.0} {1029.368031496 9.30} PocketTopo/LADSLuck_p.xvi 0 {}
 
@@ -19,6 +19,7 @@ line wall -subtype blocks
   1531.0 613.0 1550.0 587.0 1574.0 578.0
   1598.0 569.0 1637.32 558.68 1659.0 545.0
   1674.59 535.16 1683.0 529.0 1709.0 520.0
+  smooth off
 endline
 
 point 1744.13385827 545.748031496 station -name 9.0
@@ -95,6 +96,46 @@ endscrap
 
 
 scrap LADSLuckSP3 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 1883.0 83.0 label -text "h5" -align b -attr scrapname LADSLuckSPX9.22 -context line section -scale xs
+
+line section -direction begin
+  931.0 229.0
+  1102.0 508.0
+endline
+
+line section -reverse on -direction end
+  1890.0 108.0
+  1935.0 266.0
+endline
+
+point 896.0 190.0 label -text "h4" -align b -attr scrapname LADSLuckSPX9.12 -context line section -scale xs
+
+line section -direction begin
+  212.0 689.0
+  452.0 960.0
+endline
+
+point 180.0 656.0 label -text "h3" -align b -attr scrapname LADSLuckSPX9.30 -context line section -scale xs
+
+line section -direction begin
+endline
+
+point 235.0 1579.0 label -text "h2" -align b -attr scrapname LADSLuckSPX9.33 -context line section -scale xs
+
+line section -direction both
+  356.0 1506.0
+  442.0 1400.0 616.0 1176.0 684.0 1090.0
+  smooth off
+endline
+
+point 1092.0 1184.0 label -text "h1" -align b -attr scrapname LADSLuckSPX9.36 -context line section -scale xs
+
+line section -reverse on -direction both
+  921.0 1176.0
+  919.0 1284.0 910.0 1529.0 908.0 1613.0
+  smooth off
+endline
 
 line wall
   2450.0 177.0
@@ -562,11 +603,41 @@ endscrap
 
 scrap LADSLuckSPX9.36 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+line wall -close on
+  745.0 1158.0
+  743.0 1151.0 736.0 1142.0 772.0 1124.0
+  783.21 1118.4 809.0 1105.0 821.0 1099.0
+  833.0 1093.0 864.33 1085.93 858.0 1072.0
+  853.0 1061.0 871.45 1039.61 881.0 1042.0
+  890.6 1044.4 920.0 1059.0 920.0 1074.0
+  920.0 1089.0 809.0 1131.0 809.0 1131.0
+  smooth off
+  809.0 1131.0 747.0 1165.0 745.0 1158.0
+endline
+
+point 859.25385827 1084.488031496 station -name 9.36
+
 endscrap
 
 
 
 scrap LADSLuckSPX9.33 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -close on
+  226.0 1723.0
+  266.0 1712.0 331.38 1713.91 365.0 1706.0
+  382.0 1702.0 482.02 1700.96 487.0 1690.0
+  497.0 1668.0 486.0 1633.0 495.0 1624.0
+  504.0 1615.0 527.0 1633.0 535.0 1635.0
+  543.0 1637.0 585.0 1616.0 585.0 1616.0
+  smooth off
+  585.0 1616.0 609.0 1639.0 602.0 1653.0
+  595.0 1667.0 485.0 1735.0 454.0 1733.0
+  441.03 1732.16 303.0 1744.0 290.0 1745.0
+  277.0 1746.0 186.0 1734.0 226.0 1723.0
+endline
+
+point 536.41385827 1641.1780314960001 station -name 9.33
 
 endscrap
 
@@ -574,11 +645,37 @@ endscrap
 
 scrap LADSLuckSPX9.30 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+line wall -close on
+  520.5 770.5
+  506.5 755.5 457.85 705.08 447.0 684.5
+  439.75 670.75 407.25 625.25 408.25 613.75
+  409.54 598.96 433.75 605.25 442.25 608.75
+  458.62 615.49 454.0 647.75 471.25 675.5
+  484.61 696.99 534.5 785.5 520.5 770.5
+endline
+
+point 445.86385827000004 674.248031496 station -name 9.30
+
 endscrap
 
 
 
 scrap LADSLuckSPX9.22 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -close on
+  1933.0 258.5
+  1932.0 256.5 1925.5 247.5 1937.0 238.5
+  1941.5 234.98 1941.5 218.0 1941.5 218.0
+  smooth off
+  1941.5 218.0 1948.0 212.5 1954.5 214.0
+  1961.0 215.5 1966.5 215.5 1972.0 218.0
+  1977.5 220.5 1991.0 217.0 1987.5 222.0
+  1984.0 227.0 1975.5 246.0 1968.5 245.0
+  1961.5 244.0 1956.0 239.5 1949.5 244.0
+  1943.0 248.5 1934.0 260.5 1933.0 258.5
+endline
+
+point 1944.29385827 227.00803149599994 station -name 9.22
 
 endscrap
 
@@ -591,6 +688,35 @@ endscrap
 
 
 scrap LADSLuckSPX9.12 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -subtype clay
+  989.0 301.5
+  1037.0 302.0
+endline
+
+line wall -subtype blocks
+  891.5 327.0
+  891.5 327.0 911.0 305.0 916.0 310.0
+  921.0 315.0 943.0 335.5 945.0 336.0
+  947.0 336.5 962.5 331.5 962.5 328.0
+  962.5 324.5 959.5 301.5 959.5 301.5
+  smooth off
+  989.0 301.5
+endline
+
+line wall
+  1037.0 302.0
+  1042.0 307.5 1067.5 351.0 1061.0 363.0
+  1058.55 367.52 1066.0 379.5 1067.5 383.0
+  1069.0 386.5 1044.5 404.5 1033.0 417.5
+  1021.5 430.5 972.0 469.5 969.0 466.5
+  966.0 463.5 947.5 425.5 939.5 413.5
+  931.5 401.5 893.0 344.5 893.0 344.5
+  smooth off
+  891.5 327.0
+endline
+
+point 957.67385827 397.47803149599997 station -name 9.12
 
 endscrap
 

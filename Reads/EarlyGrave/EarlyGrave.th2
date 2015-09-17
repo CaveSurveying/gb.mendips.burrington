@@ -1,11 +1,42 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -757.98 -258.06 4547.91 1548.38
-##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_area_adjust -132.0 -132.0 4302.0 1550.0
+##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {3999.9291338599996 1 1.0} {333.002913386 9.47} PocketTopo/EarlyGrave_p.xvi 0 {}
 
 
 
 scrap EarlyGraveSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 3411.0 242.0 label -text "j3" -align b -attr scrapname EarlyGraveSPX9.51 -context line section -scale xs
+
+point 3910.0 54.0 label -text "j4" -align b -attr scrapname EarlyGraveSPX9.47 -context line section -scale xs
+
+line section -direction both
+  3947.0 172.0
+  3992.0 291.0 4026.0 391.0 4049.0 461.0
+  smooth off
+endline
+
+line section -reverse on -direction both
+  3624.0 699.0
+  3593.0 633.0 3509.0 447.0 3463.0 349.0
+  smooth off
+endline
+
+point 2795.0 930.0 label -text "j2" -align b -attr scrapname EarlyGraveSPX9.55 -context line section -scale xs
+
+line section -direction begin
+  2888.0 950.0
+  3034.0 982.0
+endline
+
+point 2830.0 1246.0 label -text "j1" -align b -attr scrapname EarlyGraveSPX9.56 -context line section -scale xs
+
+line section -direction both
+  2942.0 1162.0
+  3035.0 1106.0 3119.0 1054.0 3192.0 1008.0
+  smooth off
+endline
 
 line floor-step
   3543.5 468.0
@@ -165,11 +196,35 @@ endscrap
 
 scrap EarlyGraveSPX9.56 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+line wall -close on
+  3202.75 902.75
+  3203.75 902.5 3224.25 904.25 3225.25 906.0
+  3226.25 907.75 3229.0 926.25 3231.5 935.0
+  3234.0 943.75 3238.5 973.0 3238.25 977.5
+  3238.0 982.0 3241.75 986.0 3233.25 979.25
+  3226.29 973.72 3220.25 953.5 3215.75 949.25
+  3211.25 945.0 3201.75 903.0 3202.75 902.75
+endline
+
+point 3223.2391338599996 951.862913386 station -name 9.56
+
 endscrap
 
 
 
 scrap EarlyGraveSPX9.55 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -close on
+  2931.0 918.0
+  2936.87 916.4 2968.0 910.0 2972.0 919.0
+  2974.27 924.11 2960.25 944.25 2969.0 962.5
+  2972.29 969.36 3013.65 1019.85 3012.25 1023.75
+  3008.75 1033.5 2954.5 960.75 2954.5 960.75
+  smooth off
+  2954.5 960.75 2928.25 918.75 2931.0 918.0
+endline
+
+point 2957.0991338599997 959.7429133859999 station -name 9.55
 
 endscrap
 
@@ -177,11 +232,45 @@ endscrap
 
 scrap EarlyGraveSPX9.51 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+line wall -subtype debris
+  3537.0 247.0
+  3577.0 249.0
+endline
+
+line wall
+  3577.0 249.0
+  3573.0 262.0 3541.0 323.0 3549.0 333.0
+  3557.0 343.0 3627.0 382.0 3625.0 388.0
+  3623.0 394.0 3520.0 347.0 3508.0 342.0
+  3496.0 337.0 3463.0 316.0 3469.0 313.0
+  3475.0 310.0 3489.0 312.0 3495.0 310.0
+  3501.0 308.0 3537.0 247.0 3537.0 247.0
+  smooth off
+endline
+
+point 3538.9891338599996 338.482913386 station -name 9.51
+
 endscrap
 
 
 
 scrap EarlyGraveSPX9.47 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -subtype debris
+  4022.0 128.0
+  4054.0 139.0
+endline
+
+line wall
+  4054.0 139.0
+  4052.0 150.0 4010.0 244.0 4010.0 244.0
+  smooth off
+  3982.0 234.0
+  3982.0 234.0 4007.88 165.42 4022.0 128.0
+  smooth off
+endline
+
+point 3997.2591338599996 210.13291338599998 station -name 9.47
 
 endscrap
 

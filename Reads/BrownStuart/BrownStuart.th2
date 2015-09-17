@@ -1,11 +1,34 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -136.0 -136.0 2952.0 1772.3700787460002
+##XTHERION## xth_me_area_adjust -132.0 -132.0 2947.0 1772.3700787460002
 ##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {1911.5914834700002 1 1.0} {1121.83393701 7.14} PocketTopo/BrownStuart_p.xvi 0 {}
 
 
 
 scrap BrownStuartSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 1117.0 1552.5 label -text "g3" -align b -attr scrapname BrownStuartSPX7.17 -context line section -scale xs
+
+line section -direction both
+  1002.0 1180.5
+  1040.0 1273.0 1088.5 1395.0 1112.5 1456.5
+  smooth off
+endline
+
+point 1447.5 1434.5 label -text "g2" -align b -attr scrapname BrownStuartSPX7.15 -context line section -scale xs
+
+line section -direction both
+  1558.0 1085.0
+  1534.0 1145.0 1474.0 1293.5 1448.5 1357.0
+  smooth off
+endline
+
+point 1685.0 650.5 label -text "g1" -align b -attr scrapname BrownStuartSPX7.14 -context line section -scale xs
+
+line section -direction begin
+  1698.0 676.0
+  1881.5 1038.0
+endline
 
 line wall
   1490.0 1134.0
@@ -163,12 +186,14 @@ endline
 line pit -clip off
   2619.0 533.0
   2606.0 538.0 2576.0 553.0 2568.0 570.0
+  smooth off
 endline
 
 line pit
   2620.0 633.0
   2625.0 620.0 2625.0 612.0 2615.0 606.0
   2605.0 600.0 2575.0 580.0 2568.0 570.0
+  smooth off
 endline
 
 line wall
@@ -345,11 +370,30 @@ point 2491.69148347 531.67393701 station -name 7.5
 
 point 2485.36148347 508.27393701000005 station -name 7.6
 
+line section -direction begin
+  2249.0 455.0
+  2367.0 604.0
+endline
+
+point 2176.0 360.0 label -align b -attr scrapname BrownStuartSPX7.8 -context line section -scale xs -text g4
+
 endscrap
 
 
 
 scrap BrownStuartSPX7.17 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -close on
+  1299.0 1550.5
+  1294.5 1527.0 1314.5 1529.0 1309.5 1522.5
+  1304.5 1516.0 1282.0 1501.0 1285.5 1491.0
+  1289.0 1481.0 1300.58 1475.85 1314.0 1477.0
+  1331.5 1478.5 1348.5 1467.5 1352.5 1472.5
+  1356.5 1477.5 1342.5 1499.5 1335.0 1510.0
+  1327.5 1520.5 1300.31 1557.36 1299.0 1550.5
+endline
+
+point 1295.81148347 1484.9239370100001 station -name 7.17
 
 endscrap
 
@@ -357,17 +401,66 @@ endscrap
 
 scrap BrownStuartSPX7.15 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+line wall -subtype pebbles
+  1638.0 1291.5
+  1730.5 1291.5
+endline
+
+line wall
+  1730.5 1291.5
+  1735.5 1303.0 1723.64 1306.74 1707.0 1321.0
+  1700.0 1327.0 1674.13 1354.63 1668.0 1352.0
+  1664.5 1350.5 1679.5 1335.0 1676.5 1328.5
+  1673.5 1322.0 1662.12 1308.46 1654.0 1309.0
+  1639.0 1310.0 1638.0 1291.5 1638.0 1291.5
+  smooth off
+endline
+
+point 1698.56148347 1309.72393701 station -name 7.15
+
 endscrap
 
 
 
 scrap BrownStuartSPX7.14 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+line wall -subtype pebbles
+  1657.5 848.5
+  1717.0 845.0
+endline
+
+line wall
+  1717.0 845.0
+  1721.5 850.0 1727.0 866.5 1725.0 877.5
+  1723.0 888.5 1718.5 902.5 1708.0 915.0
+  1697.5 927.5 1682.6 942.42 1671.0 945.0
+  1662.0 947.0 1675.0 919.5 1676.5 916.5
+  1678.0 913.5 1672.0 903.0 1667.5 896.0
+  1663.0 889.0 1646.5 857.0 1646.5 857.0
+  smooth off
+  1657.5 848.5
+endline
+
+point 1715.8814834700001 882.1639370100002 station -name 7.14
+
 endscrap
 
 
 
 scrap BrownStuartSPX7.8 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -close on
+  2426.5 151.5
+  2420.5 171.5 2422.0 167.5 2444.0 187.0
+  2470.67 210.64 2457.5 202.0 2457.5 202.0
+  smooth off
+  2457.5 202.0 2434.5 199.5 2424.0 190.0
+  2413.5 180.5 2401.0 168.0 2391.0 163.5
+  2385.01 160.81 2386.17 152.0 2405.0 152.0
+  2415.5 152.0 2427.66 147.64 2426.5 151.5
+endline
+
+point 2400.5314834700002 159.3339370100001 station -name 7.8
 
 endscrap
 

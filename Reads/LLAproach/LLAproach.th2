@@ -1,11 +1,43 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -412.79 -206.47 2476.71 1238.83
+##XTHERION## xth_me_area_adjust -132.0 -132.0 2381.6369434581 1254.8582677161999
 ##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {1994.32645675 1 1.0} {401.45322834599995 8.19} PocketTopo/LLAproach_p.xvi 0 {}
 
 
 
 scrap LLAproachSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 1922.5 732.0 label -text "f1" -align b -attr scrapname LLAproachSPX8.13 -context line section -scale xs
+
+point 716.5 1118.5 label -text "f4" -align b -attr scrapname LLAproachSPX8.8 -context line section -scale xs
+
+line section -direction both
+  626.0 717.5
+  645.5 815.5 676.5 965.5 686.5 1018.5
+  smooth off
+endline
+
+point 1086.5 965.5 label -text "f3" -align b -attr scrapname LLAproachSPX8.6 -context line section -scale xs
+
+line section -direction both
+  991.0 643.5
+  1016.0 727.0 1044.0 819.5 1062.0 886.0
+  smooth off
+endline
+
+point 1456.5 860.0 label -text "f2" -align b -attr scrapname LLAproachSPX8.2 -context line section -scale xs
+
+line section -reverse on -direction both
+  1430.5 769.5
+  1410.0 690.5 1384.5 594.5 1361.5 510.5
+  smooth off
+endline
+
+line section -direction both
+  1881.0 631.0
+  1848.94 550.62 1804.5 436.5 1771.5 356.5
+  smooth off
+endline
 
 line wall
   1941.5 413.5
@@ -178,6 +210,7 @@ line wall
   501.0 916.0 447.0 940.0 430.0 943.0
   413.0 946.0 396.0 960.0 374.0 971.0
   354.43 980.78 343.0 996.0 319.0 995.0
+  smooth off
 endline
 
 line wall
@@ -281,11 +314,46 @@ endscrap
 
 scrap LLAproachSPX8.13 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+line wall -close on
+  1740.0 747.0
+  1725.5 741.5 1703.5 712.5 1703.5 709.0
+  1703.5 705.5 1704.0 683.5 1708.0 680.5
+  1712.0 677.5 1726.84 672.35 1732.5 673.0
+  1745.5 674.5 1749.5 690.5 1752.0 698.5
+  1754.5 706.5 1762.0 736.5 1762.0 736.5
+  smooth off
+  1762.0 736.5 1751.5 734.5 1749.5 733.0
+  1747.5 731.5 1744.41 748.67 1740.0 747.0
+endline
+
+point 1742.36645675 695.043228346 station -name 8.13
+
 endscrap
 
 
 
 scrap LLAproachSPX8.8 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -subtype clay
+  654.0 650.5
+  661.0 650.0 703.0 654.5 714.0 657.5
+  755.48 668.81 768.0 681.5 768.0 681.5
+  smooth off
+endline
+
+line wall -subtype clay
+  768.0 681.5
+  757.5 687.5 743.0 718.0 743.0 718.0
+  smooth off
+  743.0 718.0 715.5 706.5 706.0 693.5
+  701.16 686.88 698.0 673.5 690.5 680.5
+  683.0 687.5 676.5 699.0 672.5 700.0
+  668.5 701.0 659.5 706.0 656.0 691.0
+  652.5 676.0 654.0 650.5 654.0 650.5
+  smooth off
+endline
+
+point 693.54645675 657.253228346 station -name 8.8
 
 endscrap
 
@@ -293,11 +361,43 @@ endscrap
 
 scrap LLAproachSPX8.6 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+line wall -subtype clay
+  1018.5 612.0
+  1069.0 619.0
+endline
+
+line wall -subtype clay
+  1069.0 619.0
+  1068.0 622.5 1054.5 649.0 1054.5 649.0
+  smooth off
+  1054.5 649.0 1043.67 664.66 1048.0 645.0
+  1053.5 620.0 1041.5 655.0 1034.0 655.0
+  1028.76 655.0 1030.71 638.21 1027.0 634.5
+  1012.0 619.5 1018.5 612.0 1018.5 612.0
+  smooth off
+endline
+
+point 1043.5464567499998 635.6032283459999 station -name 8.6
+
 endscrap
 
 
 
 scrap LLAproachSPX8.2 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -subtype clay
+  1379.0 424.0
+  1429.0 428.0
+endline
+
+line wall
+  1429.0 428.0
+  1396.0 458.0 1387.0 469.0 1375.0 476.0
+  1367.81 480.19 1379.0 424.0 1379.0 424.0
+  smooth off
+endline
+
+point 1377.09645675 440.403228346 station -name 8.2
 
 endscrap
 
