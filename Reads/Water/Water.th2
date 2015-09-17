@@ -1,11 +1,35 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -42.52755905999993 -18.078740160000052 1945.7559055066001 2206.4251968475
+##XTHERION## xth_me_area_adjust -132.0 -132.0 1945.7559055066001 2206.4251968474996
 ##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {885.53590551 1 1.0} {1203.81574803 3.4} PocketTopo/Water_p.xvi 0 {}
 
 
 
 scrap WaterSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 927.0 1516.0 label -text "c3" -align b -attr scrapname waterSPX3.4 -context line section -scale xs
+
+line section -reverse on -direction both
+  913.0 1416.0
+  901.23 1313.97 850.0 868.0 838.0 766.0
+  smooth off
+endline
+
+point 1239.0 1287.0 label -text  "c2" -align b -attr scrapname WaterSPX3.2 -context line section -scale xs
+
+line section -direction end
+  893.0 870.0
+  933.0 919.0 1146.0 1178.0 1182.0 1224.0
+  smooth off
+endline
+
+line section -direction begin
+  1362.0 749.0
+  1334.0 895.0 1341.0 861.0 1341.0 861.0
+  smooth off
+endline
+
+point 1378.0 721.0 label -text "c1" -align b -attr scrapname WaterSPX1.3 -context line section -scale xs
 
 line pit -outline out
   1372.0 920.0
@@ -133,6 +157,7 @@ point 885.53590551 1203.81574803 station -name 3.4
 line pit
   1017.0 1008.0
   1006.0 1019.0 955.0 1048.0 922.0 1004.0
+  smooth off
 endline
 
 point 1102.9159055100001 1127.18574803 station -name 3.2
@@ -147,17 +172,66 @@ endscrap
 
 scrap WaterSPX3.4 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+line section -close on -direction begin
+  1726.0 2003.0
+  1714.0 2001.0 1474.61 2067.39 1471.0 2071.0
+  1466.0 2076.0 1433.0 2060.0 1463.0 2044.0
+  1478.01 2035.99 1554.0 2007.0 1572.0 2002.0
+  1590.0 1997.0 1621.4 1988.92 1640.0 1984.0
+  1674.0 1975.0 1707.0 1930.0 1718.0 1924.0
+  1729.0 1918.0 1775.0 1914.0 1786.0 1954.0
+  1788.13 1961.76 1821.0 1985.0 1801.0 1996.0
+  1784.92 2004.84 1732.25 2004.04 1726.0 2003.0
+endline
+
+point 1746.10590551 1971.73574803 station -name 3.4
+
 endscrap
 
 
 
 scrap WaterSPX3.2 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+line wall -close on
+  337.0 440.0
+  322.0 436.0 249.0 430.0 224.0 423.0
+  199.0 416.0 162.0 398.0 168.0 374.0
+  174.0 350.0 191.02 340.87 216.0 329.0
+  256.0 310.0 251.0 353.0 268.0 354.0
+  285.0 355.0 321.0 353.0 325.0 335.0
+  329.0 317.0 335.0 260.0 336.0 240.0
+  337.0 220.0 315.0 195.0 361.0 191.0
+  385.23 188.89 483.0 184.0 507.0 193.0
+  522.45 198.79 508.0 230.0 492.0 234.0
+  476.0 238.0 481.09 288.55 468.0 311.0
+  454.0 335.0 440.0 355.0 405.0 357.0
+  367.69 359.13 352.11 351.84 346.0 361.0
+  330.0 385.0 352.0 444.0 337.0 440.0
+endline
+
+point 453.9759055100001 289.4457480299999 station -name 3.2
+
 endscrap
 
 
 
 scrap WaterSPX3.1 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -close on
+  969.0 874.0
+  958.0 870.0 915.0 845.0 909.0 839.0
+  903.0 833.0 856.0 760.0 866.0 763.0
+  876.0 766.0 895.85 804.65 912.0 798.0
+  929.0 791.0 928.0 771.0 931.0 762.0
+  934.0 753.0 918.0 731.0 905.0 722.0
+  892.0 713.0 852.0 686.0 867.0 677.0
+  882.0 668.0 918.44 679.22 934.0 681.0
+  969.0 685.0 971.0 698.0 968.0 720.0
+  965.0 742.0 955.52 791.78 958.0 824.0
+  959.0 837.0 980.0 878.0 969.0 874.0
+endline
+
+point 938.06590551 748.6657480299999 station -name 3.1
 
 endscrap
 
