@@ -7,7 +7,7 @@ encoding  utf-8
 
 scrap BoulderChamberRoute2SP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point -29.0 401.0 label -text "a4" -align b -attr scrapname BoulderChamberRoute2SPX69 -context line section -scale xs
+point -3.0 427.0 label -align b -attr scrapname BoulderChamberRoute2SPX69 -context line section -scale xs -text 6
 
 line section -direction begin
   51.0 482.0

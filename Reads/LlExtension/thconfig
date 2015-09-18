@@ -6,14 +6,14 @@ source LlExtension.th
 #Surveys to output
 #-----------------
 
-#export map -proj plan -layout local -o LlExtension.pdf
+export map -proj plan -layout local -o LlExtension.pdf
 #Produces plan of cave, on a single sheet
 
 #export map -proj extended -layout local -o LlExtensionEe.pdf
 
 #export map -proj [elevation 15] -layout local -o LlExtensionE15.pdf
 
-export model -fmt survex -o LlExtensionth.3d
+#export model -fmt survex -o LlExtensionth.3d
 #Survex file showing centre line only
 
 #export model -o LlExtension.lox

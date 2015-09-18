@@ -60,7 +60,7 @@ endscrap
 
 scrap PipeSP2 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 994.0 1018.0 label -text "b1" -align b -attr scrapname PipeSPX4.8 -context line section -scale xs
+point 1032.0 1011.0 label -align b -attr scrapname PipeSPX4.8 -context line section -scale xs -text 9
 
 line section -reverse on -direction begin
   848.0 1025.0
