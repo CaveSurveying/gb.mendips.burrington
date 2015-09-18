@@ -6,8 +6,8 @@ scrap XSectionSP -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 point 0.0 0.0 station -name 10
 
-point 240.0 440.0 section -scrap "WaterfallChamberSPX8" -align t
+point 337.8 365.0 section -scrap "WaterfallChamberSPX8" -align t
 
-point 720.0 440.0 section -scrap "WaterfallChamberSPX6" -align t
+point 785.6 245.0 section -scrap "WaterfallChamberSPX6" -align t
 
 endscrap

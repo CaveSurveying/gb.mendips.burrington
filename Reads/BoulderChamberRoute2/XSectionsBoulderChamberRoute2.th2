@@ -6,8 +6,8 @@ scrap XSectionSP -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 point 0.0 0.0 station -name 77
 
-point 240.0 440.0 section -scrap "BoulderChamberRoute2SPX69" -align t
+point 337.8 365.0 section -scrap "BoulderChamberRoute2SPX69" -align t
 
-point 240.0 200.0 label -text "a4" -align c -scale s
+point 286.0 171.8 label -text "a4" -align c -scale s
 
 endscrap
