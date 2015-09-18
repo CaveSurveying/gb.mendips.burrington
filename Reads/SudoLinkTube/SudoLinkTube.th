@@ -4,6 +4,7 @@ survey SudoLinkTube
 input SudoLinkTube.th2
 input SudoLinkTubeE15.th2
 input SudoLinkTubeE105.th2
+input XSectionsSudoLinkTube.th2
 
 map SudoLinkTubeM
   SudoLinkTubeSP1
@@ -17,6 +18,10 @@ map SudoLinkTubeME105 -proj [elevation 105]
   SudoLinkTubeSE105_1
  break
   SudoLinkTubeSE105_2
+endmap
+
+map XSectionM
+  XSectionSP
 endmap
 
 centreline

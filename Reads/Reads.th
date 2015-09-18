@@ -285,53 +285,68 @@ map Reads4M
 endmap
 
 map Level1M -title "Main Chamber Level"
-  DryEntM@DryEnt #[-1035 -3864 cm] below
-  GrottoM@Grotto #[-1035 -3864 cm] below
-  MainChamberM@MainChamber #[-1035 -3864 cm] below 
-  OffShootM@OffShoot #[-1035 -3864 cm] below 
-  WaterM@Water #[-1035 -3864 cm] below
+  DryEntM@DryEnt
+  GrottoM@Grotto
+  MainChamberM@MainChamber 
+  OffShootM@OffShoot 
+  WaterM@Water
+  XSectionM@MainChamber [-3977 -12911 cm] none #a
+  XSectionM@OffShoot [-872 -12914 cm] none #d1
+  XSectionM@Water [-1993 -13235 cm] none #c3,2,1
 endmap
 
 map Level2M -title "Upper Maze Level"
-  AltJunctTinyBitM@AltJunctTinyBit #[-1682 -6279 cm] below
-  BoulderChamberM@BoulderChamber #[-1682 -6279 cm] below
-  BoulderChamberRoute2M@BoulderChamberRoute2 #[-1682 -6279 cm] below
-  JCAltM@JCAlt #[-1682 -6279 cm] below
-  JuncAlterRouteM@JuncAlterRoute #[-1035 -3864 cm] below
-  JuncAlterRoute2M@JuncAlterRoute2 #[-1682 -6279 cm] below
-  JunctionChamberM@JunctionChamber #[-1682 -6279 cm] below 
-  OffShoot2M@OffShoot2 #[-1682 -6279 cm] below 
-  OffShoot3M@OffShoot3 #[-1682 -6279 cm] below 
-  PipeM@Pipe #[-1682 -6279 cm] below
-  UpperWaterfallM@UpperWaterfall #[-1682 -6279 cm] below
-  UpperWaterfall2M@UpperWaterfall2 #[-1682 -6279 cm] below
-  WCR2M@WCR2 #[-1682 -6279 cm] below #probably needs splitting into level1M
-  ZAlleyUpM@ZAlley  #[-1682 -6279 cm] below #probably needs splitting into level4M
+  AltJunctTinyBitM@AltJunctTinyBit 
+  BoulderChamberM@BoulderChamber 
+  BoulderChamberRoute2M@BoulderChamberRoute2 
+  JCAltM@JCAlt 
+  JuncAlterRouteM@JuncAlterRoute
+  JuncAlterRoute2M@JuncAlterRoute2 
+  JunctionChamberM@JunctionChamber  
+  OffShoot2M@OffShoot2  
+  OffShoot3M@OffShoot3  
+  PipeM@Pipe 
+  UpperWaterfallM@UpperWaterfall 
+  UpperWaterfall2M@UpperWaterfall2 
+  WCR2M@WCR2  #probably needs splitting into level1M
+  ZAlleyUpM@ZAlley
+  XSectionM@BoulderChamber [-2583 -10799 cm] none #a2,3
+  XSectionM@Pipe [-5667 -9559 cm] none # b1
+  XSectionM@OffShoot2 [-2666 -9949 cm] none #d2
+  XSectionM@OffShoot3 [-2279 -10053 cm] none #d3
+  XSectionM@BoulderChamberRoute2 [-1738 -9577 cm] none #a4
 endmap
 
 map Level3M -title "Lower East Level" 
-  BrownStuartM@BrownStuart #[-2976 -11108 cm] below
-  LastSurveyingChamberM@LastSurveyingChamber #[-2976 -11108 cm] below
-  LowerMazeM@LowerMaze #[-2976 -11108 cm] below
-  MazeM@Maze #[-2976 -11108 cm] below
-  MNRCSeriesM@MNRCSeries #[-2976 -11108 cm] below
-  SplashPotM@SplashPot #[-2976 -11108 cm] below
-  DeathWishM@DeathWish #[-2976 -11108 cm] below
-  #TheSweetEndM@TheSweetEnd #[-2976 -11108 cm] below
-  WaterfallChamberM@WaterfallChamber #[-1035 -3864 cm] below
+  BrownStuartM@BrownStuart
+  LastSurveyingChamberM@LastSurveyingChamber
+  LowerMazeM@LowerMaze
+  MazeM@Maze
+  MNRCSeriesM@MNRCSeries
+  SplashPotM@SplashPot
+  DeathWishM@DeathWish
+  #TheSweetEndM@TheSweetEnd
+  WaterfallChamberM@WaterfallChamber
   ZAlleyLowM@ZAlley
+  XSectionM@SplashPot [-5934 -6692 cm] none #m1-9
+  XSectionM@BrownStuart [-2019 -7534 cm] none #g1-3
+  XSectionM@WaterfallChamber [-6641 -5467 cm] none #e1,2
+  XSectionM@MNRCSeries [-6141 -7465 cm] none #m10,11
 endmap
 
 map Level4M -title "Lower West Level"
   BrownStainM@BrownStain
-  BrowneStewartM@BrowneStewart #[-2329 -8693 cm] below
-  EarlyGraveM@EarlyGrave #[-2329 -8693 cm] below
-  LADSLuckM@LADSLuck #[-2329 -8693 cm] below
-  LLAproachM@LLAproach #[-2329 -8693 cm] below
-  LlExtensionM@LlExtension #[-2329 -8693 cm] below
-  SudoLinkTubeM@SudoLinkTube #[-2329 -8693 cm] below
-  XSectionM@LLAproach [-1000 -2000 cm] none
-
+  BrowneStewartM@BrowneStewart
+  EarlyGraveM@EarlyGrave 
+  LADSLuckM@LADSLuck
+  LLAproachM@LLAproach
+  LlExtensionM@LlExtension
+  SudoLinkTubeM@SudoLinkTube
+  XSectionM@LLAproach [-6158 -5597 cm] none #f 1,4,3,2
+  XSectionM@LADSLuck [-1812 -6761 cm] none #h1-5
+  XSectionM@SudoLinkTube [-8090 -5079 cm] none #f5
+  XSectionM@LlExtension [1491 -7957 cm] none #f5
+  XSectionM@EarlyGrave [3906 -8604 cm] none #j3,4,2,1
 endmap
 
 

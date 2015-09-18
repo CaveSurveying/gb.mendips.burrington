@@ -4,6 +4,7 @@ survey OffShoot2
 input OffShoot2.th2
 input OffShoot2E15.th2
 input OffShoot2E105.th2
+input XSectionsOffShoot2.th2
 
 map OffShoot2M
   OffShoot2SP1
@@ -19,6 +20,10 @@ map OffShoot2ME105 -proj [elevation 105]
   OffShoot2SE105_1
  break
   OffShoot2SE105_2
+endmap
+
+map XSectionM
+  XSectionSP
 endmap
 
 centreline

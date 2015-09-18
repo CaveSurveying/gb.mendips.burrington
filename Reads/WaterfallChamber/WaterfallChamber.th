@@ -4,6 +4,7 @@ survey WaterfallChamber
 input WaterfallChamber.th2
 input WaterfallChamberE15.th2
 input WaterfallChamberE105.th2
+input XSectionsWaterfallChamber.th2
 
 map WaterfallChamberM
   WaterfallChamberSP1
@@ -19,6 +20,10 @@ map WaterfallChamberME105 -proj [elevation 105]
   WaterfallChamberSE105_1
  break
   WaterfallChamberSE105_2
+endmap
+
+map XSectionM
+  XSectionSP
 endmap
 
 centreline

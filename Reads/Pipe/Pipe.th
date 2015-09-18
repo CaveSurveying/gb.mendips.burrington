@@ -4,6 +4,7 @@ survey Pipe
 input Pipe.th2
 input PipeE15.th2
 input PipeE105.th2
+input XSectionsPipe.th2
 
 map PipeM
   PipeSP1
@@ -26,6 +27,10 @@ map PipeME105 -proj [elevation 105]
  break
   PipeSE105_2
   PipeSE105_3
+endmap
+
+map XSectionM
+  XSectionSP
 endmap
 
 equate 4.16 4.21

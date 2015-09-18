@@ -4,6 +4,7 @@ survey SplashPot
 input SplashPot.th2
 input SplashPotE15.th2
 input SplashPotE105.th2
+input XSectionsSplashPot.th2
 
 map SplashPotM
   SplashPotSP1
@@ -24,6 +25,10 @@ map SplashPotME105 -proj [elevation 105]
  break
   SplashPotSE105_2
   SplashPotSE105_3
+endmap
+
+map XSectionM
+  XSectionSP
 endmap
 
 centreline

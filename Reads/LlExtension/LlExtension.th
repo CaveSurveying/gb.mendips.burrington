@@ -4,6 +4,7 @@ survey LlExtension
 input LlExtension.th2
 input LlExtensionE15.th2
 input LlExtensionE105.th2
+input XSectionsLlExtension.th2
 
 map LlExtensionM
   LlExtensionSP1
@@ -17,6 +18,9 @@ map LlExtensionME105 -proj [elevation 105]
   LlExtensionSE105_1
 endmap
 
+map XSectionM
+  XSectionSP
+endmap
 
 centreline
 

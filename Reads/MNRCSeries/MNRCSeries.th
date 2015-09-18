@@ -4,6 +4,7 @@ survey MNRCSeries
 input MNRCSeries.th2
 input MNRCSeriesE15.th2
 input MNRCSeriesE105.th2
+input XSectionsMNRCSeries.th2
 
 map MNRCSeriesM
   MNRCSeriesSP3
@@ -24,6 +25,10 @@ map MNRCSeriesME105 -proj [elevation 105]
   MNRCSeriesSE105_1
  break
   MNRCSeriesSE105_2
+endmap
+
+map XSectionM
+  XSectionSP
 endmap
 
 centreline

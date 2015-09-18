@@ -5,6 +5,7 @@ input MainChamber.th2
 #input MainChamberEe.th2
 input MainChamberE15.th2
 input MainChamberE105.th2
+input XSectionsMainChamber.th2
 
 map MainChamberM
   MainChamberSPl1
@@ -14,9 +15,12 @@ map MainChamberME15 -proj [elevation 15]
   MainChamberSE15_1
 endmap
 
-
 map MainChamberME105 -proj [elevation 105]
   MainChamberSE105_1
+endmap
+
+map XSectionM
+  XSectionSP
 endmap
 
 centreline

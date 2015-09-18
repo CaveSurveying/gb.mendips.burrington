@@ -4,6 +4,7 @@ survey BoulderChamber
 input BoulderChamber.th2
 input BoulderChamberE15.th2
 input BoulderChamberE105.th2
+input XSectionsBoulderChamber.th2
 
 map BoulderChamberM
 #  BoulderChamberSP1 #Drawn in Water.th2
@@ -29,6 +30,10 @@ map BoulderChamberME105 -proj [elevation 105]
   BoulderChamberSE105_2
  break
   BoulderChamberSE105_3
+endmap
+
+map XSectionM
+  XSectionSP
 endmap
 
 centreline

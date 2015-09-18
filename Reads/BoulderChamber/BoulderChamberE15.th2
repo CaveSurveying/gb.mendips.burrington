@@ -27,7 +27,7 @@ line rock-border -close on
   smooth off
 endline
 
-point 963.0 31.0 label -align bottom-right -text [Boulder Chamber]
+point 963.0 31.0 label -align bottom-right -text [Boulder<br>Chamber]
 
 line wall
   1392.0 636.0

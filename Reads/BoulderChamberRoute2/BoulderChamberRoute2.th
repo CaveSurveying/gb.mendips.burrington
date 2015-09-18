@@ -4,6 +4,7 @@ survey BoulderChamberRoute2
 input BoulderChamberRoute2.th2
 input BoulderChamberRoute2E15.th2
 input BoulderChamberRoute2E105.th2
+input XSectionsBoulderChamberRoute2.th2
 
 map BoulderChamberRoute2M
   BoulderChamberRoute2SP1
@@ -28,6 +29,10 @@ map BoulderChamberRoute2ME105 -proj [elevation 105]
  break
   BoulderChamberRoute2SE105_2
   BoulderChamberRoute2SE105_3
+endmap
+
+map XSectionM
+  XSectionSP
 endmap
 
 equate 21 74 

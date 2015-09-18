@@ -4,6 +4,7 @@ survey BrownStuart
 input BrownStuart.th2
 input BrownStuartE15.th2
 input BrownStuartE105.th2
+input XSectionsBrownStuart.th2
 
 map BrownStuartM
   BrownStuartSP1
@@ -24,6 +25,9 @@ map BrownStuartME105 -proj [elevation 105]
   BrownStuartSE105_3
 endmap
 
+map XSectionM
+  XSectionSP
+endmap
 
 centreline
 

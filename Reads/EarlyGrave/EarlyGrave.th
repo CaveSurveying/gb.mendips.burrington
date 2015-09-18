@@ -4,6 +4,7 @@ survey EarlyGrave
 input EarlyGrave.th2
 input EarlyGraveE15.th2
 input EarlyGraveE105.th2
+input XSectionsEarlyGrave.th2
 
 map EarlyGraveM
   EarlyGraveSP1
@@ -15,6 +16,10 @@ endmap
 
 map EarlyGraveME105 -proj [elevation 105]
   EarlyGraveSE105_1
+endmap
+
+map XSectionM
+  XSectionSP
 endmap
 
 centreline

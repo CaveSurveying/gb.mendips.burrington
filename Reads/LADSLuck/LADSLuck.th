@@ -4,6 +4,7 @@ survey LADSLuck
 input LADSLuck.th2
 input LADSLuckE15.th2
 input LADSLuckE105.th2
+input XSectionsLADSLuck.th2
 
 map LADSLuckM
   LADSLuckSP1
@@ -22,6 +23,10 @@ map LADSLuckME105 -proj [elevation 105]
   LADSLuckSE105_1
  break
   LADSLuckSE105_2
+endmap
+
+map XSectionM
+  XSectionSP
 endmap
 
 centreline
