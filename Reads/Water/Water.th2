@@ -15,7 +15,7 @@ line section -reverse on -direction both
   smooth off
 endline
 
-point 1239.0 1287.0 label -text  "c2" -align b -attr scrapname WaterSPX3.2 -context line section -scale xs
+point 936.0 863.0 label -text  "c2" -align b -attr scrapname WaterSPX3.2 -context line section -scale xs
 
 line section -direction end
   893.0 870.0

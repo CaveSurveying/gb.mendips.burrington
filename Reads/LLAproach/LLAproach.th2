@@ -341,7 +341,7 @@ line wall -subtype clay
   smooth off
 endline
 
-line wall -subtype clay
+line wall
   768.0 681.5
   757.5 687.5 743.0 718.0 743.0 718.0
   smooth off
@@ -366,7 +366,7 @@ line wall -subtype clay
   1069.0 619.0
 endline
 
-line wall -subtype clay
+line wall
   1069.0 619.0
   1068.0 622.5 1054.5 649.0 1054.5 649.0
   smooth off
