@@ -8,6 +8,6 @@ point 0.0 0.0 station -name 2.7
 
 point 483.4 326.0 section -scrap "MainChamberSX2.3" -align t
 
-point 431.6 132.8 label -text "a1" -align c -scale s
+point 431.6 132.8 label -text "1" -align c -scale s
 
 endscrap
