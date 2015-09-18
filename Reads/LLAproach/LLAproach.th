@@ -4,6 +4,7 @@ survey LLAproach
 input LLAproach.th2
 input LLAproachE15.th2
 input LLAproachE105.th2
+input XSectionsLLAproach.th2
 
 map LLAproachM
   LLAproachSP1
@@ -27,6 +28,10 @@ map LLAproachME105 -proj [elevation 105]
   LLAproachSE105_3
  break
   LLAproachSE105_4
+endmap
+
+map XSectionM
+  XSectionSP
 endmap
 
 centreline

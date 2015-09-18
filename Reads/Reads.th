@@ -330,6 +330,8 @@ map Level4M -title "Lower West Level"
   LLAproachM@LLAproach #[-2329 -8693 cm] below
   LlExtensionM@LlExtension #[-2329 -8693 cm] below
   SudoLinkTubeM@SudoLinkTube #[-2329 -8693 cm] below
+  XSectionM@LLAproach [-1000 -2000 cm] none
+
 endmap
 
 

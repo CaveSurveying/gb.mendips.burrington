@@ -1,0 +1,29 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust 0 0 1600 1200
+##XTHERION## xth_me_area_zoom_to 100
+
+scrap XSectionSP -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 0.0 0.0 station -name 9.0
+
+point 240.0 440.0 section -scrap "LADSLuckSPX9.36" -align t
+
+point 240.0 200.0 label -text "h1" -align c -scale s
+
+point 731.5 440.0 section -scrap "LADSLuckSPX9.33" -align t
+
+point 731.5 200.0 label -text "h2" -align c -scale s
+
+point 1223.0 440.0 section -scrap "LADSLuckSPX9.30" -align t
+
+point 1223.0 200.0 label -text "h3" -align c -scale s
+
+point 1703.0 440.0 section -scrap "LADSLuckSPX9.22" -align t
+
+point 1703.0 200.0 label -text "h5" -align c -scale s
+
+point 2183.0 440.0 section -scrap "LADSLuckSPX9.12" -align t
+
+point 2183.0 200.0 label -text "h4" -align c -scale s
+
+endscrap
