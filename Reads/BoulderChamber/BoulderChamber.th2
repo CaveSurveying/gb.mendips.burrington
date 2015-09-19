@@ -107,7 +107,7 @@ endscrap
 
 scrap BoulderChamberSP3 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 1079.0 1164.0 label -align b -attr scrapname BoulderChamberSPX63 -context line section -scale xs -text 7
+point 1079.0 1164.0 label -align b -attr scrapname BoulderChamberSPX63 -context line section -scale xs -text "7"
 
 line section -direction both
   786.0 671.0
@@ -305,7 +305,7 @@ endscrap
 
 scrap BoulderChamberSP4 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 794.0 1330.0 label -align b -attr scrapname BoulderChamberSPX65 -context line section -scale xs -text 8
+point 794.0 1330.0 label -align b -attr scrapname BoulderChamberSPX65 -context line section -scale xs -text "8"
 
 line section -direction both
   555.0 674.0

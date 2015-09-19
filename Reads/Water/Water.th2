@@ -7,7 +7,7 @@ encoding  utf-8
 
 scrap WaterSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 927.0 1516.0 label -align b -attr scrapname WaterSPX3.4 -context line section -scale xs -text 4
+point 927.0 1516.0 label -align b -attr scrapname WaterSPX3.4 -context line section -scale xs -text "4"
 
 line section -reverse on -direction both
   913.0 1416.0
@@ -15,7 +15,7 @@ line section -reverse on -direction both
   smooth off
 endline
 
-point 1107.0 1310.0 label -align b -attr scrapname WaterSPX3.2 -context line section -scale xs -text 3
+point 1107.0 1310.0 label -align b -attr scrapname WaterSPX3.2 -context line section -scale xs -text "3"
 
 line section -direction end
   893.0 870.0
@@ -29,7 +29,7 @@ line section -direction begin
   smooth off
 endline
 
-point 1397.0 756.0 label -align b -attr scrapname WaterSPX3.1 -context line section -scale xs -text 2
+point 1397.0 756.0 label -align b -attr scrapname WaterSPX3.1 -context line section -scale xs -text "2"
 
 line pit -outline out
   1372.0 920.0

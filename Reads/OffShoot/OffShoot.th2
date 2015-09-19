@@ -7,7 +7,7 @@ encoding  utf-8
 
 scrap OffShootSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 59.0 233.0 label -align b -attr scrapname OffShootSPX3 -context line section -scale xs -text 5
+point 59.0 233.0 label -align b -attr scrapname OffShootSPX3 -context line section -scale xs -text "5"
 
 line section -direction both
   337.0 586.0

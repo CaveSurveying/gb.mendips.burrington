@@ -7,7 +7,7 @@ encoding  utf-8
 
 scrap LlExtensionSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 459.5 430.5 label -align b -attr scrapname LIExtensionSPX8.26 -context line section -scale xs -text notf5 -text notf5
+point 459.5 430.5 label -align b -attr scrapname LIExtensionSPX8.26 -context line section -scale xs -text "notf5"
 
 line section -direction both
   329.0 58.5
