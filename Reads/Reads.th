@@ -312,8 +312,8 @@ map Level2M -title "Upper Maze Level"
   ZAlleyUpM@ZAlley
   XSectionM@BoulderChamber [-2583 -10799 cm] none #a2,3
   XSectionM@Pipe [-5667 -9559 cm] none # b1
-  XSectionM@OffShoot2 [-2666 -9949 cm] none #d2
-  XSectionM@OffShoot3 [-2279 -10053 cm] none #d3
+  #XSectionM@OffShoot2 [-2666 -9949 cm] none #d2
+  #XSectionM@OffShoot3 [-2279 -10053 cm] none #d3
   XSectionM@BoulderChamberRoute2 [-1738 -9577 cm] none #a4
 endmap
 
