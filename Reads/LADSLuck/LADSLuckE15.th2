@@ -92,6 +92,7 @@ line wall
   1756.0 1938.0 1826.0 2056.0 1838.0 2080.0
   1850.0 2104.0 1878.0 2140.0 1892.0 2146.0
   1906.0 2152.0 1918.0 2152.0 1920.0 2186.0
+  smooth off
 endline
 
 line wall
@@ -142,11 +143,19 @@ point 1064.66153187 312.5634376999999 station -name 9.39
 
 point 1097.1215318700001 335.60343769999986 station -name 9.38
 
-point 1016.0 404.0 station -name 9.37
+point 1019.2015318699999 395.24343769999996 station -name 9.37
 
 point 883.00153187 498.50343769999995 station -name 9.36
 
 point 749.82153187 625.9134376999998 station -name 9.34
+
+point 1096.0 1958.0 label -text [LADS Luck] -align top-left -scale l
+
+point 1080.0 1106.0 label -align bottom-right -text [Main Drag]
+
+point 1932.0 1402.0 label -align bottom-right -text [Cancer Crawl]
+
+point 1200.0 278.0 label -text [Dog End] -align top-right
 
 point 678.1115318699999 709.5734376999999 station -name 9.44
 
@@ -256,6 +265,7 @@ line wall
   1518.0 2088.0
   1552.0 2116.0 1628.0 2188.0 1658.0 2214.0
   1688.0 2240.0 1788.0 2246.0 1834.0 2252.0
+  smooth off
 endline
 
 point 1541.03153187 2052.0834376999996 station -name 9.2

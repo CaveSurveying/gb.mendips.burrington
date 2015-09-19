@@ -29,6 +29,7 @@ line wall -id l5-330-56 -subtype blocks
   50.0 338.0 50.0 302.0 72.0 282.0
   86.8 268.54 155.74 306.31 176.0 282.0
   196.0 258.0 268.0 74.0 318.0 56.0
+  smooth off
 endline
 
 point 246.03630543399993 303.07530167999994 station -name 8.40
@@ -42,6 +43,8 @@ endscrap
 
 
 scrap BrownStainSE15_2 -projection [elevation 15] -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 860.0 812.0 label -context point clay -align top-right -text [Brown Stain]
 
 line wall -subtype blocks
   636.0 622.0

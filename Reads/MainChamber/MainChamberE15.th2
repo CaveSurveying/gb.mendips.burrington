@@ -104,6 +104,10 @@ line ceiling-step
   smooth off
 endline
 
+point 2786.0 24.0 label -context point clay -align bottom -text [Main Chamber] -scale l
+
+point 966.0 190.0 label -context point clay -text Water<br>Chamber -align bottom-right
+
 line wall -reverse on
   3198.0 210.0
   3126.0 210.0 2998.0 250.0 2938.0 246.0

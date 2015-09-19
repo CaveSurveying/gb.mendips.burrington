@@ -7,6 +7,8 @@ encoding  utf-8
 
 scrap WaterfallChamberSE15_1 -projection [elevation 15] -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+point 474.0 111.0 label -context point raft -align bottom-left -text [<right>Waterfall<br>Chamber]
+
 line wall -subtype blocks
   95.0 540.0
   129.0 542.0 142.0 513.0 156.0 505.0

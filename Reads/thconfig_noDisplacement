@@ -41,6 +41,10 @@ layout local_Plan
   copy mendip
   legend on
   colour-legend off
+  symbol-hide point label
+  symbol-hide line label
+  symbol-hide line section
+  symbol-hide point section
   #legend-width 10 cm
 code tex-map
   \def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
@@ -95,7 +99,7 @@ code tex-map
       \legendbox{-2}{-200}{NW}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/ReadsE15_Exploded.pdf}} 
       \legendbox{-1}{-200}{NE}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/ReadsE105_Exploded.pdf}}
       \legendbox{102}{105}{NW}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/Reads_Exploded.pdf}}
-      \legendbox{150}{-446}{N}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/LoxExport.png}}  
+      \legendbox{150}{-430}{N}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/LoxExport.png}}  
    }
   
   #map-image -1 65 nw ReadsE15.pdf
@@ -106,6 +110,7 @@ endlayout
 layout local_elevation15
   copy local_elevation
   colour map-bg [90 90 85]
+  symbol-hide point clay #labels to be hidden have been given -context point clay 
 code tex-map 
   \def\maplayout{
       \legendbox{0}{100}{SW}{
@@ -150,16 +155,16 @@ colour map-bg transparent
 scale-bar 50 m
 #symbol-hide group all
 symbol-hide group cave-centreline
-symbol-hide point label
-symbol-hide line label
-symbol-hide line section
-symbol-hide point section
+
 overlap 5 mm
 
 colour map-fg map
 
 
 code metapost
+
+ # for scale 1 300
+  fonts_setup(8,12,16,24,40)
 
   def s_northarrow_CHED (expr rot) =
   T:=identity scaled 0.7 rotated -rot;

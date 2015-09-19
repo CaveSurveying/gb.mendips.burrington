@@ -37,6 +37,7 @@ line wall
   2214.0 1188.0 2196.0 1166.0 2162.0 1152.0
   2128.0 1138.0 2054.0 1144.0 2040.0 1174.0
   2026.0 1204.0 2032.0 1218.0 2030.0 1232.0
+  smooth off
 endline
 
 line wall
@@ -46,6 +47,14 @@ line wall
   1792.0 1074.0 1634.0 994.0 1650.0 1032.0
   smooth off
 endline
+
+point 3428.0 1612.0 label -context point clay -align top-right -text [Splash Pot]
+
+point 1816.0 854.0 label -align bottom-right -context point raft -text [Stream Chamber]
+
+point 2866.0 1132.0 label -align bottom-right -context point clay -text Windpipe
+
+point 476.0 188.0 label -text [Browne Stewart Sump] -align bottom-right -context point clay
 
 line wall
   1518.0 1038.0
@@ -60,7 +69,7 @@ line wall
   1026.0 570.0 970.0 564.0 914.0 538.0
   858.0 512.0 754.0 476.0 716.0 464.0
   678.0 452.0 393.36 330.64 378.6809994 324.3213854100002
-  364.0 318.0 340.0 284.0 338.0 250.0
+  364.0 318.0 310.0 248.0 316.0 194.0
   smooth off
 endline
 

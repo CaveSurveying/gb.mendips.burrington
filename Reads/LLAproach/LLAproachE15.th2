@@ -136,6 +136,8 @@ line wall -subtype sand
   smooth off
 endline
 
+point 568.0 485.0 label -text Squeeze -align top-right -scale xs
+
 line wall
   1298.0 336.0
   1276.0 344.0 1244.0 358.0 1224.0 360.0

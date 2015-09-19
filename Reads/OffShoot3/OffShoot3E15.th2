@@ -1,11 +1,15 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -259.05 -211.46 1554.28 1268.74
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -132.0 -132.0 1563.0 1399.0
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {1045.247049562 1 1.0} {413.37645882000004 42} PocketTopo/OffShoot3_E15.xvi 0 {}
 
 
 
 scrap OffShoot3SE15_1 -projection [elevation 15] -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 1452.0 440.0 label -context point raft -align right -text Devil's<br>Parlour
+
+point 1262.0 1329.0 label -context point clay -text [Browne<br>Stewart<br>Series] -scale l -align top-right -context point clay
 
 line wall -subtype blocks
   1272.0 592.0

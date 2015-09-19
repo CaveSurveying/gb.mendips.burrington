@@ -20,4 +20,6 @@ point 1181.7 -68.2 label -text "g1" -align c -scale s
 
 point 1681.3 5.0 section -scrap "BrownStuartSPX7.8" -align t
 
+point 1629.6 -188.2 label -text "g4" -align c -scale s
+
 endscrap

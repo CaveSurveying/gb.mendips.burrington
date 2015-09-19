@@ -67,6 +67,8 @@ line wall
   smooth off
 endline
 
+point 960.0 36.0 label -context point clay -align bottom-right -text Grotto
+
 line wall
   886.0 264.0
   914.0 264.0 970.0 204.0 960.0 192.0

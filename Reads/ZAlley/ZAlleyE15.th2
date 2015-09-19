@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -198.37 -235.11 1190.23 1410.64
+##XTHERION## xth_me_area_adjust -132.0 -132.0 1250.8082282502 1426.6557694448
 ##XTHERION## xth_me_area_zoom_to 100
 ##XTHERION## xth_me_image_insert {407.011323463 1 1.0} {1278.09984874 5.0} PocketTopo/ZAlley_E15.xvi 0 {}
 
@@ -26,6 +26,7 @@ line wall
   478.0 992.0 534.0 924.0 574.0 914.0
   614.0 904.0 736.0 888.0 758.0 888.0
   780.0 888.0 804.0 882.0 804.0 862.0
+  smooth off
 endline
 
 point 825.531323463 976.79984874 station -name 5.7
@@ -166,6 +167,8 @@ line wall
   smooth off
 endline
 
+point 1033.0 930.0 label -orientation 90.0 -context point raft -text [Z Alley] -scale l -align top-left
+
 line wall
   642.0 474.0
   625.68 482.59 596.0 552.0 622.0 544.0
@@ -177,6 +180,7 @@ line wall
   860.0 670.0 1110.92 711.12 1108.0 733.0
   1106.0 748.0 898.0 702.0 868.0 712.0
   838.0 722.0 839.0 846.0 839.0 866.0
+  smooth off
 endline
 
 line wall

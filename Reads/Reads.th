@@ -377,7 +377,7 @@ endmap
 
 map Reads2ME15 -proj [elevation 15]
   #preview below Level1ME15
-  Level2ME15 [0 -90 m] none
+  Level2ME15 [0 -85 m] none
   #preview above Level3ME15
   #preview above Level4ME15
 endmap
@@ -385,7 +385,7 @@ endmap
 map Reads3ME15 -proj [elevation 15]
   #preview below Level1ME15
   #preview below Level2ME15 
-  Level3ME15 [0 -110 m] none
+  Level3ME15 [0 -100 m] none
   #preview above Level4ME15
 endmap
 
@@ -393,7 +393,7 @@ map Reads4ME15 -proj [elevation 15]
   #preview below Level1ME15
   #preview below Level2ME15 
   #preview below Level3ME15
-  Level4ME15 [0 -145 m] none
+  Level4ME15 [0 -137 m] none
 endmap
 
 map Level1ME15 -proj [elevation 15]
@@ -431,6 +431,7 @@ map Level3ME15  -proj [elevation 15]
   MazeME15@Maze #[0 -115 m] below
   MNRCSeriesME15@MNRCSeries #[0 -115 m] below
   SplashPotME15@SplashPot #[0 -115 m] below
+  DeathWishME15@DeathWish
   #TheSweetEndME15@TheSweetEnd #[0 -115 m] below
   WaterfallChamberME15@WaterfallChamber #[0 -40 m] below
   ZAlleyLowME15@ZAlley
@@ -472,7 +473,7 @@ endmap
 
 map Reads2ME105 -proj [elevation 105]
   #preview below Level1ME105
-  Level2ME105 [0 -90 m] none
+  Level2ME105 [0 -85 m] none
   #preview above Level3ME105
   #preview above Level4ME105
 endmap
@@ -480,7 +481,7 @@ endmap
 map Reads3ME105 -proj [elevation 105]
   #preview below Level1ME105
   #preview below Level2ME105 
-  Level3ME105 [0 -110 m] none
+  Level3ME105 [0 -100 m] none
   #preview above Level4ME105
 endmap
 
@@ -488,7 +489,7 @@ map Reads4ME105 -proj [elevation 105]
   #preview below Level1ME105
   #preview below Level2ME105 
   #preview below Level3ME105
-  Level4ME105 [0 -145 m] none
+  Level4ME105 [0 -137 m] none
 endmap
 
 
@@ -524,6 +525,7 @@ map Level3ME105  -proj [elevation 105]
   MazeME105@Maze #[0 -115 m] below
   MNRCSeriesME105@MNRCSeries #[0 -115 m] below
   SplashPotME105@SplashPot #[0 -115 m] below
+  DeathWishME105@DeathWish
   #TheSweetEndME105@TheSweetEnd #[0 -115 m] below
   WaterfallChamberME105@WaterfallChamber #[0 -40 m] below
   ZAlleyLowME105@ZAlley

@@ -7,6 +7,8 @@ encoding  utf-8
 
 scrap JunctionChamberSE15_1 -projection [elevation 15] -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+point 221.0 263.0 label -context point clay -align bottom-left -text [<right>Junction<br>Chamber]
+
 line wall -reverse on -subtype blocks
   950.0 126.0
   938.2 128.95 870.0 158.0 844.0 164.0

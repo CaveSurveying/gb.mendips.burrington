@@ -11,7 +11,8 @@ export map -proj plan -layout local -o MNRCSeries.pdf
 
 #export map -proj extended -layout local -o MNRCSeriesEe.pdf
 
-#export map -proj [elevation 15] -layout local -o MNRCSeriesE15.pdf
+export map -proj [elevation 15] -layout local -o MNRCSeriesE15.pdf
+#export map -proj [elevation 105] -layout local -o MNRCSeriesE105.pdf
 
 export model -fmt survex -o MNRCSeriesth.3d
 #Survex file showing centre line only
