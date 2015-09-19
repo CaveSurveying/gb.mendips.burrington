@@ -6,24 +6,24 @@ scrap XSectionSP -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 point 0.0 0.0 station -name 9.0
 
-point 337.8 365.0 section -scrap "LADSLuckSPX9.36" -align t
+point 348.5 362.1 section -scrap "LADSLuckSPX9.33" -align t
 
-point 286.0 171.8 label -text "h1" -align c -scale s
+point 296.8 168.9 label -text "31" -align c -scale s
 
-point 796.4 242.1 section -scrap "LADSLuckSPX9.33" -align t
+point 807.1 239.3 section -scrap "LADSLuckSPX9.36" -align t
 
-point 744.6 48.9 label -text "h2" -align c -scale s
+point 755.3 46.1 label -text "32" -align c -scale s
 
 point 1255.0 119.3 section -scrap "LADSLuckSPX9.30" -align t
 
-point 1203.2 -73.9 label -text "h3" -align c -scale s
+point 1203.2 -73.9 label -text "33" -align c -scale s
 
-point 1702.8 -0.7 section -scrap "LADSLuckSPX9.22" -align t
+point 1702.8 -0.7 section -scrap "LADSLuckSPX9.12" -align t
 
-point 1651.0 -193.9 label -text "h5" -align c -scale s
+point 1651.0 -193.9 label -text "34" -align c -scale s
 
-point 2150.6 -120.7 section -scrap "LADSLuckSPX9.12" -align t
+point 2150.6 -120.7 section -scrap "LADSLuckSPX9.22" -align t
 
-point 2098.9 -313.9 label -text "h4" -align c -scale s
+point 2098.9 -313.9 label -text "35" -align c -scale s
 
 endscrap

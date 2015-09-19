@@ -7,7 +7,7 @@ encoding  utf-8
 
 scrap WaterfallChamberSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 564.0 230.5 label -text "e2" -attr scrapname WaterfallChamberSPX8 -context line section -scale xs -align top-left
+point 564.0 230.5 label -text "26" -attr scrapname WaterfallChamberSPX8 -context line section -scale xs -align top-left
 
 line section -direction both
   553.5 167.5
@@ -18,7 +18,7 @@ endline
 line section
 endline
 
-point 396.5 54.0 label -text "e1" -attr scrapname WaterfallChamberSPX6 -context line section -scale xs -align bottom-left
+point 396.5 54.0 label -text "25" -attr scrapname WaterfallChamberSPX6 -context line section -scale xs -align bottom-left
 
 line section -direction end
   512.0 216.5
@@ -168,25 +168,6 @@ point 383.057322835 169.597086614 station -name 4
 
 endscrap
 
-
-
-scrap WaterfallChamberSPX8 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
-
-line wall -close on
-  533.0 317.0
-  533.0 313.0 535.0 251.0 536.0 249.0
-  537.0 247.0 542.27 203.19 544.5 203.0
-  550.5 202.5 557.5 216.0 557.5 238.0
-  557.5 248.07 560.98 303.89 558.0 313.5
-  556.82 317.32 533.0 321.0 533.0 317.0
-endline
-
-point 553.487322835 259.477086614 station -name 8
-
-endscrap
-
-
-
 scrap WaterfallChamberSPX6 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 line wall -close on -reverse on
@@ -202,6 +183,21 @@ line wall -close on -reverse on
 endline
 
 point 448.76732283499996 346.087086614 station -name 6
+
+endscrap
+
+scrap WaterfallChamberSPX8 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -close on
+  533.0 317.0
+  533.0 313.0 535.0 251.0 536.0 249.0
+  537.0 247.0 542.27 203.19 544.5 203.0
+  550.5 202.5 557.5 216.0 557.5 238.0
+  557.5 248.07 560.98 303.89 558.0 313.5
+  556.82 317.32 533.0 321.0 533.0 317.0
+endline
+
+point 553.487322835 259.477086614 station -name 8
 
 endscrap
 

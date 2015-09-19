@@ -7,9 +7,9 @@ encoding  utf-8
 
 scrap EarlyGraveSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 3411.0 242.0 label -text "j3" -align b -attr scrapname EarlyGraveSPX9.51 -context line section -scale xs
+point 3411.0 242.0 label -text "29" -align b -attr scrapname EarlyGraveSPX9.51 -context line section -scale xs
 
-point 3910.0 54.0 label -text "j4" -align b -attr scrapname EarlyGraveSPX9.47 -context line section -scale xs
+point 3910.0 54.0 label -text "30" -align b -attr scrapname EarlyGraveSPX9.47 -context line section -scale xs
 
 line section -direction both
   3947.0 172.0
@@ -23,7 +23,7 @@ line section -reverse on -direction both
   smooth off
 endline
 
-point 3213.0 982.0 label -text "j2" -attr scrapname EarlyGraveSPX9.55 -context line section -scale xs -align bottom-right
+point 3213.0 982.0 label -text "28" -attr scrapname EarlyGraveSPX9.55 -context line section -scale xs -align bottom-right
 
 line section -direction begin
   3017.0 973.0
@@ -31,7 +31,7 @@ line section -direction begin
   smooth off
 endline
 
-point 3214.0 1066.0 label -text "j1" -attr scrapname EarlyGraveSPX9.56 -context line section -scale xs -align top-right
+point 3214.0 1066.0 label -text "27" -attr scrapname EarlyGraveSPX9.56 -context line section -scale xs -align top-right
 
 line section -direction both
   3019.0 1118.0

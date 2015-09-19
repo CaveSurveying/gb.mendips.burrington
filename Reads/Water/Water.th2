@@ -7,7 +7,7 @@ encoding  utf-8
 
 scrap WaterSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 927.0 1516.0 label -align b -attr scrapname WaterSPX3.4 -context line section -scale xs -text "4"
+point 927.0 1516.0 label -align b -attr scrapname WaterSPX3.4 -context line section -scale xs -text "1"
 
 line section -reverse on -direction both
   913.0 1416.0
@@ -15,7 +15,7 @@ line section -reverse on -direction both
   smooth off
 endline
 
-point 1107.0 1310.0 label -align b -attr scrapname WaterSPX3.2 -context line section -scale xs -text "3"
+point 1107.0 1310.0 label -align b -attr scrapname WaterSPX3.2 -context line section -scale xs -text "2"
 
 line section -direction end
   893.0 870.0
@@ -29,7 +29,7 @@ line section -direction begin
   smooth off
 endline
 
-point 1397.0 756.0 label -align b -attr scrapname WaterSPX3.1 -context line section -scale xs -text "2"
+point 1397.0 756.0 label -align b -attr scrapname WaterSPX3.1 -context line section -scale xs -text "3"
 
 line pit -outline out
   1372.0 920.0
@@ -168,8 +168,6 @@ point 1487.75590551 1144.01574803 station -name 2.7
 
 endscrap
 
-
-
 scrap WaterSPX3.4 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 line wall -close on
@@ -187,8 +185,6 @@ endline
 point 1746.10590551 1971.73574803 station -name 3.4
 
 endscrap
-
-
 
 scrap WaterSPX3.2 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
@@ -214,7 +210,6 @@ point 453.9759055100001 289.4457480299999 station -name 3.2
 endscrap
 
 
-
 scrap WaterSPX3.1 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 line wall -close on
@@ -234,5 +229,7 @@ endline
 point 938.06590551 748.6657480299999 station -name 3.1
 
 endscrap
+
+
 
 

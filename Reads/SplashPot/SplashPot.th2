@@ -152,7 +152,7 @@ endscrap
 
 scrap SplashPotSP2 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 2928.0 510.0 label -text "m1" -align b -attr scrapname SplashPotSPX6.7 -context line section -scale xs
+point 2928.0 510.0 label -text "18" -align b -attr scrapname SplashPotSPX6.7 -context line section -scale xs
 
 line section -direction both
   2940.0 738.0
@@ -245,7 +245,7 @@ endscrap
 
 scrap SplashPotSP3 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 3292.0 722.0 label -text "m2" -align b -attr scrapname SplashPotSPX6.9 -context line section -scale xs
+point 3292.0 722.0 label -text "17" -align b -attr scrapname SplashPotSPX6.9 -context line section -scale xs
 
 line section -direction both
   2998.0 721.0
@@ -253,7 +253,7 @@ line section -direction both
   smooth off
 endline
 
-point 3159.5 1103.0 label -text "m3" -align b -attr scrapname SplashPotSPX6.11 -context line section -scale xs
+point 3159.5 1103.0 label -text "16" -align b -attr scrapname SplashPotSPX6.11 -context line section -scale xs
 
 line section -direction both
   3021.0 794.0
@@ -261,7 +261,7 @@ line section -direction both
   smooth off
 endline
 
-point 2903.0 1208.5 label -text "m4" -align b -attr scrapname SplashPotSPX6.12 -context line section -scale xs
+point 2903.0 1208.5 label -text "15" -align b -attr scrapname SplashPotSPX6.12 -context line section -scale xs
 
 line section -direction both
   2790.0 820.0
@@ -271,7 +271,7 @@ endline
 
 point 2266.0 1644.0 label -align top-right -text Windpipe
 
-point 2376.0 1248.0 label -text "m5" -align b -attr scrapname SplashPotSPX6.15 -context line section -scale xs
+point 2376.0 1248.0 label -text "14" -align b -attr scrapname SplashPotSPX6.15 -context line section -scale xs
 
 line section -direction both
   2274.0 1234.0
@@ -279,7 +279,7 @@ line section -direction both
   smooth off
 endline
 
-point 2166.0 1496.0 label -text "m6" -align b -attr scrapname SplashPotSPX6.18 -context line section -scale xs
+point 2166.0 1496.0 label -text "13" -align b -attr scrapname SplashPotSPX6.18 -context line section -scale xs
 
 line section -direction begin
   2084.0 1488.0
@@ -685,7 +685,7 @@ scrap SplashPotSP4 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 line section -direction both
 endline
 
-point 1304.0 2186.0 label -text "m7" -align b -attr scrapname SplashPotSPX6.27 -context line section -scale xs
+point 1304.0 2186.0 label -text "12" -align b -attr scrapname SplashPotSPX6.27 -context line section -scale xs
 
 line section -direction both
   824.0 1786.0
@@ -696,14 +696,14 @@ endline
 line section -direction begin
 endline
 
-point 1400.0 2492.0 label -text "m8" -align b -attr scrapname SplashPotSPX6.29 -context line section -scale xs
+point 1400.0 2492.0 label -text "11" -align b -attr scrapname SplashPotSPX6.29 -context line section -scale xs
 
 line section -reverse on -direction end
   1284.0 2422.0
   1118.0 2318.0
 endline
 
-point 814.0 2818.0 label -text "m9" -align b -attr scrapname SplashPotSPX6.36 -context line section -scale xs
+point 814.0 2818.0 label -text "10" -align b -attr scrapname SplashPotSPX6.36 -context line section -scale xs
 
 line section -direction both
   622.0 2404.0

@@ -7,9 +7,9 @@ encoding  utf-8
 
 scrap LLAproachSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 1922.5 732.0 label -text "f1" -align b -attr scrapname LLAproachSPX8.13 -context line section -scale xs
+point 1922.5 732.0 label -text "40" -align b -attr scrapname LLAproachSPX8.13 -context line section -scale xs
 
-point 716.5 1118.5 label -text "f4" -align b -attr scrapname LLAproachSPX8.8 -context line section -scale xs
+point 716.5 1118.5 label -text "37" -align b -attr scrapname LLAproachSPX8.8 -context line section -scale xs
 
 line section -direction both
   626.0 717.5
@@ -17,7 +17,7 @@ line section -direction both
   smooth off
 endline
 
-point 1086.5 965.5 label -text "f3" -align b -attr scrapname LLAproachSPX8.6 -context line section -scale xs
+point 1086.5 965.5 label -text "38" -align b -attr scrapname LLAproachSPX8.6 -context line section -scale xs
 
 line section -direction both
   991.0 643.5
@@ -25,7 +25,7 @@ line section -direction both
   smooth off
 endline
 
-point 1456.5 860.0 label -text "f2" -align b -attr scrapname LLAproachSPX8.2 -context line section -scale xs
+point 1456.5 860.0 label -text "39" -align b -attr scrapname LLAproachSPX8.2 -context line section -scale xs
 
 line section -reverse on -direction both
   1430.5 769.5
@@ -310,28 +310,6 @@ point 210.2264567499999 945.783228346 station -name 8.12
 
 endscrap
 
-
-
-scrap LLAproachSPX8.13 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
-
-line wall -close on
-  1740.0 747.0
-  1725.5 741.5 1703.5 712.5 1703.5 709.0
-  1703.5 705.5 1704.0 683.5 1708.0 680.5
-  1712.0 677.5 1726.84 672.35 1732.5 673.0
-  1745.5 674.5 1749.5 690.5 1752.0 698.5
-  1754.5 706.5 1762.0 736.5 1762.0 736.5
-  smooth off
-  1762.0 736.5 1751.5 734.5 1749.5 733.0
-  1747.5 731.5 1744.41 748.67 1740.0 747.0
-endline
-
-point 1742.36645675 695.043228346 station -name 8.13
-
-endscrap
-
-
-
 scrap LLAproachSPX8.8 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 line wall -subtype clay
@@ -381,8 +359,6 @@ point 1043.5464567499998 635.6032283459999 station -name 8.6
 
 endscrap
 
-
-
 scrap LLAproachSPX8.2 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 line wall -subtype clay
@@ -401,4 +377,20 @@ point 1377.09645675 440.403228346 station -name 8.2
 
 endscrap
 
+scrap LLAproachSPX8.13 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+line wall -close on
+  1740.0 747.0
+  1725.5 741.5 1703.5 712.5 1703.5 709.0
+  1703.5 705.5 1704.0 683.5 1708.0 680.5
+  1712.0 677.5 1726.84 672.35 1732.5 673.0
+  1745.5 674.5 1749.5 690.5 1752.0 698.5
+  1754.5 706.5 1762.0 736.5 1762.0 736.5
+  smooth off
+  1762.0 736.5 1751.5 734.5 1749.5 733.0
+  1747.5 731.5 1744.41 748.67 1740.0 747.0
+endline
+
+point 1742.36645675 695.043228346 station -name 8.13
+
+endscrap

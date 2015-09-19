@@ -7,7 +7,7 @@ encoding  utf-8
 
 scrap BrownStuartSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 1117.0 1552.5 label -text "g3" -align b -attr scrapname BrownStuartSPX7.17 -context line section -scale xs
+point 1117.0 1552.5 label -text "19" -align b -attr scrapname BrownStuartSPX7.17 -context line section -scale xs
 
 line section -direction both
   1002.0 1180.5
@@ -15,7 +15,7 @@ line section -direction both
   smooth off
 endline
 
-point 1447.5 1434.5 label -text "g2" -align b -attr scrapname BrownStuartSPX7.15 -context line section -scale xs
+point 1447.5 1434.5 label -text "20" -align b -attr scrapname BrownStuartSPX7.15 -context line section -scale xs
 
 line section -direction both
   1558.0 1085.0
@@ -23,7 +23,7 @@ line section -direction both
   smooth off
 endline
 
-point 1644.0 624.5 label -text "g1" -attr scrapname BrownStuartSPX7.14 -context line section -scale xs -align bottom-left
+point 1644.0 624.5 label -text "21" -attr scrapname BrownStuartSPX7.14 -context line section -scale xs -align bottom-left
 
 line section -direction begin
   1698.0 676.0
@@ -372,7 +372,7 @@ point 2491.69148347 531.67393701 station -name 7.5
 
 point 2485.36148347 508.27393701000005 station -name 7.6
 
-point 2157.0 445.0 label -attr scrapname BrownStuartSPX7.8 -context line section -scale xs -text g4 -align bottom-left
+point 2157.0 445.0 label -attr scrapname BrownStuartSPX7.8 -context line section -scale xs -text 22 -align bottom-left
 
 line section -direction begin
   2249.0 455.0
@@ -380,8 +380,6 @@ line section -direction begin
 endline
 
 endscrap
-
-
 
 scrap BrownStuartSPX7.17 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
@@ -447,8 +445,6 @@ point 1715.8814834700001 882.1639370100002 station -name 7.14
 
 endscrap
 
-
-
 scrap BrownStuartSPX7.8 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 line wall -close on
@@ -465,5 +461,3 @@ endline
 point 2400.5314834700002 159.3339370100001 station -name 7.8
 
 endscrap
-
-

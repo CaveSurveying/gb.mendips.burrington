@@ -7,7 +7,7 @@ encoding  utf-8
 
 scrap MNRCSeriesSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 666.0 1080.0 label -text "m10" -align b -attr scrapname MNRCSeriesSPX6.43 -context line section -scale xs
+point 666.0 1080.0 label -text "23" -align b -attr scrapname MNRCSeriesSPX6.43 -context line section -scale xs
 
 line section -direction both
   559.0 1001.0
@@ -94,7 +94,7 @@ endscrap
 
 scrap MNRCSeriesSP2 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 1295.5 666.5 label -text "m11" -align b -attr scrapname MNRCSeriesSPX6.51 -context line section -scale xs
+point 1295.5 666.5 label -text "24" -align b -attr scrapname MNRCSeriesSPX6.51 -context line section -scale xs
 
 line section -direction both
   1077.5 517.5
@@ -199,7 +199,26 @@ point 648.62015748 297.22445742799994 station -name 6.58
 
 endscrap
 
+scrap MNRCSeriesSPX6.43 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+line wall -subtype debris
+  271.0 1046.0
+  285.0 1036.0 350.0 1025.0 366.0 1031.0
+  382.0 1037.0 410.0 1055.0 410.0 1055.0
+  smooth off
+  413.0 1089.0
+endline
+
+line wall
+  413.0 1089.0
+  404.0 1089.0 354.32 1076.21 335.5 1087.5
+  330.5 1090.5 271.0 1097.5 267.5 1085.0
+  263.18 1069.58 267.42 1085.84 271.0 1046.0
+endline
+
+point 341.11015748 1065.404457428 station -name 6.43
+
+endscrap
 
 scrap MNRCSeriesSPX6.51 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
@@ -219,29 +238,6 @@ line wall
 endline
 
 point 1210.17015748 799.424457428 station -name 6.51
-
-endscrap
-
-
-
-scrap MNRCSeriesSPX6.43 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
-
-line wall -subtype debris
-  271.0 1046.0
-  285.0 1036.0 350.0 1025.0 366.0 1031.0
-  382.0 1037.0 410.0 1055.0 410.0 1055.0
-  smooth off
-  413.0 1089.0
-endline
-
-line wall
-  413.0 1089.0
-  404.0 1089.0 354.32 1076.21 335.5 1087.5
-  330.5 1090.5 271.0 1097.5 267.5 1085.0
-  263.18 1069.58 267.42 1085.84 271.0 1046.0
-endline
-
-point 341.11015748 1065.404457428 station -name 6.43
 
 endscrap
 
