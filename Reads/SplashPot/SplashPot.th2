@@ -1,6 +1,6 @@
 encoding  utf-8
 ##XTHERION## xth_me_area_adjust -132.0 -132.0 3425.0 2951.0
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {1173.0281959699998 1 1.0} {1569.233830102 6.40} PocketTopo/SplashPot_p.xvi 0 {}
 
 
@@ -269,7 +269,9 @@ line section -direction both
   smooth off
 endline
 
-point 2352.0 1352.0 label -text "m5" -align b -attr scrapname SplashPotSPX6.15 -context line section -scale xs
+point 2266.0 1644.0 label -align top-right -text Windpipe
+
+point 2376.0 1248.0 label -text "m5" -align b -attr scrapname SplashPotSPX6.15 -context line section -scale xs
 
 line section -direction both
   2274.0 1234.0
@@ -277,7 +279,7 @@ line section -direction both
   smooth off
 endline
 
-point 2172.0 1556.0 label -text "m6" -align b -attr scrapname SplashPotSPX6.18 -context line section -scale xs
+point 2166.0 1496.0 label -text "m6" -align b -attr scrapname SplashPotSPX6.18 -context line section -scale xs
 
 line section -direction begin
   2084.0 1488.0
@@ -834,6 +836,8 @@ line wall
   825.0 2174.0 873.0 2241.0 889.0 2246.0
   smooth off
 endline
+
+point 274.0 2472.0 label -align bottom-left -text [<right>Browne Stewart<br>Sump]
 
 line wall
   809.0 2663.0

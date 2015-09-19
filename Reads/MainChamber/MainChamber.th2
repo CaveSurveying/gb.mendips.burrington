@@ -133,6 +133,10 @@ line wall -subtype blocks
   smooth off
 endline
 
+point 1772.0 864.0 label -align bottom-right -text Water<br>Rift
+
+point 456.0 1048.0 label -align bottom-right -text Water<br>Chamber
+
 line wall
   616.0 1565.0
   612.0 1544.0 610.0 1516.0 608.0 1502.0
@@ -816,7 +820,7 @@ line wall
   smooth off
 endline
 
-point 2082.0 2154.0 label -align top-right -text [Main Chamber] -scale l
+point 1762.0 2320.0 label -align top-right -text [Main Chamber] -scale l
 
 line wall -outline in
   1924.0 1976.0

@@ -7,22 +7,22 @@ encoding  utf-8
 
 scrap WaterfallChamberSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 704.5 64.5 label -text "e2" -align b -attr scrapname WaterfallChamberSPX8 -context line section -scale xs
+point 564.0 230.5 label -text "e2" -attr scrapname WaterfallChamberSPX8 -context line section -scale xs -align top-left
 
 line section -direction both
   553.5 167.5
-  575.0 153.5 633.63 114.55 667.0 92.5
+  575.0 153.5 628.0 118.0 657.0 99.0
   smooth off
 endline
 
 line section
 endline
 
-point 393.0 21.0 label -text "e1" -align b -attr scrapname WaterfallChamberSPX6 -context line section -scale xs
+point 396.5 54.0 label -text "e1" -attr scrapname WaterfallChamberSPX6 -context line section -scale xs -align bottom-left
 
-line section -direction both
-  522.0 233.5
-  505.5 204.5 446.5 104.0 425.0 69.0
+line section -direction end
+  512.0 216.5
+  504.5 203.5 446.5 104.0 425.0 69.0
   smooth off
 endline
 

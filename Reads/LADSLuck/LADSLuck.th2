@@ -112,11 +112,11 @@ endline
 point 896.0 190.0 label -text "h4" -align b -attr scrapname LADSLuckSPX9.12 -context line section -scale xs
 
 line section -direction begin
-  212.0 689.0
-  452.0 960.0
+  380.0 874.0
+  478.0 989.0 573.0 1104.0 583.0 1117.0
 endline
 
-point 180.0 656.0 label -text "h3" -align b -attr scrapname LADSLuckSPX9.30 -context line section -scale xs
+point 439.0 864.0 label -text "h3" -attr scrapname LADSLuckSPX9.30 -context line section -scale xs -align bottom-right
 
 line section -direction begin
 endline
@@ -442,6 +442,10 @@ line floor-step
   505.0 1332.0 431.0 1317.0 408.0 1320.0
   smooth off
 endline
+
+point 1301.0 1617.0 label -align bottom-right -text Dog<br>End
+
+point 691.0 613.0 label -align bottom-left -text [LADS Luck] -scale l
 
 line wall
   256.0 1272.0

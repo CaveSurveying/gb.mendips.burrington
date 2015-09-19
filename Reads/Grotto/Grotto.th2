@@ -53,6 +53,7 @@ line wall
   1555.0 1204.0 1548.0 1222.0 1544.0 1232.0
   1540.0 1242.0 1524.0 1245.0 1510.0 1254.0
   1496.0 1263.0 1468.0 1266.0 1463.0 1279.0
+  smooth off
 endline
 
 line wall
@@ -81,11 +82,13 @@ line pit
   1354.0 1231.0 1351.0 1241.0 1345.0 1241.0
   1339.0 1241.0 1334.0 1243.0 1328.0 1237.0
   1322.0 1231.0 1315.0 1217.0 1318.0 1212.0
+  smooth off
 endline
 
 line wall -outline none
   1318.0 1212.0
   1318.0 1212.0 1352.0 1193.0 1360.0 1192.0
+  smooth off
 endline
 
 line wall
@@ -195,6 +198,8 @@ line wall
   1569.0 765.0 1616.0 802.0 1627.0 812.0
   smooth off
 endline
+
+point 1056.0 729.0 label -align bottom-left -text Grotto
 
 line wall
   1576.0 700.0

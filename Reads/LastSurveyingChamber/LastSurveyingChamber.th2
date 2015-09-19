@@ -10,7 +10,10 @@ scrap LastSurveyingChamberSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10
 line pit
   238.0 520.0
   253.0 506.0 277.0 474.0 291.0 497.0
+  smooth off
 endline
+
+point 288.0 -24.0 label -align bottom -text [Boulder Maze] -scale l
 
 line wall -close on -subtype blocks
   238.0 520.0
