@@ -87,12 +87,12 @@ code tex-map
               \comment={Copyright 2012-2015 CC BY NC SA}
               \the\comment
               }
-      \legendbox{110}{-280}{SW}{
+      \legendbox{110}{-305}{SW}{
             \hsize=\legendwidth
             \formattedlegend
             }
 
-      \legendbox{107}{-280}{NW}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/Legend.pdf}} 
+      \legendbox{107}{-305}{NW}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/Legend.pdf}} 
       \legendbox{0}{100}{NW}{\size[25]Plan View}
       \legendbox{-2}{-5}{NW}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/ReadsE15.pdf}} 
       \legendbox{-1}{-5}{NE}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/ReadsE105.pdf}}

@@ -87,7 +87,7 @@ line wall -close on -outline in
   790.0 522.0 796.0 466.0 770.0 466.0
 endline
 
-line wall -subtype blocks
+line wall -reverse on -subtype blocks
   316.0 859.0
   305.0 895.0 316.84 1073.49 341.0 1073.0
   390.0 1072.0 406.0 1030.0 438.0 1014.0
@@ -101,7 +101,7 @@ line wall -subtype blocks
   smooth off
 endline
 
-line wall
+line wall -reverse on
   820.0 684.0
   836.0 674.0 852.0 664.0 850.0 638.0
   848.0 612.0 852.0 504.0 866.0 486.0
@@ -156,6 +156,7 @@ line wall
   524.0 782.0 512.0 814.0 486.0 812.0
   460.0 810.0 383.0 903.0 376.0 897.0
   369.0 891.0 379.59 874.78 380.0 865.0
+  smooth off
 endline
 
 point 412.0 928.0 station -name 48

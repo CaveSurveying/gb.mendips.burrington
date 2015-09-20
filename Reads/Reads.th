@@ -290,8 +290,8 @@ map Level1M -title "Main Chamber Level"
   MainChamberM@MainChamber 
   OffShootM@OffShoot 
   WaterM@Water
-  XSectionM@MainChamber [-2896 -13511 cm] none #5
-  XSectionM@OffShoot [-2908 -12783 cm] none #4
+  XSectionM@MainChamber [-2908 -13557 cm] none #5
+  XSectionM@OffShoot [-2916 -12813 cm] none #4
   XSectionM@Water [-4125 -13078 cm] none #1-3
 endmap
 
@@ -310,11 +310,11 @@ map Level2M -title "Upper Maze Level"
   UpperWaterfall2M@UpperWaterfall2 
   WCR2M@WCR2  #probably needs splitting into level1M
   ZAlleyUpM@ZAlley
-  XSectionM@BoulderChamber [-65 -11060 cm] none #6-7
-  XSectionM@Pipe [-3658 -9787 cm] none # 9
+  XSectionM@BoulderChamber [-80 -11118 cm] none #6-7
+  XSectionM@Pipe [-3685 -9888 cm] none # 9
   #XSectionM@OffShoot2 [-2666 -9949 cm] none #d2
   #XSectionM@OffShoot3 [-2279 -10053 cm] none #d3
-  XSectionM@BoulderChamberRoute2 [781 -9837 cm] none #8
+  XSectionM@BoulderChamberRoute2 [752 -9943 cm] none #8
 endmap
 
 map Level3M -title "Lower East Level" 
@@ -330,8 +330,8 @@ map Level3M -title "Lower East Level"
   ZAlleyLowM@ZAlley
   XSectionM@SplashPot [-7124 -5338 cm] none #10-18
   XSectionM@BrownStuart [-2567 -8423 cm] none #19-22
-  XSectionM@WaterfallChamber [-5477 -6918 cm] none #25-26
-  XSectionM@MNRCSeries [-4737 -7634 cm] none #23-24
+  XSectionM@WaterfallChamber [-5474 -6906 cm] none #25-26
+  XSectionM@MNRCSeries [-4739 -7641 cm] none #23-24
 endmap
 
 map Level4M -title "Lower West Level"
@@ -344,9 +344,9 @@ map Level4M -title "Lower West Level"
   SudoLinkTubeM@SudoLinkTube
   XSectionM@LLAproach [-4247 -7351 cm] none #37-40
   XSectionM@LADSLuck [94 -7370 cm] none #31-35
-  XSectionM@SudoLinkTube [-2780 -8055 cm] none #41
-  XSectionM@LlExtension [-2007 -8262 cm] none #36
-  XSectionM@EarlyGrave [-299 -7684 cm] none #27-30
+  XSectionM@SudoLinkTube [-2789 -8089 cm] none #41
+  XSectionM@LlExtension [-2005 -8257 cm] none #36
+  XSectionM@EarlyGrave [-296 -7675 cm] none #27-30
 endmap
 
 
