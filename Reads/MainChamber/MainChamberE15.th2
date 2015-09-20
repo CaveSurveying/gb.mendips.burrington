@@ -104,7 +104,7 @@ line ceiling-step
   smooth off
 endline
 
-point 2798.0 926.0 label -context point clay -align bottom -text [Main Chamber] -scale l
+point 2730.0 1012.0 label -context point clay -align bottom -text [Main Chamber] -scale l
 
 point 966.0 190.0 label -context point clay -text Water<br>Chamber -align bottom-right
 
