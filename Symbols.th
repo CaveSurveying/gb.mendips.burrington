@@ -4,6 +4,87 @@ layout symbols
 #Put symbol assign after code to avoid confusion/overwrites
 
 code metapost
+def s_northarrow_CHED (expr rot) =
+  T:=identity scaled 0.7 rotated -rot;
+  thdraw (-1cm,-2cm)--(0,3cm)--(1cm,-2cm)--(0,0cm)--cycle;
+  thfill (-1cm,-2cm)--(0,3cm)--(0,0cm)--cycle;
+enddef;
+
+    initsymbol("s_northarrow_CHED")
+
+def l_wall_blocks_CHED (expr P) = 
+
+  T:=identity;
+  pickup PenC;
+  laenge := arclength P;
+
+  path block;
+  path old_block;
+  
+  cur := 0;
+  
+  
+  #draw first block
+  old_block := punked (( (.65u,-.15u)--(.72u,0.05u)--(.55u,.15u)--(.23u,.17u)--(.0u,.03u)--(.05u,-.1u))randomized (0.1u))
+             scaled (uniformdeviate(0.3)+.65);
+  block_width := (xpart urcorner old_block - xpart ulcorner old_block);
+  t:= arctime (cur+block_width/2) of P;
+  old_block:=old_block rotated angle( direction t of P) shifted point 0 of P;
+  thclean (old_block--cycle);
+  thdraw old_block;
+  
+  
+  cur := cur + block_width + 0.04u;
+
+  forever:
+    # generate random block
+    block := punked ( ((.65u,-.15u)--(.72u,0.05u)--(.55u,.15u)--(.2u,.17u)--(.0u,.03u)--(.05u,-.1u) )
+          randomized (0.1u) )
+           scaled (uniformdeviate(0.3)+.65)
+          rotated (uniformdeviate(20)-10);
+    # check width of block
+    block_width := (xpart urcorner block - xpart ulcorner block);
+    
+    exitif cur > (laenge- 3*block_width/2);
+    # find next position where the block fits in without intersecting the previous one
+    forever:    
+      exitif xpart ( ((block--cycle) rotated angle(direction t of P) shifted point t of P) intersectiontimes old_block) < 0;
+      cur:=cur+0.01u;
+      t:= arctime cur of P;
+      st:= arctime (cur+block_width/2) of P;
+      exitif cur > (laenge- 3*block_width/2);
+    endfor;
+    exitif cur > (laenge- 3*block_width/2);
+    
+    old_block:= block rotated angle(direction st of P) shifted point t of P;
+    thclean (old_block--cycle);
+    thdraw old_block;
+ 
+  cur := cur + block_width + 0.04u;
+
+  endfor;
+  
+    # generate last block
+    
+    block := (((.65u,-.15u)--(.72u,0.05u)--(.55u,.15u)--(.2u,.17u)--(.0u,.03u)--(.05u,-.1u)) );
+    block_width := (xpart urcorner block - xpart ulcorner block);
+
+    # scale last block to fit in the remaining gap
+    scale_factor:=(laenge-cur)/block_width;
+      t:= arctime cur of P;
+      st:= arctime (laenge+cur)/2 of P;
+    forever:
+	  exitif scale_factor < 0;
+      exitif xpart ( ( (block) rotated angle (direction st of P) scaled scale_factor shifted (point t of P) ) intersectiontimes old_block) < 0;
+      scale_factor:=scale_factor-0.001;
+    endfor;
+    if scale_factor > 0:
+      thclean (block--cycle) rotated angle (direction st of P) scaled scale_factor shifted (point t of P);
+      thdraw (block) rotated angle (direction st of P) scaled scale_factor shifted (point t of P);
+    fi;
+enddef;
+
+    initsymbol ("l_wall_blocks_CHED");
 
 
 def l_u_rail (expr P) = 
@@ -171,11 +252,12 @@ endcode
     symbol-assign line flowstone CHED
     symbol-assign line overhang CHED
     symbol-assign line pit CHED
-    #symbol-assign line wall:blocks CHED
+    symbol-assign line wall:blocks CHED
     symbol-assign line floor-step CHED
     symbol-assign line wall:debris AUT
     #symbol-assign line wall:blocks AUT
 
+    symbol-assign special north-arrow CHED
 
 
 
