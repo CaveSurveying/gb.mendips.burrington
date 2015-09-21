@@ -7,9 +7,9 @@ encoding  utf-8
 
 scrap OffShoot3SE15_1 -projection [elevation 15] -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 1452.0 440.0 label -context point raft -align right -text Devil's<br>Parlour
+point 1452.0 440.0 label -context point clay -align right -text Devil's<br>Parlour
 
-point 1262.0 1329.0 label -context point clay -text [Browne<br>Stewart<br>Series] -scale l -align top-right -context point clay
+point 1060.0 1303.0 label -context point clay -scale l -align top-right -context point clay -text Browne-Stewart<br>Series
 
 line wall -subtype blocks
   1272.0 592.0

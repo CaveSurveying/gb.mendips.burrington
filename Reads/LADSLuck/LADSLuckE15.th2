@@ -149,7 +149,9 @@ point 883.00153187 498.50343769999995 station -name 9.36
 
 point 749.82153187 625.9134376999998 station -name 9.34
 
-point 1096.0 1958.0 label -text [LADS Luck] -align top-left -scale l
+point 1196.0 1856.0 label -text [<right>Fag<br>Chamber] -align top-left
+
+point 548.0 1658.0 label -text [LADS Luck] -align top-left -scale l
 
 point 1080.0 1106.0 label -align bottom-right -text [Main Drag]
 

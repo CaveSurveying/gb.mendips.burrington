@@ -7,8 +7,8 @@ encoding  utf-8
 
 scrap UpperWaterfallSE15_1 -projection [elevation 15] -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-line label -context point raft -text [Boulder Maze] -scale l
-  -460.0 1146.0
+line label -context point raft -text [Boulder Maze]
+  -342.0 950.0
   140.0 20.0
 endline
 

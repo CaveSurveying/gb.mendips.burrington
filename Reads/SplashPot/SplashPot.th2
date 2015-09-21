@@ -837,7 +837,7 @@ line wall
   smooth off
 endline
 
-point 274.0 2472.0 label -align bottom-left -text [<right>Browne Stewart<br>Sump]
+point 274.0 2472.0 label -align bottom-left -text sump -scale s
 
 line wall
   809.0 2663.0

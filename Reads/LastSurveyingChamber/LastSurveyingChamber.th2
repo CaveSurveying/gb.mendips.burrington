@@ -13,7 +13,7 @@ line pit
   smooth off
 endline
 
-point 288.0 -24.0 label -align bottom -text [Boulder Maze] -scale l
+point 288.0 -24.0 label -align bottom -text [Boulder Maze]
 
 line wall -close on -subtype blocks
   238.0 520.0

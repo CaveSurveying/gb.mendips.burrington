@@ -167,7 +167,7 @@ line wall
   smooth off
 endline
 
-point 1033.0 930.0 label -orientation 90.0 -context point raft -text [Z Alley] -scale l -align top-left
+point 1033.0 930.0 label -orientation 90.0 -context point raft -scale l -align top-left -text [Zed Alley]
 
 line wall
   642.0 474.0
