@@ -7,9 +7,9 @@ encoding  utf-8
 
 scrap EarlyGraveSE15_1 -projection [elevation 15] -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 327.0 95.0 label -align top-right -text [Alzheimer’s Sump]
+point 283.0 72.0 label -text [Alzheimer’s Sump] -align bottom-right -context point raft
 
-point 515.0 773.0 label -align top-left -text [<right>Early<br>Grave]
+point 474.0 678.0 label -align top-left -text [<right>Early<br>Grave]
 
 line wall
   1166.0 884.0

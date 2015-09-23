@@ -96,10 +96,10 @@ code tex-map
       \legendbox{0}{100}{NW}{\size[25]Plan View}
       \legendbox{-2}{-5}{NW}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/ReadsE15.pdf}} 
       \legendbox{-1}{-5}{NE}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/ReadsE105.pdf}}
-      \legendbox{-2}{-200}{NW}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/ReadsE15_Exploded.pdf}} 
-      \legendbox{-1}{-200}{NE}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/ReadsE105_Exploded.pdf}}
+      \legendbox{-2}{-208}{NW}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/ReadsE15_Exploded.pdf}} 
+      \legendbox{-1}{-208}{NE}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/ReadsE105_Exploded.pdf}}
       \legendbox{102}{105}{NW}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/Reads_Exploded.pdf}}
-      \legendbox{150}{-430}{N}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/LoxExport.png}}  
+      \legendbox{150}{-433}{N}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/LoxExport.png}}  
    }
   
   #map-image -1 65 nw ReadsE15.pdf
@@ -109,11 +109,11 @@ endlayout
 
 layout local_elevation15
   copy local_elevation
-  colour map-bg [90 90 85]
+  colour map-bg [75 90 75]
   symbol-hide point clay #labels to be hidden have been given -context point clay 
 code tex-map 
   \def\maplayout{
-      \legendbox{0}{100}{SW}{
+      \legendbox{0}{92}{SW}{
       \comment={Projected Elevation}
       \size[22]\the\comment
       \comment={Towards 015$^{^{^{^{\circ}}}}$ (up on plan)}
@@ -126,10 +126,10 @@ endlayout
 
 layout local_elevation105
   copy local_elevation
-  colour map-bg [85 90 90]
+  colour map-bg [75 75 87]
   code tex-map 
   \def\maplayout{
-      \legendbox{0}{100}{SW}{
+      \legendbox{0}{92}{SW}{
       \comment={Projected Elevation}
       \size[22]\the\comment
       \comment={Towards 105$^{^{^{^{\circ}}}}$ (from left on plan)}
@@ -141,6 +141,8 @@ endlayout
 
 layout local_elevation
   copy mendip
+  grid bottom
+  grid-size 20 20 10 m
 endlayout
 
 layout mendip

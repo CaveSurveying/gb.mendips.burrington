@@ -35,7 +35,7 @@ line wall -subtype blocks
   smooth off
 endline
 
-point 39.0 623.0 label -align top-left -context point raft -text [<right>Death<br>Wish]
+point 32.0 738.0 label -align top-left -context point raft -text [<right>Death<br>Wish]
 
 line wall -subtype blocks
   278.0 814.0

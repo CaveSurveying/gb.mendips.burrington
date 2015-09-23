@@ -25,14 +25,14 @@ endlayout
 
 layout local_elevation15
   copy local_elevation
-  colour map-bg [90 90 85]
+  colour map-bg [75 90 75]
   symbol-hide point raft #labels to be hidden have been given -context point raft
 
 endlayout
 
 layout local_elevation105
   copy local_elevation
-  colour map-bg [85 90 90]
+  colour map-bg [75 75 87]
 endlayout
 
 layout local_elevation

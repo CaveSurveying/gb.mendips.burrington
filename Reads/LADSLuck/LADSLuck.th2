@@ -97,23 +97,26 @@ endscrap
 
 scrap LADSLuckSP3 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-point 1883.0 83.0 label -text "35" -align b -attr scrapname LADSLuckSPX9.22 -context line section -scale xs
+point 1900.0 162.0 label -text "35" -align b -attr scrapname LADSLuckSPX9.22 -context line section -scale xs
 
 line section -direction begin
-  931.0 229.0
-  1102.0 508.0
+  1062.0 452.0
+  1113.0 532.0 1223.0 708.0 1239.0 735.0
+  smooth off
 endline
 
 line section -reverse on -direction end
-  1890.0 108.0
-  1935.0 266.0
+  1912.0 195.0
+  1934.0 269.0 1957.0 341.0 1962.0 357.0
+  smooth off
 endline
 
-point 896.0 190.0 label -text "34" -align b -attr scrapname LADSLuckSPX9.12 -context line section -scale xs
+point 1057.0 416.0 label -text "34" -align b -attr scrapname LADSLuckSPX9.12 -context line section -scale xs
 
 line section -direction begin
   380.0 874.0
   478.0 989.0 573.0 1104.0 583.0 1117.0
+  smooth off
 endline
 
 point 439.0 864.0 label -text "33" -attr scrapname LADSLuckSPX9.30 -context line section -scale xs -align bottom-right
@@ -121,11 +124,11 @@ point 439.0 864.0 label -text "33" -attr scrapname LADSLuckSPX9.30 -context line
 line section -direction begin
 endline
 
-point 235.0 1579.0 label -text "31" -align b -attr scrapname LADSLuckSPX9.33 -context line section -scale xs
+point 361.0 1460.0 label -text "31" -attr scrapname LADSLuckSPX9.33 -context line section -scale xs
 
 line section -direction both
-  356.0 1506.0
-  442.0 1400.0 616.0 1176.0 684.0 1090.0
+  402.0 1442.0
+  455.0 1378.0 601.0 1189.0 652.0 1130.0
   smooth off
 endline
 
@@ -603,6 +606,8 @@ point 603.40385827 1028.558031496 station -name 9.28
 
 endscrap
 
+
+
 scrap LADSLuckSPX9.33 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 line wall -close on
@@ -624,6 +629,7 @@ point 536.41385827 1641.1780314960001 station -name 9.33
 endscrap
 
 
+
 scrap LADSLuckSPX9.36 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 line wall -close on
@@ -642,6 +648,8 @@ point 859.25385827 1084.488031496 station -name 9.36
 
 endscrap
 
+
+
 scrap LADSLuckSPX9.30 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 line wall -close on
@@ -657,6 +665,8 @@ point 445.86385827000004 674.248031496 station -name 9.30
 
 endscrap
 
+
+
 scrap LADSLuckSPX9.17 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
 endscrap
@@ -670,12 +680,44 @@ line wall -subtype clay
   1037.0 302.0
 endline
 
+line wall -close off -subtype blocks
+  916.0 310.0
+endline
+
+line rock-border -close on
+  936.0 326.0
+  964.0 331.0
+  961.0 353.0
+  940.0 363.0
+  922.0 354.0
+  920.0 339.0
+  936.0 326.0
+endline
+
+line rock-border -close on
+  989.0 301.5
+  990.0 321.0
+  972.0 333.0
+  949.0 332.0
+  949.0 319.0
+  959.5 301.5
+  989.0 301.5
+endline
+
+line rock-border -close on
+  916.0 310.0
+  891.5 327.0
+  911.0 351.0
+  926.0 347.0
+  930.0 332.0
+  916.0 310.0
+endline
+
 line wall -subtype blocks
   891.5 327.0
-  891.5 327.0 911.0 305.0 916.0 310.0
-  921.0 315.0 943.0 335.5 945.0 336.0
-  947.0 336.5 962.5 331.5 962.5 328.0
-  962.5 324.5 959.5 301.5 959.5 301.5
+  891.5 327.0 905.0 315.0 916.0 310.0
+  922.42 307.08 926.0 309.0 937.0 307.0
+  947.6 305.07 959.5 301.5 959.5 301.5
   smooth off
   989.0 301.5
 endline
@@ -695,6 +737,8 @@ endline
 point 957.67385827 397.47803149599997 station -name 9.12
 
 endscrap
+
+
 
 scrap LADSLuckSPX9.22 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 

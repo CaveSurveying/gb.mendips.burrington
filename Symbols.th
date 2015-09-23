@@ -38,9 +38,8 @@ def l_wall_blocks_CHED (expr P) =
 
   forever:
     # generate random block
-    block := punked ( ((.65u,-.15u)--(.72u,0.05u)--(.55u,.15u)--(.2u,.17u)--(.0u,.03u)--(.05u,-.1u) )
-          randomized (0.1u) )
-           scaled (uniformdeviate(0.3)+.65)
+    block := punked( ((.65u,-.15u)--(.72u,0.05u)--(.55u,.15u)--(.2u,.17u)--(.0u,.03u)--(.05u,-.1u)randomized (0.1u) ))
+          scaled (uniformdeviate(0.3)+.65)
           rotated (uniformdeviate(20)-10);
     # check width of block
     block_width := (xpart urcorner block - xpart ulcorner block);
@@ -48,11 +47,11 @@ def l_wall_blocks_CHED (expr P) =
     exitif cur > (laenge- 3*block_width/2);
     # find next position where the block fits in without intersecting the previous one
     forever:    
-      exitif xpart ( ((block--cycle) rotated angle(direction t of P) shifted point t of P) intersectiontimes old_block) < 0;
       cur:=cur+0.01u;
       t:= arctime cur of P;
       st:= arctime (cur+block_width/2) of P;
       exitif cur > (laenge- 3*block_width/2);
+      exitif xpart ( ((block--cycle) rotated angle(direction st of P) shifted point t of P) intersectiontimes old_block) < 0;
     endfor;
     exitif cur > (laenge- 3*block_width/2);
     
@@ -74,7 +73,7 @@ def l_wall_blocks_CHED (expr P) =
       t:= arctime cur of P;
       st:= arctime (laenge+cur)/2 of P;
     forever:
-	  exitif scale_factor < 0;
+    exitif scale_factor < 0;
       exitif xpart ( ( (block) rotated angle (direction st of P) scaled scale_factor shifted (point t of P) ) intersectiontimes old_block) < 0;
       scale_factor:=scale_factor-0.001;
     endfor;
