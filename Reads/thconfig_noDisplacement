@@ -50,7 +50,7 @@ code tex-map
   \def\loadpicture#1{\pdfximage{#1}\pdfrefximage\pdflastximage} 
   \def\maplayout{
       \legendbox{12}{5}{SW}{\northarrow}
-      \legendbox{9}{100}{NE}{
+      \legendbox{10}{100}{NE}{
               \hsize=\legendwidth
               \size[60]\the\cavename
               \vskip2cm
@@ -94,10 +94,10 @@ code tex-map
 
       \legendbox{107}{-305}{NW}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/Legend.pdf}} 
       \legendbox{0}{100}{NW}{\size[25]Plan View}
-      \legendbox{-2}{-5}{NW}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/ReadsE15.pdf}} 
-      \legendbox{-1}{-5}{NE}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/ReadsE105.pdf}}
+      \legendbox{-41}{-5}{NW}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/ReadsE105.pdf}}
+      \legendbox{-2}{-5}{NW}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/ReadsE15.pdf}}       
+      \legendbox{-41}{-208}{NW}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/ReadsE105_Exploded.pdf}}
       \legendbox{-2}{-208}{NW}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/ReadsE15_Exploded.pdf}} 
-      \legendbox{-1}{-208}{NE}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/ReadsE105_Exploded.pdf}}
       \legendbox{102}{105}{NW}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/Reads_Exploded.pdf}}
       \legendbox{150}{-433}{N}{\loadpicture{/media/data/Andrew/Caving/Surveys/Burrington/Reads/LoxExport.png}}  
    }
@@ -158,7 +158,7 @@ scale-bar 50 m
 #symbol-hide group all
 symbol-hide group cave-centreline
 
-overlap 5 mm
+overlap 4.5 mm
 colour map-fg map
 
 code metapost
