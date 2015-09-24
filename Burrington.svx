@@ -11,7 +11,7 @@
 
 *INCLUDE Avelines\Avelines.svx
 
-*INCLUDE Reads\Reads.svx
+;*INCLUDE Reads\Reads.svx
 
 ;*INCLUDE Bos\Bos1.svx
 
