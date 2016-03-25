@@ -1,0 +1,222 @@
+encoding  utf-8
+##XTHERION## xth_me_area_adjust 659.6062992099999 104.74159921000006 9655.7637795233 3589.0880559023
+##XTHERION## xth_me_area_zoom_to 50
+##XTHERION## xth_me_image_insert {3290.7865354299997 1 1.0} {2714.0460874 24} PocketTopo/Tween_p.xvi 0 {}
+
+
+
+scrap TweenSP1 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 1020.97653543 3150.3560874 station -name 83
+
+point 872.3865354300001 3050.3860874 station -name 84
+
+endscrap
+
+
+
+scrap TweenSP2 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 3060.13653543 1871.0760874 station -name 16
+
+point 3195.04653543 2099.0760874 station -name 15
+
+point 2952.43653543 2099.2160874 station -name 14
+
+point 2761.84653543 2204.6660874 station -name 13
+
+point 2489.59653543 2226.7760874 station -name 12
+
+point 2153.21653543 2308.6060874 station -name 11
+
+point 1870.79653543 2367.4160874 station -name 10
+
+point 1832.0565354300002 2341.5660874 station -name 9
+
+point 1514.20653543 2369.0960874 station -name 8
+
+point 1603.88653543 2487.7360874 station -name 7
+
+point 1558.58653543 2609.0260874 station -name 6
+
+point 1610.27653543 2713.2160874 station -name 3
+
+point 1339.82653543 2737.7760874 station -name 5
+
+point 1526.68653543 2826.7860874 station -name 4
+
+point 1565.72653543 3057.5560874 station -name 2
+
+point 1536.02653543 3155.9360874 station -name 1
+
+endscrap
+
+
+
+scrap TweenSP3 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+point 5601.90653543 2221.1760874 station -name 44
+
+point 5222.08653543 2429.5060874 station -name 43
+
+point 4825.38653543 2454.9460874 station -name 42
+
+point 2978.22653543 1751.7660874 station -name 41
+
+point 3244.88653543 1790.5060874 station -name 40
+
+point 3338.1665354300003 1804.3360874 station -name 39
+
+point 3699.12653543 1804.8760874 station -name 38
+
+point 3853.99653543 1880.9760874 station -name 37
+
+point 3871.40653543 1843.3460874 station -name 36
+
+point 4324.126535429999 1578.3560874 station -name 35
+
+point 4045.56653543 1995.8860874 station -name 34
+
+point 4197.08653543 2211.5260874 station -name 33
+
+point 4276.03653543 2267.1460874 station -name 32
+
+point 4452.7965354299995 2429.0260874 station -name 31
+
+point 4324.75653543 2646.5960874 station -name 30
+
+point 4042.2265354300002 2718.3860874 station -name 29
+
+point 3818.4765354300002 2691.1660874 station -name 28
+
+point 2943.79653543 3227.4360874 station -name 79
+
+point 3181.04653543 3119.0960874 station -name 78
+
+point 3247.24653543 2883.6560874 station -name 80
+
+point 3438.13653543 3009.6760874 station -name 77
+
+point 3608.50653543 2901.5060874 station -name 76
+
+point 3534.41653543 2931.6460874 station -name 27
+
+point 3290.78653543 2714.0460874 station -name 24
+
+point 2870.1665354300003 2767.2760874 station -name 26
+
+point 2904.13653543 2574.7760874 station -name 25
+
+point 3114.1265354300003 2552.9960874 station -name 23
+
+point 3245.58653543 2517.6560874 station -name 22
+
+point 3156.74653543 2388.4360874 station -name 21
+
+point 3161.5565354299997 2154.9860874 station -name 20
+
+point 3103.52653543 2079.5260874 station -name 19
+
+point 3065.86653543 2116.5760874 station -name 17
+
+point 3001.43653543 2031.4960874 station -name 18
+
+endscrap
+
+
+
+scrap TweenSP4 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap TweenSP5 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap TweenSP6 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap TweenSPX6 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap TweenSPX10 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap TweenSPX13 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap TweenSPX38 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap TweenSPX33 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap TweenSPX43 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap TweenSPX44 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap TweenSPX48 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap TweenSPX50 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap TweenSPX54 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap TweenSPX56 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap TweenSPX9 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
+
+scrap TweenSPX3 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+endscrap
+
+
