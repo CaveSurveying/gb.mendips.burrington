@@ -2,11 +2,23 @@ encoding  utf-8
 survey Tween
 
 input Tween.th2
+input TweenE15.th2
 
 map TweenM
+  TweenSP6
+ break
   TweenSP1
   TweenSP2
+  TweenSP4
+  TweenSP5
+ break
   TweenSP3
+endmap
+
+map TweenME15
+  TweenSE15_1
+ break
+  TweenSE15_2
 endmap
 
 equate 64 75
