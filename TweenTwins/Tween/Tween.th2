@@ -1,5 +1,5 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -136.0 -136.0 9655.7637795233 3589.0880559023
+##XTHERION## xth_me_area_adjust -136.0 -388.0 9655.7637795233 3589.0880559023
 ##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {3290.7865354299997 1 1.0} {2714.0460874 24} PocketTopo/Tween_p.xvi 0 {}
 
@@ -96,6 +96,46 @@ line pit
   2668.0 2193.0 2673.0 2196.0 2689.0 2184.0
   2705.0 2172.0 2706.0 2147.0 2711.0 2133.0
   smooth off
+endline
+
+line border
+endline
+
+area clay
+  l292-1382-3026
+endarea
+
+area clay
+endarea
+
+line wall
+endline
+
+area flowstone
+  l295-1532-2340
+endarea
+
+line border -id l295-1532-2340 -close on -subtype invisible
+  1474.0 2324.0
+  1436.0 2310.0 1402.0 2312.0 1412.0 2280.0
+  1422.0 2248.0 1436.0 2230.0 1492.0 2228.0
+  1548.0 2226.0 1650.0 2210.0 1684.0 2210.0
+  1718.0 2210.0 1796.0 2230.0 1814.0 2244.0
+  1832.0 2258.0 1874.0 2286.0 1854.0 2306.0
+  1834.0 2326.0 1816.0 2338.0 1756.0 2348.0
+  1696.0 2358.0 1580.0 2366.0 1558.0 2352.0
+  1536.0 2338.0 1512.0 2338.0 1474.0 2324.0
+endline
+
+line border -id l292-1382-3026 -close on -subtype invisible
+  1464.0 3062.0
+  1436.0 3058.0 1236.0 2968.0 1222.0 2914.0
+  1208.0 2860.0 1192.0 2778.0 1230.0 2722.0
+  1268.0 2666.0 1444.0 2598.0 1464.0 2610.0
+  1484.0 2622.0 1650.0 2702.0 1688.0 2728.0
+  1726.0 2754.0 1832.0 2842.0 1822.0 2886.0
+  1812.0 2930.0 1672.0 3082.0 1664.0 3088.0
+  1656.0 3094.0 1492.0 3066.0 1464.0 3062.0
 endline
 
 line pit
@@ -324,7 +364,15 @@ line rock-border -close on
   smooth off
 endline
 
-line border -close on -subtype invisible
+area clay
+  l58-8042-1316
+endarea
+
+area flowstone
+  l59-8294-928
+endarea
+
+line border -id l58-8042-1316 -close on -subtype invisible
   8396.0 991.0
   8544.0 1000.0
   8577.0 1011.0
@@ -358,7 +406,7 @@ line border -close on -subtype invisible
   smooth off
 endline
 
-line border -close on -subtype invisible
+line border -id l59-8294-928 -close on -subtype invisible
   8295.0 1009.0
   8321.0 1028.0 8362.0 1017.0 8396.0 991.0
   8430.0 965.0 8397.0 951.0 8397.0 951.0
@@ -703,6 +751,34 @@ line overhang
   smooth off
 endline
 
+area debris
+  l303-5798-2240
+endarea
+
+line border -id l303-5798-2240 -close on -subtype invisible
+  5728.0 2246.0
+  5694.0 2204.0 5632.0 2170.0 5680.0 2138.0
+  5728.0 2106.0 5780.0 2058.0 5800.0 2096.0
+  5820.0 2134.0 5834.0 2208.0 5818.0 2222.0
+  5802.0 2236.0 5762.0 2288.0 5728.0 2246.0
+endline
+
+area flowstone
+  l301-5526-2480
+endarea
+
+line border -id l301-5526-2480 -close on -subtype invisible
+  4780.0 2614.0
+  4772.0 2582.0 4750.0 2526.0 4762.0 2484.0
+  4774.0 2442.0 4814.0 2370.0 4872.0 2342.0
+  4930.0 2314.0 4932.0 2282.0 5026.0 2250.0
+  5120.0 2218.0 5310.0 2104.0 5380.0 2126.0
+  5450.0 2148.0 5582.0 2214.0 5594.0 2296.0
+  5606.0 2378.0 5626.0 2434.0 5450.0 2516.0
+  5274.0 2598.0 5098.0 2646.0 5010.0 2646.0
+  4922.0 2646.0 4788.0 2646.0 4780.0 2614.0
+endline
+
 line overhang
   6062.0 1513.0
   6027.0 1522.0 5989.0 1556.0 5971.0 1565.0
@@ -823,7 +899,7 @@ point 4648.0 2970.0 label -scale xl -align left -text [Golden Oldies Day Out]
 
 point 3388.0 2358.0 label -scale xl -text Stannah<br>Stair<br>Rift -align right
 
-point 2836.0 1886.0 label -scale xl -align left -text [Rand's Revenge]
+point 2836.0 1886.0 label -scale xl -align left -text [Rands' Revenge]
 
 point 1420.0 2062.0 label -scale xl -text Valentine's
 
@@ -1195,6 +1271,8 @@ point 6538.0 18.0 label -text 10
 point 5986.0 10.0 label -text 9
 
 point 5436.0 10.0 label -text 8
+
+point 4884.0 -250.0 label -text [Cross-sections at the same scale as the plan and elevation.] -align center -scale xl
 
 point 4884.0 10.0 label -text 7
 
