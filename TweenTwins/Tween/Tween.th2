@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -132.0 -132.0 9655.7637795233 3589.0880559023
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -136.0 -136.0 9655.7637795233 3589.0880559023
+##XTHERION## xth_me_area_zoom_to 50
 ##XTHERION## xth_me_image_insert {3290.7865354299997 1 1.0} {2714.0460874 24} PocketTopo/Tween_p.xvi 0 {}
 
 
@@ -22,6 +22,12 @@ endline
 point 1020.97653543 3150.3560874 station -name 83
 
 point 872.3865354300001 3050.3860874 station -name 84
+
+point 1269.0 3390.0 label -text entrances -scale l
+
+point 1445.0 3332.0 entrance -orientation 144.8 -scale m
+
+point 1085.0 3331.0 entrance -orientation 210.4 -scale m
 
 endscrap
 
@@ -56,6 +62,7 @@ line pit
   1630.0 2859.0 1630.0 2883.0 1625.0 2912.0
   1620.0 2941.0 1628.0 2974.0 1624.0 2994.0
   1620.0 3014.0 1611.0 3052.0 1616.0 3073.0
+  smooth off
 endline
 
 line pit -reverse on
@@ -63,6 +70,7 @@ line pit -reverse on
   1550.0 2737.0 1545.0 2750.0 1536.0 2768.0
   1527.0 2786.0 1519.0 2809.0 1518.0 2824.0
   1517.0 2839.0 1517.0 2844.0 1519.0 2858.0
+  smooth off
 endline
 
 line pit
@@ -71,6 +79,7 @@ line pit
   2069.0 2365.0 1994.0 2371.0 1982.0 2374.0
   1970.0 2377.0 1937.0 2401.0 1918.0 2408.0
   1899.0 2415.0 1855.0 2434.0 1842.0 2436.0
+  smooth off
 endline
 
 line pit
@@ -78,6 +87,7 @@ line pit
   2592.0 2291.0 2579.0 2263.0 2568.0 2261.0
   2557.0 2259.0 2531.0 2257.0 2534.0 2279.0
   2537.0 2301.0 2535.0 2315.0 2533.0 2326.0
+  smooth off
 endline
 
 line pit
@@ -85,6 +95,7 @@ line pit
   2638.0 2186.0 2636.0 2189.0 2652.0 2191.0
   2668.0 2193.0 2673.0 2196.0 2689.0 2184.0
   2705.0 2172.0 2706.0 2147.0 2711.0 2133.0
+  smooth off
 endline
 
 line pit
@@ -93,6 +104,7 @@ line pit
   2948.0 2137.0 2915.0 2151.0 2895.0 2160.0
   2875.0 2169.0 2844.0 2192.0 2833.0 2200.0
   2822.0 2208.0 2776.0 2226.0 2764.0 2229.0
+  smooth off
 endline
 
 line wall
@@ -232,6 +244,52 @@ point 1565.72653543 3057.5560874 station -name 2
 
 point 1536.02653543 3155.9360874 station -name 1
 
+point 1920.0 2559.0 label -scale l -text 4
+
+point 1804.0 2555.0 label -scale l -text 3
+
+line section -direction both
+  1901.0 2504.0
+  1891.0 2455.0 1865.0 2304.0 1853.0 2249.0
+  smooth off
+endline
+
+line section -direction both
+  1814.0 2499.0
+  1818.0 2441.0 1828.0 2263.0 1828.0 2206.0
+  smooth off
+endline
+
+line label
+endline
+
+line label
+endline
+
+point 1751.0 2653.0 label -scale l -text 2
+
+point 1767.0 2828.0 label -scale l -text 1
+
+point 2865.0 2398.0 label -scale l -text 5
+
+line section -direction both
+  2818.0 2325.0
+  2788.0 2253.0 2720.0 2106.0 2691.0 2041.0
+  smooth off
+endline
+
+line section -direction both
+  1722.0 2772.0
+  1668.0 2742.0 1553.0 2681.0 1502.0 2657.0
+  smooth off
+endline
+
+line section -reverse on -direction both
+  1453.0 2612.0
+  1523.01 2612.0 1644.0 2611.0 1714.0 2612.0
+  smooth off
+endline
+
 endscrap
 
 
@@ -313,6 +371,7 @@ endline
 line pit -outline out
   8544.0 1000.0
   8544.0 1000.0 8564.0 999.0 8577.0 1011.0
+  smooth off
 endline
 
 line wall
@@ -385,6 +444,22 @@ point 7804.99653543 1336.8260874 station -name 55
 
 point 7506.766535430001 1353.6260874 station -name 54
 
+point 8178.0 1425.0 label -scale l -text 13
+
+line section -direction both
+  8074.0 1316.0
+  8020.0 1249.0 7849.0 1035.0 7779.0 947.0
+  smooth off
+endline
+
+point 7552.0 1666.0 label -scale l -text 12
+
+line section -direction both
+  7536.0 1551.0
+  7525.0 1468.0 7494.0 1253.0 7475.0 1140.0
+  smooth off
+endline
+
 endscrap
 
 
@@ -394,6 +469,7 @@ scrap TweenSP4 -projection plan -scale [0 0 787.4 787.4 0 0 10 10 m]
 line pit -outline out
   2984.0 2140.0
   2974.0 2125.0 2976.0 2120.0 2973.0 2105.0
+  smooth off
 endline
 
 line pit
@@ -402,12 +478,14 @@ line pit
   4049.0 2052.0 4039.0 2067.0 4042.0 2081.0
   4045.0 2095.0 4040.0 2114.0 4035.0 2117.0
   4030.0 2120.0 4016.0 2120.0 4011.0 2120.0
+  smooth off
 endline
 
 line pit
   3374.0 1776.0
   3369.0 1800.0 3374.0 1800.0 3367.0 1815.0
   3360.0 1830.0 3353.0 1855.0 3350.0 1860.0
+  smooth off
 endline
 
 line pit
@@ -415,6 +493,7 @@ line pit
   3799.0 2692.0 3811.0 2704.0 3813.0 2724.0
   3815.0 2744.0 3820.0 2780.0 3828.0 2792.0
   3836.0 2804.0 3839.0 2818.0 3849.0 2828.0
+  smooth off
 endline
 
 line pit
@@ -425,12 +504,14 @@ line pit
   3492.0 2820.0 3529.0 2831.0 3536.0 2846.0
   3543.0 2861.0 3545.0 2879.0 3547.0 2892.0
   3549.0 2905.0 3542.83 2927.29 3534.41653543 2931.6460874
+  smooth off
 endline
 
 line pit
   3493.0 2929.0
   3513.0 2936.0 3531.0 2929.0 3555.0 2932.0
   3579.0 2935.0 3603.0 2923.0 3617.0 2922.0
+  smooth off
 endline
 
 line pit
@@ -479,6 +560,7 @@ line wall
   3094.0 2222.0 3097.0 2199.0 3086.0 2187.0
   3075.0 2175.0 3047.0 2149.0 3033.0 2143.0
   3019.0 2137.0 2991.0 2149.0 2984.0 2140.0
+  smooth off
 endline
 
 line wall
@@ -491,6 +573,7 @@ line wall
   3379.0 2986.0 3356.0 2972.0 3333.0 2964.0
   3310.0 2956.0 3260.0 2928.0 3249.0 2921.0
   3238.0 2914.0 3235.0 2891.0 3225.0 2881.0
+  smooth off
 endline
 
 line wall
@@ -530,6 +613,7 @@ line wall
   3161.0 3135.0 3080.0 3185.0 3057.0 3194.0
   3034.0 3203.0 2963.0 3232.0 2954.0 3237.0
   2945.0 3242.0 2926.0 3258.0 2921.0 3260.0
+  smooth off
 endline
 
 line wall
@@ -565,18 +649,21 @@ line wall
   5930.0 2061.0 5921.0 2080.0 5913.0 2098.0
   5905.0 2116.0 5891.0 2101.0 5888.0 2110.0
   5885.0 2119.0 5877.0 2208.0 5879.0 2230.0
+  smooth off
 endline
 
 line overhang
   3250.0 2378.0
   3241.0 2393.0 3222.0 2414.0 3217.0 2425.0
   3212.0 2436.0 3203.0 2426.0 3182.0 2455.0
+  smooth off
 endline
 
 line overhang
   3165.0 2500.0
   3137.0 2502.0 3107.0 2506.0 3081.0 2515.0
   3055.0 2524.0 3051.0 2523.0 3019.0 2534.0
+  smooth off
 endline
 
 line overhang -reverse on
@@ -586,11 +673,13 @@ line overhang -reverse on
   3523.0 2807.0 3531.0 2808.0 3567.0 2796.0
   3603.0 2784.0 3661.0 2736.0 3676.0 2716.0
   3691.0 2696.0 3712.0 2643.0 3719.0 2620.0
+  smooth off
 endline
 
 line overhang
   3493.0 2929.0
   3510.0 2949.0 3514.0 2956.0 3552.0 2962.0
+  smooth off
 endline
 
 line overhang -reverse on
@@ -604,12 +693,14 @@ line overhang -reverse on
   4688.0 2309.0 4721.0 2293.0 4743.0 2290.0
   4765.0 2287.0 4795.0 2262.0 4818.0 2263.0
   4841.0 2264.0 4883.0 2267.0 4898.0 2275.0
+  smooth off
 endline
 
 line overhang
   5981.0 1847.0
   5989.0 1820.0 6022.0 1739.0 6025.0 1728.0
   6028.0 1717.0 6043.0 1703.0 6040.0 1690.0
+  smooth off
 endline
 
 line overhang
@@ -625,16 +716,19 @@ line overhang
   5826.0 1939.0 5834.0 1968.0 5815.0 1992.0
   5796.0 2016.0 5739.0 2059.0 5717.0 2067.0
   5695.0 2075.0 5550.0 2134.0 5509.0 2134.0
+  smooth off
 endline
 
 line overhang
   6287.0 1417.0
   6304.0 1403.0 6353.0 1385.0 6365.0 1381.0
+  smooth off
 endline
 
 line overhang -reverse on
   7286.0 1211.0
   7273.0 1232.0 7209.0 1370.0 7181.0 1389.0
+  smooth off
 endline
 
 line border -close on -subtype invisible
@@ -717,6 +811,26 @@ line rock-border -close on
   smooth off
   7095.0 1226.0
   7055.0 1208.0
+endline
+
+point 6748.0 1588.0 label -scale l -text 11
+
+point 8740.0 548.0 label -scale xl -align left -text [Two Amigos]
+
+point 5466.0 1334.0 label -scale xl -text [Waterlily Chamber] -align center
+
+point 4648.0 2970.0 label -scale xl -align left -text [Golden Oldies Day Out]
+
+point 3388.0 2358.0 label -scale xl -text Stannah<br>Stair<br>Rift -align right
+
+point 2836.0 1886.0 label -scale xl -align left -text [Rand's Revenge]
+
+point 1420.0 2062.0 label -scale xl -text Valentine's
+
+line section -direction both
+  6674.0 1478.0
+  6622.0 1378.0 6536.0 1198.0 6464.0 1062.0
+  smooth off
 endline
 
 line wall
@@ -1044,6 +1158,101 @@ point 3065.86653543 2116.5760874 station -name 17
 
 point 3001.43653543 2031.4960874 station -name 18
 
+point 8192.0 172.0 section -scrap TweenSPX56
+
+point 7640.0 172.0 section -scrap TweenSPX54
+
+point 7086.0 172.0 section -scrap TweenSPX50
+
+point 6538.0 172.0 section -scrap TweenSPX48
+
+point 5986.0 172.0 section -scrap TweenSPX44
+
+point 5436.0 172.0 section -scrap TweenSPX43
+
+point 4884.0 172.0 section -scrap TweenSPX33
+
+point 4332.0 172.0 section -scrap TweenSPX38
+
+point 3782.0 172.0 section -scrap TweenSPX13
+
+point 3232.0 172.0 section -scrap TweenSPX10
+
+point 2680.0 172.0 section -scrap TweenSPX9
+
+point 2132.0 172.0 section -scrap TweenSPX6
+
+point 1580.0 172.0 section -scrap TweenSPX3
+
+point 8192.0 10.0 label -text 13
+
+point 7640.0 10.0 label -text 12
+
+point 7086.0 10.0 label -text 11
+
+point 6538.0 18.0 label -text 10
+
+point 5986.0 10.0 label -text 9
+
+point 5436.0 10.0 label -text 8
+
+point 4884.0 10.0 label -text 7
+
+point 4332.0 10.0 label -text 6
+
+point 3782.0 10.0 label -text 5
+
+point 3232.0 10.0 label -text 4
+
+point 2680.0 10.0 label -text 3
+
+point 2132.0 10.0 label -text 2
+
+point 1580.0 10.0 label -text 1
+
+line section -direction both
+endline
+
+line section -direction both
+  4333.0 2069.0
+  4264.0 2136.0 4131.0 2280.0 4060.0 2355.0
+  smooth off
+endline
+
+point 3981.0 2403.0 label -scale l -text 7
+
+point 6198.0 1689.0 label -scale l -text 10
+
+line section -direction both
+  6122.0 1596.0
+  6075.76 1536.4 5982.0 1414.0 5935.0 1355.0
+  smooth off
+endline
+
+point 5735.0 2500.0 label -scale l -text 9
+
+line section -direction both
+  5729.0 2389.0
+  5653.0 2287.0 5508.0 2095.0 5444.0 2013.0
+  smooth off
+endline
+
+point 5374.0 2745.0 label -scale l -text 8
+
+line section -direction both
+  5315.0 2639.0
+  5274.0 2542.0 5146.0 2259.0 5106.0 2173.0
+  smooth off
+endline
+
+point 3572.0 2074.0 label -scale l -text 6
+
+line section -reverse on -direction both
+  3615.0 1987.0
+  3655.0 1895.0 3729.0 1737.0 3776.0 1636.0
+  smooth off
+endline
+
 endscrap
 
 
@@ -1225,6 +1434,7 @@ line wall -subtype blocks
   8914.0 1032.0 8978.0 1032.0 8993.0 1032.0
   9008.0 1032.0 9033.0 1024.0 9034.0 1016.0
   9035.0 1008.0 8960.0 995.0 8950.0 983.0
+  smooth off
 endline
 
 line wall
@@ -1233,6 +1443,7 @@ line wall
   8980.0 927.0 8994.0 931.0 9013.0 899.0
   9032.0 867.0 9030.4 849.6 9033.0 834.0
   9037.0 810.0 9050.9 769.09 9067.0 755.0
+  smooth off
 endline
 
 line wall
@@ -1246,6 +1457,7 @@ line wall
   9133.0 1109.0 9139.0 1128.0 9100.0 1129.0
   9061.0 1130.0 9049.0 1114.0 9021.0 1111.0
   8993.0 1108.0 8989.0 1092.0 8968.0 1090.0
+  smooth off
 endline
 
 point 8502.38653543 1103.8960874 station -name 73
@@ -1268,67 +1480,37 @@ endscrap
 
 
 
+scrap TweenSPX3 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -close on
+  1762.0 3115.0
+  1749.0 3096.0 1741.5 3091.5 1744.75 3079.0
+  1749.38 3061.2 1765.25 3033.5 1766.5 3033.75
+  1777.3 3035.91 1805.81 3023.77 1814.75 3026.0
+  1821.75 3027.75 1815.28 3066.31 1823.5 3092.0
+  1825.18 3097.24 1813.75 3123.0 1813.75 3123.0
+  smooth off
+  1813.75 3123.0 1775.0 3134.0 1762.0 3115.0
+endline
+
+point 1773.35653543 3104.0760874 station -name 3
+
+endscrap
+
+
+
 scrap TweenSPX6 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
-endscrap
+line wall -close on
+  1733.5 2587.25
+  1760.58 2586.52 1786.28 2575.28 1793.0 2582.0
+  1801.0 2590.0 1806.0 2603.75 1807.0 2620.75
+  1808.0 2637.75 1806.75 2655.75 1794.75 2656.75
+  1782.75 2657.75 1768.27 2648.27 1759.0 2639.0
+  1744.0 2624.0 1724.25 2587.5 1733.5 2587.25
+endline
 
-
-
-scrap TweenSPX10 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
-
-endscrap
-
-
-
-scrap TweenSPX13 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
-
-endscrap
-
-
-
-scrap TweenSPX38 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
-
-endscrap
-
-
-
-scrap TweenSPX33 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
-
-endscrap
-
-
-
-scrap TweenSPX43 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
-
-endscrap
-
-
-
-scrap TweenSPX44 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
-
-endscrap
-
-
-
-scrap TweenSPX48 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
-
-endscrap
-
-
-
-scrap TweenSPX50 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
-
-endscrap
-
-
-
-scrap TweenSPX54 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
-
-endscrap
-
-
-
-scrap TweenSPX56 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+point 1787.60653543 2605.5760874 station -name 6
 
 endscrap
 
@@ -1336,11 +1518,206 @@ endscrap
 
 scrap TweenSPX9 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
 
+line wall -close on
+  1361.75 2319.5
+  1354.75 2316.5 1192.75 2284.25 1189.75 2280.25
+  1180.11 2267.4 1189.5 2253.25 1230.75 2243.5
+  1239.56 2241.42 1294.0 2242.5 1314.75 2266.5
+  1325.82 2279.31 1368.75 2322.5 1361.75 2319.5
+endline
+
+point 1274.14653543 2289.1160873999997 station -name 9
+
 endscrap
 
 
 
-scrap TweenSPX3 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+scrap TweenSPX10 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -close on
+  1916.5 2167.5
+  1916.5 2167.5 1926.5 2140.5 1929.0 2140.5
+  1931.5 2140.5 1969.25 2142.25 1972.25 2144.75
+  1975.25 2147.25 1950.75 2186.0 1930.25 2202.25
+  1919.57 2210.72 1898.25 2230.0 1888.5 2229.0
+  1885.53 2228.7 1876.75 2212.0 1879.25 2207.0
+  1881.75 2202.0 1886.92 2179.77 1892.5 2179.5
+  1908.0 2178.75 1916.5 2167.5 1916.5 2167.5
+  smooth off
+endline
+
+point 1929.33653543 2158.3360874 station -name 10
+
+endscrap
+
+
+
+scrap TweenSPX13 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -close on
+  2725.5 2373.5
+  2725.75 2371.25 2737.75 2345.0 2738.75 2331.0
+  2738.9 2328.86 2745.5 2322.5 2749.5 2322.25
+  2753.5 2322.0 2791.25 2326.0 2793.5 2326.5
+  2795.75 2327.0 2838.75 2347.0 2826.5 2358.0
+  2807.71 2374.87 2779.25 2380.5 2779.25 2380.5
+  smooth off
+  2749.25 2381.25
+  2749.25 2381.25 2725.27 2375.61 2725.5 2373.5
+endline
+
+point 2740.36653543 2359.9060874 station -name 13
+
+endscrap
+
+
+
+scrap TweenSPX38 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -close on
+  3661.5 1638.5
+  3653.25 1631.0 3691.68 1579.49 3698.25 1575.25
+  3713.75 1565.25 3738.75 1567.75 3763.5 1567.25
+  3783.53 1566.85 3795.5 1569.0 3785.75 1587.25
+  3779.31 1599.31 3743.08 1632.65 3738.75 1635.75
+  3716.75 1651.5 3696.0 1645.0 3696.0 1645.0
+  smooth off
+  3696.0 1645.0 3664.83 1641.53 3661.5 1638.5
+endline
+
+point 3713.58653543 1575.6560874 station -name 38
+
+endscrap
+
+
+
+scrap TweenSPX33 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -subtype blocks
+  4361.0 1942.0
+  4361.0 1942.0 4431.24 1982.35 4463.5 2006.0
+  smooth off
+endline
+
+line wall
+  4463.5 2006.0
+  4460.17 2014.88 4402.0 2079.0 4399.0 2078.0
+  4396.0 2077.0 4354.5 2076.5 4352.0 2076.5
+  4349.5 2076.5 4342.5 2067.0 4340.0 2043.0
+  4337.5 2019.0 4324.0 1945.5 4329.5 1942.5
+  4335.0 1939.5 4361.0 1942.0 4361.0 1942.0
+  smooth off
+endline
+
+point 4395.47653543 2038.6460874 station -name 33
+
+endscrap
+
+
+
+scrap TweenSPX43 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -close on
+  5217.5 2726.0
+  5223.0 2721.0 5251.5 2659.0 5267.5 2658.5
+  5274.92 2658.27 5443.0 2614.5 5451.5 2616.0
+  5456.16 2616.82 5404.5 2695.0 5397.0 2706.0
+  5389.5 2717.0 5317.0 2777.0 5305.5 2777.0
+  5294.0 2777.0 5275.5 2786.5 5251.0 2771.5
+  5244.65 2767.61 5212.0 2731.0 5217.5 2726.0
+endline
+
+point 5304.14653543 2671.7160874 station -name 43
+
+endscrap
+
+
+
+scrap TweenSPX44 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -close on
+  5779.5 2431.0
+  5802.0 2410.5 5815.5 2418.5 5823.5 2412.0
+  5827.83 2408.48 5846.15 2367.23 5866.5 2358.5
+  5873.7 2355.41 5943.0 2340.5 5943.5 2342.5
+  5944.0 2344.5 5896.0 2425.0 5893.0 2430.5
+  5890.0 2436.0 5849.92 2449.5 5844.5 2452.5
+  5821.0 2465.5 5813.5 2546.0 5797.5 2542.0
+  5782.44 2538.23 5770.36 2470.8 5771.5 2469.0
+  5784.5 2448.5 5770.21 2439.47 5779.5 2431.0
+endline
+
+point 5815.956535429999 2427.6260874 station -name 44
+
+endscrap
+
+
+
+scrap TweenSPX48 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -close on
+  5817.0 1348.5
+  5809.0 1337.5 5786.0 1305.5 5786.0 1301.5
+  5786.0 1297.5 5803.0 1266.5 5811.5 1272.0
+  5820.0 1277.5 5856.5 1287.0 5864.5 1293.0
+  5872.5 1299.0 5864.18 1329.12 5888.5 1352.5
+  5894.62 1358.38 5894.0 1388.0 5891.5 1390.5
+  5889.0 1393.0 5825.0 1359.5 5817.0 1348.5
+endline
+
+point 5826.97653543 1287.4660874 station -name 48
+
+endscrap
+
+
+
+scrap TweenSPX50 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -close on
+  6393.5 929.5
+  6412.0 932.5 6477.5 964.0 6509.5 968.0
+  6515.86 968.8 6512.59 1002.77 6496.5 1007.5
+  6488.0 1010.0 6492.02 997.83 6463.0 989.0
+  6451.5 985.5 6400.0 947.5 6400.0 947.5
+  smooth off
+  6400.0 947.5 6375.0 926.5 6393.5 929.5
+endline
+
+point 6496.266535430001 977.2260873999999 station -name 50
+
+endscrap
+
+
+
+scrap TweenSPX54 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -close on
+  7500.5 1180.5
+  7521.7 1176.46 7632.83 1198.64 7633.5 1206.5
+  7637.0 1247.5 7584.0 1254.0 7576.5 1254.5
+  7569.0 1255.0 7511.0 1267.5 7483.0 1227.5
+  7478.83 1221.54 7490.0 1182.5 7500.5 1180.5
+endline
+
+point 7565.55653543 1194.5560874 station -name 54
+
+endscrap
+
+
+
+scrap TweenSPX56 -projection none -scale [0 0 787.4 787.4 0 0 10 10 m]
+
+line wall -close on
+  7827.0 865.0
+  7839.0 861.0 7864.15 860.76 7876.5 863.5
+  7917.0 872.5 7966.34 856.28 7971.0 862.0
+  7997.5 894.5 8001.5 907.04 8042.5 930.0
+  8092.5 958.0 7984.74 959.95 7942.5 951.5
+  7927.5 948.5 7842.0 908.0 7838.5 902.5
+  7835.0 897.0 7815.0 869.0 7827.0 865.0
+endline
+
+point 7930.91653543 870.1460873999999 station -name 56
 
 endscrap
 

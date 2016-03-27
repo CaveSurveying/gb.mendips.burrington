@@ -1,6 +1,6 @@
 encoding  utf-8
-##XTHERION## xth_me_area_adjust -132.0 -132.0 9843.0 1742.0
-##XTHERION## xth_me_area_zoom_to 100
+##XTHERION## xth_me_area_adjust -144.0 -144.0 9860.0 1756.0
+##XTHERION## xth_me_area_zoom_to 25
 ##XTHERION## xth_me_image_insert {3316.2618614400003 1 1.0} {308.1052469 24} PocketTopo/Tween_E15.xvi 0 {}
 
 
@@ -14,6 +14,7 @@ line wall -subtype blocks -outline in
   9521.0 577.0 9486.0 560.0 9474.0 572.0
   9462.0 584.0 9437.0 653.0 9422.0 657.0
   9407.0 661.0 9339.0 656.0 9329.0 650.0
+  smooth off
 endline
 
 line wall
@@ -34,6 +35,7 @@ line wall
   4239.0 1086.0 4248.0 957.0 4260.0 941.0
   4272.0 925.0 4291.0 847.0 4298.0 830.0
   4305.0 813.0 4343.0 760.0 4350.0 753.0
+  smooth off
 endline
 
 line wall
@@ -46,6 +48,7 @@ line wall
   9606.0 597.0 9707.0 627.0 9710.0 631.0
   9713.0 635.0 9609.0 686.0 9601.0 688.0
   9593.0 690.0 9470.0 798.0 9458.0 816.0
+  smooth off
 endline
 
 line wall
@@ -82,6 +85,7 @@ line wall
   8851.0 422.0 8860.34 452.99 8866.67186144 456.4952469
   8873.0 460.0 8880.0 503.0 8891.0 514.0
   8902.0 525.0 8903.0 531.0 8912.0 535.0
+  smooth off
 endline
 
 line wall
@@ -123,6 +127,7 @@ line wall
   3187.0 313.0 3266.0 272.0 3276.0 267.0
   3286.0 262.0 3290.0 247.0 3312.0 251.0
   3334.0 255.0 3536.91 198.13 3551.0 195.0
+  smooth off
 endline
 
 line wall
@@ -148,6 +153,7 @@ line wall
   1685.0 1031.0 1642.0 1027.0 1630.0 1030.0
   1618.0 1033.0 1626.0 1082.0 1597.0 1102.0
   1568.0 1122.0 1514.0 1159.0 1499.0 1163.0
+  smooth off
 endline
 
 line wall
@@ -172,6 +178,7 @@ line wall
   3347.0 1092.0 3371.0 1108.0 3383.0 1109.0
   3395.0 1110.0 3443.0 1128.0 3459.0 1141.0
   3475.0 1154.0 3479.0 1165.0 3495.0 1188.0
+  smooth off
 endline
 
 line wall
@@ -245,6 +252,7 @@ line wall
   3732.0 1293.0 3612.0 1338.0 3605.0 1351.0
   3598.0 1364.0 3556.0 1413.0 3535.0 1426.0
   3514.0 1439.0 3295.0 1599.0 3284.0 1609.0
+  smooth off
 endline
 
 line wall -subtype blocks
@@ -252,6 +260,7 @@ line wall -subtype blocks
   9256.0 656.0 9206.0 634.0 9182.0 632.0
   9158.0 630.0 8994.0 642.0 8980.0 647.0
   8966.0 652.0 8941.0 663.0 8917.0 659.0
+  smooth off
 endline
 
 line wall -subtype blocks -outline in
@@ -260,6 +269,7 @@ line wall -subtype blocks -outline in
   9327.0 674.0 9320.0 753.0 9328.0 764.0
   9336.0 775.0 9361.0 759.0 9377.0 761.0
   9393.0 763.0 9431.0 741.0 9444.0 728.0
+  smooth off
 endline
 
 line wall -subtype blocks
@@ -271,6 +281,7 @@ line wall -subtype blocks
   9089.0 838.0 9122.0 817.0 9144.0 813.0
   9166.0 809.0 9196.0 762.0 9212.0 751.0
   9228.0 740.0 9260.0 662.0 9272.0 656.0
+  smooth off
 endline
 
 line wall -subtype blocks
@@ -284,6 +295,7 @@ line wall -subtype blocks
   9168.0 994.0 9085.0 918.0 9068.0 919.0
   9051.0 920.0 8972.0 989.0 8942.0 1001.0
   8912.0 1013.0 8800.0 1052.0 8780.0 1061.0
+  smooth off
 endline
 
 point 9394.58186144 859.4652469 station -name 68
@@ -428,6 +440,12 @@ point 1561.07186144 1014.8652469 station -name 2
 
 point 1506.9218614400002 1114.2652469 station -name 1
 
+point 5612.0 216.0 label -text [Elevation projected on 015 deg.] -align center -scale xl
+
+point 1396.0 1267.0 label -text entrance -scale l
+
+point 1398.0 1211.0 entrance -orientation 135.1 -scale m
+
 endscrap
 
 
@@ -440,6 +458,7 @@ line wall
   3135.0 153.0 3352.0 164.0 3379.0 173.0
   3406.0 182.0 3471.71 219.3 3499.0 231.0
   3541.0 249.0 3531.0 301.0 3530.0 314.0
+  smooth off
 endline
 
 line wall
@@ -449,6 +468,7 @@ line wall
   3365.0 260.0 3276.0 227.0 3264.0 226.0
   3252.0 225.0 3136.0 231.0 3100.0 221.0
   3064.0 211.0 2873.0 175.0 2854.0 171.0
+  smooth off
 endline
 
 point 2848.22186144 142.42524690000005 station -name 79
