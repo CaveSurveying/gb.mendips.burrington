@@ -1,0 +1,78 @@
+encoding  utf-8
+source Tween.th
+
+#change name to the main therion file being used
+
+###############
+#elevation need to come first as they are used in the plan
+###############
+
+export map -proj [elevation 15] -layout local -o TweenE15.pdf
+
+export map -proj plan -layout plan -o Tween.pdf
+
+layout plan
+copy local
+
+
+map-image 100 -29 ne TweenE15.pdf
+map-header 94.5 124 ne
+
+map-comment "Burrington Combe, North Somerset<br>\
+<br>\
+Length 251.65 m Depth 18.09 m. Heights in metres OD.<br>\
+<br>\
+Drawn using Therion<br>\
+by Andrew Atkinson and Graham Mullan.<br>\
+Survey by Andrew Atkinson, Jonathan Williams and Tim Clements.<br>\
+<br>\
+Grade UISv1 6-4-EF. Copyright 2016 CC BY NC SA<br>\"
+
+scale-bar 25 metres
+
+colour-legend off
+
+code tex-map
+  \cavename={\size [40] Tween Twins Hole} 
+    \cavelength={} %empty
+    \cavedepth={}  %empty
+    \colorlegendfalse
+    
+endcode    
+
+endlayout
+
+layout Projected
+copy local
+map-header 50 100 off
+
+#symbol-hide special north-arrow
+#symbol-hide special scale-bar
+legend-width 30 cm 
+
+endlayout
+
+layout local
+copy common
+doc-title "Tween Twins Hole"
+
+grid-size 20 20 10 metres
+
+base-scale 1 250
+scale 1 250
+
+
+symbol-hide point remark
+symbol-hide group cave-centreline
+
+#grid off
+map-header 50 70 off
+map-header-bg on
+
+statistics explo off
+statistics topo off
+
+endlayout
+
+#get the master layout settings
+input ../../common_layout.th
