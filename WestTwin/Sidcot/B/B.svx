@@ -4,8 +4,8 @@
 *title "Sidcot Swallet"
 *date  2008.06.12
 *team "Carmen Haskell" notes
-*team "Andrew Atkinson" SAP 
-*team "Andrew Atkinson" Disto
+;*team "Andrew Atkinson" SAP 
+;*team "Andrew Atkinson" Disto
 ;*calibrate declination
 ;*calibrate tape
 ; inst 

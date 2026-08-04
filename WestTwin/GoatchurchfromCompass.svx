@@ -188,7 +188,7 @@
 *BEGIN
 ;Goatchurch								
 ;SURVEY	NAME:	Maze						
-*DATE2006.11.29			
+*DATE 2006.11.29			
 ;SURVEY	TEAM:							
 ;Gina	(instruments)	Hannah	(recording)	Chris	(dog)	Andrew	(gofer)	
 ;;DECLINATION:	0	FORMAT:	DMMDLRUDLADN	CORRECTIONS:	4	0	0	

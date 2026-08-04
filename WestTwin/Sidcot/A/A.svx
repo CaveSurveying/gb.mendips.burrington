@@ -4,8 +4,8 @@
 *title "Sidcot Swallet"
 *date  2008.06.12
 *team "Andrew Atkinson" notes
-*team "Carmen Haskell" SAP 
-*team "Carmen Haskell" Disto
+;*team "Carmen Haskell" SAP 
+;*team "Carmen Haskell" Disto
 ;*calibrate declination
 ;*calibrate tape
 ; inst 
@@ -47,7 +47,7 @@
 30	31	3.00	012	-59
 31	26	2.62	060	+11
 
-*data passage station left right up down ingnoreall
+*data passage station left right up down
 1	1.8	2.0	1.8	1.2
 ;Bold in entrance
 2	1.2	1	0.5	0.5
