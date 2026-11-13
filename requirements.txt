@@ -1,0 +1,3 @@
+# cave-viewer builds the 3D views from web/caves.json (.github/workflows/build.yml).
+# Pinned to its main until its next release; then pin the release tag instead.
+cave-viewer @ git+https://github.com/CaveSurveying/cave-viewer@b6d22e7c61cfca503469ea750460161c450721ac

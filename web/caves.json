@@ -1,0 +1,467 @@
+{
+  "work": "build",
+  "site": {
+    "title": "Burrington Combe in 3D",
+    "lede": "The caves of Burrington Combe, Mendip, from the Cave Registry's Burrington project (UBSS, CC BY-NC-SA 4.0).",
+    "footer": "{credits}."
+  },
+  "defaults": {
+    "grid": {
+      "offset": [
+        300000,
+        100000
+      ]
+    },
+    "terrain": {
+      "type": "ea",
+      "step": 2,
+      "margin": 250,
+      "align": 50,
+      "cache": "lidar"
+    },
+    "drawn": {
+      "type": "none"
+    },
+    "data": {
+      "url": "http://cave-registry.org.uk/svn/Burrington/",
+      "label": "the Cave Registry's Burrington project"
+    },
+    "licence": "CC BY-NC-SA 4.0",
+    "credit": "the Cave Registry's Burrington project (UBSS, CC BY-NC-SA 4.0)"
+  },
+  "caves": [
+    {
+      "id": "burrington",
+      "name": "Burrington Combe",
+      "area": "Burrington, Mendip",
+      "survey": {
+        "type": "survex",
+        "file": "registry.3d"
+      },
+      "entrances": {
+        "Burrington.burrington.westtwin.goatchurch.psp": "Goatchurch Cavern",
+        "Burrington.burrington.westtwin.goatchurch.71": "Goatchurch Cavern, second entrance",
+        "Burrington.burrington.westtwin.sidcot.a.2": "Sidcot Swallet",
+        "Burrington.burrington.avelines.ent": "Aveline's Hole",
+        "Burrington.Reads.MainChamber.2.12": "Read's Cavern",
+        "Burrington.Reads.DryEnt.1.0": "Read's Cavern, dry entrance",
+        "Burrington.burrington.swallets.rodsbath.a15": "Rod's Pot",
+        "Burrington.burrington.swallets.drunkards.0": "Drunkard's Hole",
+        "Burrington.Bos.13": "Bos Swallet",
+        "Burrington.PierresPot.Pierres1.1": "Pierre's Pot",
+        "Burrington.PierresPot.Pierres1.34": "Pseudo Nash's Hole",
+        "Burrington.Tween.1": "Tween Twins Hole",
+        "Burrington.burrington.lionels.lh01a": "Lionel's Hole",
+        "Burrington.burrington.easttwinsparpot.east-twin.et01a": "East Twin Swallet",
+        "Burrington.BathEnt.1.0": "Bath Swallet",
+        "Burrington.GoonsHole": "Goon's Hole"
+      },
+      "walls": {
+        "lox": "registry.lox"
+      },
+      "page": ".",
+      "path": "3d",
+      "lede": "The caves of Burrington Combe, from the UBSS's Burrington Area Survey: each has a page of its own below, with its survey drawn over the 3D view where there is one.",
+      "credit": "the Cave Registry's Burrington project, as the University of Bristol Spelaeological Society's Burrington Area Survey (CC BY-NC-SA 4.0)",
+      "places": {
+        "Turtle Chamber": "Burrington.PierresPot.Pierres3Pepparami.P4D18",
+        "Hell's Teeth Chamber": "Burrington.PierresPot.Pierres3downstreamtosump.P5D5",
+        "Downstream Sump 5": "Burrington.PierresPot.Pierres3downstreamtosump.P5D24",
+        "Peperami Passage": "Burrington.PierresPot.Pierres3Pepparami.P4D2",
+        "Downstream Sump 4": "Burrington.PierresPot.Pierres3Pepparami.P4D10",
+        "Downstream Sump 3": "Burrington.PierresPot.Pierres3Pepparami.P4D13",
+        "Downstream Sump 2": "Burrington.PierresPot.Pierres3downstream.P2D45",
+        "Downstream Sump 1": "Burrington.PierresPot.Sumpone.P1M32",
+        "The Flyover": "Burrington.PierresPot.Pierres1.51",
+        "Nasty Boulder Rift": "Burrington.PierresPot.Pierres1.46",
+        "Twinkle Toes Aven": "Burrington.PierresPot.Pierres1.75",
+        "Western Inlet": "Burrington.PierresPot.Pierres1.86",
+        "Hanging Gardens": "Burrington.PierresPot.Pierres1.96",
+        "Main Streamway Inlet": "Burrington.PierresPot.Twinkletoes.15",
+        "Upstream Sump 1": "Burrington.PierresPot.Twinkletoes.23a",
+        "The Blue Pool": "Burrington.PierresPot.Pierres_upstream.PP7",
+        "Wessex Dig": "Burrington.burrington.swallets.drunkards.34",
+        "Cheddar CC Dig": "Burrington.burrington.swallets.drunkards.37",
+        "Gravel Chokes": "Burrington.burrington.swallets.drunkards.35",
+        "Roped Climb": "Burrington.burrington.swallets.drunkards.43",
+        "The Dig": "Burrington.burrington.swallets.drunkards.49",
+        "Vertical Rift": "Burrington.burrington.swallets.drunkards.15",
+        "Blind Pot": "Burrington.burrington.swallets.drunkards.48",
+        "Disappointment Chamber": "Burrington.Bos.7",
+        "P7": "Burrington.Bos.2",
+        "Letterbox": "Burrington.burrington.lionels.lh01j",
+        "The Traverse": "Burrington.burrington.lionels.lh01q",
+        "Burt's Inlet": "Burrington.burrington.easttwinsparpot.east-twin.et02g2",
+        "Better Than Sex": "Burrington.burrington.easttwinsparpot.east-twin.et02h1",
+        "Spar Pot": "Burrington.burrington.easttwinsparpot.spar-pot.sp01a",
+        "Boulder Chamber": "Burrington.Reads.LADSLuck.9.14",
+        "Boulder Maze": "Burrington.Reads.LastSurveyingChamber.20",
+        "Chattering Slope": "Burrington.Reads.MainChamber.2.12",
+        "Death Wish": "Burrington.Reads.DeathWish.4",
+        "Dog End": "Burrington.Reads.LADSLuck.9.40",
+        "Early Grave": "Burrington.Reads.EarlyGrave.9.52",
+        "Grotto": "Burrington.Reads.Grotto.114",
+        "LADS Luck": "Burrington.Reads.LADSLuck.9.11",
+        "Main Chamber": "Burrington.Reads.SplashPot.6.34",
+        "Water Chamber": "Burrington.Reads.BoulderChamberRoute2.80",
+        "Water Rift": "Burrington.Reads.OffShoot3.45",
+        "Windpipe": "Burrington.Reads.SplashPot.6.18",
+        "Golden Oldies Day Out": "Burrington.Tween.30",
+        "Rands' Revenge": "Burrington.Tween.41",
+        "Stannah Stair Rift": "Burrington.Tween.22",
+        "Two Amigos": "Burrington.Tween.62",
+        "Valentine's": "Burrington.Tween.8",
+        "Waterlily Chamber": "Burrington.Tween.48"
+      },
+      "codes": {
+        "(?i)\\.lh01": "Entrance Rift and Boulder Chamber",
+        "(?i)\\.lh02": "Narrow Tunnel",
+        "(?i)\\.lh03": "Letterbox Route",
+        "(?i)\\.lh04": "Boulder Chamber High Rift",
+        "(?i)\\.lh05": "Boulder Chamber Side Loop",
+        "(?i)\\.lh06": "Bouldery Route to the Traverse",
+        "(?i)\\.lh07": "Boulder Chamber Low Level",
+        "(?i)\\.lh08": "West Low Level",
+        "(?i)\\.lh09": "The Traverse to Junction Chamber",
+        "(?i)\\.lh10": "Far Streamway",
+        "(?i)\\.et01": "First and Second Chambers",
+        "(?i)\\.et02": "Better Than Sex Series",
+        "(?i)\\.sp0": "Spar Pot"
+      },
+      "about": "notes/burrington.md",
+      "data": {
+        "url": "https://github.com/CaveSurveying/gb.mendips.burrington",
+        "label": "CaveSurveying/gb.mendips.burrington"
+      }
+    },
+    {
+      "id": "goatchurch",
+      "name": "Goatchurch Cavern",
+      "survey": {
+        "type": "survex",
+        "file": "goatchurch.3d"
+      },
+      "entrances": {
+        "goatchurch.psp": "Goatchurch Cavern",
+        "goatchurch.71": "Goatchurch Cavern, second entrance"
+      },
+      "credit": "Graham Mullan, Hannah Sargent, Andrew Brown, Gina Moseley and Chris Binding's 2006 survey (UBSS), in the Cave Registry's Burrington project (walls from its LRUD)",
+      "area": "Burrington Combe, Mendip",
+      "page": "goatchurch",
+      "path": "goatchurch/3d",
+      "walls": {
+        "lox": "goatchurch-walls.lox"
+      },
+      "drawn": {
+        "type": "therion-svg",
+        "svg": "drawn/goatchurch2012.svg",
+        "credit": "the 2012 resurvey of the entrance series by Stuart Alldred, Simon Hadfield, Sarah Rae and others, drawn in Therion (Cave Registry, Burrington), tied to the 2006 survey",
+        "page_credit": "Drawn survey: the 2012 resurvey of the entrance series (Stuart Alldred, Simon Hadfield, Sarah Rae and others), drawn in Therion and tied to the 2006 survey"
+      },
+      "about": "notes/goatchurch.md",
+      "notice": "The drawn plan covers the entrance series only, and there are no passage names: take a full survey underground."
+    },
+    {
+      "id": "reads",
+      "name": "Read's Cavern",
+      "survey": {
+        "type": "therion",
+        "checkout": "..",
+        "dir": "Reads",
+        "source": "Reads.th",
+        "select": [
+          "DryEntM@DryEnt.Reads",
+          "GrottoM@Grotto.Reads",
+          "MainChamberM@MainChamber.Reads",
+          "OffShootM@OffShoot.Reads",
+          "WaterM@Water.Reads",
+          "AltJunctTinyBitM@AltJunctTinyBit.Reads",
+          "BoulderChamberM@BoulderChamber.Reads",
+          "BoulderChamberRoute2M@BoulderChamberRoute2.Reads",
+          "JCAltM@JCAlt.Reads",
+          "JuncAlterRouteM@JuncAlterRoute.Reads",
+          "JuncAlterRoute2M@JuncAlterRoute2.Reads",
+          "JunctionChamberM@JunctionChamber.Reads",
+          "OffShoot2M@OffShoot2.Reads",
+          "OffShoot3M@OffShoot3.Reads",
+          "PipeM@Pipe.Reads",
+          "UpperWaterfallM@UpperWaterfall.Reads",
+          "UpperWaterfall2M@UpperWaterfall2.Reads",
+          "WCR2M@WCR2.Reads",
+          "ZAlleyUpM@ZAlley.Reads",
+          "BrownStuartM@BrownStuart.Reads",
+          "LastSurveyingChamberM@LastSurveyingChamber.Reads",
+          "LowerMazeM@LowerMaze.Reads",
+          "MazeM@Maze.Reads",
+          "MNRCSeriesM@MNRCSeries.Reads",
+          "SplashPotM@SplashPot.Reads",
+          "DeathWishM@DeathWish.Reads",
+          "WaterfallChamberM@WaterfallChamber.Reads",
+          "ZAlleyLowM@ZAlley.Reads",
+          "BrownStainM@BrownStain.Reads",
+          "BrowneStewartM@BrowneStewart.Reads",
+          "EarlyGraveM@EarlyGrave.Reads",
+          "LADSLuckM@LADSLuck.Reads",
+          "LLAproachM@LLAproach.Reads",
+          "LlExtensionM@LlExtension.Reads",
+          "SudoLinkTubeM@SudoLinkTube.Reads"
+        ],
+        "from": "Cave Registry Data Archive, Burrington"
+      },
+      "drawn": {
+        "type": "therion-svg"
+      },
+      "walls": {
+        "type": "therion"
+      },
+      "credit": "Andrew Atkinson and collaborators' 2012–15 survey, drawn in Therion, in the Cave Registry's Burrington project (UBSS; CC BY-NC-SA 4.0)",
+      "area": "Burrington Combe, Mendip",
+      "page": "reads",
+      "path": "reads/3d",
+      "names": {
+        "entrances": {
+          "Reads.MainChamber.2.12": "Read's Cavern",
+          "Reads.DryEnt.1.0": "Read's Cavern, dry entrance"
+        }
+      }
+    },
+    {
+      "id": "pierres",
+      "name": "Pierre's Pot",
+      "survey": {
+        "type": "survex",
+        "file": "pierres.3d"
+      },
+      "entrances": {
+        "PierresPot.Pierres1.1": "Pierre's Pot",
+        "PierresPot.Pierres1.34": "Pseudo Nash's Hole"
+      },
+      "drawn": {
+        "type": "scan",
+        "image": "drawn/pierres.png",
+        "fit": "drawn/pierres.fit",
+        "credit": "the 2013 survey drawn by C. Cohen and K. Hilton after G. Mullan (UBSS, CC BY-NC-SA 4.0)",
+        "page_credit": "Drawn survey: the 2013 printed survey by C. Cohen and K. Hilton after G. Mullan (UBSS), fitted to the data"
+      },
+      "credit": "P. and A. Moody, Steve Cottle, J. Cordingley, Kev Hilton and Clare Cohen's data, in the Cave Registry's Burrington project (UBSS; CC BY-NC-SA 4.0)",
+      "area": "Burrington Combe, Mendip",
+      "page": "pierres",
+      "path": "pierres/3d",
+      "places": {
+        "Turtle Chamber": "PierresPot.Pierres3Pepparami.P4D18",
+        "Hell's Teeth Chamber": "PierresPot.Pierres3downstreamtosump.P5D5",
+        "Downstream Sump 5": "PierresPot.Pierres3downstreamtosump.P5D24",
+        "Peperami Passage": "PierresPot.Pierres3Pepparami.P4D2",
+        "Downstream Sump 4": "PierresPot.Pierres3Pepparami.P4D10",
+        "Downstream Sump 3": "PierresPot.Pierres3Pepparami.P4D13",
+        "Downstream Sump 2": "PierresPot.Pierres3downstream.P2D45",
+        "Downstream Sump 1": "PierresPot.Sumpone.P1M32",
+        "The Flyover": "PierresPot.Pierres1.51",
+        "Nasty Boulder Rift": "PierresPot.Pierres1.46",
+        "Twinkle Toes Aven": "PierresPot.Pierres1.75",
+        "Western Inlet": "PierresPot.Pierres1.86",
+        "Hanging Gardens": "PierresPot.Pierres1.96",
+        "Main Streamway Inlet": "PierresPot.Twinkletoes.15",
+        "Upstream Sump 1": "PierresPot.Twinkletoes.23a",
+        "The Blue Pool": "PierresPot.Pierres_upstream.PP7"
+      }
+    },
+    {
+      "id": "rodsbath",
+      "name": "Rod's Pot and Bath Swallet",
+      "short_name": "Rod's and Bath",
+      "survey": {
+        "type": "survex",
+        "file": "rodsbath.3d"
+      },
+      "entrances": {
+        "burrington.swallets.rodsbath.a15": "Rod's Pot",
+        "BathEnt.1.0": "Bath Swallet"
+      },
+      "walls": {
+        "lox": "rodsbath-walls.lox"
+      },
+      "credit": "Andy Sparrow and the Cheddar Caving Club's data, in the Cave Registry's Burrington project (UBSS; CC BY-NC-SA 4.0)",
+      "area": "Burrington Combe, Mendip",
+      "page": "rodsbath",
+      "path": "rodsbath/3d"
+    },
+    {
+      "id": "tween",
+      "name": "Tween Twins Hole",
+      "survey": {
+        "type": "therion",
+        "checkout": "..",
+        "dir": "TweenTwins/Tween",
+        "source": "Tween.th",
+        "select": [
+          "TweenM@Tween"
+        ],
+        "from": "Cave Registry Data Archive, Burrington"
+      },
+      "drawn": {
+        "type": "therion-svg"
+      },
+      "walls": {
+        "type": "therion"
+      },
+      "credit": "Andrew Atkinson, Jonathan Williams and Tim Clements' 2016 survey, drawn in Therion, in the Cave Registry's Burrington project (UBSS; CC BY-NC-SA 4.0)",
+      "area": "Burrington Combe, Mendip",
+      "page": "tween",
+      "path": "tween/3d",
+      "names": {
+        "entrances": {
+          "Tween.1": "Tween Twins Hole",
+          "Tween.82": "Tween Twins, old entrance",
+          "Tween.83": "Tween Twins, old entrance (2)"
+        }
+      }
+    },
+    {
+      "id": "drunkards",
+      "name": "Drunkard's Hole",
+      "survey": {
+        "type": "survex",
+        "file": "drunkards.3d"
+      },
+      "entrances": {
+        "drunkards.0": "Drunkard's Hole"
+      },
+      "drawn": {
+        "type": "scan",
+        "image": "drawn/drunkards.png",
+        "fit": "drawn/drunkards.fit",
+        "credit": "the 2007 survey drawn by Carmen Smith (UBSS, CC BY-NC-SA 4.0)",
+        "page_credit": "Drawn survey: the 2007 printed survey by Carmen Smith (UBSS), fitted to the data"
+      },
+      "credit": "Carmen Smith's data, in the Cave Registry's Burrington project (UBSS; CC BY-NC-SA 4.0)",
+      "area": "Burrington Combe, Mendip",
+      "page": "drunkards",
+      "path": "drunkards/3d",
+      "places": {
+        "Wessex Dig": "drunkards.34",
+        "Cheddar CC Dig": "drunkards.37",
+        "Gravel Chokes": "drunkards.35",
+        "Roped Climb": "drunkards.43",
+        "The Dig": "drunkards.49",
+        "Vertical Rift": "drunkards.15",
+        "Blind Pot": "drunkards.48"
+      }
+    },
+    {
+      "id": "bos",
+      "name": "Bos Swallet",
+      "survey": {
+        "type": "therion",
+        "checkout": "..",
+        "dir": "Bos",
+        "source": "Bos.th",
+        "from": "Cave Registry Data Archive, Burrington"
+      },
+      "drawn": {
+        "type": "scan",
+        "image": "drawn/bos.png",
+        "fit": "drawn/bos.fit",
+        "credit": "the 1997 survey drawn by G. J. Mullan (UBSS, CC BY-NC-SA 4.0)",
+        "page_credit": "Drawn survey: the 1997 printed survey by G. J. Mullan (UBSS), fitted to the data"
+      },
+      "credit": "the UBSS's 1997 survey, in the Cave Registry's Burrington project (CC BY-NC-SA 4.0)",
+      "area": "Burrington Combe, Mendip",
+      "page": "bos",
+      "path": "bos/3d",
+      "places": {
+        "Disappointment Chamber": "Bos.7",
+        "P7": "Bos.2"
+      }
+    },
+    {
+      "id": "lionels",
+      "name": "Lionel's Hole",
+      "survey": {
+        "type": "survex",
+        "file": "lionels.3d"
+      },
+      "entrances": {
+        "lionels.lh01a": "Lionel's Hole"
+      },
+      "credit": "David Cundy's data, in the Cave Registry's Burrington project (UBSS; CC BY-NC-SA 4.0)",
+      "area": "Burrington Combe, Mendip",
+      "page": "lionels",
+      "path": "lionels/3d",
+      "places": {
+        "Letterbox": "lionels.lh01j",
+        "The Traverse": "lionels.lh01q"
+      },
+      "codes": {
+        "(?i)\\.lh01": "Entrance Rift and Boulder Chamber",
+        "(?i)\\.lh02": "Narrow Tunnel",
+        "(?i)\\.lh03": "Letterbox Route",
+        "(?i)\\.lh04": "Boulder Chamber High Rift",
+        "(?i)\\.lh05": "Boulder Chamber Side Loop",
+        "(?i)\\.lh06": "Bouldery Route to the Traverse",
+        "(?i)\\.lh07": "Boulder Chamber Low Level",
+        "(?i)\\.lh08": "West Low Level",
+        "(?i)\\.lh09": "The Traverse to Junction Chamber",
+        "(?i)\\.lh10": "Far Streamway"
+      },
+      "about": "notes/lionels.md",
+      "notice": "Only about 0.3 km of Lionel's Hole (about 1 km) is in this survey: most of the maze isn't shown."
+    },
+    {
+      "id": "easttwin",
+      "name": "East Twin Swallet and Spar Pot",
+      "short_name": "East Twin",
+      "survey": {
+        "type": "survex",
+        "file": "easttwin.3d"
+      },
+      "entrances": {
+        "easttwinsparpot.east-twin.et01a": "East Twin Swallet"
+      },
+      "credit": "David Cundy's data, in the Cave Registry's Burrington project (UBSS; CC BY-NC-SA 4.0)",
+      "area": "Burrington Combe, Mendip",
+      "page": "easttwin",
+      "path": "easttwin/3d",
+      "places": {
+        "Burt's Inlet": "easttwinsparpot.east-twin.et02g2",
+        "Better Than Sex": "easttwinsparpot.east-twin.et02h1",
+        "Spar Pot": "easttwinsparpot.spar-pot.sp01a"
+      },
+      "codes": {
+        "(?i)\\.et01": "First and Second Chambers",
+        "(?i)\\.et02": "Better Than Sex Series",
+        "(?i)\\.sp0": "Spar Pot"
+      }
+    },
+    {
+      "id": "sidcot",
+      "name": "Sidcot Swallet",
+      "survey": {
+        "type": "survex",
+        "file": "sidcot.3d"
+      },
+      "entrances": {
+        "sidcot.2": "Sidcot Swallet"
+      },
+      "credit": "Carmen Smith and Andrew Atkinson's data, in the Cave Registry's Burrington project (UBSS; CC BY-NC-SA 4.0)",
+      "area": "Burrington Combe, Mendip",
+      "page": "sidcot",
+      "path": "sidcot/3d"
+    },
+    {
+      "id": "avelines",
+      "name": "Aveline's Hole",
+      "survey": {
+        "type": "survex",
+        "file": "avelines.3d"
+      },
+      "entrances": {
+        "avelines.ent": "Aveline's Hole"
+      },
+      "credit": "Dr Roger Stenner's data (first published by the BEC), in the Cave Registry's Burrington project (UBSS; CC BY-NC-SA 4.0)",
+      "area": "Burrington Combe, Mendip",
+      "page": "avelines",
+      "path": "avelines/3d"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+# Build the 3D views and 2D plans from the survey data here and publish them to GitHub Pages:
+# tools/build_inputs.sh makes what cave-viewer reads (the whole project compiled as its thconfig
+# compiles it, each Survex cave's part, walls, Goatchurch's 2012 plan, the printed surveys as
+# pictures), then cave-viewer builds the site from web/caves.json into site/: the area's page at
+# the root, and each cave's page (its 3D view, its drawn plan where there is one, and for the
+# Therion caves the plan to print and the files to download). The LiDAR is in web/lidar/.
+#
+# Therion runs from a container (Ubuntu's, 6.2, fails on drawings 6.4 builds): a `therion` on the
+# PATH runs it with the workspace mounted where it is, so both the inputs script and cave-viewer
+# call it as usual. Chrome (on the runner) draws the plans and takes each cave's preview.
+#
+# Runs on every push to main (the daily sync's too), on pull requests (built, not published), or
+# by hand. Pages' source must be GitHub Actions (Settings > Pages).
+name: Build the 3D views
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.event_name == 'pull_request' && format('pr-{0}', github.event.pull_request.number) || 'pages' }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Survex, poppler, and Therion from its container
+        run: |
+          sudo apt-get update -q && sudo apt-get install -y -q survex poppler-utils
+          docker pull -q ghcr.io/paperclipmonkey/therion:6.4.0
+          cat > "$RUNNER_TEMP/therion" <<'SH'
+          #!/bin/sh
+          exec docker run --rm -v "$GITHUB_WORKSPACE:$GITHUB_WORKSPACE" -v /tmp:/tmp -w "$PWD" \
+            -u "$(id -u):$(id -g)" ghcr.io/paperclipmonkey/therion:6.4.0 "$@"
+          SH
+          chmod +x "$RUNNER_TEMP/therion"
+          echo "$RUNNER_TEMP" >> "$GITHUB_PATH"
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: cave-viewer
+        run: |
+          python -m venv "$RUNNER_TEMP/cave-viewer"
+          "$RUNNER_TEMP/cave-viewer/bin/pip" install -q -r requirements.txt
+
+      - name: The inputs
+        run: PYTHON="$RUNNER_TEMP/cave-viewer/bin/python" tools/build_inputs.sh
+
+      - name: The site
+        run: |
+          export CHROMIUM="$(command -v google-chrome || command -v chromium)"
+          cd web && "$RUNNER_TEMP/cave-viewer/bin/python" -m caveviewer build caves.json --out ../site --no-fetch
+
+      - uses: actions/upload-artifact@v4
+        if: github.event_name == 'pull_request'
+        with:
+          name: site
+          path: site
+
+      - uses: actions/upload-pages-artifact@v3
+        if: github.event_name != 'pull_request'
+        with:
+          path: site
+
+  pages:
+    if: github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
