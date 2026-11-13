@@ -1,5 +1,7 @@
 # Burrington Combe
 
+[![Read's Cavern in 3D, with its passage walls under the LiDAR ground surface and aerial imagery. Click to open the Burrington Combe site.](docs/reads-3d.png)](https://cavesurveying.github.io/gb.mendips.burrington/)
+
 ## **[Open the site →](https://cavesurveying.github.io/gb.mendips.burrington/)**
 
 The surveys of the caves of Burrington Combe, Mendip, Somerset: Goatchurch
@@ -20,6 +22,12 @@ from this repository every time it changes.
 | [Tween Twins Hole](https://cavesurveying.github.io/gb.mendips.burrington/tween/) | Drawn in Therion. |
 | [Lionel's Hole](https://cavesurveying.github.io/gb.mendips.burrington/lionels/) | Only 0.3 km of its maze is surveyed here. |
 | [Drunkard's Hole](https://cavesurveying.github.io/gb.mendips.burrington/drunkards/), [Bos Swallet](https://cavesurveying.github.io/gb.mendips.burrington/bos/) | With their printed surveys fitted under them. |
+
+[![The whole of Burrington Combe in 3D: the caves under the heath and woods above the combe, each entrance named.](docs/combe-3d.png)](https://cavesurveying.github.io/gb.mendips.burrington/3d/)
+
+Pages with a drawn plan show it over the cave: Pierre's Pot here, from the UBSS's 2013 printed survey, fitted to the data.
+
+[![Pierre's Pot's 2013 printed survey drawn under its survey legs in the 2D plan, with its passages named.](docs/pierres-plan.png)](https://cavesurveying.github.io/gb.mendips.burrington/pierres/3d/#plan=1)
 
 ## Where the data comes from
 
@@ -63,3 +71,7 @@ does, then gives each Survex cave its part of that (`tools/split3d.py`), walls
 where there are measurements for them, and Goatchurch's 2012 resurvey as a plan
 tied to the 2006 survey (`tools/goatchurch2012.sh`). Read's, Tween Twins and Bos
 are Therion projects, which cave-viewer builds itself.
+
+| | |
+|---|---|
+| `docs/` | The pictures in this README. |

@@ -3,7 +3,8 @@
   "site": {
     "title": "Burrington Combe in 3D",
     "lede": "The caves of Burrington Combe, Mendip, from the Cave Registry's Burrington project (UBSS, CC BY-NC-SA 4.0).",
-    "footer": "{credits}."
+    "footer": "{credits}.",
+    "index": false
   },
   "defaults": {
     "grid": {
