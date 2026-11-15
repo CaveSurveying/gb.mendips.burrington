@@ -4,6 +4,8 @@
 # it, fetching only what each revision changed, so no Subversion checkout is kept.
 #
 # Runs daily at 04:17 UTC, or by hand (Actions tab, Run workflow). Nothing new: no commit.
+# A push made with the workflow's own token doesn't start other workflows, so when it brings
+# something in it starts the build (build.yml) itself, which publishes the site.
 name: Sync from the Cave Registry's Subversion
 on:
   schedule:
@@ -12,6 +14,7 @@ on:
 
 permissions:
   contents: write
+  actions: write          # (to start the build after a sync)
 
 concurrency:
   group: svn-sync
@@ -29,10 +32,13 @@ jobs:
         run: sudo apt-get update -q && sudo apt-get install -y -q subversion
       - name: Bring in new revisions
         run: python3 tools/svn_sync.py
-      - name: Push
+      - name: Push, and build the site
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
           if [ "$(git rev-list --count origin/main..HEAD)" -gt 0 ]; then
             git push origin HEAD:main
+            gh workflow run build.yml --ref main
           else
             echo "Nothing new."
           fi
