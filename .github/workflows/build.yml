@@ -9,7 +9,7 @@
 # PATH runs it with the workspace mounted where it is, so both the inputs script and cave-viewer
 # call it as usual. Chrome (on the runner) draws the plans and takes each cave's preview.
 #
-# Runs on every push to main (the daily sync's too), on pull requests (built, not published), or
+# Runs on every push to main (and after the daily sync brings something in), on pull requests (built, not published), or
 # by hand. Pages' source must be GitHub Actions (Settings > Pages).
 name: Build the 3D views
 on:
