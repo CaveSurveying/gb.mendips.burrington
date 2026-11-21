@@ -64,6 +64,14 @@
       "path": "3d",
       "lede": "The caves of Burrington Combe, from the UBSS's Burrington Area Survey: each has a page of its own below, with its survey drawn over the 3D view where there is one.",
       "credit": "the Cave Registry's Burrington project, as the University of Bristol Spelaeological Society's Burrington Area Survey (CC BY-NC-SA 4.0)",
+      "access": {
+        "url": "https://access-guide.cscc.org.uk/sites/view/206",
+        "label": "the CSCC Access Guide's page for Burrington Combe"
+      },
+      "registry": {
+        "url": "https://www.mcra.org.uk/registry/registrysearch.php",
+        "label": "the Mendip Cave Registry and Archive"
+      },
       "places": {
         "Turtle Chamber": "Burrington.PierresPot.Pierres3Pepparami.P4D18",
         "Hell's Teeth Chamber": "Burrington.PierresPot.Pierres3downstreamtosump.P5D5",
@@ -147,6 +155,14 @@
         "goatchurch.71": "Goatchurch Cavern, second entrance"
       },
       "credit": "Graham Mullan, Hannah Sargent, Andrew Brown, Gina Moseley and Chris Binding's 2006 survey (UBSS), in the Cave Registry's Burrington project (walls from its LRUD)",
+      "access": {
+        "url": "https://access-guide.cscc.org.uk/sites/view/89",
+        "label": "the CSCC Access Guide's page for Goatchurch Cavern"
+      },
+      "registry": {
+        "url": "https://www.mcra.org.uk/registry/sitedetails.php?id=22",
+        "label": "the Mendip Cave Registry and Archive"
+      },
       "area": "Burrington Combe, Mendip",
       "page": "goatchurch",
       "path": "goatchurch/3d",
@@ -216,6 +232,14 @@
         "type": "therion"
       },
       "credit": "Andrew Atkinson and collaborators' 2012–15 survey, drawn in Therion, in the Cave Registry's Burrington project (UBSS; CC BY-NC-SA 4.0)",
+      "access": {
+        "url": "https://access-guide.cscc.org.uk/sites/view/121",
+        "label": "the CSCC Access Guide's page for Read's Cavern"
+      },
+      "registry": {
+        "url": "https://www.mcra.org.uk/registry/sitedetails.php?id=40",
+        "label": "the Mendip Cave Registry and Archive"
+      },
       "area": "Burrington Combe, Mendip",
       "page": "reads",
       "path": "reads/3d",
@@ -245,6 +269,14 @@
         "page_credit": "Drawn survey: the 2013 printed survey by C. Cohen and K. Hilton after G. Mullan (UBSS), fitted to the data"
       },
       "credit": "P. and A. Moody, Steve Cottle, J. Cordingley, Kev Hilton and Clare Cohen's data, in the Cave Registry's Burrington project (UBSS; CC BY-NC-SA 4.0)",
+      "access": {
+        "url": "https://access-guide.cscc.org.uk/sites/view/117",
+        "label": "the CSCC Access Guide's page for Pierre's Pot"
+      },
+      "registry": {
+        "url": "https://www.mcra.org.uk/registry/sitedetails.php?id=33",
+        "label": "the Mendip Cave Registry and Archive"
+      },
       "area": "Burrington Combe, Mendip",
       "page": "pierres",
       "path": "pierres/3d",
@@ -283,6 +315,14 @@
         "lox": "rodsbath-walls.lox"
       },
       "credit": "Andy Sparrow and the Cheddar Caving Club's data, in the Cave Registry's Burrington project (UBSS; CC BY-NC-SA 4.0)",
+      "access": {
+        "url": "https://access-guide.cscc.org.uk/sites/view/124",
+        "label": "the CSCC Access Guide's page for Rod's Pot"
+      },
+      "registry": {
+        "url": "https://www.mcra.org.uk/registry/sitedetails.php?id=45",
+        "label": "the Mendip Cave Registry and Archive"
+      },
       "area": "Burrington Combe, Mendip",
       "page": "rodsbath",
       "path": "rodsbath/3d"
@@ -307,6 +347,14 @@
         "type": "therion"
       },
       "credit": "Andrew Atkinson, Jonathan Williams and Tim Clements' 2016 survey, drawn in Therion, in the Cave Registry's Burrington project (UBSS; CC BY-NC-SA 4.0)",
+      "access": {
+        "url": "https://access-guide.cscc.org.uk/sites/view/236",
+        "label": "the CSCC Access Guide's page for Tween Twins Hole"
+      },
+      "registry": {
+        "url": "https://www.mcra.org.uk/registry/sitedetails.php?id=51",
+        "label": "the Mendip Cave Registry and Archive"
+      },
       "area": "Burrington Combe, Mendip",
       "page": "tween",
       "path": "tween/3d",
@@ -336,6 +384,14 @@
         "page_credit": "Drawn survey: the 2007 printed survey by Carmen Smith (UBSS), fitted to the data"
       },
       "credit": "Carmen Smith's data, in the Cave Registry's Burrington project (UBSS; CC BY-NC-SA 4.0)",
+      "access": {
+        "url": "https://access-guide.cscc.org.uk/sites/view/78",
+        "label": "the CSCC Access Guide's page for Drunkard's Hole"
+      },
+      "registry": {
+        "url": "https://www.mcra.org.uk/registry/sitedetails.php?id=10",
+        "label": "the Mendip Cave Registry and Archive"
+      },
       "area": "Burrington Combe, Mendip",
       "page": "drunkards",
       "path": "drunkards/3d",
@@ -367,6 +423,14 @@
         "page_credit": "Drawn survey: the 1997 printed survey by G. J. Mullan (UBSS), fitted to the data"
       },
       "credit": "the UBSS's 1997 survey, in the Cave Registry's Burrington project (CC BY-NC-SA 4.0)",
+      "access": {
+        "url": "https://access-guide.cscc.org.uk/sites/view/18",
+        "label": "the CSCC Access Guide's page for Bos Swallet"
+      },
+      "registry": {
+        "url": "https://www.mcra.org.uk/registry/sitedetails.php?id=6",
+        "label": "the Mendip Cave Registry and Archive"
+      },
       "area": "Burrington Combe, Mendip",
       "page": "bos",
       "path": "bos/3d",
@@ -386,6 +450,14 @@
         "lionels.lh01a": "Lionel's Hole"
       },
       "credit": "David Cundy's data, in the Cave Registry's Burrington project (UBSS; CC BY-NC-SA 4.0)",
+      "access": {
+        "url": "https://access-guide.cscc.org.uk/sites/view/104",
+        "label": "the CSCC Access Guide's page for Lionel's Hole"
+      },
+      "registry": {
+        "url": "https://www.mcra.org.uk/registry/sitedetails.php?id=28",
+        "label": "the Mendip Cave Registry and Archive"
+      },
       "area": "Burrington Combe, Mendip",
       "page": "lionels",
       "path": "lionels/3d",
@@ -420,6 +492,14 @@
         "easttwinsparpot.east-twin.et01a": "East Twin Swallet"
       },
       "credit": "David Cundy's data, in the Cave Registry's Burrington project (UBSS; CC BY-NC-SA 4.0)",
+      "access": {
+        "url": "https://access-guide.cscc.org.uk/sites/view/80",
+        "label": "the CSCC Access Guide's page for East Twin Swallet"
+      },
+      "registry": {
+        "url": "https://www.mcra.org.uk/registry/sitedetails.php?id=12",
+        "label": "the Mendip Cave Registry and Archive"
+      },
       "area": "Burrington Combe, Mendip",
       "page": "easttwin",
       "path": "easttwin/3d",
@@ -445,6 +525,14 @@
         "sidcot.2": "Sidcot Swallet"
       },
       "credit": "Carmen Smith and Andrew Atkinson's data, in the Cave Registry's Burrington project (UBSS; CC BY-NC-SA 4.0)",
+      "access": {
+        "url": "https://access-guide.cscc.org.uk/sites/view/132",
+        "label": "the CSCC Access Guide's page for Sidcot Swallet"
+      },
+      "registry": {
+        "url": "https://www.mcra.org.uk/registry/sitedetails.php?id=61",
+        "label": "the Mendip Cave Registry and Archive"
+      },
       "area": "Burrington Combe, Mendip",
       "page": "sidcot",
       "path": "sidcot/3d"
@@ -460,6 +548,14 @@
         "avelines.ent": "Aveline's Hole"
       },
       "credit": "Dr Roger Stenner's data (first published by the BEC), in the Cave Registry's Burrington project (UBSS; CC BY-NC-SA 4.0)",
+      "access": {
+        "url": "https://access-guide.cscc.org.uk/sites/view/2",
+        "label": "the CSCC Access Guide's page for Aveline's Hole"
+      },
+      "registry": {
+        "url": "https://www.mcra.org.uk/registry/sitedetails.php?id=3",
+        "label": "the Mendip Cave Registry and Archive"
+      },
       "area": "Burrington Combe, Mendip",
       "page": "avelines",
       "path": "avelines/3d"
