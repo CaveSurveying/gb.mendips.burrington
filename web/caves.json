@@ -7,6 +7,8 @@
     "index": false
   },
   "defaults": {
+    "notice": "The routes are worked out by computer from the survey&rsquo;s centreline: they show which passages join, not how to get through them. They don&rsquo;t know about the pitches, squeezes, climbs, water or digs on the way, so they&rsquo;re no guide for a trip.",
+    "features": {"directions": false},
     "grid": {
       "offset": [
         300000,
@@ -176,7 +178,7 @@
         "page_credit": "Drawn survey: the 2012 resurvey of the entrance series (Stuart Alldred, Simon Hadfield, Sarah Rae and others), drawn in Therion and tied to the 2006 survey"
       },
       "about": "notes/goatchurch.md",
-      "notice": "The drawn plan covers the entrance series only, and there are no passage names: take a full survey underground."
+      "notice": "The drawn plan covers the entrance series only, and there are no passage names: take a full survey underground. The routes are worked out by computer from the survey&rsquo;s centreline: they show which passages join, not how to get through them. They don&rsquo;t know about the pitches, squeezes, climbs, water or digs on the way, so they&rsquo;re no guide for a trip."
     },
     {
       "id": "reads",
@@ -478,7 +480,7 @@
         "(?i)\\.lh10": "Far Streamway"
       },
       "about": "notes/lionels.md",
-      "notice": "Only about 0.3 km of Lionel's Hole (about 1 km) is in this survey: most of the maze isn't shown."
+      "notice": "Only about 0.3 km of Lionel's Hole (about 1 km) is in this survey: most of the maze isn't shown. The routes are worked out by computer from the survey&rsquo;s centreline: they show which passages join, not how to get through them. They don&rsquo;t know about the pitches, squeezes, climbs, water or digs on the way, so they&rsquo;re no guide for a trip."
     },
     {
       "id": "easttwin",
